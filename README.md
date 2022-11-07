@@ -6,9 +6,10 @@ Lembre-se que sempre primeiro devemos planejar nossas ações e depois executar,
 
 ---
 ## Sumário
-- [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-- [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-- [Durante o desenvolvimento](#durante-o-desenvolvimento)
+1. [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
+2. [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
+3. [Durante o desenvolvimento](#durante-o-desenvolvimento)
+4. [Entrega do projeto](#entrega-do-projeto)
 
 ---
 ## O que deverá ser desenvolvido
@@ -28,7 +29,7 @@ Você deverá desenvolver uma página do tipo **one page** que  divulgue um prod
 ---
 ## Durante o desenvolvimento
 
-1. Planeje o site usando o Figma.
+1. Planeje o site usando o Figma (_deve ser aprovado_).
 2. Crie uma lista de tarefas (task) para desenvolver o site.
 3. Faça um `commit` para cada `task`.
 4. Crie o README.md 
@@ -38,7 +39,7 @@ Você deverá desenvolver uma página do tipo **one page** que  divulgue um prod
 ## Entrega do projeto
 Para entregar o seu projeto você deverá criar um Pull Request deste repositório, que deverá conter:
 - Código HTML, CSS e JS
-- Arquivo README.md com link do figma e github page, além do screenshot do **APP** e uma descrição.
+- Arquivo README.md com link do figma e github page, além do screenshot do **APP** e uma descrição do projeto e tudo o que foi utilizado.
 
 
 ## Autor
