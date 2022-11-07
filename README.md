@@ -16,7 +16,7 @@ Lembre-se que sempre primeiro devemos planejar nossas ações e depois executar,
 Você deverá desenvolver uma página do tipo **one page** que  divulgue um produto, marca, pessoa ou serviço. O projeto de atender os seguintes requisitos:
 - Deve ter no mínimo 4 seções;
 - Deve ser responsivo;
-- Deve seguir a boas práticas de acessibilidade;
+- Deve seguir a boas práticas como semântica e acessibilidade;
 - Implementar o [vlibras](https://www.gov.br/governodigital/pt-br/vlibras);
 
 ---
