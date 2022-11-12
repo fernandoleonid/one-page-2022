@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="./css/characters/characters-style.css" />
     <link rel="stylesheet" href="./css/hasegawa/hasegawa-style.css" />
     <link rel="stylesheet" href="./css/quotes/quotes-style.css" />
+    <link rel="stylesheet" href="./css/informations/informations-style.css" />
     <title>Gintama</title>
   </head>
   <body>
@@ -49,7 +50,23 @@
         />
       </a>
       <nav>
+        <i onclick="openNavHalf()" id="icon-half-menu" class="fas fa-bars"></i>
+        <i onclick="openNavFull()" id="icon-full-menu" class="fas fa-bars"></i>
         <ul class="navigation-container">
+          <li><a href="#about" class="navigation">Sobre</a></li>
+          <li><a href="#section-images" class="navigation">Imagens</a></li>
+          <li><a href="#characters" class="navigation">Personagens</a></li>
+          <li><a href="#hasegawa" class="navigation">Hasegawa</a></li>
+          <li><a href="#quotes" class="navigation">Citações</a></li>
+          <li><a href="#informations" class="navigation">Informações</a></li>
+          <li><a href="#copyright" class="navigation">Copyright</a></li>
+        </ul>
+        <ul id="mySidenav" class="sidenav">
+          <li>
+            <a href="#" class="closebtn" onclick="closeNav()"
+              ><i class="fas fa-times"></i
+            ></a>
+          </li>
           <li><a href="#about" class="navigation">Sobre</a></li>
           <li><a href="#section-images" class="navigation">Imagens</a></li>
           <li><a href="#characters" class="navigation">Personagens</a></li>
