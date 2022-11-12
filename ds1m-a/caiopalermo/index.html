@@ -23,6 +23,7 @@
     ></script>
     <script src="./js/slide.js"></script>
     <script src="./js/show-character-text.js"></script>
+    <script src="./js/social-networks.js"></script>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/font-face.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -359,6 +360,62 @@
             <p class="quote__author">Gintoki</p>
           </li>
         </ul>
+      </section>
+      <section id="informations" class="informations">
+        <h2 class="informations__title">INFORMAÇÕES</h2>
+        <div class="topics-container">
+          <div class="topic-why-gintama">
+            <h3 class="topic__title">POR QUE GINTAMA?</h3>
+            <p class="topic__text">
+              Gintama é um anime especial. É realmente difícil encontrar um
+              anime único como este. Então, já que ele é único, que tal fazer um
+              site apenas sobre ele? Ele merece.
+            </p>
+          </div>
+          <div class="topic-watch">
+            <h3 class="topic__title">ASSISTIR</h3>
+            <div class="topic-watch__content">
+              <p class="topic__text">
+                Para assistir Gintama, clique neste link:
+              </p>
+              <a
+                href="https://www.crunchyroll.com/pt-br/series/GYQ4MKDZ6/gintama"
+                target="_blank"
+                class="topic-watch__link"
+                >LINK</a
+              >
+            </div>
+          </div>
+          <div class="topic-contact">
+            <h3 class="topic__title">CONTATO</h3>
+            <ul class="topic-contact-container">
+              <li class="topic__text">(11) 4774-4700</li>
+              <li class="topic__text">caiocoghi@gmail.com</li>
+              <li class="topic__text">Rua Elton Silva, 905</li>
+            </ul>
+          </div>
+          <div class="topic-social-networks">
+            <h3 class="topic__title">REDES SOCIAIS</h3>
+            <ul class="social-networks-container">
+              <li
+                onclick="goToInstagram()"
+                id="instagram"
+                class="social-network"
+              >
+                <img src="./img/instagram.png" alt="Instagram" />
+              </li>
+              <li onclick="goToFacebook()" id="facebook" class="social-network">
+                <img src="./img/facebook.png" alt="Facebook" />
+              </li>
+              <li onclick="goToTwitter()" id="twitter" class="social-network">
+                <img src="./img/twitter.png" alt="Twitter" />
+              </li>
+              <li onclick="goToLinkedin()" id="linkedin" class="social-network">
+                <img src="./img/linkedin.png" alt="Linkedin" />
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
     <footer id="copyright">
