@@ -21,12 +21,15 @@
       src="https://kit.fontawesome.com/c0e5486155.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/slide.js"></script>
+    <script src="./js/show-character-text.js"></script>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/font-face.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/return.css" />
     <link rel="stylesheet" href="./css/banner/banner-style.css" />
     <link rel="stylesheet" href="./css/about/banner-style.css" />
+    <link rel="stylesheet" href="./css/characters/characters-style.css" />
     <link
       rel="stylesheet"
       href="./css/section-images/section-images-style.css"
@@ -171,6 +174,87 @@
           <span class="dot-images"></span>
         </div>
       </section>
+      <section id="characters" class="characters">
+        <h2 class="characters__title">PERSONAGENS PRINCIPAIS</h2>
+        <ul class="characters-container">
+          <li onclick="changeState('gintoki')" class="character">
+            <img
+              src="./img/character-gintoki.png"
+              alt="Character Gintoki"
+              class="character__image"
+            />
+            <p class="character__name">Gintoki Sakata</p>
+            <p id="gintoki" class="character__text">
+              É o personagem principal da história. Ele é um samurai. Apesar da
+              proibição de usar sabre, ele ainda carrega um sabre de madeira,
+              que disse ter comprado durante uma excursão ao Lago Toyako. Ele é
+              o chefe da “Agência Freelance do Sr. Gin”, junto com Kagura e
+              Shinpachi, ele aceita todos os serviços desde que seja pago.
+              Infelizmente para ele, seu trabalho o envolve em todos os tipos de
+              situações perigosas. Seu comportamento indiferente, sua tendência
+              a falar trivialidades e falar bobagens muito sérias são suas
+              características mais visíveis. Ele usa cabelos ondulados com
+              permanente que, segundo ele, são atribuídos à falta de amor ou a
+              uma maldição.
+            </p>
+          </li>
+          <li onclick="changeState('sadaharu')" class="character">
+            <img
+              src="./img/character-sadaharu.png"
+              alt="Character Sadaharu"
+              class="character__image"
+            />
+            <p class="character__name">Sadaharu</p>
+            <p id="sadaharu" class="character__text">
+              É um cão gigante adotado por Kagura em quem ela encontrou um
+              companheiro adequado para sua força (e que na verdade se tornará
+              um deus, um inugami).
+            </p>
+          </li>
+          <li onclick="changeState('kagura')" class="character">
+            <img
+              src="./img/character-kagura.png"
+              alt="Character Kagura"
+              class="character__image"
+            />
+            <p class="character__name">Kagura</p>
+            <p id="kagura" class="character__text">
+              Kagura é um alienígena pertencente à espécie Yato. Apesar de sua
+              aparência de menina, ela obtém força sobre-humana de suas origens.
+              Munida de sua força, um guarda-chuva blindado que também serve de
+              arma de fogo, além de uma franqueza desconcertante, ela se junta
+              ao grupo de Gintoki a fim de economizar dinheiro para voltar ao
+              seu planeta. Ela adora Otae como uma rainha e o chama de " Chefe
+              ". Apesar de sua aparência frágil, ela come muito, especialmente
+              sukonbu , uma alga marinha marinada em vinagre e particularmente
+              azeda que ela adora. Ela frequentemente compete com Okita do
+              Shinsengumi.
+            </p>
+          </li>
+          <li onclick="changeState('shinpachi')" class="character">
+            <img
+              src="./img/character-shinpachi.png"
+              alt="Character Shinpachi Shimura"
+              class="character__image"
+            />
+            <p class="character__name">Shinpachi Shimura</p>
+            <p id="shinpachi" class="character__text">
+              Shinpachi Shimura é um jovem de dezesseis anos que trabalha com
+              sua irmã no dojo de seu falecido pai, abandonado desde a proibição
+              de portar uma espada. Ele conhece Gintoki no início da história e
+              fica surpreso com sua atitude petulante, mas sincera. Ele se junta
+              a ele, após resgatar sua irmã, a fim de encontrar seu próprio
+              caminho. Para sua grande decepção, desde sua associação com
+              Gintoki, os negócios não têm sido fáceis ou prósperos e ele parece
+              estar ajudando Gintoki a pagar o aluguel mais do que qualquer
+              outra coisa. Ele representa o elemento mais sensato do grupo,
+              mesmo que os siga em seus delírios. Ele também tem uma paixão: é o
+              líder da Guarda Imperial de O-Tsū, um fã-clube dedicado a um ídolo
+              em ascensão.
+            </p>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer id="copyright">
       <p class="copyright__text">
@@ -178,5 +262,9 @@
         Palermo Lemos
       </p>
     </footer>
+    <script>
+      showSlidesImages();
+      showSlidesHasegawa();
+    </script>
   </body>
 </html>
