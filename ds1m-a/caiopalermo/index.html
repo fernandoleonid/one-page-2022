@@ -42,6 +42,7 @@
     <link rel="stylesheet" href="./css/characters/characters-style.css" />
     <link rel="stylesheet" href="./css/hasegawa/hasegawa-style.css" />
     <link rel="stylesheet" href="./css/slider/slider-hasegawa-style.css" />
+    <link rel="stylesheet" href="./css/movies/movies-style.css" />
     <link rel="stylesheet" href="./css/quotes/quotes-style.css" />
     <link rel="stylesheet" href="./css/informations/informations-style.css" />
     <link rel="stylesheet" href="./css/sidenav.css" />
@@ -54,6 +55,7 @@
     />
     <link rel="stylesheet" href="./css/characters/characters-responsive.css" />
     <link rel="stylesheet" href="./css/hasegawa/hasegawa-responsive.css" />
+    <link rel="stylesheet" href="./css/movies/movies-responsive.css" />
     <link rel="stylesheet" href="./css/quotes/quotes-responsive.css" />
     <link
       rel="stylesheet"
@@ -78,9 +80,9 @@
           <li><a href="#section-images" class="navigation">Imagens</a></li>
           <li><a href="#characters" class="navigation">Personagens</a></li>
           <li><a href="#hasegawa" class="navigation">Hasegawa</a></li>
+          <li><a href="#movies" class="navigation">Filmes</a></li>
           <li><a href="#quotes" class="navigation">Citações</a></li>
           <li><a href="#informations" class="navigation">Informações</a></li>
-          <li><a href="#copyright" class="navigation">Copyright</a></li>
         </ul>
         <ul id="mySidenav" class="sidenav">
           <li>
@@ -92,9 +94,9 @@
           <li><a href="#section-images" class="navigation">Imagens</a></li>
           <li><a href="#characters" class="navigation">Personagens</a></li>
           <li><a href="#hasegawa" class="navigation">Hasegawa</a></li>
+          <li><a href="#movies" class="navigation">Filmes</a></li>
           <li><a href="#quotes" class="navigation">Citações</a></li>
           <li><a href="#informations" class="navigation">Informações</a></li>
-          <li><a href="#copyright" class="navigation">Copyright</a></li>
         </ul>
       </nav>
     </header>
@@ -295,6 +297,11 @@
             </p>
           </li>
         </ul>
+        <h2 class="characters__subtitle">
+          <a class="characters__subtitle__link" href="./characters.html"
+            >CLIQUE AQUI PARA VER MAIS ALGUNS PERSONAGENS</a
+          >
+        </h2>
       </section>
       <section id="hasegawa" class="hasegawa">
         <h2 class="hasegawa-no-mobile__title">
@@ -342,6 +349,53 @@
             Você é uma lenda, Hasegawa Taizou <span>&#10084;</span>
           </p>
         </div>
+      </section>
+      <section id="movies" class="movies">
+        <h2 class="movies__title">Filmes</h2>
+        <ul class="movies-container">
+          <li onclick="changeState('movie-the-film')" class="movie">
+            <img
+              src="./img/movie-gintama-the-movie.png"
+              alt=""
+              class="movie__image"
+            />
+            <p class="movie__title">Gintama: O Filme</p>
+            <p id="movie-the-film" class="movie__text">
+              Gintama: The Movie , conhecido no Japão como Gintama: Shin'yaku
+              Benizakura-Hen (銀魂: 新訳紅桜篇, lit. "Gintama: A New Retelling
+              Benizakura Arc") , é um filme de animação japonêsproduzido pela
+              Sunrise . O enredo do filme é uma recontagem do arco da história
+              de Gin Tama , no qual Kotaro Katsura é atacado por um membro do
+              exército Kiheitai , e o trio freelancer Odd Jobs Gin começa a
+              procurá-lo.
+            </p>
+          </li>
+          <li onclick="changeState('movie-yorozuya')" class="movie">
+            <img src="./img/movie-yorozuya.png" alt="" class="movie__image" />
+            <p class="movie__title">Gintama: Seja Sempre Yorozuya</p>
+            <p id="movie-yorozuya" class="movie__text">
+              Gintoki Sakata está vários anos no futuro, onde Edo foi destruída.
+              Na cidade, Gintoki reúne versões antigas de seus companheiros,
+              Kagura e Shinpachi Shimura. Gintoki se opõe principalmente por um
+              grupo de feiticeiros conhecido como Enmi. Em toda a sua jornada
+              Gintoki também está definido para enfrentar o seu próprio passado
+              de guerra e o Diabo, como um inimigo.
+            </p>
+          </li>
+          <li onclick="changeState('movie-the-final')" class="movie">
+            <img src="./img/movie-final.png" alt="" class="movie__image" />
+            <p class="movie__title">Gintama: The Final</p>
+            <p id="movie-the-final" class="movie__text">
+              Gintama The Final é o último anime da franquia, adaptando tudo o
+              que sobrava do mangá. Para quem acompanhou a reta final do mangá e
+              anime de Gintama, sabe que a situação foi complicada. Mesmo que
+              ambos sejam produtos excelentes, o autor da obra, Sorachi Hideaki,
+              nunca acabava ela; mesmo falando que ia fazer. Isso acarretou a
+              problemas para com a produção, como o episódio final do anime e o
+              nosso artigo sobre o estúdio de Gintama falam.
+            </p>
+          </li>
+        </ul>
       </section>
       <section id="quotes" class="quotes">
         <h2 class="quotes__title">CITAÇÕES</h2>

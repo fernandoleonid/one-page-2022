@@ -8,7 +8,16 @@
 
 .characters__title {
   font-size: 3rem;
+  margin: 40px 0px;
+}
+
+.characters__observation {
+  max-width: 480px;
+  text-align: center;
+  font-size: 1.5rem;
   margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .characters__title:hover {
@@ -43,6 +52,12 @@
   cursor: pointer;
 }
 
+.character__image {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+}
+
 .character__name {
   text-align: center;
   margin-top: 20px;
@@ -62,22 +77,7 @@
   max-width: 300px;
   text-align: center;
   display: none;
-  margin-bottom: 40px;
-}
-
-.characters__subtitle {
-  text-align: center;
-  margin: 0px 20px;
-}
-
-.characters__subtitle__link {
-  margin-right: 20px;
-  margin-left: 20px;
-  text-align: center;
-  text-decoration: underline;
-}
-
-.characters__subtitle__link:hover {
-  color: #fedc00;
-  transition: all 0.5s;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 1.25rem;
 }
