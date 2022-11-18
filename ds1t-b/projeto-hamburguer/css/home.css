@@ -1,0 +1,54 @@
+.home{
+    width: 100%;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-areas: 
+    "photo photo"
+    "text button";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    color: #fff;
+}
+.home__photo{
+    place-self: center;
+    grid-area: photo;
+    padding-top: 136px;
+    width: 1600px;
+}
+.container__text{
+    grid-area: text;
+    width: 560px;
+    place-self: center;
+}
+.home__text{
+    grid-area: text;
+    font-family: 'Concert One', cursive;
+    font-size: 4rem;
+}
+.home__line{
+    grid-area: text;
+    width: 420px;
+    height: 8px;
+    background-color: #365F02;
+}
+.home__text__service{
+    grid-area: text;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2rem;
+}
+.button__container{
+    font-family: 'Chau Philomene One', sans-serif;
+    font-size: 2rem;
+    grid-area: button;
+    width: 300px;
+    height: 72px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    background: rgba(198, 55, 55, 0.52);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    place-self: center;
+}

@@ -1,0 +1,9 @@
+.section-title{
+    font-size: 8rem;
+    font-family: 'Concert One', cursive;
+    color: #C63737;
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+    grid-area: title;
+}

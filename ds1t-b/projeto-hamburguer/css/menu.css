@@ -1,0 +1,7 @@
+.menu{
+    display: flex;
+    color: #fff;
+    gap: 72px;
+    font-size: 2rem;
+    font-family: 'Charm', cursive;
+}
