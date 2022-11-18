@@ -1,0 +1,18 @@
+.menu{
+    display: flex;
+    gap: 55px;
+    font-size: 1.25rem;
+    margin-top: 80px; 
+    /* margin-right: 35px;  */
+    /* margin-left: 100px; */
+    padding-left: 100px;
+}
+
+.menu li{
+    border-bottom: 4px solid transparent;
+    transition: border-color .5s;
+}
+
+.menu li:hover{
+    border-color: var(--primary-color);
+}

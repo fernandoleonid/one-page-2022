@@ -1,0 +1,26 @@
+:root{
+    --primary-color:#88D987;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    display: grid;
+    grid-template-areas: "content";
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+}
+
+header{
+    grid-area: content;
+    background-color: #fff;
+    z-index: 666;
+    max-width: 1500px;
+    margin-left: 100px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-direction: row; 
+}
