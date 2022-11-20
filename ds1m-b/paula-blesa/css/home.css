@@ -1,3 +1,28 @@
 .home{
-    font-size: 10px;
+
+    display: flex;
+    background-image: url(../img/gatosqnsom.png);
+    background-size: cover;
+    width: 100%;
+}
+
+.cats{
+    display: flex;
+    
+}
+.title{
+    position: absolute;
+    width: 882px;
+    left: 400px;
+    top: 350px;
+
+    font-family: 'Updock', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40rem;
+    line-height: 30px;
+
+    color: white;
+    -webkit-text-stroke-width: 7px;
+    -webkit-text-stroke-color: black;
 }

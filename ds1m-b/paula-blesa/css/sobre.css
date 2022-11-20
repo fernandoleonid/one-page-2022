@@ -1,0 +1,101 @@
+.title-sobre{
+    display: flex;
+    font-size: 7rem;
+    font-family: 'Piedra', cursive;
+    
+    position: absolute;
+    left: 501.69px; 
+    top: 0px;
+
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 1780px;;
+}
+.border{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    left: 0px;
+    border: 20px solid #F8E795;
+    height: 0px;
+    top: 930px;
+    transform: rotate(-0.24deg);
+}
+.icon-bola{
+    position: absolute;
+    height: 106px;
+    left: 850px;
+    top: 830px;
+    background: url(../img/bola.png);
+}
+.description-title{
+    position: absolute;
+    width: 522px;
+    left: 92px;
+    top: 990px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.80rem;
+    color: #000000;
+}
+.description-text{
+    position: absolute;
+    width: 667px;
+    height: 432px;
+    left: 1000px;
+    top: 1300px;
+    font-family: 'Patrick Hand';
+    font-size: 1.80rem;   
+    color: #000000;
+}
+.description-text1{
+    position: absolute;
+    width: 667px;
+    height: 432px;
+    left: 1000px;
+    top: 1340px;
+    font-family: 'Patrick Hand';
+    font-size: 1.80rem;   
+    color: #000000;
+}
+.description-text2{
+    position: absolute;
+    width: 667px;
+    height: 432px;
+    left: 1000px;
+    top: 1380px;
+    font-family: 'Patrick Hand';
+    font-size: 1.80rem;   
+    color: #000000;
+}
+.description-text3{
+    position: absolute;
+    width: 667px;
+    height: 432px;
+    left: 1000px;
+    top: 1420px;
+    font-family: 'Patrick Hand';
+    font-size: 1.80rem;   
+    color: #000000;
+}
+.description-text4{
+    position: absolute;
+    width: 667px;
+    height: 432px;
+    left: 1000px;
+    top: 1460px;
+    font-family: 'Patrick Hand';
+    font-size: 1.80rem;   
+    color: #000000;
+}
+.description-text5{
+    position: absolute;
+    width: 667px;
+    height: 432px;
+    left: 1000px;
+    top: 1500px;
+    font-family: 'Patrick Hand';
+    font-size: 1.80rem;   
+    color: #000000;
+}
+
