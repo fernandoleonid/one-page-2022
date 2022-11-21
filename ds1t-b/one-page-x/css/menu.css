@@ -1,0 +1,12 @@
+.menu{
+    display: flex;
+    gap: 30px;
+    font-size: 1rem;
+    color: #fff;
+}
+.menu li{
+    transition: color 0.5s;
+}
+.menu li:hover{
+    color: #330606;;
+}
