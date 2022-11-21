@@ -1,8 +1,9 @@
-
-.slides-image img{
+.slides-image img {
     position: absolute;
-    left: 1000px;
-    top: 990px;
-    width: 25%;
+    left: 1200px;
+    top: 1200px;
+    width: 20%;
     background: url(cat-7.jpg);
 }
+
+.slides-img {}

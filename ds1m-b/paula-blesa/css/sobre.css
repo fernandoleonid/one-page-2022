@@ -1,101 +1,107 @@
-.title-sobre{
+.title-sobre {
     display: flex;
     font-size: 7rem;
     font-family: 'Piedra', cursive;
-    
     position: absolute;
-    left: 501.69px; 
+    left: 670px;
     top: 0px;
-
     font-style: normal;
     font-weight: 400;
-
-    line-height: 1780px;;
+    line-height: 2150px;
+    ;
 }
-.border{
+
+.border {
     position: absolute;
     width: 100%;
     display: flex;
     left: 0px;
     border: 20px solid #F8E795;
     height: 0px;
-    top: 930px;
+    top: 1120px;
     transform: rotate(-0.24deg);
 }
-.icon-bola{
+
+.icon-bola {
     position: absolute;
     height: 106px;
-    left: 850px;
-    top: 830px;
+    left: 1000px;
+    top: 1010px;
     background: url(../img/bola.png);
 }
-.description-title{
+
+.description-title {
     position: absolute;
     width: 522px;
-    left: 92px;
-    top: 990px;
+    left: 200px;
+    top: 1200px;
     font-family: 'Patrick Hand', cursive;
     font-size: 1.80rem;
     color: #000000;
 }
-.description-text{
+
+.description-text {
     position: absolute;
     width: 667px;
     height: 432px;
-    left: 1000px;
-    top: 1300px;
+    left: 1200px;
+    top: 1540px;
     font-family: 'Patrick Hand';
-    font-size: 1.80rem;   
-    color: #000000;
-}
-.description-text1{
-    position: absolute;
-    width: 667px;
-    height: 432px;
-    left: 1000px;
-    top: 1340px;
-    font-family: 'Patrick Hand';
-    font-size: 1.80rem;   
-    color: #000000;
-}
-.description-text2{
-    position: absolute;
-    width: 667px;
-    height: 432px;
-    left: 1000px;
-    top: 1380px;
-    font-family: 'Patrick Hand';
-    font-size: 1.80rem;   
-    color: #000000;
-}
-.description-text3{
-    position: absolute;
-    width: 667px;
-    height: 432px;
-    left: 1000px;
-    top: 1420px;
-    font-family: 'Patrick Hand';
-    font-size: 1.80rem;   
-    color: #000000;
-}
-.description-text4{
-    position: absolute;
-    width: 667px;
-    height: 432px;
-    left: 1000px;
-    top: 1460px;
-    font-family: 'Patrick Hand';
-    font-size: 1.80rem;   
-    color: #000000;
-}
-.description-text5{
-    position: absolute;
-    width: 667px;
-    height: 432px;
-    left: 1000px;
-    top: 1500px;
-    font-family: 'Patrick Hand';
-    font-size: 1.80rem;   
+    font-size: 1.80rem;
     color: #000000;
 }
 
+.description-text1 {
+    position: absolute;
+    width: 667px;
+    height: 432px;
+    left: 1200px;
+    top: 1580px;
+    font-family: 'Patrick Hand';
+    font-size: 1.80rem;
+    color: #000000;
+}
+
+.description-text2 {
+    position: absolute;
+    width: 667px;
+    height: 432px;
+    left: 1200px;
+    top: 1620px;
+    font-family: 'Patrick Hand';
+    font-size: 1.80rem;
+    color: #000000;
+}
+
+.description-text3 {
+    position: absolute;
+    width: 667px;
+    height: 432px;
+    left: 1200px;
+    top: 1660px;
+    font-family: 'Patrick Hand';
+    font-size: 1.80rem;
+    color: #000000;
+}
+
+.description-text4 {
+    position: absolute;
+    width: 667px;
+    height: 432px;
+    left: 1200px;
+    top: 1700px;
+    font-family: 'Patrick Hand';
+    font-size: 1.80rem;
+    color: #000000;
+}
+
+.description-text5 {
+    position: absolute;
+    width: 667px;
+    height: 432px;
+    left: 1200px;
+    top: 1740px;
+    font-family: 'Patrick Hand';
+    font-size: 1.80rem;
+    color: #000000;
+}
