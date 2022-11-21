@@ -15,7 +15,6 @@
     place-self: center;
     grid-area: photo;
     padding-top: 136px;
-    width: 1600px;
 }
 .container__text{
     grid-area: text;
@@ -51,4 +50,8 @@
     justify-content: center;
     display: flex;
     place-self: center;
+}
+.button__container:hover{
+    background-color: #C63737;
+    transition: .75s;
 }

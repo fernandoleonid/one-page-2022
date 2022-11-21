@@ -5,3 +5,7 @@
     font-size: 2rem;
     font-family: 'Charm', cursive;
 }
+.menu li:hover{
+    color: #ffc765;
+    background: url(../img/ondas.png) repeat-x center bottom;
+}

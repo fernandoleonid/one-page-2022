@@ -12,7 +12,9 @@
     display: flex;
     justify-content: space-around;
 }
-.email-container, .telefone-container, .social-container{
+.email-container, 
+.telefone-container, 
+.social-container{
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -29,21 +31,26 @@
 .email-title{
     font-size: 2rem;
 }
-.email-description, .telefone-description, .social-description{
+.email-description, 
+.telefone-description, 
+.social-description{
     font-size: 2rem;
     color: #9F9D9D;
     width: 300px;
 }
-.email-email, .numero-telefone, .numero-telefone-pessoal{
+.email-email, .numero-telefone, 
+.numero-telefone-pessoal{
     font-size: 1.5rem;
     color: #fff;
 }
-.telefone-residencial, .telefone-pessoal{
+.telefone-residencial, 
+.telefone-pessoal{
     display: flex;
     gap: 16px;
     align-items: flex-end;
 }
-.telefone-residencial i, .telefone-pessoal i{
+.telefone-residencial i, 
+.telefone-pessoal i{
     font-size: 2rem;
     color: #fff;
 }
@@ -52,4 +59,8 @@
     display: flex;
     gap: 48px;
     color: #fff;
+}
+.social-list i:hover{
+    color: #ffc765;
+    transition: .5s;
 }

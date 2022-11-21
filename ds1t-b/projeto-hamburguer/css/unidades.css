@@ -49,3 +49,7 @@
     display: flex;
     color: #fff;
 }
+.button__container2:hover{
+    background-color: #C63737;
+    transition: .5s;
+}
