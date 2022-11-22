@@ -1,11 +1,20 @@
-.raça {
-    position: absolute;
-    left: 523px;
-    top: 1999px;
-    font-family: 'Piedra';
-    font-style: normal;
+.raças-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+
+.title-raça {
+    display: flex;
+    font-size: 8rem;
+    font-family: 'Piedra', cursive;
     font-weight: 400;
-    font-size: 7rem;
-    line-height: 399px;
-    color: #000000;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.icon2 {
+    display: flex;
+    margin-top: 60px;
 }

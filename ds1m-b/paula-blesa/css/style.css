@@ -1,16 +1,21 @@
-:root{
-    --primari-color : #F8E795;
+:root {
+    --primari-color: #F8E795;
     --cinze-color: #E7E7E7;
     --amareloEsc-color: #D2AC47;
 }
-body{
-  display: grid;
-  grid-template-areas: "content";
-  background-color: #E7E7E7;  
+
+html {
+    scroll-behavior: smooth;
 }
-header{
+
+body {
+    display: grid;
+    grid-template-areas: "content";
+    background-color: #E7E7E7;
+}
+
+header {
     grid-area: content;
-    place-self: start center;
     width: 100%;
     display: grid;
     grid-template-columns: auto 1fr;
@@ -19,20 +24,20 @@ header{
     background-color: #F8E795;
     font-family: 'Updock', cursive;
 }
+
 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 section {
-  height: 100vh;
-  width: 100%;
+    height: 100vh;
+    width: 100%;
 }
 
 footer {
-  height: 150px;
-  width: 100%;
-  display: grid;
-  background-color: #F8E795;
+    height: 150px;
+    width: 100%;
+    display: grid;
+    background-color: #F8E795;
 }
