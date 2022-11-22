@@ -1,6 +1,6 @@
 # DS1T - A - BIANCA LEÃO
 
-![](./img/telainicial.png)
+![](./img/telainicial.PNG)
 - [Link do site](https://fernandoleonid.github.io/one-page-2022/ds1t-a/biancaLeao/Arquitetura/index.html)
 
 ---
@@ -26,9 +26,9 @@ O objetivo deste projeto é colocar em prática os conhecimentos adquiridos no c
 
 ## Relatório do lighthouse
 
-Nota que o lighhouse deu ao meu site. 
+Nota que o lighthouse deu ao meu site. 
 
-![](./img/notaasite.png)
+![](./img/notaasite.PNG)
 
 ## Autor 
 
