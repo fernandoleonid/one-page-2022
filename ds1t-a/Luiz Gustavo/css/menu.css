@@ -1,0 +1,25 @@
+.menu-bar{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.text-logo{
+    font-weight: 700;
+    font-size: 3.75rem;
+    color: #CCCCCC;
+}
+
+.lista-menu{
+    display: flex;
+    gap: 23px;
+    font-size: 1.25rem;
+    color: white;
+}
+
