@@ -1,0 +1,78 @@
+:root {
+    --primary-color: #FEDC00;
+    --icon-color: #252525;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: grid;
+    background-color: #031754;
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    grid-area: content;
+    place-self: start center;
+    height: 100px;
+    z-index: 666;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #25252555;
+}
+
+main {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+
+    font-weight: bold;
+    gap: 72px;
+}
+
+ul li{
+    background-color: blanchedalmond;
+    list-style: none;
+}
+
+.title {
+    width: max-content;
+    color:black;
+    text-shadow: white;
+    font-size: 70px;      
+    position: absolute;
+    text-shadow: -3px -5px 4px #fff;
+    top: 420px;
+    left: 100px;
+    
+   
+   
+    text-transform: uppercase;
+
+}
+
+.home {
+background-image: url(../img/Cap.jpg);
+display: flex;
+justify-content: center;
+align-items: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
