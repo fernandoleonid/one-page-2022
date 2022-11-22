@@ -1,0 +1,135 @@
+#projetos {
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    padding-top: 15vh;
+
+}
+.titleprojeto{
+    display: flex;
+    flex-direction: column;
+    gap: .5vh;
+}
+
+.nossos {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.complemento{
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+.card-container {
+    display: flex;
+    padding-top: 15vh;
+    flex-wrap: wrap;
+   justify-content: center;
+   gap: 2vh;
+    
+}
+
+.card {
+    width: 630px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.card img{
+    width: 630px;
+    height: 500px;
+}
+@media (max-width: 1300px) {
+    .card-container {
+
+        gap: 5vh;
+         
+     }
+    .card {
+        width: 800px;
+        height: 480px;
+
+    }
+
+}
+@media (max-width: 920px) {
+    .card {
+        width: 700px;
+        height: 480px;
+
+    }
+    .card img{
+        width: 700px;
+        height: 480px;
+    }
+}
+@media (max-width: 730px) {
+    .card {
+        width: 600px;
+        height: 480px;
+
+    }
+    .card img{
+        width: 600px;
+        height: 480px;
+    }
+}
+@media (max-width: 650px) {
+
+    .card {
+        width: 490px;
+        height: 400px;
+
+    }
+    .card img{
+        width: 490px;
+        height: 400px;
+    }
+    .nossos {
+        font-size: 1.6rem;
+    
+    }
+    .complemento{
+        font-size: 4.2rem;
+       
+    }
+}
+@media (max-width: 485px) {
+
+
+    .card {
+        width: 380px;
+        height: 188px;
+      
+    }
+    .card img{
+        width: 380px;
+        height: 188px;
+    }
+    .nossos {
+        font-size: 1.4rem;
+    
+    }
+    .complemento{
+        font-size: 4rem;
+       
+    }
+}
+@media (max-width: 390px) {
+
+    .card {
+        width: 300px;
+        
+    }
+    .card img{
+        width: 300px;
+    }
+    .nossos {
+        font-size: 1.1rem;
+    
+    }
+    .complemento{
+        font-size: 3.6rem;
+       
+    }
+}
+
