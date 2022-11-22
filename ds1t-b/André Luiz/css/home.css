@@ -1,9 +1,9 @@
 .section-home{
     max-width: 1770px;
-    height: 40rem;
+    height: 85vh;
     display: grid;
-    grid-template-columns: 2;
-    grid-row: 1;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr;
     place-items: center;
     
 }

@@ -7,6 +7,4 @@ a{
     flex-direction: row;
     justify-content: space-between;
     gap: 35px;
-    font-weight: 700;
-    font-size: 1.5rem;
 }
