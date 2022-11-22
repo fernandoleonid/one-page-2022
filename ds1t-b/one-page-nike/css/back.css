@@ -1,0 +1,18 @@
+.back{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 24px;
+    bottom: 24px;
+    background-color: var(--primary-color);
+    display: grid;
+    place-content: center;
+    color: #000;
+    border-radius: 50%;
+    z-index: 13;
+    opacity: .2;
+    transition: opacity .5s;
+}
+.back:hover{
+    opacity: 1;
+}
