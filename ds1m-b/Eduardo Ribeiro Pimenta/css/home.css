@@ -8,3 +8,11 @@
     background-size: 1800px 100% ;
     background-position:center;
 }
+.home{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    position: absolute;
+    height: 700px;
+}
