@@ -3,12 +3,16 @@
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .personagens H1 {
     color: #ffffff;
-    font-size: 64px;
+    font-size: 96px;
     text-align: center;
+    padding-bottom: 90px;
 }
 
 .personagens img {
@@ -16,9 +20,10 @@
     width: 250px;
 }
 
-.card {
+.personagens_card,
+.personagens_card_principal {
     background-color: #252525;
-    height: 190px;
+    height: 365px;
     width: 270px;
     padding-top: 20px;
     place-items: center;
@@ -26,4 +31,30 @@
     flex-direction: column;
     color: #ffffff;
     font-size: 2.5rem;
+}
+
+.personagens_card_principal {
+    width: 300px;
+}
+
+.personagens_lista_secundarios,
+.personagens_lista_principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.personagens_lista {
+    justify-content: center;
+}
+
+.personagens_lista_principal {
+    width: 100vw;
+    justify-content: space-evenly;
+    padding-bottom: 150px;
+}
+
+.personagens_lista_secundarios {
+    padding-left: 21%;
+    gap: 150px;
 }

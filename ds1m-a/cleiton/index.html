@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="./css/info.css">
     <link rel="stylesheet" href="./css/personagens.css">
     <link rel="stylesheet" href="./font/berserker-regular-font/Berserker-Regular.ttf">
-
     <script src="https://kit.fontawesome.com/78c0e1b8e9.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 
     <title>God of War</title>
 </head>
@@ -61,11 +61,53 @@
         </section>
         <section class="personagens" id="personagens">
             <H1>Personagens</H1>
-            <div class="card"><img src="./img/kratos.png" alt="">Kratos</div>
-            <div class="card"></div>
+            <div class="container">
+                <ul class="personagens_lista">
+                    <div class="personagens_lista_principal">
+                        <li class="personagens_card_principal">
+                            <img src="./img/kratos.png" alt="">
+                            <span onclick="mudarEstado('kratos')">Kratos</span>
+                            <li class="personagens_card_principal">
+                                <img src="./img/atreus.png" alt="">
+                                <span onclick="mudarEstado('atreus')">Atreus</span>
+                            </li>
+                    </div>
+                    <div class="personagens_lista_secundarios">
+                        <li class="personagens_card">
+                            <img src="./img/thor.png" alt="">
+                            <span onclick="mudarEstado('thor')">Thor</span>
+                        </li>
+                        <li class="personagens_card">
+                            <img src="./img/freya.png" alt="">
+                            <span onclick="mudarEstado('freya')">Freya</span>
+                        </li>
+                        <li class="personagens_card">
+                            <img src="./img/angrboda.png" alt="">
+                            <span onclick="mudarEstado('angrboda')">Angrboda</span>
+                        </li>
+                        <li class="personagens_card">
+                            <img src="./img/tyr.png" alt="">
+                            <span onclick="mudarEstado('tyr')">Tyr</span>
+                        </li>
+                        <li class="personagens_card">
+                            <img src="./img/brok-e-sindri.png" alt="">
+                            <span onclick="mudarEstado('brok')">Brok e Sindri</span>
+                        </li>
+                        <li class="personagens_card">
+                            <img src="./img/mimir.png" alt="">
+                            <span onclick="mudarEstado('mimir')">Mimir</span>
+                        </li>
+                    </div>
+                    <ul id="kratos">
+                        <li>
+                            O deus da guerra espartano construiu uma nova vida em Midgard. A paternidade deu a Kratos um novo propósito. Com o Ragnarök se aproximando, os riscos nunca foram tão altos. Kratos deve se decidir entre proteger o filho e a vida que construíram juntos
+                            ou defender os Nove Reinos da guerra catastrófica.
+                        </li>
+                        </li>
 
         </section>
         <section class="compre" id="compre"></section>
+
     </main>
     <footer>footer</footer>
 </body>
