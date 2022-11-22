@@ -11,10 +11,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: justify;
 }
 
-.iphone {
-    width: 686px;
+.iphones {
+    width: 710px;
+    height: 400px;
 }
 
 .text-button {
@@ -35,4 +37,32 @@
     align-items: center;
     font-size: 2rem;
     font-weight: 700;
+    transition: border-color .5s;
+}
+
+.main-right {
+    grid-column: 2;
+    display: grid;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: white;
+    gap: 50px;
+}
+
+.title-iphone {
+    font-weight: 700;
+    font-size: 6rem;
+}
+
+.text-iphone {
+    font-weight: 600;
+    font-size: 1.25rem;
+    width: 590px;
+}
+
+.button-iphone:hover {
+    color: #CB51E2;
+    border-color: #CB51E2;
 }
