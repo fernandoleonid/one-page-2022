@@ -3,7 +3,7 @@
 }
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
 }
 
 body{
@@ -15,12 +15,21 @@ body{
 
 header{
     grid-area: content;
-    background-color: #fff;
-    z-index: 666;
-    max-width: 1500px;
-    margin-left: 100px; 
+    background-color: #fff; 
+    place-self: start center;
+    z-index: 666; 
+    max-width: 1920px; 
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
-    flex-direction: row; 
+}
+
+main{
+    grid-area: content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+section{
+    height: 100vh;
 }

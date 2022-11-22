@@ -1,0 +1,26 @@
+.sobre{
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "title"
+    "text";
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+}
+
+.section-title{
+    grid-area: title;
+    font-weight:bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 220px;
+}
+.text{
+    grid-area: text;
+    font-weight: lighter;
+    text-align: justify;
+    font-size: 1.65rem;
+    width: 100%;
+    line-height: 150%;
+}
