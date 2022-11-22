@@ -1,0 +1,17 @@
+body{
+    background-color: #000000;
+    font-family:   'montserrat';
+}
+
+header{
+    max-width: 1770px;
+    height: 12.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+

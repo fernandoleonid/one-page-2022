@@ -1,0 +1,29 @@
+.section-home{
+    max-width: 1770px;
+    height: 40rem;
+    display: grid;
+    grid-template-columns: 2;
+    grid-row: 1;
+    place-items: center;
+    
+}
+
+.promotion-text-container{
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.promotion-text-container span{
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.promotion-image-container{
+    grid-column: 2;
+    grid-row: 1;
+}
