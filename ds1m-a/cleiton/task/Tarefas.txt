@@ -1,0 +1,7 @@
+1. Criar header
+2. Dividir o main em seções e criar o home
+3. Criar a seçao info
+4. Criar a seção personagens
+5. Criar a seção de compra e o rodapé
+6. Fazer a respondividade
+7. Implementar o Vlibras 

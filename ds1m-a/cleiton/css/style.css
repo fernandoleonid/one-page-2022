@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #0F4E98;
+}
+
+body {
+    font-family: 'Berserk';
+}
+
+header {
+    height: 100px;
+    background-color: #101010;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 35px;
+}
+
+.logo {
+    height: 100px;
+    width: 180px;
+}
+
+.bars {
+    display: none;
+}
