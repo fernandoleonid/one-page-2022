@@ -1,0 +1,11 @@
+.home {
+    display: flex;
+    background-color: #f8f3e7;
+    align-items: center;
+}
+
+.img-slider {
+    margin-top: 100px;
+    margin-left: 250px;
+    height: 600px;
+}

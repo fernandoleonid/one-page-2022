@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #006241;
+    --color-backgroun: #f8f3e7;
+}
+
+body {
+    display: grid;
+    grid-template-areas: "content";
+}
+
+header {
+    grid-area: content;
+    display: flex;
+    place-self: start center;
+    background-color: #006241;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    z-index: 1;
+}
+
+main {
+    grid-area: content;
+    background-color: mediumorchid;
+    width: 100%;
+}
+
+.historia {
+    background-color: lightpink;
+}
+
+.niveis-de-torra {
+    background-color: plum;
+}
+
+.nenu {
+    background-color: powderblue;
+}
+
+section {
+    height: 100vh;
+}
+
+footer {
+    grid-area: content;
+    place-self: end start;
+    background-color: mediumturquoise;
+    width: 100%;
+    height: 300px;
+}

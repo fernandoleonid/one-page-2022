@@ -1,0 +1,17 @@
+.logo-principal {
+    font-size: 1.5rem;
+    margin: 50px;
+}
+
+.navBar {
+    display: flex;
+    gap: 100px;
+    font-size: 2rem;
+    color: white;
+    margin: 100px;
+}
+
+.navBar li {
+    border-bottom: 4px solid transparent;
+    transition: .5s;
+}
