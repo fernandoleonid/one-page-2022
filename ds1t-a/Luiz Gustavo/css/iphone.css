@@ -1,0 +1,38 @@
+.section-iphone {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main-left {
+    grid-column: 1;
+    display: grid;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iphone {
+    width: 686px;
+}
+
+.text-button {
+    color: white;
+    font-weight: 600;
+    font-size: 1.75rem;
+    width: 595px;
+}
+
+.button-iphone {
+    color: white;
+    width: 400px;
+    height: 125px;
+    border: 8px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
