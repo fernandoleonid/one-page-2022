@@ -1,25 +1,33 @@
-.menu-bar{
+.menu-bar {
     width: 1400px;
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
     align-items: center;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
 }
 
-.text-logo{
+.text-logo {
     font-weight: 700;
     font-size: 3.75rem;
     color: #CCCCCC;
 }
 
-.lista-menu{
+.lista-menu {
     display: flex;
     gap: 23px;
     font-size: 1.25rem;
     color: white;
 }
 
+.lista-menu li {
+    border-bottom: 3px solid transparent;
+    transition: border-color .5s;
+}
+
+.lista-menu li:hover {
+    border-color: white;
+}

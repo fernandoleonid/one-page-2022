@@ -1,0 +1,47 @@
+.section-inicio {
+    height: 87vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-home {
+    font-family: 'Poppins';
+    width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    align-items: center;
+}
+
+.home-text {
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title-apple {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.text-apple {
+    font-size: 1.25rem;
+    text-align: justify;
+    font-weight: 600;
+}
+
+.img-produtos {
+    width: 785px;
+    height: 498px;
+}
+
+.logo-footer {
+    height: 90px;
+    display: flex;
+    background-color: #222020;
+    justify-content: center;
+    width: 100%;
+}
