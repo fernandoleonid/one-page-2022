@@ -1,0 +1,6 @@
+.cabecalho-home-um {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
