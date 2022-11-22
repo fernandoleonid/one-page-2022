@@ -1,0 +1,18 @@
+a{
+    color: #fff;
+    border-bottom: 4px solid transparent;
+    transition: border-color 0.5s ;
+}
+
+.header-list{
+    display: flex;
+    gap: 1.25rem;
+    font-family: 'Lalezar', cursive;
+    font-size: 2rem;
+}
+
+a:hover{
+    transition: color 0.5s;
+    color: #000;
+    border-bottom: 4px solid #000;
+}
