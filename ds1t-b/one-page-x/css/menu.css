@@ -10,3 +10,19 @@
 .menu li:hover{
     color: #330606;;
 }
+.menu-responsivo{
+    display: none;
+}
+
+@media (max-width: 960px){
+    .menu{
+        display: none;
+    }
+    .menu-responsivo{
+        
+        display: flex;
+        font-size: 1.5rem;
+        text-align: right;
+        color: #fff;
+    }
+}

@@ -1,0 +1,46 @@
+.descricao-filme{
+    display: grid;
+    grid-template-areas: 
+    "frase frase"
+    "descricao-movie pearl";
+    
+    
+}
+.frase-efeito{
+    grid-area: frase;
+    justify-self: center;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    font-style: italic;
+}
+.descricao{
+    grid-area: descricao-movie;
+}
+.sobre-o-filme{
+    font-family: 'Inter', sans-serif;
+}
+.titulo{
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    color: #471818;
+}
+.lançamento{
+    font-size: 1rem;
+    color: #FF0000;
+}
+.sobre-o-filme{
+    font-family: 'Inter', sans-serif;
+}
+.img-pearl{
+    grid-area: pearl;
+    
+}
+.nome-do-filme{
+    color: #86150F;
+}
+.diretor{
+    color: #86150F;
+}

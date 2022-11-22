@@ -4,7 +4,8 @@ html{
 body{
     display: grid;
     grid-template-areas: "content";
-    background-color: black;
+    color: #fff;
+    background-color: #000;
     font-family: 'Inter', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
@@ -17,9 +18,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-    padding-left: 53px;
-    padding-right: 53px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 main{
     grid-area: content;
@@ -29,14 +29,9 @@ main{
 }
 section{
     height: 100vh;
-    
 }
-.home{
-    background-color: cadetblue;
-}
-.descrição-filme{
-    background-color: darkgreen;
-}
+
+
 .elenco{
     background-color: darkslategrey;
 }

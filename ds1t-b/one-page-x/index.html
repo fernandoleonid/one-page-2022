@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/35bab1e1be.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
@@ -12,17 +13,22 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/logo.css">
     <link rel="stylesheet" href="css/button-assista-agora.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/descricao-filme.css">
     <title>X, a marca da morte</title>
 </head>
 <body>
     <header>
         <nav>
+            <div class="menu-responsivo">
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </div>
             <ul class="menu">
                 <li>
                     <a href="#home">Ínicio</a>
                 </li>
                 <li>
-                    <a href="#descrição-filme">Sobre o filme</a>
+                    <a href="#descricao-filme">Sobre o filme</a>
                 </li>
                 <li>
                     <a href="#elenco">Elenco</a>
@@ -36,18 +42,73 @@
             </ul>
         </nav>
         <div class="logo">
-            <img src="./img/logo.png" alt="">
+            <p class="logo-filme">X</p>
         </div>
         <div class="button-assista-agora">
             <a class="assista-agora" href="#">Assista agora</a>
         </div>
     </header>
     <main>
-        <section class="home"></section>
-        <section class="descrição-filme"></section>
-        <section class="elenco"></section>
-        <section class="concept"></section>
-        <section class="sequencias"></section>
+        <section class="home" id="home">
+            <div class="primeiro-titulo">
+                <p>X A marca</p>
+                <p class="primeira-linha"></p>
+            </div>
+            <div class="capa-do-filme-desktop">
+                <img src="./img/img-capa.png" alt="Capa do filme X, a marca da morte">
+            </div>
+            <div class="segundo-titulo">
+                <p class="segunda-linha"></p>
+                <p>da morte</p>
+            </div>
+            <nav class="setas">
+                <a href="#descricao-filme"><img src="./img/setas.png" alt=""></a>
+            </nav>
+        </section>
+        <section class="descricao-filme" id="descricao-filme">
+
+            <p class="frase-efeito"><span class="i">“I</span> <span class="am">am</span> <span class="a">a</span><span class="star"> star”</span></p>
+            <div class="descricao">
+                <h1 class="titulo">Sobre o filme</h1>
+                
+                <p class="lançamento">Lançamento: 11 de agosto de 2022</p>
+                <br>
+                <div class="sobre-o-filme">
+                    <p>O filme “X, a marca da morte” foi produzido pela A24, um estúdio de filme 
+                    norte-americano já conhecido pelas produções de “Midsommar: O mal não 
+                    espera a noite” e “Hereditário”.</p>
+                    <br>
+                    <p>Se passando no Texas, onde um grupo de atores vai para a zona rural onde 
+                    pretendem fazer um filme, ficando hospedados na casa de dois idosos, Pearl 
+                    e Howard, mais tarde todo o elenco começa a lutar por suas vidas sendo 
+                    perseguidos pelo casal.</p>
+                    <br>
+                    <p>Nossa principal estrela é Mia Goth que interpretou Pearl e Maxine que já foi 
+                    classificada como a nova musa do terror, além de X, Mia já esteve em Suspiria 
+                    no papel de Sara Simms.</p>
+                    <br>
+                    <p>O filme é um clássico Slasher tendo 96% das críticas positivas, o estúdio em 
+                    si já parece experiente no gênero já que os outros filmes mensionados não sendo 
+                    da sequencias são um sucesso entre fâs de terror e horror. Ele arrecadou mais de 
+                    14,5 milhões de dólares tendo um orçamento de apenas 1 milhão.</p>
+                    <br>
+                    <p>X é o primeiro filme de uma trilogia, seguido pelo segundo filme que conta a história
+                    da senhora Pearl e sua vida na fazenda mostrada, o terceiro previsto para 2023 seguira 
+                    com a personagem principal Maxine que deseja se mostrando promissor.</p>
+                </div>
+                <div class="botao-alugue">
+                    <a href="#" class="alugue-agora">Alugue o filme agora</a>
+                </div>
+            </div>
+            <div class="img-pearl">
+                <img src="./img/img-pearl.png" alt="">
+            </div>
+            <p class="nome-do-filme">X   a marca da morte</p>
+            <p class="diretor">by Ti West</p>
+        </section>
+        <section class="elenco" id="elenco"></section>
+        <section class="concept" id="concept"></section>
+        <section class="sequencias" id="sequencias"></section>
     </main>
     <footer></footer>
 </body>
