@@ -17,7 +17,7 @@ body {
 header {
     place-self: start center;
     grid-area: content;
-    max-width: 900px;
+    max-width: 930px;
     width: 100%;
     margin-top: 48px;
     z-index: 1;
@@ -35,6 +35,7 @@ main {
 
 section {
     height: 100vh;
+    width: 100%;
 }
 
 .projetos {
