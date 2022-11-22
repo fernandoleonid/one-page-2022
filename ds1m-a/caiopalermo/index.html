@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Website about Gintama. My Favorite anime."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c0e5486155.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script src="./js/slide.js"></script>
+    <script src="./js/show-character-text.js"></script>
+    <script src="./js/social-networks.js"></script>
+    <script src="./js/side-nav.js"></script>
+    <script src="./js/sign-language.js"></script>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/font-face.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/return.css" />
+    <link rel="stylesheet" href="./css/banner/banner-style.css" />
+    <link rel="stylesheet" href="./css/about/banner-style.css" />
+    <link rel="stylesheet" href="./css/about/about-style.css" />
+    <link
+      rel="stylesheet"
+      href="./css/section-images/section-images-style.css"
+    />
+    <link rel="stylesheet" href="./css/slider/slider-images-style.css" />
+    <link rel="stylesheet" href="./css/characters/characters-style.css" />
+    <link rel="stylesheet" href="./css/hasegawa/hasegawa-style.css" />
+    <link rel="stylesheet" href="./css/slider/slider-hasegawa-style.css" />
+    <link rel="stylesheet" href="./css/movies/movies-style.css" />
+    <link rel="stylesheet" href="./css/quotes/quotes-style.css" />
+    <link rel="stylesheet" href="./css/informations/informations-style.css" />
+    <link rel="stylesheet" href="./css/sidenav.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/banner/banner-responsive.css" />
+    <link rel="stylesheet" href="./css/about/about-responsive.css" />
+    <link
+      rel="stylesheet"
+      href="./css/section-images/section-images-responsive.css"
+    />
+    <link rel="stylesheet" href="./css/characters/characters-responsive.css" />
+    <link rel="stylesheet" href="./css/hasegawa/hasegawa-responsive.css" />
+    <link rel="stylesheet" href="./css/movies/movies-responsive.css" />
+    <link rel="stylesheet" href="./css/quotes/quotes-responsive.css" />
+    <link
+      rel="stylesheet"
+      href="./css/informations/informations-responsive.css"
+    />
+    <title>Gintama</title>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html"
+        ><img
+          id="header__logo"
+          src="./img/logo-gintama.png"
+          alt="Gintama Logo"
+        />
+      </a>
+      <nav>
+        <i onclick="openNavHalf()" id="icon-half-menu" class="fas fa-bars"></i>
+        <i onclick="openNavFull()" id="icon-full-menu" class="fas fa-bars"></i>
+        <ul class="navigation-container">
+          <li><a href="#about" class="navigation">Sobre</a></li>
+          <li><a href="#section-images" class="navigation">Imagens</a></li>
+          <li><a href="#characters" class="navigation">Personagens</a></li>
+          <li><a href="#hasegawa" class="navigation">Hasegawa</a></li>
+          <li><a href="#movies" class="navigation">Filmes</a></li>
+          <li><a href="#quotes" class="navigation">Citações</a></li>
+          <li><a href="#informations" class="navigation">Informações</a></li>
+        </ul>
+        <ul id="mySidenav" class="sidenav">
+          <li>
+            <a href="#" class="closebtn" onclick="closeNav()"
+              ><i class="fas fa-times"></i
+            ></a>
+          </li>
+          <li><a href="#about" class="navigation">Sobre</a></li>
+          <li><a href="#section-images" class="navigation">Imagens</a></li>
+          <li><a href="#characters" class="navigation">Personagens</a></li>
+          <li><a href="#hasegawa" class="navigation">Hasegawa</a></li>
+          <li><a href="#movies" class="navigation">Filmes</a></li>
+          <li><a href="#quotes" class="navigation">Citações</a></li>
+          <li><a href="#informations" class="navigation">Informações</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <a href="#" id="return">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+      <section id="banner" class="banner">
+        <h1 class="banner-no-mobile__title">GINTAMA 銀魂</h1>
+        <div class="banner-mobile__title-container">
+          <h1 class="banner-mobile__title">GINTAMA</h1>
+          <h2 class="banner-mobile__subtitle">銀魂</h2>
+        </div>
+        <div class="banner-quote-container-shinpachi">
+          <p class="banner-quote">
+            “Lágrimas são úteis para lavar os problemas e os sentimentos
+            tristes. Mas, quando você cresce, você aprende que existem coisas
+            tão tristes que nunca poderão ser lavadas pelas lágrimas. Que
+            existem lembranças dolorosas que nunca devem ser lavadas. Então as
+            pessoas que são realmente fortes riem quando querem chorar. Elas
+            aguentam toda a dor e a tristeza enquanto riem com todo mundo.”
+          </p>
+          <p class="banner-quote__author">Shinpachi</p>
+          <a href="#quotes"
+            ><button class="banner-quote__button">CITAÇÕES</button></a
+          >
+        </div>
+        <div class="banner-quote-container-gintoki">
+          <p class="banner-quote">
+            “Se você começar a falar do passado, todos parecerão criminosos!”
+          </p>
+          <p class="banner-quote__author">Gintoki</p>
+          <button class="banner-quote__button">
+            <a href="#quotes">CITAÇÕES</a>
+          </button>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <h2 class="about__title">SOBRE</h2>
+        <div class="about__content">
+          <div class="history-and-opinion-container">
+            <h3 class="history-and-opinion__title">HISTÓRIA & OPINIÃO</h3>
+            <p class="history-and-opinion__text">
+              Gintama é a história de um faz tudo chamado Gintoki, um samurai
+              sem respeito com regras impostas pelos invasores e que está pronto
+              para pegar qualquer trabalho para sobreviver. Na minha opinião é o
+              melhor anime que eu já assisti. Contém uma história muito boa,
+              contando o passado dos personagens, fazendo-nos cativar com os
+              mesmos. Gintama é um anime que nos faz sorrir, chorar e ficarmos
+              apreensívos com a história. Resumindo: É SIMPLESMENTE INCRÍVEL.
+            </p>
+          </div>
+          <div class="categories-container">
+            <h3 class="categories__title">CATEGORIAS</h3>
+            <div class="categories">
+              <div class="category">
+                <p class="category__title">AÇÃO</p>
+                <div class="image">
+                  <img
+                    class="category__image"
+                    src="./img/action.png"
+                    alt="Comedy"
+                  />
+                </div>
+              </div>
+              <div class="category">
+                <p class="category__title">COMÉDIA</p>
+                <div class="image">
+                  <img
+                    class="category__image"
+                    src="./img/laugh.png"
+                    alt="Comedy"
+                  />
+                </div>
+              </div>
+              <div class="category">
+                <p class="category__title">DRAMA</p>
+                <div class="image">
+                  <img
+                    class="category__image"
+                    src="./img/drama.png"
+                    alt="Drama"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section-images" class="section-images">
+        <h2 class="images__title">IMAGENS</h2>
+        <div class="slideshow-container">
+          <div class="mySlides-images fade">
+            <img src="./img/images-gintama1.png" alt="Image Gintama 6" />
+          </div>
+          <div class="mySlides-images fade">
+            <img src="./img/images-gintama2.png" alt="Image Gintama 6" />
+          </div>
+          <div class="mySlides-images fade">
+            <img src="./img/images-gintama3.png" alt="Image Gintama 6" />
+          </div>
+          <div class="mySlides-images fade">
+            <img src="./img/images-gintama4.png" alt="Image Gintama 6" />
+          </div>
+          <div class="mySlides-images fade">
+            <img src="./img/images-gintama5.png" alt="Image Gintama 6" />
+          </div>
+          <div class="mySlides-images fade">
+            <img src="./img/images-gintama6.png" alt="Image Gintama 6" />
+          </div>
+        </div>
+        <div class="dots-images">
+          <span class="dot-images"></span>
+          <span class="dot-images"></span>
+          <span class="dot-images"></span>
+          <span class="dot-images"></span>
+          <span class="dot-images"></span>
+          <span class="dot-images"></span>
+        </div>
+      </section>
+      <section id="characters" class="characters">
+        <h2 class="characters__title">PERSONAGENS PRINCIPAIS</h2>
+        <ul class="characters-container">
+          <li onclick="changeState('gintoki')" class="character">
+            <img
+              src="./img/character-gintoki.png"
+              alt="Character Gintoki"
+              class="character__image"
+            />
+            <p class="character__name">Gintoki Sakata</p>
+            <p id="gintoki" class="character__text">
+              É o personagem principal da história. Ele é um samurai. Apesar da
+              proibição de usar sabre, ele ainda carrega um sabre de madeira,
+              que disse ter comprado durante uma excursão ao Lago Toyako. Ele é
+              o chefe da “Agência Freelance do Sr. Gin”, junto com Kagura e
+              Shinpachi, ele aceita todos os serviços desde que seja pago.
+              Infelizmente para ele, seu trabalho o envolve em todos os tipos de
+              situações perigosas. Seu comportamento indiferente, sua tendência
+              a falar trivialidades e falar bobagens muito sérias são suas
+              características mais visíveis. Ele usa cabelos ondulados com
+              permanente que, segundo ele, são atribuídos à falta de amor ou a
+              uma maldição.
+            </p>
+          </li>
+          <li onclick="changeState('sadaharu')" class="character">
+            <img
+              src="./img/character-sadaharu.png"
+              alt="Character Sadaharu"
+              class="character__image"
+            />
+            <p class="character__name">Sadaharu</p>
+            <p id="sadaharu" class="character__text">
+              É um cão gigante adotado por Kagura em quem ela encontrou um
+              companheiro adequado para sua força (e que na verdade se tornará
+              um deus, um inugami).
+            </p>
+          </li>
+          <li onclick="changeState('kagura')" class="character">
+            <img
+              src="./img/character-kagura.png"
+              alt="Character Kagura"
+              class="character__image"
+            />
+            <p class="character__name">Kagura</p>
+            <p id="kagura" class="character__text">
+              Kagura é um alienígena pertencente à espécie Yato. Apesar de sua
+              aparência de menina, ela obtém força sobre-humana de suas origens.
+              Munida de sua força, um guarda-chuva blindado que também serve de
+              arma de fogo, além de uma franqueza desconcertante, ela se junta
+              ao grupo de Gintoki a fim de economizar dinheiro para voltar ao
+              seu planeta. Ela adora Otae como uma rainha e o chama de " Chefe
+              ". Apesar de sua aparência frágil, ela come muito, especialmente
+              sukonbu , uma alga marinha marinada em vinagre e particularmente
+              azeda que ela adora. Ela frequentemente compete com Okita do
+              Shinsengumi.
+            </p>
+          </li>
+          <li onclick="changeState('shinpachi')" class="character">
+            <img
+              src="./img/character-shinpachi.png"
+              alt="Character Shinpachi Shimura"
+              class="character__image"
+            />
+            <p class="character__name">Shinpachi Shimura</p>
+            <p id="shinpachi" class="character__text">
+              Shinpachi Shimura é um jovem de dezesseis anos que trabalha com
+              sua irmã no dojo de seu falecido pai, abandonado desde a proibição
+              de portar uma espada. Ele conhece Gintoki no início da história e
+              fica surpreso com sua atitude petulante, mas sincera. Ele se junta
+              a ele, após resgatar sua irmã, a fim de encontrar seu próprio
+              caminho. Para sua grande decepção, desde sua associação com
+              Gintoki, os negócios não têm sido fáceis ou prósperos e ele parece
+              estar ajudando Gintoki a pagar o aluguel mais do que qualquer
+              outra coisa. Ele representa o elemento mais sensato do grupo,
+              mesmo que os siga em seus delírios. Ele também tem uma paixão: é o
+              líder da Guarda Imperial de O-Tsū, um fã-clube dedicado a um ídolo
+              em ascensão.
+            </p>
+          </li>
+        </ul>
+        <h2 class="characters__subtitle">
+          <a class="characters__subtitle__link" href="./characters.html"
+            >CLIQUE AQUI PARA VER MAIS ALGUNS PERSONAGENS</a
+          >
+        </h2>
+      </section>
+      <section id="hasegawa" class="hasegawa">
+        <h2 class="hasegawa-no-mobile__title">
+          HASEGAWA TAIZOU - MEU PERSONAGEM PREFERIDO <span>&#10084;</span>
+        </h2>
+        <h2 class="hasegawa-mobile__title">
+          HASEGAWA TAIZOU <span>&#10084;</span>
+        </h2>
+        <div class="slideshow-container">
+          <div class="mySlides-hasegawa fade">
+            <img src="./img/hasegawa1.png" alt="Image Hasegawa 1" />
+          </div>
+
+          <div class="mySlides-hasegawa fade">
+            <img src="img/hasegawa2.png" alt="Image Hasegawa 2" />
+          </div>
+
+          <div class="mySlides-hasegawa fade">
+            <img src="img/hasegawa3.png" alt="Image Hasegawa 3" />
+          </div>
+
+          <div class="mySlides-hasegawa fade">
+            <img src="img/hasegawa4.png" alt="Image Hasegawa 4" />
+          </div>
+        </div>
+        <br />
+
+        <div class="dots-hasegawa">
+          <span class="dot-hasegawa"></span>
+          <span class="dot-hasegawa"></span>
+          <span class="dot-hasegawa"></span>
+          <span class="dot-hasegawa"></span>
+        </div>
+        <div class="hasegawa__about">
+          <p class="hasegawa__text">
+            Apesar de não ser um dos personagens principais, sem dúvidas , o
+            Hasegawa Taizou (ou MADAO) é considerado o meu personagem favorito.
+            Sempre que ele aparece no anime, causa um impacto forte na cena;
+            sendo de forma hilária, triste, ou até mesmo de forma heróica. Não é
+            à toa que eu utilizo o nome e a foto de perfil dele em todo o canto!
+            Inclusive, como vocês podem ver, criei até uma seção para este
+            personagem!
+          </p>
+          <p class="hasegawa__text">
+            Você é uma lenda, Hasegawa Taizou <span>&#10084;</span>
+          </p>
+        </div>
+      </section>
+      <section id="movies" class="movies">
+        <h2 class="movies__title">Filmes</h2>
+        <ul class="movies-container">
+          <li onclick="changeState('movie-the-film')" class="movie">
+            <img
+              src="./img/movie-gintama-the-movie.png"
+              alt=""
+              class="movie__image"
+            />
+            <p class="movie__title">Gintama: O Filme</p>
+            <p id="movie-the-film" class="movie__text">
+              Gintama: The Movie , conhecido no Japão como Gintama: Shin'yaku
+              Benizakura-Hen (銀魂: 新訳紅桜篇, lit. "Gintama: A New Retelling
+              Benizakura Arc") , é um filme de animação japonêsproduzido pela
+              Sunrise . O enredo do filme é uma recontagem do arco da história
+              de Gin Tama , no qual Kotaro Katsura é atacado por um membro do
+              exército Kiheitai , e o trio freelancer Odd Jobs Gin começa a
+              procurá-lo.
+            </p>
+          </li>
+          <li onclick="changeState('movie-yorozuya')" class="movie">
+            <img src="./img/movie-yorozuya.png" alt="" class="movie__image" />
+            <p class="movie__title">Gintama: Seja Sempre Yorozuya</p>
+            <p id="movie-yorozuya" class="movie__text">
+              Gintoki Sakata está vários anos no futuro, onde Edo foi destruída.
+              Na cidade, Gintoki reúne versões antigas de seus companheiros,
+              Kagura e Shinpachi Shimura. Gintoki se opõe principalmente por um
+              grupo de feiticeiros conhecido como Enmi. Em toda a sua jornada
+              Gintoki também está definido para enfrentar o seu próprio passado
+              de guerra e o Diabo, como um inimigo.
+            </p>
+          </li>
+          <li onclick="changeState('movie-the-final')" class="movie">
+            <img src="./img/movie-final.png" alt="" class="movie__image" />
+            <p class="movie__title">Gintama: The Final</p>
+            <p id="movie-the-final" class="movie__text">
+              Gintama The Final é o último anime da franquia, adaptando tudo o
+              que sobrava do mangá. Para quem acompanhou a reta final do mangá e
+              anime de Gintama, sabe que a situação foi complicada. Mesmo que
+              ambos sejam produtos excelentes, o autor da obra, Sorachi Hideaki,
+              nunca acabava ela; mesmo falando que ia fazer. Isso acarretou a
+              problemas para com a produção, como o episódio final do anime e o
+              nosso artigo sobre o estúdio de Gintama falam.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section id="quotes" class="quotes">
+        <h2 class="quotes__title">CITAÇÕES</h2>
+        <ul class="quotes-container">
+          <li class="quote">
+            <p class="quote__text">
+              "O País? O Céu? Você pode tê-los. Eu estou ocupado demais
+              protegendo aquilo que está bem na minha frente. Eu não sei o que
+              vai me acontecer no futuro, mas quando alguma coisa cai aos meus
+              pés, o mínimo que posso fazer é pegá-la."
+            </p>
+            <p class="quote__author">Gintoki</p>
+          </li>
+          <li class="quote">
+            <p class="quote__text">
+              "Se você começar a falar do passado, todos parecerão criminosos!"
+            </p>
+            <p class="quote__author">Gintoki</p>
+          </li>
+          <li class="quote">
+            <p class="quote__text">
+              “Lágrimas são úteis para lavar os problemas e os sentimentos
+              tristes. Mas, quando você cresce, você aprende que existem coisas
+              tão tristes que nunca poderão ser lavadas pelas lágrimas. Que
+              existem lembranças dolorosas que nunca devem ser lavadas. Então as
+              pessoas que são realmente fortes riem quando querem chorar. Elas
+              aguentam toda a dor e a tristeza enquanto riem com todo mundo.”
+            </p>
+            <p class="quote__author">Gintoki</p>
+          </li>
+          <li class="quote">
+            <p class="quote__text">
+              "Eu não conheço esses números! Um homem só precisa conhecer o
+              número um para se dar bem nesse mundo.”
+            </p>
+            <p class="quote__author">Matsudaira</p>
+          </li>
+          <li class="quote">
+            <p class="quote__text">
+              "Todos em Edo são assim. São frios e insensíveis. É uma maneira
+              inteligente de viver a sua vida. Pessoas como você, que se
+              preocupam com outras, são idiotas. No final, os idiotas são apenas
+              usados. Mas eu gosto desses idiotas. Embora eu odeie você."
+            </p>
+            <p class="quote__author">Kagura</p>
+          </li>
+          <li class="quote">
+            <p class="quote__text">
+              "Saquê é muito bom. Você esquece todos os seus problemas, mesmo
+              que só por um momento. No entanto, terá que lembrar deles amanhã.
+              E doerá ainda mais do que no dia anterior. Não se foge de coisas
+              assim. Especialmente das coisas que mais quer esquecer."
+            </p>
+            <p class="quote__author">Gintoki</p>
+          </li>
+        </ul>
+      </section>
+      <section id="informations" class="informations">
+        <h2 class="informations__title">INFORMAÇÕES</h2>
+        <div class="topics-container">
+          <div class="topic-why-gintama">
+            <h3 class="topic__title">POR QUE GINTAMA?</h3>
+            <p class="topic__text">
+              Gintama é um anime especial. É realmente difícil encontrar um
+              anime único como este. Então, já que ele é único, que tal fazer um
+              site apenas sobre ele? Ele merece.
+            </p>
+          </div>
+          <div class="topic-watch">
+            <h3 class="topic__title">ASSISTIR</h3>
+            <div class="topic-watch__content">
+              <p class="topic__text">
+                Para assistir Gintama, clique neste link:
+              </p>
+              <a
+                href="https://www.crunchyroll.com/pt-br/series/GYQ4MKDZ6/gintama"
+                target="_blank"
+                class="topic-watch__link"
+                >LINK</a
+              >
+            </div>
+          </div>
+          <div class="topic-contact">
+            <h3 class="topic__title">CONTATO</h3>
+            <ul class="topic-contact-container">
+              <li class="topic__text">(11) 4774-4700</li>
+              <li class="topic__text">caiocoghi@gmail.com</li>
+              <li class="topic__text">Rua Elton Silva, 905</li>
+            </ul>
+          </div>
+          <div class="topic-social-networks">
+            <h3 class="topic__title">REDES SOCIAIS</h3>
+            <ul class="social-networks-container">
+              <li
+                onclick="goToInstagram()"
+                id="instagram"
+                class="social-network"
+              >
+                <img src="./img/instagram.png" alt="Instagram" />
+              </li>
+              <li onclick="goToFacebook()" id="facebook" class="social-network">
+                <img src="./img/facebook.png" alt="Facebook" />
+              </li>
+              <li onclick="goToTwitter()" id="twitter" class="social-network">
+                <img src="./img/twitter.png" alt="Twitter" />
+              </li>
+              <li onclick="goToLinkedin()" id="linkedin" class="social-network">
+                <img src="./img/linkedin.png" alt="Linkedin" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="copyright">
+      <p class="copyright__text">
+        Copyright ©️ | Todos os Direitos Reservados 2022 | Desenvolvido por Caio
+        Palermo Lemos
+      </p>
+    </footer>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script>
+      showSlidesImages();
+      showSlidesHasegawa();
+    </script>
+  </body>
+</html>
