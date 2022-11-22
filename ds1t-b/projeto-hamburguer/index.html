@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="./css/section-title.css">
     <link rel="stylesheet" href="./css/contato.css">
     <link rel="stylesheet" href="./css/vlibras.css">
+    <script src="./js/slider.js"></script>
     <title>Le Pinguê</title>
 </head>
 
@@ -79,7 +80,36 @@
     </header>
     <main>
         <section class="home" id="home">
-            <img src="./img/foto.png" alt="foto" class="home__photo">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+
+                    <div class="slide first">
+                        <img src="./img/foto.png" alt="Imagem 1">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/foto2.png" alt="Imagem 2">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/foto3.png" alt="Imagem 3">
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                </div>
+
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
+            <!-- <img src="./img/foto.png" alt="foto" class="home__photo"> -->
             <div class="container__text">
                 <p class="home__text">A CASA DO HAMBURGUER</p>
                 <div class="home__line"></div>

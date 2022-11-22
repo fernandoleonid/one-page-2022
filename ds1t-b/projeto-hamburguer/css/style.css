@@ -2,11 +2,11 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    display: grid;
-    grid-template-areas: "content";
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
 }
 header{
-    grid-area: content;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -15,7 +15,6 @@ header{
     z-index: 1;
 }
 main{
-    grid-area: content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,8 +23,6 @@ section{
     height: 100vh;
 }
 footer{
-    grid-area: content;
-    place-self: end start;
     height: 120px;
     width: 100%;
     display: grid;
