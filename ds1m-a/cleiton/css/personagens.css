@@ -1,0 +1,29 @@
+.personagens {
+    background-image: url(../img/back_personagens.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.personagens H1 {
+    color: #ffffff;
+    font-size: 64px;
+    text-align: center;
+}
+
+.personagens img {
+    height: 300px;
+    width: 250px;
+}
+
+.card {
+    background-color: #252525;
+    height: 190px;
+    width: 270px;
+    padding-top: 20px;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 2.5rem;
+}
