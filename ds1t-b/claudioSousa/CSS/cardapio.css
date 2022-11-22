@@ -1,0 +1,29 @@
+.cardapio{
+    background-color: #000;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 3fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "title title foto"
+    "ttext ttext foto"
+    ;
+}
+
+.title{
+    text-align: center;
+    margin-left: 15vw;
+}
+
+.card-text{
+    grid-area: ttext;
+}
+
+.card-foto{
+    grid-area: foto;
+    background-image: url(../IMG/fotoCardapio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+

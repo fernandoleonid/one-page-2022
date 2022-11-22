@@ -1,0 +1,9 @@
+.title{
+    grid-area: title;
+    font-size: 8rem;
+    font-family: 'Lalezar', cursive;
+    background: linear-gradient(#fff, #F43F06);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
