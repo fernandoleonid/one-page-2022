@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: justify;
+    gap: 20px;
 }
 
 .iphones {

@@ -44,4 +44,5 @@
     background-color: #222020;
     justify-content: center;
     width: 100%;
+    align-items: flex-start;
 }

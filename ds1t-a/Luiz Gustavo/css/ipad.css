@@ -1,0 +1,60 @@
+.section-ipad {
+    background: linear-gradient(90deg, #1B1048 0%, #560762 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-ipad {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 6rem;
+}
+
+.main-ipad {
+    width: 1500px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 55vh;
+}
+
+.text-ipad {
+    color: white;
+    width: 600px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.ipad-pro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.text-ipad-button {
+    color: white;
+    width: 600px;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.button-ipad {
+    background: linear-gradient(180deg, #1B1048 0%, #560762 100%);
+    color: white;
+    width: 400px;
+    height: 125px;
+    border: 8px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    transition: border-color .5s;
+}
