@@ -1,0 +1,7 @@
+.menu{
+    display: flex;
+    gap: 100px;
+}
+.menu span:hover{
+    color: var(--select-color);
+}
