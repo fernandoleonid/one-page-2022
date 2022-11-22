@@ -22,19 +22,15 @@ header {
 
 main {
     grid-area: content;
-    background-color: mediumorchid;
+    /* background-color: mediumorchid; */
     width: 100%;
 }
 
-.historia {
-    background-color: lightpink;
-}
-
-.niveis-de-torra {
+niveis-de-torra {
     background-color: plum;
 }
 
-.nenu {
+.menu {
     background-color: powderblue;
 }
 
