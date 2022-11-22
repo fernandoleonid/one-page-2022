@@ -1,0 +1,18 @@
+.home{
+    background-image: url(../img/background.png);
+    background-color: #87E2B6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.home__title{    
+    max-width: 900px;
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

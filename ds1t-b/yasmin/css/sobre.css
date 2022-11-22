@@ -1,0 +1,30 @@
+.sobre{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: center;
+    align-content: center;
+    gap: 15vw;
+}
+.sobre__info{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 5vh;
+    flex-direction: column;
+    max-width: 860px;
+    width: 100%;
+  
+}
+.sobre__title{
+    font-size: 4rem;
+}
+.sobre__description{
+    font-size: 2.25rem;
+    font-weight: 300;
+}
+.img-turista{
+    width: 25vw;
+    height: auto;
+    align-self: center;
+}

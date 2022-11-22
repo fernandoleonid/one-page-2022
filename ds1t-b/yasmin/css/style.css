@@ -1,0 +1,35 @@
+:root{
+    --primary-color: #1B361D;
+}
+body{
+    font-family: 'Red Rose', cursive;
+    color: var(--primary-color);
+    display: grid;
+    grid-template-areas: "content";
+}
+header{
+    grid-area: content;
+    z-index: 1;  
+    max-width: 1200px;
+    width: 100%;
+    height: 30px;
+    place-self: start center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+main{
+    grid-area: content;
+}
+section{
+    height: 100vh;
+}
+footer{
+    grid-area: content;
+    place-self: end start;
+    background-color: rgb(255, 140, 0);
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+}
