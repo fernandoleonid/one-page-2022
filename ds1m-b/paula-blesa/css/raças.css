@@ -11,10 +11,15 @@
     font-family: 'Piedra', cursive;
     font-weight: 400;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 3px;
 }
 
 .icon2 {
     display: flex;
-    margin-top: 60px;
+    margin-top: 3px;
+}
+
+.border-2 {
+    display: grid;
+    border: 20px solid #F8E795;
 }
