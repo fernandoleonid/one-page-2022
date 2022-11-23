@@ -4,7 +4,7 @@
     "title title"
     "text image" ;
     padding-top: 156px;
-    padding-left: 140px;
+    align-self: center;
     grid-template-rows: 106px 445px;
     grid-template-columns: 516px 656px;
     align-self: center;
