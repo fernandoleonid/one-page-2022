@@ -1,6 +1,5 @@
 .personagens {
     background-image: url(../img/back_personagens.png);
-    background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
@@ -57,4 +56,8 @@
 .personagens_lista_secundarios {
     padding-left: 21%;
     gap: 150px;
+}
+
+#kratos {
+    display: none;
 }
