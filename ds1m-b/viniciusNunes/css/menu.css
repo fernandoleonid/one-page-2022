@@ -1,0 +1,29 @@
+.menu {
+    width: 600px;
+    background-color: #1118;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 32px;
+    clip-path: polygon(2% 0, 100% 0, 100% 100%, 0 100%); 
+    /* border: .25px solid #fff; */
+}
+
+.menu ul{
+    display: flex;
+    height: 50px;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu li{
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.25s;
+    color: var(--tertiary-color);
+
+}
+
+.menu li:hover {
+    color: var(--secundary-color);
+    border-color: var(--secundary-color);
+}
