@@ -1,13 +1,7 @@
 .fundadores{
     display: flex;
-    /* display: grid; */
     max-width: 1200px;
     width: 100%;
-    /* grid-template-areas: 
-    "title"
-    "fundadores";
-    grid-template-rows: auto;
-    grid-template-columns: 1fr; */
     flex-direction: column;
     align-items: center; 
     gap: 50px;
@@ -28,14 +22,3 @@
     gap: 60px;
     font-size: 1.25rem;
 }
-/* .fundador{
-    align-items: center;
-    flex-direction: row;
-    gap: 70px;
-    font-size: 1.75rem;
-
-} */
-
-/* .fundadores__name{
-    font-size: 2.10rem;
-} */
