@@ -6,10 +6,14 @@ Lembre-se que sempre primeiro devemos planejar nossas ações e depois executar,
 
 ---
 ## Sumário
-1. [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-2. [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-3. [Durante o desenvolvimento](#durante-o-desenvolvimento)
-4. [Entrega do projeto](#entrega-do-projeto)
+- [Situação de Aprendizagem Somativa!](#situação-de-aprendizagem-somativa)
+  - [Sumário](#sumário)
+  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
+  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
+  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
+  - [Entrega do projeto](#entrega-do-projeto)
+  - [Projeto dos alunos](#projeto-dos-alunos)
+  - [Autor](#autor)
 
 ---
 ## O que deverá ser desenvolvido
@@ -41,6 +45,12 @@ Para entregar o seu projeto você deverá criar um Pull Request deste repositór
 - Código HTML, CSS e JS
 - Arquivo README.md com link do figma e github page, além do screenshot do **APP** e uma descrição do projeto e tudo o que foi utilizado.
 
+## Projeto dos alunos
+* [DS1M-A](./ds1m-a/)
+* [DS1M-B](./ds1m-b/)
+* [DS1T-A](./ds1t-a/)
+* [DS1T-B](./ds1t-b/)
+  
 
 ## Autor
 
