@@ -29,17 +29,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-self: flex-end;
     align-items: center;
-    gap: 70px;
+    gap: 28px;
 }
 
 
-.promotion-container1 span, a{
+.promotion-container1 span{
     color: #ffffff;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .promotion-container1 a{
@@ -49,20 +50,54 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 300px;
-    height: 76px;
+    width: 23vw;
+    height: 12vh;
+    font-size: 1.5rem;
     background: #ffff;
     border-radius: 30px;
     color: #000;
 }
 
-.promotion-text-container{
-    grid-column: 2;
-    grid-row: 1;
+.promotion-text-container-mobile{
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 37.8vw;
+    grid-column: 2;
+    color: #ffffff;
 }
 
-.promotion-text-container p{
+.promotion-container2{
+    grid-row: 1;
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: center;
+    gap: 28px;
+}
+
+.promotion-container2 span{
     color: #ffffff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.promotion-container2 a{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 23vw;
+    height: 12vh;
+    font-size: 1.5rem;
+    background: #ffff;
+    border-radius: 30px;
+    color: #000;
 }

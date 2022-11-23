@@ -6,5 +6,9 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: bold;
+    font-size: 16px;
     gap: 35px;
 }

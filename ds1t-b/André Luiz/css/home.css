@@ -9,10 +9,11 @@
 }
 
 .promotion-text-container{
-    display: flex;
-    flex-direction: column;
     grid-column: 1;
     grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .promotion-text-container span{
@@ -21,6 +22,10 @@
     font-style: bold;
     font-weight: 700;
     font-size: 4rem;
+}
+
+.promotion-text-container p{
+    color: #ffffff;
 }
 
 .promotion-image-container{
