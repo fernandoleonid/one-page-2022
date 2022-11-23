@@ -36,7 +36,7 @@ Você deverá desenvolver uma página do tipo **one page** que  divulgue um prod
 1. Planeje o site usando o Figma (_deve ser aprovado_).
 2. Crie uma lista de tarefas (task) para desenvolver o site.
 3. Faça um `commit` para cada `task`.
-4. Crie o README.md 
+4. Crie o README.md
 
 ---
 
@@ -44,6 +44,9 @@ Você deverá desenvolver uma página do tipo **one page** que  divulgue um prod
 Para entregar o seu projeto você deverá criar um Pull Request deste repositório, que deverá conter:
 - Código HTML, CSS e JS
 - Arquivo README.md com link do figma e github page, além do screenshot do **APP** e uma descrição do projeto e tudo o que foi utilizado.
+- O link do github pages deve seguir o exemplo abaixo:
+
+`https://fernandoleonid.github.io/one-page-2022/turma/nome-do-aluno`
 
 ## Projeto dos alunos
 * [DS1M-A](./ds1m-a/)
