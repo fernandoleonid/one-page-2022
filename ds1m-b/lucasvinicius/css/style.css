@@ -1,0 +1,50 @@
+body{
+    height: auto;
+    display: grid;
+    grid-template-areas:
+        "content"
+        "footer";
+    font-family: 'Montserrat', sans-serif;;
+    
+}
+
+
+header{
+    grid-area: content;
+    height: 10vh;
+    z-index: 1;
+    display: flex;
+}
+
+
+main{
+    grid-area: content;
+    
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+#home{
+    background-color: green;
+}
+
+#bo1{
+    background-color:aliceblue;
+}
+
+#bo2{
+    background-color: aqua;
+}
+
+#bo3{
+    background-color: violet;
+}
+
+
+footer{
+    grid-area: footer;
+    background-color: tomato;
+    height: 50vh;
+}
