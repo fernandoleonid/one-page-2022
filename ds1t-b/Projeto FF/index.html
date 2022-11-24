@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu:wght@300;400;700&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varta:wght@300;400;500&display=swap" rel="stylesheet">
@@ -15,60 +17,75 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="historia.css">
+    <link rel="stylesheet" href="back.css">
     <title>Final Fantasy VII</title>
 </head>
+
 <body>
-    <section class="home" id="home">
-        <div class="menu">
-            <img class="logo" src="./img/Logo.png" alt="logo">
-            <div class="botoes">
-                <li>
-                    <a class="botao" href="#historia">
-                        <p class="texto-botao">História</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="botao" href="#personagens">
-                        <p class="texto-botao">Personagens</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="botao" href="#producao">
-                        <p class="texto-botao">Produção</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="botao" href="#criadores">
-                        <p class="texto-botao">Criadores</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="botao" href="contatos">
-                        <p class="texto-botao">Contatos</p>
-                    </a>
-                </li>
+    <main>
+        <a href="#home" class="back">
+            <i class="fas fa-angle-double-up"></i>
+        </a>
+        <section class="home" id="home">
+            <div class="menu">
+                <img class="logo" src="./img/Logo.png" alt="logo">
+                <div class="botoes">
+                    <li>
+                        <a class="botao" href="#historia">
+                            <p class="texto-botao">História</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="botao" href="#personagens">
+                            <p class="texto-botao">Personagens</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="botao" href="#producao">
+                            <p class="texto-botao">Produção</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="botao" href="#criadores">
+                            <p class="texto-botao">Criadores</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="botao" href="contatos">
+                            <p class="texto-botao">Contatos</p>
+                        </a>
+                    </li>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="historia" id="historia">
-        <div class="container-titulo">
-            <p class="titulo">História</p>
-        </div>
-        <container class="texto-historia">
-            <div class="introducao">
-                <p class="texto">   Final Fantasy VII conta a história de Cloud Strife, um mercenário iniciante em Midgard, a maior cidade do mundo, que se une a um grupo ecoterrorista conhecido como Avalanche, que luta contra a SEC (Shinra Electrical Power Company), por utilizar o “sangue” do planeta, conhecido como mako, para produzir uma quantidade inimaginável de energia, armas e produtos químicos .</p>
-                <img src="./img/Imagem_introducao.png" alt="imagem-introducao">
+        </section>
+        <section class="historia" id="historia">
+            <div class="container-titulo">
+                <p class="titulo">História</p>
             </div>
-            <div class="conclusao">
-                <img src="./img/Imagem_conclusao.png" alt="imagem-conclusao">
-                <p class="texto">   O que poucos sabem é que Cloud é na verdade um Ex-Soldier,  a tropa que reune os soldados mais poderosos da Shinra, que após ter sua cidade natal destruida e sua familia assassinada pelo seu antigo ídolo e parceiro Sephiroth, o desmemoriado soldier tem como objetivo se vingar da empresa que destruiu sua vida e descobrir o que levou Sephiroth a insanidade.</p>
-            </div>
-        </container>
-    </section>
-    <section class="personagens" id="personagens"></section>
-    <section class="producao" id="producao"></section>
-    <section class="criadores" id="criadores"></section>
-    <section class="contatos" id="contatos"></section>
+            <container class="texto-historia">
+                <div class="introducao">
+                    <p class="texto"> Final Fantasy VII conta a história de Cloud Strife, um mercenário iniciante em
+                        Midgard, a maior cidade do mundo, que se une a um grupo ecoterrorista conhecido como Avalanche,
+                        que luta contra a SEC (Shinra Electrical Power Company), por utilizar o “sangue” do planeta,
+                        conhecido como mako, para produzir uma quantidade inimaginável de energia, armas e produtos
+                        químicos .</p>
+                    <img src="./img/Imagem_introducao.png" alt="imagem-introducao">
+                </div>
+                <div class="conclusao">
+                    <img src="./img/Imagem_conclusao.png" alt="imagem-conclusao">
+                    <p class="texto"> O que poucos sabem é que Cloud é na verdade um Ex-Soldier, a tropa que reune os
+                        soldados mais poderosos da Shinra, que após ter sua cidade natal destruida e sua familia
+                        assassinada pelo seu antigo ídolo e parceiro Sephiroth, o desmemoriado soldier tem como objetivo
+                        se vingar da empresa que destruiu sua vida e descobrir o que levou Sephiroth a insanidade.</p>
+                </div>
+            </container>
+        </section>
+        <section class="personagens" id="personagens"></section>
+        <section class="producao" id="producao"></section>
+        <section class="criadores" id="criadores"></section>
+        <section class="contatos" id="contatos"></section>
+    </main>
     <footer></footer>
 </body>
+
 </html>
