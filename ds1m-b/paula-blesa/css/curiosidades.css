@@ -1,0 +1,20 @@
+.curiosidade-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+
+.title-curiosidade {
+    display: flex;
+    font-size: 8rem;
+    font-family: 'Piedra', cursive;
+    font-weight: 400;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.icon3 {
+    display: flex;
+    margin-top: 3px;
+}

@@ -23,3 +23,72 @@
     display: grid;
     border: 20px solid #F8E795;
 }
+
+.names {
+    display: flex;
+    font-family: 'Updock', cursive;
+    font-size: 3rem;
+    margin-left: 350px;
+    margin-top: 10px;
+    font-weight: 800;
+    gap: 360px;
+}
+
+.name {
+    display: flex;
+    font-family: 'Updock', cursive;
+    font-size: 3rem;
+    margin-left: 350px;
+    margin-top: 10px;
+    font-weight: 800;
+    gap: 410px;
+}
+
+.card-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.card {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.card::before {
+    content: "Clique aqui para mais informações";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    background-color: #f8e89570;
+    transform: translateY(100%);
+    transition: .7s;
+    border-radius: 20px;
+}
+
+.card:hover::before {
+    transform: translateY(0%);
+}
+
+.outros {
+    display: flex;
+    font-size: 4rem;
+    font-weight: 800;
+    justify-content: end;
+    font-family: 'Updock', cursive;
+}
+
+.outros li {
+    border-bottom: 8px solid transparent;
+    transition: border-color .5s;
+}
+
+.outros li:hover {
+    border-color: var(--amareloEsc-color);
+}
