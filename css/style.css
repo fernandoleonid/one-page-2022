@@ -12,6 +12,7 @@ body {
     display: grid;
     background-color: #031754;
     background-size: cover;
+   
 }
 
 header {
@@ -26,7 +27,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #25252555;
+    background-color: #fff;
 }
 
 main {
@@ -46,8 +47,18 @@ main {
     gap: 72px;
 }
 
+.container {
+background-color: red;
+height: 57px;
+width: 362px;
+color: #fff;
+margin-right: 830px;
+
+
+}
+
 ul li{
-    background-color: blanchedalmond;
+   
     list-style: none;
 }
 
@@ -67,12 +78,4 @@ ul li{
 
 }
 
-.home {
-background-image: url(../img/Cap.jpg);
-display: flex;
-justify-content: center;
-align-items: center;
-background-repeat: no-repeat;
-background-size: cover;
 
-}

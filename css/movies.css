@@ -11,7 +11,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     display: grid;
     grid-template-areas: "content";
-    color: #fff;
+    color: #ffffff;
     background-color:#031754;
 }
 

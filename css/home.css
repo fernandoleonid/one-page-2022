@@ -1,5 +1,6 @@
 .home {
-    width: 100%;
+    width: 200%;
+    margin-top: -100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,4 +8,5 @@
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: inset 0px -30px 40px #000000;
+
 }
