@@ -12,4 +12,5 @@ a{
 }
 section{
     height: 100vh;
+    border-top: 5px solid #023158;
 }
