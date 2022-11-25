@@ -1,12 +1,12 @@
-.section-tab{
-    max-width: 1970px;
-    height: 100vh;
+.section-smartwatch{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    max-width: 1770px;
+    height: 100vh;
 }
 
-.title-tab-container{
+.smartwatch-title-container{
     grid-column: 1;
     grid-row: 1;
     width: 9vw;
@@ -15,50 +15,44 @@
     padding-left: 2.25vw;
 }
 
-.title-tab{
-    color: #fff;
+.smartwatch-title{
+    color: #ffffff;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 4rem;
 }
 
-.tab-text-container{
+.smartwatch-text-container1{
     grid-column: 1;
     grid-row: 1;
-    max-width: 24.8vw;
-    height: 52.5vh;
+    width: 18vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     place-self: center;
-    gap: 8px;
 }
 
-.tab-text{
-    color: #fff;
+.smartwatch-text{
+    color: #ffffff;
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    text-align: left;
 }
 
-.tab-promotion-container{
+.smartwatch-promotion-container{
     grid-column: 2;
     grid-row: 1;
+    align-self: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    place-self: center;
-    gap: 16px;
-    width: 25.6vw;
-    height: 53vh;
 }
 
-.tab-promotion-container a{
+.smartwatch-promotion-container a{
     font-family: 'Ubuntu';
     font-weight: 400;
     display: flex;
@@ -73,8 +67,22 @@
     color: #000;
 }
 
+.smartwatch-text-container2{
+        grid-column: 3;
+        grid-row: 1;
+        width: 18vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        place-self: center;
+}
+
 @media (max-width: 960px) {
-    .tab-text{
+    .section-smartwatch{
+        width: 100%;
+    }
+    .smartwatch-text{
         font-size: 2rem;
     }
 }
