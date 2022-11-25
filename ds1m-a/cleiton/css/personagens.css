@@ -3,7 +3,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    display: flex;
     flex-direction: column;
 }
 
@@ -48,7 +47,6 @@
 }
 
 .personagens_lista_principal {
-    width: 100vw;
     justify-content: space-evenly;
     padding-bottom: 150px;
 }
@@ -58,6 +56,24 @@
     gap: 150px;
 }
 
-#kratos {
+#kratos,
+#atreus {
     display: none;
+    font-size: 2rem;
+    gap: 100px;
+}
+
+#kratos img,
+#atreus img {
+    height: 700px;
+    width: 530px;
+}
+
+#kratos li,
+#atreus li {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    gap: 200px;
+    margin-left: 300px;
 }
