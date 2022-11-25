@@ -1,0 +1,25 @@
+.reservasELocalizacao{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "reservas"
+    "localizacao";
+    
+}
+
+.reservas{
+    grid-area: reservas;
+    background-image: url(../IMG/fundoReservas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+.localizacao{
+    grid-area: localizacao;
+    background-image: url(../IMG/fundoLocalizacao.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
