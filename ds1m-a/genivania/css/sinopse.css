@@ -1,0 +1,38 @@
+.sinopse{
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "title title"
+    "avatar description";
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 50px;
+    background-image: url(../img/pandora\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-title{
+    grid-area: title;
+    font-family: 'Eagle Lake', cursive;
+    font-size: 8.25rem;
+    background-image: linear-gradient( #1602F9 , #00C9F5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;  
+    align-items: flex-end;
+    width: 800px;
+    display: flex;
+    
+}
+.avatar{
+    grid-area: avatar;
+    display: flex;
+    
+}
+.description{
+    grid-area: description;
+    font-size: 2.5rem;
+    width: 1200px;
+    font-family: 'Abel', sans-serif;
+}

@@ -1,0 +1,17 @@
+.trailer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    background-image: url(../img/pandora\ 1.png);
+}
+.trailer_title{
+    grid-area: title;
+    font-family: 'Eagle Lake', cursive;
+    font-size: 8.25rem;
+    background-image: linear-gradient( #1602F9 , #00C9F5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+

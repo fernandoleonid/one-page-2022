@@ -1,0 +1,15 @@
+.menu{
+    display: flex;
+    gap: 72px;
+    font-size: 1.5rem;
+    font-family: 'Eagle Lake', cursive;
+    color: var(--primary-color);
+}
+.menu li{
+    border-bottom: 3px solid transparent;
+    transition: border-color .5s;
+    justify-content: space-between;
+}
+.menu li:hover{
+    border-bottom: 3px solid var(--secundary-color);
+}
