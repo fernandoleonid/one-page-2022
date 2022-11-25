@@ -1,0 +1,15 @@
+.watch{
+    grid-column: 2;
+}
+
+.div-title-wacth{
+    grid-row: 1;
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 5rem;
+    height: 25vh;
+}

@@ -31,3 +31,8 @@
     font-weight: 700;
     transition: border-color .5s;
 }
+
+.button-ipad-airpos-watch:hover{
+    color: #2997FF;
+    border-color: #2997FF;
+}
