@@ -1,3 +1,7 @@
+.sobre {
+    height: auto;
+}
+
 .sobre-icon {
     display: flex;
     align-items: center;
@@ -19,19 +23,29 @@
 }
 
 .description-title {
-    margin-top: 40px;
-    display: grid;
-    margin-left: 240px;
     width: 500px;
     font-family: 'Patrick Hand', cursive;
     font-size: 1.70rem;
     color: #000000;
 }
 
+.description-cat {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre-gatos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    margin: 64px;
+}
+
 .description-text {
-    display: grid;
-    width: 500px;
-    margin-left: 190px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
     font-family: 'Patrick Hand', cursive;
     font-size: 1.70rem;
     color: #000000;

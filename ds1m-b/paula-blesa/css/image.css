@@ -40,3 +40,10 @@
     margin-top: 40px;
     gap: 120px;
 }
+
+.redondo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
