@@ -20,4 +20,27 @@ body{
 }
 main{
     grid-area: content;
+    align-items: center;
+    justify-content: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.titulo{
+    width: 270px;
+    height: 93px;
+    left: 615px;
+    top: 14px;
+    font-family: 'Varta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 93px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 28.65%, rgba(0, 0, 0, 0.8) 77.6%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }

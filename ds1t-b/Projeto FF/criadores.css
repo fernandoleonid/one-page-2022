@@ -1,7 +1,82 @@
 .criadores{
+    display: grid;
+    grid-template-areas: 
+    'titulo titulo'
+    'info info';
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
     background-image: url(./img/Background_criadores.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     grid-area: content;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-criadores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 98px;
+    padding-top: 50px;
+}
+
+.container-criadores{
+    display: flex;
+    grid-area: info;
+    width: 100%;
+    height: 748px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado-criadores{
+    width: 1130px;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    'sup sup'
+    'inf inf';
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.primeira-div{
+    grid-area: sup;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.segunda-div{
+    grid-area: inf;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.criador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome-criador{
+    font-family: 'Yaldevi Colombo Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 43px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
 }
