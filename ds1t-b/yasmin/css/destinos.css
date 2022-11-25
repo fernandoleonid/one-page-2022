@@ -1,3 +1,13 @@
+.destinos{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    text-align: center;
+}
+.destinos p{
+    font-weight: 300;
+    color: black;
+}
 .destinos__text{
     display: flex;
     flex-direction: column;
@@ -7,15 +17,26 @@
 .destinos__title{
     font-size: 4rem;
     display: flex;
-    justify-content: center;
+    justify-content: center;   
 }
 .destinos__description{
-    display: flex;  
-    max-width: 1160px;
+    display: flex;
+    font-size: 2.25rem;  
+    align-self: center;
+    max-width: 1200px;
     width: 100%;
-    font-size: 2.25rem;
-    font-weight: 300;
-    text-align: center;
-    justify-self: center;
-    
+}
+.destinos__lugares p{
+    font-size: 3.75rem;
+}
+.destinos__lugares div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:180px;
+}
+.destinos__lugares div p{
+    align-self: center;
+    max-width: 300px;
+    width: 100%;
 }

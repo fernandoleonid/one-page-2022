@@ -6,6 +6,10 @@
     align-content: center;
     gap: 15vw;
 }
+.sobre p{
+    font-weight: 300;
+    color: black;
+}
 .sobre__info{
     display: flex;
     justify-content: center;
@@ -21,7 +25,6 @@
 }
 .sobre__description{
     font-size: 2.25rem;
-    font-weight: 300;
 }
 .img-turista{
     width: 25vw;
