@@ -3,7 +3,10 @@
     grid-template-areas:
         'titulo'
         'info';
-    grid-template-rows: 200px auto;
+        grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-area: content;
+    width: 100%;
     align-items: center;
     justify-content: center;
     background-image: url(./img/Background_contato.png);
@@ -14,9 +17,8 @@
 
 .titulo-contatos {
     width: 100%;
-    height: 133px;
+    height: 180px;
     left: 504px;
-    padding-top: 14px;
     font-family: 'Varta';
     font-style: normal;
     font-weight: 400;
@@ -32,31 +34,49 @@
     grid-area: titulo;
 }
 
-.container-informacoes {
+.informacoes {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
     gap: 115px;
-    width: 1178px;
-    height: 500px;
-    left: 131px;
-    top: 200px;
+    width: 100%;
+    height:100%;
+    justify-content: center;
     grid-area: info;
+    padding-bottom: 130px;
 }
 
 .texto-informacoes{
     display: flex;
-    flex: none;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 0px;
     gap: 41px;
     width: 563px;
-    height: 429px;
+    height: 400px;
 }
 
 .info-item{
     display: flex;
-    gap: 24px;
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+    width: 563px;
+    height: 67px;
+}
+
+.imagem-vetor{
+    width: 70px;
+    height: 70px;
+}
+
+.texto-vetor{
+    width: 251px;
+    height: 41px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
 }

@@ -14,3 +14,10 @@ section{
     height: 100vh;
     border-top: 5px solid #023158;
 }
+body{
+    display: grid;
+    grid-template-areas: "content";
+}
+main{
+    grid-area: content;
+}

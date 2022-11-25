@@ -1,5 +1,6 @@
 .historia{
     display: grid;
+    grid-area: content;
     width: 100%;
     align-items: center;
     grid-template-areas: 
