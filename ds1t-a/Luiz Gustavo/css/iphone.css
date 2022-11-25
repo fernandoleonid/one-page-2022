@@ -4,66 +4,12 @@
     grid-template-columns: 50% 50%;
 }
 
-.main-left {
-    grid-column: 1;
-    display: grid;
-    place-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: justify;
-    gap: 20px;
-}
-
 .iphones {
     width: 710px;
     height: 400px;
 }
 
-.text-button {
-    color: white;
-    font-weight: 600;
-    font-size: 1.75rem;
-    width: 595px;
-}
-
-.button-iphone {
-    color: white;
-    width: 400px;
-    height: 125px;
-    border: 8px solid white;
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    font-weight: 700;
-    transition: border-color .5s;
-}
-
-.main-right {
-    grid-column: 2;
-    display: grid;
-    place-items: center;
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    color: white;
-    gap: 50px;
-}
-
-.title-iphone {
-    font-weight: 700;
-    font-size: 6rem;
-}
-
-.text-iphone {
-    font-weight: 600;
-    font-size: 1.25rem;
-    width: 590px;
-}
-
-.button-iphone:hover {
-    color: #CB51E2;
-    border-color: #CB51E2;
+.iphone14 {
+    width: 356px;
+    height: 344px;
 }

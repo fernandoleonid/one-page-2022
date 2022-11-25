@@ -1,0 +1,19 @@
+.section-mac{
+    background-color: black;
+
+}
+
+.title-mac{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 6rem;
+}
+
+.main-mac{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 75vh;
+}
+

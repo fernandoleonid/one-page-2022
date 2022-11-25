@@ -1,0 +1,33 @@
+.button-iphone-mac {
+    color: white;
+    width: 400px;
+    height: 125px;
+    border: 8px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    transition: border-color .5s;
+}
+
+.button-iphone-mac:hover {
+    color: #CB51E2;
+    border-color: #CB51E2;
+}
+
+.button-ipad-airpos-watch {
+    background: linear-gradient(180deg, #1B1048 0%, #560762 100%);
+    color: white;
+    width: 400px;
+    height: 125px;
+    border: 8px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    transition: border-color .5s;
+}

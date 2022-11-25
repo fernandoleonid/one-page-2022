@@ -18,3 +18,24 @@ body {
 .section-contato {
     height: 100vh;
 }
+
+.main-right {
+    grid-column: 2;
+    display: grid;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 50px;
+}
+
+.main-left {
+    grid-column: 1;
+    display: grid;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    gap: 20px;
+}

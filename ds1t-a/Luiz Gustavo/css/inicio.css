@@ -16,7 +16,7 @@
 }
 
 .home-text {
-    width: 28vw;
+    width: 35vw;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -28,7 +28,7 @@
 }
 
 .text-apple {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-align: justify;
     font-weight: 600;
 }
