@@ -5,10 +5,10 @@ setInterval( function(){
     nextImage();
 }, 5000)
 
-function nextImage() {
+function nextImage(){
     count++;
-    if(count > 4) {
-        count = 1
+    if(count > 3) {
+        count = 1;
     }
 
     document.getElementById("radio" + count).checked = true;

@@ -2,6 +2,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
+    display: grid;
+    grid-template-areas: "content";
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-size: 100% 100vh;
@@ -23,10 +25,12 @@ section{
     height: 100vh;
 }
 footer{
+    position: absolute;
     height: 120px;
     width: 100%;
     display: grid;
     place-content: center;
+    place-self: end start;
     font-size: .75rem;
     border-top: 2px solid #fff;
     color: #fff;
