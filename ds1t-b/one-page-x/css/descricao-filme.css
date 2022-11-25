@@ -1,9 +1,9 @@
 .descricao-filme{
     display: grid;
     grid-template-areas: 
-    "frase frase"
+    "frase pearl"
     "descricao-movie pearl";
-    
+    grid-template-columns: 1fr  518px;
     
 }
 .frase-efeito{
@@ -13,9 +13,25 @@
     font-family: 'Rubik', sans-serif;
     font-size: 3rem;
     font-style: italic;
+    margin-left: 33rem;
+}
+.i{
+    color: #330606;
+}
+.am{
+    color: #641515;
+}
+.a{
+    color: #501919;
+}
+.star{
+    color: #FF0000;
 }
 .descricao{
     grid-area: descricao-movie;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
 }
 .sobre-o-filme{
     font-family: 'Inter', sans-serif;
@@ -26,21 +42,47 @@
     font-family: 'Rubik', sans-serif;
     font-style: italic;
     color: #471818;
+    margin-left: 144px;
 }
 .lançamento{
     font-size: 1rem;
     color: #FF0000;
+    margin-left: 311px;
 }
 .sobre-o-filme{
     font-family: 'Inter', sans-serif;
+    margin-left: 245px;
+    margin-right: 415px;
+}
+.alugue-agora{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    place-content: center;
+    width: 226px;
+    height: 46px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #91000A;
+    color: #91000A;
+    transition: 0.6s;
+}
+.alugue-agora:hover{
+    box-shadow: 0 0 8px #91000A,
+        0 0 10px #91000A,
+        0 0 20px #91000A;
 }
 .img-pearl{
     grid-area: pearl;
-    
+    z-index: -1;
 }
 .nome-do-filme{
+    
+    
     color: #86150F;
 }
 .diretor{
+    
+    
     color: #86150F;
 }
