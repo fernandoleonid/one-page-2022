@@ -35,12 +35,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: max-height 4s ease-in-out;
-  overflow: hidden;
 }
 
 .character:hover {
   cursor: pointer;
+}
+
+.character__image:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  transform: scale(0.9);
+  transition: 0.2s;
 }
 
 .character__name {
