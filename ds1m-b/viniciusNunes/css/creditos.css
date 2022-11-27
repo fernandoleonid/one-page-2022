@@ -9,15 +9,14 @@
   border-top: 0;
 }
 
-.credito-tittle{
+.credito-tittle {
   font-size: 2rem;
   letter-spacing: 1rem;
   font-weight: 600;
-  color: var(--background-image-color);
-
+  color: var(--secundary-color);
 }
 
-.logo-warner{
+.logo-warner {
   height: 150px;
 }
 
@@ -29,39 +28,35 @@
   justify-content: space-between;
 }
 
-.logo-warner{
+.logo-warner {
   height: 190px;
 }
 
-.container-warner{
-    filter: grayscale(100%);
-    transition: all .25s;
-
+.container-warner {
+  filter: grayscale(100%);
+  transition: all 0.25s;
 }
 
-
-.container-dc{
+.container-dc {
   filter: grayscale(100%);
-  transition: all .25s;
+  transition: all 0.25s;
 }
 
-
-.container-netflix{
+.container-netflix {
   filter: grayscale(100%);
-  transition: all .25s;
-
+  transition: all 0.25s;
 }
 
 /* ANIMAÇÕES */
 
-.container-warner:hover{
+.container-warner:hover {
   filter: grayscale(0%);
 }
 
-.container-dc:hover{
+.container-dc:hover {
   filter: grayscale(0%);
 }
 
-.container-netflix:hover{
+.container-netflix:hover {
   filter: grayscale(0%);
 }

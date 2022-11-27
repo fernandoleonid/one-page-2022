@@ -36,8 +36,12 @@
   letter-spacing: 0.2rem;
 }
 
-.trama__image-container {
+.trama__image {
   height: 100%;
+}
+
+.trama__image-container {
+  height: 100vh;
 }
 
 .trama-description__container {

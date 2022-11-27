@@ -27,6 +27,35 @@ footer {
   animation: slide 4s steps(4) infinite;
 }
 
+.instagram {
+  caret-color: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+
+.github {
+  color: #fff;
+  font-size: 2rem;
+  font-family: var(--fonte-geral);
+}
+
+.linkedin {
+  color: #0274b3;
+  font-size: 2rem;
+  font-family: var(--fonte-geral);
+}
+
+.whatsapp {
+  color: #25d165;
+  font-size: 2rem;
+  font-family: var(--fonte-geral);
+}
+
 @keyframes slide {
   100% {
     top: -200px;

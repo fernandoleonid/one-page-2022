@@ -2,6 +2,7 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Site criado para divulgar a nova série da Netflix Sandman">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -12,28 +13,16 @@
     <link rel="stylesheet" href="./css/trama.css" />
     <link rel="stylesheet" href="./css/creditos.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/responsividade.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script
       src="https://kit.fontawesome.com/0efc108669.js"
       crossorigin="anonymous"
     ></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&family=PT+Serif&family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
     <title>Sandman</title>
   </head>
   <body>
@@ -50,26 +39,34 @@
     <main>
       <header>
         <div class="menu">
-          <ul>
-            <a href="#home">
-              <li>Início</li>
+            <a href="#home" aria-label="link para a página home">
+             <span class="menu-text">Início</span>
             </a>
-            <a href="#personagens">
-              <li>Personagens</li>
+            <a href="#personagens" aria-label="link para a página personagens">
+              <span class="menu-text">Personagens</span>
             </a>
-            <a href="#trama">
-              <li>Trama</li>
+            <a href="#trama" aria-label="link para a página trama">
+              
+              <span class="menu-text">Trama</span>
+
             </a>
-            <a href="#creditos">
-              <li>Créditos</li>
+            <a href="#creditos" aria-label="link para a página Créditos">
+              
+              <span class="menu-text">Créditos</span>
+
             </a>
-            <img src="./img/navigation__logo.png" alt="logo da netflix" />
-          </ul>
+            
+            <img src="./img/navigation__logo.webp" alt="logo da netflix" />
+        </div>
+        
+        <div class="menu-mobile">
+          <img class="logo-mobile" src="./img/navigation__logo.webp" alt="logo da netflix" />
+          <i class="fas fa-bars icon-nav"></i>
         </div>
       </header>
       <div class="home" id="home">
         <div class="home__logo">
-          <img src="./img/tittle__sandman.png" alt="" />
+          <img src="./img/tittle__sandman.webp" alt="Logo Sandman" />
         </div>
         <div class="home__texto"><p>Rei do mundo dos sonhos</p></div>
       </div>
@@ -77,56 +74,56 @@
         <div class="personagens__titulo"><p>Quem está assistindo?</p></div>
         <div class="cards">
           <div class="card-container">
-            <a href="#personagem-morpheu">
+            <a href="#personagem-morpheu" aria-label="link para a página do personagem Dream/Morpheu">
               <img
                 class="card_image"
-                src="./img/card__image-dream.png"
-                alt="Dream"
+                src="./img/card__image-dream.webp"
+                alt="Imagem do personagem Dream"
               />
             </a>
             <span>Dream</span>
           </div>
           <div class="card-container">
-            <a href="#personagem-despair">
+            <a href="#personagem-despair" aria-label="link para a página Despair">
               <img
                 class="card_image"
-                src="./img/card__image-despair.png"
-                alt="Despair"
+                src="./img/card__image-despair.webp"
+                alt="Imagem da personagem Despair"
               />
             </a>
             <span>Despair</span>
           </div>
           <div class="card-container">
-            <a href="#personagem-desire">
+            <a href="#personagem-desire" aria-label="link para a página do personagem Desire">
               <img
                 class="card_image"
-                src="./img/card__image-desire.png"
-                alt="Desire"
+                src="./img/card__image-desire.webp"
+                alt="Imagem do personagem Desire"
               />
             </a>
             <span>Desire</span>
           </div>
           <div class="card-container">
-            <a href="#personagem-death">
+            <a href="#personagem-death" aria-label="link para a página da personagem Death">
               <img
                 class="card_image"
-                src="./img/card__image-death.png"
-                alt="Death"
+                src="./img/card__image-death.webp"
+                alt="Imagem da personagem Death"
               />
             </a>
             <span>Death</span>
           </div>
         </div>
-        <a href="#"><span class="button">Gerenciar Perfis</span></a>
+        <a href="#personagens" aria-label="link para a página personagens"><span class="button">Gerenciar Perfis</span></a>
         <!-- teste -->
       </div>
       <div class="personagens-layout" id="personagem-morpheu">
         <div class="layout-header__image">
-          <img src="./img/elmo-morpheu.png" alt="elmo morpheu" />
+          <img src="./img/elmo-morpheu.webp" alt="elmo morpheu" />
         </div>
         <div class="container-layout">
           <div class="layout__image">
-            <img src="./img/container__image-morpheu.png" alt="" />
+            <img src="./img/container__image-morpheu.webp" alt="Card do personagem Morpheu" />
             <div class="background__image"></div>
           </div>
           <div class="layout-1__description">
@@ -161,7 +158,7 @@
       </div>
       <div class="personagens-layout" id="personagem-despair">
         <div class="layout-header__image">
-          <img src="./img/icon-despair.png" alt="ícone da personagem despero" />
+          <img src="./img/icon-despair.webp" alt="ícone da personagem despero" />
         </div>
         <div class="container-layout">
           <div class="layout-1__description">
@@ -189,7 +186,7 @@
             </div>
           </div>
           <div class="layout__image">
-            <img src="./img/container__image-despair.png" alt="" />
+            <img src="./img/container__image-despair.webp" alt="Card da personagem Despair" />
             <div class="background__image"></div>
           </div>
         </div>
@@ -201,11 +198,11 @@
       </div>
       <div class="personagens-layout" id="personagem-desire">
         <div class="layout-header__image">
-          <img src="./img/icon-desire.png" alt="elmo morpheu" />
+          <img src="./img/icon-desire.webp" alt="elmo morpheu" />
         </div>
         <div class="container-layout">
           <div class="layout__image">
-            <img src="./img/container__image-desire.png" alt="" />
+            <img src="./img/container__image-desire.webp" alt="Card do personagem Desire" />
             <div class="background__image"></div>
           </div>
           <div class="layout-1__description">
@@ -240,7 +237,7 @@
       </div>
       <div class="personagens-layout" id="personagem-death">
         <div class="layout-header__image">
-          <img src="./img/icon-death.png" alt="ícone da personagem despero" />
+          <img src="./img/icon-death.webp" alt="ícone da personagem despero" />
         </div>
         <div class="container-layout">
           <div class="layout-1__description">
@@ -268,7 +265,7 @@
             </div>
           </div>
           <div class="layout__image">
-            <img src="./img/container__image-death.png" alt="" />
+            <img src="./img/container__image-death.webp" alt="Card da personagem Death" />
             <div class="background__image"></div>
           </div>
         </div>
@@ -309,39 +306,39 @@
         <div class="trama__image-container">
           <img
             class="trama__image"
-            src="./img/trama_background-image.png"
+            src="./img/trama_background-image.webp"
             alt=""
           />
         </div>
       </div>
       <div class="creditos" id="creditos">
         <div class="container-logo">
-          <img src="./img/tittle__sandman.png" alt="Logo Sandman" />
+          <img src="./img/tittle__sandman.webp" alt="Logo Sandman" />
         </div>
         <div class="credito-tittle">CRÉDITOS</div>
         <div class="creditos-logos">
           <div class="container-netflix">
             <a href="https://www.netflix.com/br/title/81150303" target="_blank"
-              ><img
+            aria-label="link para a página da Netflix"><img
                 class="container-netflix"
-                src="./img/container-logo_netflix.png"
+                src="./img/container-logo_netflix.webp"
                 alt="logo da netflix"
             /></a>
           </div>
           <div class="container-warner">
-            <a href="https://www.warnerbros.com/tv" target="_blank">
+            <a href="https://www.warnerbros.com/tv" target="_blank" aria-label="link para a página da warnerbros">
               <img
                 class="logo-warner"
-                src="./img/container-warner.png"
-                alt="logo da netflix"
+                src="./img/container-warner.webp"
+                alt="logo da WarnerBros"
             /></a>
           </div>
           <div class="logo-dc">
-            <a href="https://www.dc.com/" target="_blank"
+            <a href="https://www.dc.com/" target="_blank" aria-label="link para a página da DC Comics"
               ><img
                 class="container-dc"
-                src="./img/container-logo_dc.png"
-                alt="logo da netflix"
+                src="./img/container-logo_dc.webp"
+                alt="logo da WarnerBros"
             /></a>
           </div>
         </div>
@@ -352,31 +349,37 @@
       <ul class="palavra-dinamica">
         <li>
           <span
-            ><a href="https://github.com/viniciusnunes137" target="_blank"
-              >GitHub <i class="fab fa-github"></i></a
-          ></span>
+            ><a href="https://github.com/viniciusnunes137" target="_blank" aria-label="link para a minha página do GitHub">Github</a>
+              <i class="fab fa-github github"> <span class="github-text"></span></i></a
+            ></span
+          >
         </li>
         <li>
           <span
             ><a
               href="https://www.linkedin.com/in/vinicius-nunes-300552210/"
-              target="_blank"
-              >LinkedIn <i class="fab fa-linkedin-in"></i></a
-          ></span>
+              target="_blank" aria-label="link para a minha página do linkedin"
+            >LinkedIn
+              <i class="fab fa-linkedin-in linkedin"></i></a
+            ></span
+          >
         </li>
         <li>
           <span
-            ><a href="https://www.instagram.com/nunesvine/" target="_blank"
-              >Instagram <i class="fab fa-instagram"></i></a
-          ></span>
+            ><a href="https://www.instagram.com/nunesvine/" target="_blank" aria-label="link para a minha página do instagram"> Instagram
+              <i class="fab fa-instagram instagram"></i></a
+            ></span
+          >
         </li>
         <li>
           <span
             ><a
               href="https://api.whatsapp.com/send?phone=5511954244032"
-              target="_blank"
-              >WhatsApp <i class="fab fa-whatsapp"></i></a
-          ></span>
+              target="_blank" aria-label="link para conversar comigo via whatsapp"
+            > Whatsapp
+            <i class="fab fa-whatsapp"></i></a
+            ></span
+          >
         </li>
       </ul>
     </footer>

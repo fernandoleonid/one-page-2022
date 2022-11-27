@@ -26,16 +26,16 @@
 }
 
 .layout__image img {
-  width: 400px;
+  width: 350px;
   z-index: 2;
 }
 
 .background__image {
-  height: 400px;
+  height: 350px;
   background-color: var(--background-image-color);
-  width: 400px;
+  width: 350px;
   position: absolute;
-  transform: translate(40px, -370px);
+  transform: translate(40px, -320px);
   z-index: -1;
 }
 
