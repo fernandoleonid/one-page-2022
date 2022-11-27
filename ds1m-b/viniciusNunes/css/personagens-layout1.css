@@ -16,6 +16,10 @@
   justify-content: space-around;
 }
 
+.layout__tittles {
+  letter-spacing: 0.5rem;
+}
+
 .layout-header__image img {
   height: 150px;
   z-index: 2;

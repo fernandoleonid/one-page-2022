@@ -9,17 +9,21 @@
   .menu-mobile {
     display: flex;
     width: 100vw;
-    height: 40px;
+    height: 80px;
     justify-content: space-between;
-    margin: 64px;
+    align-items: flex-end;
+    margin: 32px;
   }
 
   .menu-mobile img {
-    height: 100%;
+    height: 32px;
+  }
+  .logo-mobile{
+    height: 64px;
   }
 
   .icon-nav {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   /* HOME */
   .home {
