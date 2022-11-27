@@ -6,10 +6,18 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/menu.css" />
-    <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/personagens.css">
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/personagens.css" />
+    <link rel="stylesheet" href="./css/personagens-layout1.css" />
+    <link rel="stylesheet" href="./css/trama.css" />
+    <link rel="stylesheet" href="./css/creditos.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/0efc108669.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
@@ -29,62 +37,348 @@
     <title>Sandman</title>
   </head>
   <body>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app')
+    </script>
     <main>
-        <header>
-            <div class="menu">
-              <ul>
-                <a href="#">
-                  <li>Início</li>
-                </a>
-                <a href="#">
-                  <li>Personagens</li>
-                </a>
-                <a href="#">
-                  <li>Trama</li>
-                </a>
-                <a href="#">
-                  <li>Créditos</li>
-                </a>
-                <img src="./img/navigation__logo.png" alt="logo da netflix" />
-              </ul>
-            </div>
-          </header>
-          <div class="home">
-              <div class="home__logo"><img src="./img/tittle__sandman.png" alt=""></div>
-              <div class="home__texto"><p>Rei do mundo dos sonhos</p></div>
-          </div>
-          <div class="personagens">
-              <div class="personagens__titulo"><p>Quem está assistindo?</p></div>
-              <div class="cards">
-                  <div class="card-container">
-                    <a href="#">
-                        <img class="card_image" src="./img/card__image-dream.png" alt="Dream">
-                    </a>
-                    <span>Dream</span>
-                  </div>
-                  <div class="card-container">
-                    <a href="#">
-                        <img class="card_image" src="./img/card__image-despair.png" alt="Despair">
-                    </a>
-                    <span>Despair</span>
-                  </div>
-                  <div class="card-container">
-                    <a href="#">
-                        <img class="card_image" src="./img/card__image-desire.png" alt="Desire">
-                    </a>
-                    <span>Dream</span>
-                  </div>
-                  <div class="card-container">
-                    <a href="#">
-                        <img class="card_image" src="./img/card__image-death.png" alt="Death">
-                    </a>
-                    <span>Dream</span>
-                  </div>
-              </div>
-              <button class="button">Gerenciar Perfis</button> 
-              <!-- teste -->
+      <header>
+        <div class="menu">
+          <ul>
+            <a href="#">
+              <li>Início</li>
+            </a>
+            <a href="#">
+              <li>Personagens</li>
+            </a>
+            <a href="#">
+              <li>Trama</li>
+            </a>
+            <a href="#">
+              <li>Créditos</li>
+            </a>
+            <img src="./img/navigation__logo.png" alt="logo da netflix" />
+          </ul>
         </div>
+      </header>
+      <div class="home">
+        <div class="home__logo">
+          <img src="./img/tittle__sandman.png" alt="" />
+        </div>
+        <div class="home__texto"><p>Rei do mundo dos sonhos</p></div>
+      </div>
+      <div class="personagens">
+        <div class="personagens__titulo"><p>Quem está assistindo?</p></div>
+        <div class="cards">
+          <div class="card-container">
+            <a href="#">
+              <img
+                class="card_image"
+                src="./img/card__image-dream.png"
+                alt="Dream"
+              />
+            </a>
+            <span>Dream</span>
+          </div>
+          <div class="card-container">
+            <a href="#">
+              <img
+                class="card_image"
+                src="./img/card__image-despair.png"
+                alt="Despair"
+              />
+            </a>
+            <span>Despair</span>
+          </div>
+          <div class="card-container">
+            <a href="#">
+              <img
+                class="card_image"
+                src="./img/card__image-desire.png"
+                alt="Desire"
+              />
+            </a>
+            <span>Desire</span>
+          </div>
+          <div class="card-container">
+            <a href="#">
+              <img
+                class="card_image"
+                src="./img/card__image-death.png"
+                alt="Death"
+              />
+            </a>
+            <span>Death</span>
+          </div>
+        </div>
+        <a href="#"><span class="button">Gerenciar Perfis</span></a>
+        <!-- teste -->
+      </div>
+      <div class="personagens-layout">
+        <div class="layout-header__image">
+          <img src="./img/elmo-morpheu.png" alt="elmo morpheu" />
+        </div>
+        <div class="container-layout">
+          <div class="layout__image">
+            <img src="./img/container__image-morpheu.png" alt="" />
+            <div class="background__image"></div>
+          </div>
+          <div class="layout-1__description">
+            <div class="layout__tittles">
+              <h2 class="layout-1__tittle">DREAM</h2>
+              <div class="layout__container-subtittle">
+                <h3 class="layout__subtittle">REINO SONHAR</h3>
+                <div class="layout-1__subtittle-traco"></div>
+              </div>
+            </div>
+            <div class="layout__description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply
+              random text. It has roots in a piece of classical Latin literature
+              from 45 BC.
+            </div>
+          </div>
+        </div>
+        <div class="citacao">
+          Então, lutando para continuar dormindo, desejando que o sonho durasse
+          para sempre, certo de que uma vez que acabasse, jamais voltaria...
+          você desperta.
+        </div>
+      </div>
+      <div class="personagens-layout">
+        <div class="layout-header__image">
+          <img src="./img/icon-despair.png" alt="ícone da personagem despero" />
+        </div>
+        <div class="container-layout">
+          <div class="layout-1__description">
+            <div class="layout__tittles">
+              <h2 class="layout-2__tittle">DESPAIR</h2>
+              <div class="layout__container-subtittle">
+                <div class="layout-2__subtittle-traco"></div>
+
+                <h3 class="layout__subtittle">REINO CINZA</h3>
+              </div>
+            </div>
+            <div class="layout2__description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply
+              random text. It has roots in a piece of classical Latin literature
+              from 45 BC.
+            </div>
+          </div>
+          <div class="layout__image">
+            <img src="./img/container__image-despair.png" alt="" />
+            <div class="background__image"></div>
+          </div>
+        </div>
+        <div class="citacao">
+          Então, lutando para continuar dormindo, desejando que o sonho durasse
+          para sempre, certo de que uma vez que acabasse, jamais voltaria...
+          você desperta.
+        </div>
+      </div>
+      <div class="personagens-layout">
+        <div class="layout-header__image">
+          <img src="./img/icon-desire.png" alt="elmo morpheu" />
+        </div>
+        <div class="container-layout">
+          <div class="layout__image">
+            <img src="./img/container__image-desire.png" alt="" />
+            <div class="background__image"></div>
+          </div>
+          <div class="layout-1__description">
+            <div class="layout__tittles">
+              <h2 class="layout-3__tittle">DESIRE</h2>
+              <div class="layout__container-subtittle">
+                <h3 class="layout__subtittle">REINO LIMIAR</h3>
+                <div class="layout-1__subtittle-traco"></div>
+              </div>
+            </div>
+            <div class="layout__description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply
+              random text. It has roots in a piece of classical Latin literature
+              from 45 BC.
+            </div>
+          </div>
+        </div>
+        <div class="citacao">
+          Então, lutando para continuar dormindo, desejando que o sonho durasse
+          para sempre, certo de que uma vez que acabasse, jamais voltaria...
+          você desperta.
+        </div>
+      </div>
+      <div class="personagens-layout">
+        <div class="layout-header__image">
+          <img src="./img/icon-death.png" alt="ícone da personagem despero" />
+        </div>
+        <div class="container-layout">
+          <div class="layout-1__description">
+            <div class="layout__tittles">
+              <h2 class="layout-4__tittle">DEATH</h2>
+              <div class="layout__container-subtittle">
+                <div class="layout-3__subtittle-traco"></div>
+
+                <h3 class="layout__subtittle">REINO DESCONHECIDO</h3>
+              </div>
+            </div>
+            <div class="layout2__description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply
+              random text. It has roots in a piece of classical Latin literature
+              from 45 BC.
+            </div>
+          </div>
+          <div class="layout__image">
+            <img src="./img/container__image-death.png" alt="" />
+            <div class="background__image"></div>
+          </div>
+        </div>
+        <div class="citacao">
+          Então, lutando para continuar dormindo, desejando que o sonho durasse
+          para sempre, certo de que uma vez que acabasse, jamais voltaria...
+          você desperta.
+        </div>
+      </div>
+      <div class="trama">
+        <div class="trama-textos">
+          <div class="trama-description">
+            <div class="trama-description__container">
+              <div class="trama-number">1</div>
+              <div class="trama-texts">
+                <div class="trama-tittle">ENREDO</div>
+                <div class="trama__description">
+                  Em Sandman, um mago acaba capturando o Rei dos Sonhos durante
+                  um ritual de magia das trevas e o mantém preso por décadas.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="trama-line"></div>
+          <div class="trama-description">
+            <div class="trama-description__container">
+              <div class="trama-number">2</div>
+              <div class="trama-texts">
+                <div class="trama-tittle">PRELUDIO</div>
+                <div class="trama__description">
+                  Em Sandman, um mago acaba capturando o Rei dos Sonhos durante
+                  um ritual de magia das trevas e o mantém preso por décadas.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="trama__image-container">
+          <img
+            class="trama__image"
+            src="./img/trama_background-image.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="creditos">
+        <div class="container-logo">
+          <img src="./img/tittle__sandman.png" alt="Logo Sandman" />
+        </div>
+        <div class="credito-tittle">CRÉDITOS</div>
+        <div class="creditos-logos">
+          <div class="container-netflix">
+            <a href="#"
+              ><img
+                class="container-netflix"
+                src="./img/container-logo_netflix.png"
+                alt="logo da netflix"
+            /></a>
+          </div>
+          <div class="container-warner">
+            <a href="#">
+              <img
+                class="logo-warner"
+                src="./img/container-warner.png"
+                alt="logo da netflix"
+            /></a>
+          </div>
+          <div class="logo-dc">
+            <a href="#"
+              ><img
+                class="container-dc"
+                src="./img/container-logo_dc.png"
+                alt="logo da netflix"
+            /></a>
+          </div>
+        </div>
+      </div>
     </main>
-    <footer>footer</footer>
+    <footer>
+      <div class="palavra-estatica">Conheça minhas redes sociais</div>
+      <ul class="palavra-dinamica">
+        <li>
+          <span
+            ><a href="https://github.com/viniciusnunes137" target="_blank"
+              >GitHub <i class="fab fa-github"></i></a
+          ></span>
+        </li>
+        <li>
+          <span
+            ><a
+              href="https://www.linkedin.com/in/vinicius-nunes-300552210/"
+              target="_blank"
+              >LinkedIn <i class="fab fa-linkedin-in"></i></a
+          ></span>
+        </li>
+        <li>
+          <span
+            ><a href="https://www.instagram.com/nunesvine/" target="_blank"
+              >Instagram <i class="fab fa-instagram"></i></a
+          ></span>
+        </li>
+        <li>
+          <span
+            ><a
+              href="https://api.whatsapp.com/send?phone=5511954244032"
+              target="_blank"
+              >WhatsApp <i class="fab fa-whatsapp"></i></a
+          ></span>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
