@@ -15,8 +15,8 @@
 - [x] Possuir a quantidade de sessões ≥ 4
 - [x] Implementar o clean code
 - [X] Integrar a API [VLibras](https://www.gov.br/governodigital/pt-br/vlibras)
-- [ ] Tornar o projeto responsivo
-- [ ] Entregar via Pull Request
+- [X] Tornar o projeto responsivo
+- [X] Entregar via Pull Request
 
 ## **TECNOLOGIAS APLICADAS**
 
