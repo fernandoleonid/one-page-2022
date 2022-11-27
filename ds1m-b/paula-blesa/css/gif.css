@@ -32,8 +32,9 @@
 .gif1 {
     display: flex;
     border-radius: 20px;
-    width: 15%;
-    margin-left: 240px;
+    width: 15%; 
+
+    
     margin-top: 30px;
     height: 300px;
 }

@@ -46,7 +46,10 @@ footer {
     font-family: 'Patrick Hand', cursive;
     font-size: 2rem;
 }
+.menuzinho{
+    display: none;   
 
+}
 .voltar {
     position: fixed;
     right: 16px;
@@ -61,3 +64,4 @@ footer {
 .voltar:hover {
     color: #D2AC47;
 }
+

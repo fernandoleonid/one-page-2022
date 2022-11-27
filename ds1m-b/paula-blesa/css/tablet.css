@@ -1,0 +1,73 @@
+@media(max-width:960px) {
+nav{
+        display: none;
+    }
+ .menuzinho {
+        display: block;
+        font-size: 40px;
+        width: 100px;
+        margin-left: 800px;     
+    }
+.title{
+    display: flex;
+    width: 1500px;
+    font-family: 'Updock', cursive;
+    font-size: 13rem;
+    color: white;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+}
+.title-sobre {
+    display: flex;
+    font-size: 6rem;
+    font-family: 'Piedra', cursive;
+}
+.sobre-icon{
+    display: flex; 
+    width: 1200px; 
+    gap: 26px;
+}
+.description-cat{
+    display: flex;
+    width: 1000px;
+    
+}
+.description-title {
+    display: flex;
+    font-size: 1.5rem;
+    
+    
+}
+.description-text {
+    display: flex;
+    font-size: 1.5rem;
+  
+}
+.slideshow-container{
+    display: flex;
+    justify-content: center;
+    width: 65%;
+}
+.dots-images {
+    display: flex;
+}
+.title-raças {
+    display: flex;
+    font-size: 6rem;
+    font-family: 'Piedra', cursive;
+}
+.raças-icon{
+    display: flex; 
+    width: 1200px; 
+    gap: 26px;
+}
+
+
+
+
+
+
+
+
+
+    }

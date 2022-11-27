@@ -23,30 +23,20 @@
 }
 
 .description-title {
-    width: 500px;
+    display: flex;
+    width: 500px; 
     font-family: 'Patrick Hand', cursive;
-    font-size: 1.70rem;
+    font-size: 2rem;
     color: #000000;
+    margin-top: 30px;
+    margin-left: 100px;
 }
-
-.description-cat {
-    display: flex;
-    flex-direction: column;
-}
-
-.sobre-gatos {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: start;
-    margin: 64px;
-}
-
 .description-text {
     display: flex;
     flex-direction: column;
     max-width: 500px;
     font-family: 'Patrick Hand', cursive;
-    font-size: 1.70rem;
+    font-size:2rem;
     color: #000000;
+    
 }

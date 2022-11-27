@@ -22,7 +22,7 @@
 .curiosidade-text {
     display: flex;
     flex-direction: row;
-    gap: 400px;
+    gap: 500px;
 }
 
 .text6 {
