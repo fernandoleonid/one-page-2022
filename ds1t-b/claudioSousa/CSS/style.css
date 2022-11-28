@@ -39,3 +39,15 @@ main{
 section{
     height: 100vh;
 }
+
+footer{
+    height: 50px;
+    background-color: #0006;
+    grid-area: content;
+    display: grid;
+    place-self: end start;
+    width: 100%;
+    place-content: center;
+    border-top: 2px solid #fff;
+    font-size: 1rem;
+}

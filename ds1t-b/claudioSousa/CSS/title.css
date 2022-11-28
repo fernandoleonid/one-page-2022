@@ -1,6 +1,6 @@
 .title{
     grid-area: title;
-    font-size: 8rem;
+    font-size: 7.5rem;
     font-family: 'Lalezar', cursive;
     background: linear-gradient(#fff, #F43F06);
     background-clip: text;
