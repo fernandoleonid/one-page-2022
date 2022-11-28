@@ -1,17 +1,43 @@
 .trailer{
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 80px;
-    background-image: url(../img/pandora\ 1.png);
+    background-image: url(../img/azul.gif);
+    box-shadow: inset 0px -40px 40px #0c0549;
+    background-size: cover;
+    
 }
 .trailer_title{
-    grid-area: title;
     font-family: 'Eagle Lake', cursive;
-    font-size: 8.25rem;
+    font-size: 15rem;
     background-image: linear-gradient( #1602F9 , #00C9F5);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;  
 }
-
+.img_trailer{
+    width: 800px;
+    display: grid;
+     
+}
+.img_trailer::before{
+    content: "Click aqui para ver o Trailer";
+    background-color: #0005;
+    transform: translateY(0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-content: center ;
+    font-weight: 700; 
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    z-index: -1;
+    transition: transform 5s;
+}
+.img_trailer:hover::before{
+    transform: translateY(0%);
+    z-index: 1;
+}

@@ -1,3 +1,68 @@
 .personagem{
-    background-image: url(../img/pandora\ 1.png);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    background-image: url(../img/azul.gif);
+    box-shadow: inset 0px -40px 40px #0c0549;
+    background-size: cover;
+    grid-template-areas:
+    "title title  "
+    "neytiri jake "
+   ;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
 }
+.title_personagem{
+    grid-area: title;
+    font-family: 'Eagle Lake', cursive;
+    font-size: 14rem;
+    background-image: linear-gradient( #1602F9 , #00C9F5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;  
+    display: flex; 
+}
+.card_personagem{
+    width: 100%;
+    
+}
+.neytiri_img{
+    width: 300px;
+}
+.neytiri{
+    grid-area: neytiri;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+
+}
+.description_neytiri{
+    width: 500px;
+    font-size: 4rem;
+   font-family: 'avatar';
+   font-weight: 400;
+}
+
+.jake{
+    background-color: rgb(140, 240, 202);
+    grid-area: jake;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+.jake_img{
+   height: 820px;
+}
+.description_jake{
+    width: 500px;
+    font-size: 4rem;
+    font-family: 'avatar';
+    font-weight: 400;
+}    

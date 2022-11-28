@@ -15,17 +15,24 @@ body{
     color: var(--primary-color);
     font-family: 'ABeeZee', sans-serif;
 }
+@font-face{
+    font-family: 'avatar';
+    src: url(../papyrus/Parchment\ MF.ttf);
+}
+
 header{
     grid-area: content;
     place-self: start ;
     z-index: 999;
-    max-width: 1200px;
+    max-width: 1500px;
     width: 100%;
     margin-top: 70px;
     display: flex;
     margin-left: 72px;
+    justify-content: space-between;
     
 }
+
 main{
     grid-area: content;
     display: flex;

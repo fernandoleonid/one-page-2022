@@ -1,3 +1,11 @@
 .curiosidade{
-    background-image: url(../img/pandora\ 1.png);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    background-image: url(../img/azul.gif);
+    box-shadow: inset 0px -40px 40px #0c0549;
+    background-size: cover;
+    
 }
