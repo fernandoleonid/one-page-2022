@@ -33,6 +33,7 @@
     display: flex;
     border-radius: 20px;
     width: 15%; 
+    margin-left: 260px;
 
     
     margin-top: 30px;
@@ -48,7 +49,7 @@
     display: flex;
     border-radius: 20px;
     width: 15%;
-    margin-left: 240px;
-    margin-top: 30px;
+    margin-left: 260px;
+    margin-top: 40px;
     height: 300px;
 }

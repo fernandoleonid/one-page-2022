@@ -24,7 +24,7 @@ nav{
 }
 .sobre-icon{
     display: flex; 
-    width: 1200px; 
+    width: 1000px; 
     gap: 26px;
 }
 .description-cat{
@@ -35,8 +35,6 @@ nav{
 .description-title {
     display: flex;
     font-size: 1.5rem;
-    
-    
 }
 .description-text {
     display: flex;
