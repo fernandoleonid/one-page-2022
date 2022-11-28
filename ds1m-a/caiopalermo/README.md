@@ -6,7 +6,7 @@
 
 ![Screenshot](screenshot.PNG)
 
-[Clique aqui](hasegawataizou.github.io/one-page-2022/) para visitar o site.
+[Clique aqui](https://hasegawataizou.github.io/gintama-novo/) para visitar o site.
 
 ---
 

@@ -58,6 +58,12 @@
   border-radius: 100%;
 }
 
+.character__image:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(0.8);
+  transition: 0.2s;
+}
+
 .character__name {
   text-align: center;
   margin-top: 20px;
