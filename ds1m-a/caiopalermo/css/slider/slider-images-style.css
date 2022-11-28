@@ -19,6 +19,7 @@
 
 .dots-images {
     margin: 10px 0px;
+    user-select: none;
 }
 
 .dot-images {

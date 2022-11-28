@@ -73,6 +73,7 @@
 
 .banner-quote__author {
   font-size: 2.5rem;
+  user-select: none;
 }
 
 .banner-quote__button {
