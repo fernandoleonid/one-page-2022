@@ -1,0 +1,10 @@
+.casal-warren{
+    display: flex;
+    flex-direction: column;
+}
+.casal{
+    display: flex;
+    padding: 80px;
+    gap: 30px;
+}
+
