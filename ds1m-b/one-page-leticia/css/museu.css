@@ -1,0 +1,23 @@
+.museu{
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "title title"
+    "description slider";
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+}
+
+.description{
+    grid-area: description;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-weight: lighter;
+    font-size: 1.65rem;
+    line-height: 150%;
+    padding-left: 15%;
+}
+
+/* slider.css */
