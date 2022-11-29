@@ -3,9 +3,8 @@ header {
     width: 90%;
     display: flex;
     gap: 52px;
-    position: absolute;
-    top: 10%;
-    left: 10%;
+   margin-top: 40px;
+   margin-left: 50px;
 }
 
 header h2 {

@@ -11,8 +11,12 @@
 
 html {
     scroll-behavior: smooth;
+   
 }
-
+html, body{
+    height: 100%;
+    width: 100%;
+}
 body {
     background-color: var(--body-color);
     display: flex;
@@ -20,13 +24,14 @@ body {
     align-items: center;
     margin-top: var(--space-top);
     gap: 14px;
+    box-sizing: border-box;
 
 }
 
 section {
     background-color: var(--section-color);
-    width: var(--width-desktop);
-    height: var(--height-desktop);
+    height: 94%;
+    width: 85%;
     border-radius: 2px;
 }
 
@@ -34,17 +39,22 @@ section {
     display: flex;
     flex-direction: column;
 }
-.home__container{
+.home__content{
     display: flex;
-    
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    gap: 10%;
 }
-
+.home__index{
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
 .cello{
     width: 546px;
     height: 705px;
-    position: absolute;
-    top: 15%;
-    right: 13%;
+    
 }
 nav{
     display: flex;
