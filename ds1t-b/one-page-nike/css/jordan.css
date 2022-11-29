@@ -1,5 +1,5 @@
-.soccer {
-    background-image: url(../img/soccer/nike-soccer.png);
+.jordan {
+    background-image: url(../img/jordan/jordan23.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -10,51 +10,53 @@
     box-shadow: inset 0px -40px 40px black; 
 }
 
-.title-soccer {
-    margin-bottom: auto;
+.title-jordan {
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 10vh;
+    height: 13vh;
     font-size: 7rem;
+    color: #FF0000;
 }
 
-.soccer-t {
-    color: #14FF00;
+.jordan-t {
+    color: #FFF;
 }
 
-.soccer-t2 {
+.jordan-t2 {
     align-items: center;
     font-size: 2rem;
+    color: #FFF;
 }
 
-.title-soccer:hover {
-    text-shadow: 0 0 5px #14FF00, 0 0 6px #14FF00;
+.title-jordan:hover {
+    text-shadow: 0 0 5px #FF0000, 0 0 6px #FF0000;
 }
 
-.img-container-soccer {
-    margin-bottom: auto;
+.img-container-jordan {
+    margin-top: 100px;
     height: 50%;
     width: 55%;
     display: flex;
 }
 
-.images-soccer {
-    border: 0.2px solid #0C9900;
+.images-jordan {
+    border: 0.2px solid #FF0000;
 }
 
-.description-soccer {
+.description-jordan {
     width: 150px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
 }
 
-.description-soccer-price {
+.description-jordan-price {
     width: 100px;
     margin-right: auto;
     margin-left: auto;
-    color: #14FF00;
+    color: #FF0000;
 }
 
 .img::before {
@@ -74,20 +76,20 @@
     transform: translateX(0%);
 }
 
-.circulos-interacao-soccer {
-    margin-bottom: auto;
+.circulos-interacao-jordan {
+    margin-bottom: 50px;
     display: flex;
     gap: 20px;
 }
 
-.soccer .circulo1 {
+.jordan .circulo1 {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: #14FF00;
+    background-color: #FF0000;
 }
 
-.soccer .circulo2 {
+.jordan .circulo2 {
     width: 15px;
     height: 15px;
     border-radius: 50%;

@@ -42,6 +42,10 @@ section {
     height: 100vh;
 }
 
+.follow-us {
+    height: 40vh;
+}
+
 footer{
     place-self: end start;
     grid-area: content;
@@ -49,6 +53,6 @@ footer{
     width: 100%;
     display: grid;
     place-content: center;
-    font-size: .75rem;
+    font-size: .85rem;
     border-top: 2px solid #fff;
 }

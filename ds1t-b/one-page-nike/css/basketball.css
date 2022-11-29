@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 10vh;
+    height: 18vh;
     font-size: 7rem;
 }
 
@@ -59,14 +59,21 @@
 .basketball .img {
     position: relative;
     overflow: hidden;
+    border-radius: 30%;
 }
 
- .basketball .images {
-    border: 2px solid #ff7300;
+ .basketball .images-basketball {
+    border: 8px solid #ff7300;
+}
+
+.basketball .images-basketball:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+    transition: 500ms linear;
 }
 
 .circulos-interacao-basketball {
-    margin-bottom: auto;
+    margin-top: 5px;
     display: flex;
     gap: 20px;
 }
