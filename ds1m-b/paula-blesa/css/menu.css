@@ -13,3 +13,7 @@
 .menu li:hover {
     border-color: var(--amareloEsc-color);
 }
+
+.logo {
+    display: grid;
+}

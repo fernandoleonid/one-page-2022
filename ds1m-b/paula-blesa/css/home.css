@@ -1,5 +1,5 @@
 .home {
-    display: flex;
+    display: grid;
     background-image: url(../img/gatosqnsom.png);
     background-size: cover;
     width: 100%;
@@ -8,16 +8,10 @@
     align-items: center;
 }
 
-.cats {
-    display: flex;
-}
-
 .title {
-    width: 882px;
     font-family: 'Updock', cursive;
     font-weight: 400;
     font-size: 20rem;
-    line-height: 30px;
     color: white;
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: black;

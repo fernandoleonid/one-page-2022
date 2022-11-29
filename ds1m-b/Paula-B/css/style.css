@@ -1,0 +1,41 @@
+              :root {
+                 --primari-color: #F8E795;
+                 --cinze-color: #E7E7E7;
+                 --amareloEsc-color: #D2AC47;
+             }
+             
+             html {
+                 scroll-behavior: smooth;
+             }
+             
+             body {
+                 grid-template-areas: "content";
+                 background-color: #E7E7E7;
+                 place-content: center;
+             }
+             
+             header {
+                 grid-area: content;
+                 width: 100%;
+                 display: grid;
+                 grid-template-columns: auto 1fr;
+                 justify-content: space-between;
+                 align-items: center;
+                 background-color: #F8E795;
+                 font-family: 'Updock', cursive;
+             }
+             
+             main {
+                 flex-direction: column;
+                 align-items: center;
+             }
+             
+             section {
+                 height: 100vh;
+             }
+             
+             footer {
+                 height: 10vh;
+                 width: 100%;
+                 display: grid;
+             }

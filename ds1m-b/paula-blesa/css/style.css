@@ -12,6 +12,7 @@ body {
     display: grid;
     grid-template-areas: "content";
     background-color: #E7E7E7;
+    place-content: center;
 }
 
 header {
@@ -26,8 +27,7 @@ header {
 }
 
 main {
-    flex-direction: column;
-    align-items: center;
+    display: grid;
 }
 
 section {
@@ -37,7 +37,7 @@ section {
 
 footer {
     place-self: end center;
-    height: 100px;
+    height: 10vh;
     width: 100%;
     display: grid;
     place-content: center;
@@ -46,10 +46,11 @@ footer {
     font-family: 'Patrick Hand', cursive;
     font-size: 2rem;
 }
-.menuzinho{
-    display: none;   
 
+.menuzinho {
+    display: none;
 }
+
 .voltar {
     position: fixed;
     right: 16px;
@@ -64,4 +65,3 @@ footer {
 .voltar:hover {
     color: #D2AC47;
 }
-

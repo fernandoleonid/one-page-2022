@@ -1,0 +1,7 @@
+/* TABLET */
+
+@media (max-width: 960px) {
+    nav {
+        display: none;
+    }
+}
