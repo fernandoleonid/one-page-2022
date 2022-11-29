@@ -1,6 +1,6 @@
 # **ONE PAGE - SANDMAN**
 
-<img src="./viniciusNunes/img/DESKTOP.png"/>
+<img src="./img/DESKTOP.png"/>
 
 ## [Clique aqui](https://viniciusnunes137.github.io/one-page-2022/ds1m-b/viniciusNunes/) para acessar o site
 
