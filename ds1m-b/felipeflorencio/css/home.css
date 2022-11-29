@@ -1,0 +1,24 @@
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+.home__content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    gap: 10%;
+}
+
+.cello{
+    width: 546px;
+    height: 705px;
+    
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}

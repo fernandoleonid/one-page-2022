@@ -1,0 +1,49 @@
+.composers ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 75px;
+    height: 75%;
+}
+.composers li{
+   display: flex;
+   flex-direction: column;
+   width: 16rem;
+   gap: 1.75rem;
+}
+.composers h2{
+    font-family: 'Fredericka the Great';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #D2D1E8;
+}
+.composers p{
+    font-family: 'Sunflower';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.11em;
+    color: #D2D1E8;
+}
+.composers li img{
+    height: 332px;
+    width: 259px;
+}
+#chopin{
+    align-items: flex-start;
+    text-align: left;
+}
+#bethoven{
+    align-items: center;
+    text-align: center;
+    margin-top: 7rem;
+}
+#mozart{
+    align-items: flex-end;
+    text-align: end;
+    margin-top: 2.8rem;
+}
+.circle-for-pages{
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
