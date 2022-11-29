@@ -24,6 +24,7 @@
 .dots-hasegawa {
   margin-top: 20px;
   margin-bottom: 30px;
+  user-select: none;
 }
 
 .dot-hasegawa {

@@ -6,7 +6,7 @@
 
 ![Screenshot](screenshot.PNG)
 
-[Clique aqui](https://hasegawataizou.github.io/gintama-novo/) para visitar o site.
+[Clique aqui](https://fernandoleonid.github.io/one-page-2022/ds1m-a/caiopalermo/) para visitar o site.
 
 ---
 
@@ -34,13 +34,21 @@ Segue o Exemplo:
 ![Sign](sign.PNG)
 
 ---
+##  UserWay
+O UserWay simplifica a acessibilidade, a conformidade e a experiência do usuário para organizações de todos os portes.
+
+Segue o Exemplo:
+
+![UserWay](userway.PNG)
+
+---
 ## Relatório do LightHouse
 O LightHouse basicamente analisa todo o seu site, indicando como está determinados aspectos do mesmo. Segue o relatório:
 
 ![Report](report.PNG)
 
 ---
-## Desing
+## Design
 O Layout deste site foi baseado no Figma. Segue o link:
 
 [Link do Figma](https://www.figma.com/file/yk6pZFeN8DjKeG8arN3DVA/GINTAMA?node-id=0%3A1)
