@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/novidades.css">
     <link rel="stylesheet" href="./css/banner.css">
     <link rel="stylesheet" href="./css/buttom.css">
+    <script src="https://kit.fontawesome.com/79c69653b7.js" crossorigin="anonymous"></script>
     <title>among us</title>
 </head>
 <body>  
@@ -28,7 +29,7 @@
                 <span>NOVIDADES</span>
             </a>
             <a href="#download">
-                <span>DOWLOAD</span>
+                <span>DOWNLOAD</span>
             </a>
         </nav>
     </header>
@@ -45,27 +46,46 @@
         </section>
         <section class="novidades" id="novidades">
             <h2 class="section-title">Novidades</h2>
-            <button id="next">></button>
-            <button id="prev"><</button>
-            <div class="view-port">
-                <div class="images-container">
-                    <div class="banner">   
-                        <img src="./img/molde.png" alt="">
-                        <span>NOVO MAPA!!!</span>
-                    </div>
-                    <div class="banner">   
-                        <img src="./img/molde.png" alt="">
-                        <span>NOVO MAPA!!!</span>
-                    </div>
-                    <div class="banner">   
-                        <img src="./img/molde.png" alt="">
-                        <span>NOVO MAPA!!!</span>
-                    </div>
-                    <div class="banner">   
-                        <img src="./img/molde.png" alt="">
-                        <span>NOVO MAPA!!!</span>
+            <div class="carrousel">
+                <div class="view-port">
+                    <div class="images-container">
+                        <div class="banner">                           
+                            <img class="images" src="./img/novo_mapa.png" alt="novo mapa">
+                            <img class="molde" src="./img/molde.png" alt="molde">
+                            <span>NOVO MAPA!!!</span>
+                        </div>
+                        <div class="banner">     
+                            <img class="images" src="./img/novas_customizacoes.png" alt="">
+                            <img class="molde" src="./img/molde.png" alt="molde">
+                            <span>NOVAS CUSTOMIZAÇÕES</span>
+                        </div>
+                        <div class="banner"> 
+                            <img class="images" src="./img/amongus_vr.png" alt="">  
+                            <img class="molde" src="./img/molde.png" alt="molde">
+                            <span>AMONG US VR!!!</span>
+                        </div>
+                        <div class="banner">
+                            <img class="images" src="./img/amongus_x_arcane.png" alt="">   
+                            <img class="molde" class="images" src="./img/molde.png" alt="molde">
+                            <span>AMONG US X ARCANE</span>
+                        </div>
                     </div>
                 </div>
+                <div class="arrows">
+                    <button id="prev"><</button>
+                    <button id="next">></button>
+                </div>
+            </div>
+            <div class="social">
+                <a href="#">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
             </div>
         </section>
         <section class="download" id="download"></section>
