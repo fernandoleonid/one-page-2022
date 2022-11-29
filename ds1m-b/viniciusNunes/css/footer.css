@@ -1,0 +1,17 @@
+footer {
+  height: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer span {
+  font-weight: 400;
+  color: var(--tertiary-color);
+  text-align: center;
+}
+
+footer span a {
+  font-weight: 600;
+  color: var(--secundary-color);
+}
