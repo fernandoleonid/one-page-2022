@@ -1,0 +1,12 @@
+.botao_solutions:hover{
+    border: 2px solid white ;
+    transition: 0.3s;
+}
+.botao_fulfilment:hover{
+    border: 2px solid white ;
+    transition: 0.3s;
+}
+.botao_delivery:hover{
+    border: 2px solid white ;
+    transition: 0.3s;
+}

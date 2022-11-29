@@ -1,0 +1,154 @@
+@media (max-width: 1380px) {
+  .topics-container {
+    margin: 0px 25px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .informations {
+    display: grid;
+    grid-template-areas:
+      "title"
+      "content";
+  }
+
+  .informations__title {
+    grid-area: title;
+  }
+
+  .topics-container {
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .topic-why-gintama {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+  }
+
+  .topic-contact {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topic-watch {
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+  }
+
+  .social-networks-container {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 16px;
+    justify-content: end;
+  }
+
+  .topic-contact-container .topic__text {
+    text-align: end;
+  }
+
+  .topic-contact .topic__title {
+    display: grid;
+    justify-content: end;
+  }
+
+  .topic-contact .topic__title::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #fedc00;
+    width: 35px;
+    margin: 10px 0px 8px auto;
+  }
+
+  .topic-social-networks .topic__title {
+    display: grid;
+    justify-content: end;
+  }
+
+  .topic-social-networks .topic__title::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #fedc00;
+    width: 35px;
+    margin: 10px 0px 8px auto;
+  }
+}
+
+@media (max-width: 850px) {
+  .topics-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topic-why-gintama {
+    display: grid;
+    justify-items: center;
+  }
+
+  .topic-watch__content {
+    display: grid;
+    justify-items: center;
+    gap: 12px;
+  }
+
+  .topic-contact {
+    display: grid;
+    justify-items: center;
+  }
+
+  .topic-contact .topic__title {
+    display: block;
+  }
+
+  .topic-contact .topic__title::after {
+    margin: 10px auto 8px auto;
+  }
+
+  .topic-contact-container .topic__text {
+    text-align: center;
+  }
+
+  .topic-social-networks .topic__title {
+    display: block;
+    text-align: center;
+  }
+
+  .topic-social-networks .topic__title::after {
+    margin: 10px auto 8px auto;
+  }
+
+  .social-networks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .topic__title {
+    display: grid;
+    justify-items: center;
+  }
+
+  .topic__title::after {
+    margin: 10px auto 8px auto;
+  }
+
+  .topic__text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 340px) {
+  .informations__title {
+    font-size: 2.25rem;
+  }
+
+  .topic-why-gintama .topic__text {
+    margin: 0px 25px;
+  }
+}

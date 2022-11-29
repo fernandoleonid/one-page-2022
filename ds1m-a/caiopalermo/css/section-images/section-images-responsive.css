@@ -1,0 +1,11 @@
+@media (max-width: 850px) {
+  .section-images img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 490px) {
+  .section-images img {
+    width: 250px;
+  }
+}
