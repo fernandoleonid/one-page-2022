@@ -1,0 +1,18 @@
+#bo1{
+    display: flex;
+    z-index: -1;
+}
+
+#bo1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url(../img/CALL-OF-DUTY-BLACK-OPS-900x503\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(10%);
+    z-index: 4;
+    box-shadow: inset 150px -150px 150px #000;
+}

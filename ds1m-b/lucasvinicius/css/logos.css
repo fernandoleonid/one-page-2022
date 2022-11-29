@@ -1,3 +1,12 @@
 .logoPrimeira {
-    width: 18rem;
+    height: 3.2rem;
+}
+
+.logoBo1 {
+    z-index: 6;
+    position: absolute;
+    display: flex;
+    height: 7rem;
+    margin-top: 4rem;
+    margin-left: 8rem;
 }
