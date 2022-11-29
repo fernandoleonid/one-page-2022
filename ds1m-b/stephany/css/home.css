@@ -1,0 +1,29 @@
+/* .home{
+    background-image: url(../img/compoDeComcentracao.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;  
+} 
+
+.menu{
+    justify-content: center;
+    display: flex;
+    gap:72px;
+    font-size: 1.25rem;
+}
+.menu li{
+    border-bottom: 4px solid transparent;
+    transition: boder-color .5s;
+}
+.menu li:hover{
+    border-color:hotpink;
+} */
+
+.home{
+    background-image: url(../img/compoDeComcentracao.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 100vh;
+}
