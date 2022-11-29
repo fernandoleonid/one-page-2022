@@ -3,15 +3,17 @@ header {
     width: 90%;
     display: flex;
     gap: 52px;
-    margin-top: 40px;
-    margin-left: 50px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
 }
 
 header h2 {
+    width: 100%;
     color: var(--clear-font-color);
     font-family: 'Sunflower';
-    font-style: normal;
-    font-weight: 300;
+    font-style: medium;
+    font-weight: 500;
     font-size: 14px;
     line-height: 104.69%;
     letter-spacing: 0.11em;

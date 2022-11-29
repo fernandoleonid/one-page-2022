@@ -1,10 +1,10 @@
 :root {
     --body-color: #0F0F0F;
-    --section-color: #80695415;
+    --section-color: #80695420;
     --footer-color: #505050;
     --clear-font-color: #d2d1e8f5;
-    --space-top: 5.125rem;
-    --space-left: 5.3rem;
+    --space-top: 2.5rem;
+    --space-left: 100px;
     --width-desktop: 1694px;
     --height-desktop: 854px;
 }
@@ -20,17 +20,36 @@ body {
     align-items: center;
     margin-top: var(--space-top);
     gap: 14px;
-    
+
 }
 
 section {
     background-color: var(--section-color);
-    width: 90%;
+    width: var(--width-desktop);
     height: var(--height-desktop);
     border-radius: 2px;
 }
 
+.home {
+    display: flex;
+    flex-direction: column;
+}
+.home__container{
+    display: flex;
+    
+}
 
+.cello{
+    width: 546px;
+    height: 705px;
+    position: absolute;
+    top: 15%;
+    right: 13%;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
 
 /* TABLET */
 @media (max-width: 960px) {}

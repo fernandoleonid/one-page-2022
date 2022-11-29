@@ -1,0 +1,55 @@
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 441px;
+    width: 268px;
+    gap: 25px;
+    position: absolute;
+    top: 23%;
+    left: 25%;
+}
+
+.presentation h1 {
+    width: 223px;
+    height: 240px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FAA04B;
+    align-items: flex-end;
+    text-align: right;
+   
+}
+
+.presentation p {
+    width: 205px;
+    height: 107.44px;
+    left: 150px;
+    font-family: 'Sunflower';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 104.69%;
+    text-align: right;
+    margin-right: 48px;
+    letter-spacing: 0.11em;
+    color: #D2D1E8;
+}
+.presentation button{
+    background-color:transparent;
+    color: var(--clear-font-color);
+    font-size: 20px;
+    width: 144px;
+    height: 45px;
+    border: 1px solid #FAA04B;
+    border-radius: 22px;
+    font-family: 'Sunflower';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 42px;
+}
