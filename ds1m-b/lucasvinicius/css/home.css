@@ -1,6 +1,21 @@
-
-
-.patenteimg{
+#home{
     display: flex;
-    justify-items: flex-end;
+    flex-direction: column;
+    place-items: center;
+    justify-content: flex-end;
 }
+
+#home::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url(../img/gifHome.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(80%);
+    z-index: -1;
+    box-shadow: inset 100px -100px 100px #000;
+}
+
