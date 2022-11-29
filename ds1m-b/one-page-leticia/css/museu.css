@@ -2,10 +2,10 @@
     width: 100%;
     display: grid;
     grid-template-areas: 
-    "title title"
-    "description slider";
-    grid-template-rows: auto 1fr;
-    grid-template-columns: 1fr 1fr;
+    "title title" 
+    "description slider"; 
+    grid-template-rows: auto 1fr; 
+    grid-template-columns: 1fr 1fr; 
     gap: 64px;
 }
 
@@ -20,4 +20,59 @@
     padding-left: 15%;
 }
 
-/* slider.css */
+
+slider {
+    grid-area: slider;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute; 
+}
+
+.slider img {
+    margin: auto;
+    height: 340px ; 
+    width: 465px;
+    vertical-align: top;
+    opacity: 0;
+    visibility: hidden;
+}
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: black;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider li:nth-child(4) label{
+    left: 100px;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}

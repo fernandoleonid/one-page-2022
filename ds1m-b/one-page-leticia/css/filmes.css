@@ -9,6 +9,7 @@
 .description{
     font-weight: lighter;
     text-align: justify;
+    /* align-items: center; */
     font-size: 1.65rem;
     line-height: 150%;
 }
