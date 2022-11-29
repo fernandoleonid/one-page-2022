@@ -11,8 +11,9 @@
 }
 .view-port{
     position: absolute;
-    max-width:99vw ;
+    max-width:100% ;
     height: 600px;
     overflow: hidden;
+    
     
 }
