@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="./css/sobre.css">
     <link rel="stylesheet" href="./css/novidades.css">
     <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/buttom.css">
     <title>among us</title>
 </head>
-<body>
+<body>  
     <header>
         <nav class="menu">
             <a href="#sobre">
@@ -44,15 +45,32 @@
         </section>
         <section class="novidades" id="novidades">
             <h2 class="section-title">Novidades</h2>
-            <ul class="news">
-                <li class="banner">
-                    <img src="./img/molde.png" alt="">
-                    <span>NOVO MAPA!!!</span>
-                </li>
-            </ul>
+            <button id="next">></button>
+            <button id="prev"><</button>
+            <div class="view-port">
+                <div class="images-container">
+                    <div class="banner">   
+                        <img src="./img/molde.png" alt="">
+                        <span>NOVO MAPA!!!</span>
+                    </div>
+                    <div class="banner">   
+                        <img src="./img/molde.png" alt="">
+                        <span>NOVO MAPA!!!</span>
+                    </div>
+                    <div class="banner">   
+                        <img src="./img/molde.png" alt="">
+                        <span>NOVO MAPA!!!</span>
+                    </div>
+                    <div class="banner">   
+                        <img src="./img/molde.png" alt="">
+                        <span>NOVO MAPA!!!</span>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="download" id="download"></section>
     </main>
     <footer>footer</footer>
+    <script src="./js/carrousel.js"></script>
 </body>
 </html>

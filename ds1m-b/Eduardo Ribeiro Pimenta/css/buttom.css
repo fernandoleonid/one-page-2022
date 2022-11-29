@@ -1,0 +1,10 @@
+button{
+    font-family: VCR_OSD_MONO;
+    font-size: 64px;
+    width: 64px;
+    height: 64px;
+    border: none;
+    background-color: #0000;
+    cursor: pointer;
+    color: #fff;
+}
