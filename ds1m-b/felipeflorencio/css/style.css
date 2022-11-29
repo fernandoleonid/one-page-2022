@@ -1,7 +1,8 @@
 :root {
     --body-color: #0F0F0F;
-    --section-color: #806954;
+    --section-color: #80695415;
     --footer-color: #505050;
+    --clear-font-color: #d2d1e8f5;
     --space-top: 5.125rem;
     --space-left: 5.3rem;
     --width-desktop: 1694px;
@@ -24,15 +25,14 @@ body {
 
 section {
     background-color: var(--section-color);
-    opacity: 15%;
     width: 90%;
     height: var(--height-desktop);
-    
     border-radius: 2px;
 }
 
-/* TABLET */
 
+
+/* TABLET */
 @media (max-width: 960px) {}
 
 /* MOBILE */
