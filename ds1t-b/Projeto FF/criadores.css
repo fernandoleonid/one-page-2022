@@ -71,12 +71,11 @@
 
 .nome-criador{
     font-family: 'Yaldevi Colombo Medium';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 43px;
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
 }

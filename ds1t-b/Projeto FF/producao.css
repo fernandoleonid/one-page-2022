@@ -1,7 +1,28 @@
 .producao{
+    display: grid;
+    grid-template-areas: 
+    'titulo titulo'
+    'intro intro'
+    'desen desen'
+    'conclusao conclusao';
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
     background-image: url(./img/Background_producao.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     grid-area: content;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-producao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 98px;
+    padding-top: 50px;
+    grid-area: titulo;
 }
