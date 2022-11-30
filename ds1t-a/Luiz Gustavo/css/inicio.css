@@ -1,6 +1,8 @@
 .section-inicio {
     height: 87vh;
     width: 100%;
+    display: grid;
+    grid-template-areas: "main-inicio" "footer-inicio";
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,6 +15,7 @@
     justify-content: space-between;
     height: 80vh;
     align-items: center;
+    grid-area: main-inicio;
 }
 
 .home-text {
@@ -34,15 +37,16 @@
 }
 
 .img-produtos {
-    width: 785px;
-    height: 498px;
+    width: 41.5vw;
+    height: auto;
 }
 
 .logo-footer {
-    height: 90px;
+    height: 10vh;
     display: flex;
     background-color: #222020;
     justify-content: center;
     width: 100%;
     align-items: flex-start;
+    grid-area: footer-inicio;
 }
