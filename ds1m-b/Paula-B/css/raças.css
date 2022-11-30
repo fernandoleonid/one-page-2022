@@ -1,4 +1,4 @@
-.raças {
+.racas {
     height: 110vh;
 }
 
@@ -18,20 +18,6 @@
     margin-top: 3px;
 }
 
-.icon2 {
-    display: flex;
-    margin-top: 3px;
-}
-
-.names {
-    display: flex;
-    font-family: 'Updock', cursive;
-    font-size: 3rem;
-    font-weight: 800;
-    justify-content: center;
-    gap: 410px;
-}
-
 .name {
     display: flex;
     font-family: 'Updock', cursive;
@@ -41,26 +27,12 @@
     gap: 410px;
 }
 
-.card-container {
-    max-width: 1200px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 48px;
-}
+.raca {}
 
-.img-raças {
+.racas-container {
     display: flex;
-    margin-top: 90px;
+    margin-top: 30px;
     justify-content: center;
-    gap: 120px;
-}
-
-.img-raça {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
     gap: 120px;
 }
 
@@ -68,6 +40,15 @@
     position: relative;
     display: block;
     overflow: hidden;
+}
+
+.card-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 48px;
 }
 
 .card::before {

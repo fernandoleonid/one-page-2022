@@ -1,6 +1,5 @@
 .sobre {
     height: auto;
-    
 }
 
 .icon {
@@ -8,7 +7,7 @@
     align-items: center;
     justify-content: center;
     gap: 26px;
-    background-color:  #F8E795;
+    background-color: #F8E795;
 }
 
 .titlee {
@@ -17,9 +16,9 @@
     font-family: 'Piedra', cursive;
     font-weight: 800;
     justify-content: center;
-    
 }
-.sobre-gatos{
+
+.sobre-gatos {
     display: flex;
     background-image: url(../img/fundo11.png);
     background-size: cover;
@@ -29,29 +28,29 @@
     justify-content: center;
     align-items: center;
 }
+
 .description-cat {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 400px;
+    gap: 350px;
     padding-right: 60px;
     font-family: 'Patrick Hand', cursive;
     text-shadow: black 0.2em 0.2em 0.3em;
-    
 }
+
 .description-title {
-    display: flex;
-    width: 500px; 
+    display: grid;
+    width: 500px;
     margin-top: 50px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: white;
-    margin-left: 100px;
-    
 }
+
 .description-text {
     display: flex;
     flex-direction: column;
     max-width: 500px;
-    font-size: 2.5rem;
-    color: white;  
+    font-size: 2rem;
+    color: white;
 }

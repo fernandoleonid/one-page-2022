@@ -1,5 +1,12 @@
 /* TABLET */
 
+@media(max-width: 1310px) {
+    .img-raças img {
+        width: 250px;
+        height: 200px;
+    }
+}
+
 @media (max-width: 960px) {
     nav {
         display: none;
