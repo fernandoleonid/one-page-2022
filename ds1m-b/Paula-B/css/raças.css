@@ -1,0 +1,106 @@
+.raças {
+    height: 110vh;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+
+.titlee {
+    display: flex;
+    font-size: 8rem;
+    font-family: 'Piedra', cursive;
+    font-weight: 400;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.icon2 {
+    display: flex;
+    margin-top: 3px;
+}
+
+.names {
+    display: flex;
+    font-family: 'Updock', cursive;
+    font-size: 3rem;
+    font-weight: 800;
+    justify-content: center;
+    gap: 410px;
+}
+
+.name {
+    display: flex;
+    font-family: 'Updock', cursive;
+    font-size: 3rem;
+    font-weight: 800;
+    justify-content: center;
+    gap: 410px;
+}
+
+.card-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.img-raças {
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    gap: 120px;
+}
+
+.img-raça {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 120px;
+}
+
+.card {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.card::before {
+    content: "Clique aqui para mais informações";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    background-color: #f8e89570;
+    transform: translateY(100%);
+    transition: .7s;
+    border-radius: 20px;
+}
+
+.card:hover::before {
+    transform: translateY(0%);
+}
+
+.outros {
+    display: flex;
+    font-size: 4rem;
+    font-weight: 800;
+    width: 90vw;
+    justify-content: flex-end;
+    font-family: 'Updock', cursive;
+}
+
+.outros li {
+    border-bottom: 8px solid transparent;
+    transition: border-color .5s;
+}
+
+.outros li:hover {
+    border-color: var(--amareloEsc-color);
+}

@@ -1,0 +1,57 @@
+.sobre {
+    height: auto;
+    
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    background-color:  #F8E795;
+}
+
+.titlee {
+    display: flex;
+    font-size: 7rem;
+    font-family: 'Piedra', cursive;
+    font-weight: 800;
+    justify-content: center;
+    
+}
+.sobre-gatos{
+    display: flex;
+    background-image: url(../img/fundo11.png);
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.description-cat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    padding-right: 60px;
+    font-family: 'Patrick Hand', cursive;
+    text-shadow: black 0.2em 0.2em 0.3em;
+    
+}
+.description-title {
+    display: flex;
+    width: 500px; 
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color: white;
+    margin-left: 100px;
+    
+}
+.description-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    font-size: 2.5rem;
+    color: white;  
+}
