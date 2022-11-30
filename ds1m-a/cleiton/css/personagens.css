@@ -1,7 +1,5 @@
 .personagens {
     background-image: url(../img/back_personagens.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: auto;
     flex-direction: column;
 }
@@ -21,18 +19,25 @@
 .personagens_card,
 .personagens_card_principal {
     background-color: #252525;
-    height: 365px;
-    width: 270px;
+    height: 375px;
+    width: 280px;
     padding-top: 20px;
     place-items: center;
     display: flex;
     flex-direction: column;
     color: #ffffff;
     font-size: 2.5rem;
+    border: 5px solid #252525;
+    transition: border-color 1s;
 }
 
 .personagens_card_principal {
-    width: 300px;
+    width: 310px;
+}
+
+.personagens_card_principal:hover,
+.personagens_card:hover {
+    border-color: var(--primary-color);
 }
 
 .personagens_lista_secundarios,
@@ -52,25 +57,45 @@
 }
 
 .personagens_lista_secundarios {
-    padding-left: 21%;
     gap: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #kratos,
-#atreus {
+#atreus,
+#thor,
+#freya,
+#angrboda,
+#tyr,
+#brok,
+#mimir {
     display: none;
     font-size: 2rem;
     gap: 100px;
 }
 
 #kratos img,
-#atreus img {
+#atreus img,
+#thor img,
+#freya img,
+#angrboda img,
+#tyr img,
+#brok img,
+#mimir img {
     height: 700px;
     width: 530px;
 }
 
 #kratos li,
-#atreus li {
+#atreus li,
+#thor li,
+#freya li,
+#angrboda li,
+#tyr li,
+#brok li,
+#mimir li {
     display: flex;
     align-items: center;
     width: 70%;

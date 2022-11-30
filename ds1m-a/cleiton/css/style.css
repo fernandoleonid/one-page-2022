@@ -29,22 +29,8 @@ header {
     gap: 35px;
 }
 
-.menu li {
-    border-bottom: 4px solid transparent;
-    transition: border-color .5s;
-}
-
-.omega {
-    visibility: hidden;
-}
-
-.omega li:hover {
-    visibility: visible;
-}
-
 .menu li:hover {
-    visibility: visible;
-    border-color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 .logo {
