@@ -14,8 +14,7 @@ body {
 .section-iphone,
 .section-ipad,
 .section-mac,
-.section-airpods-watch,
-.section-contato {
+.section-airpods-watch {
     height: 100vh;
 }
 
@@ -38,4 +37,15 @@ body {
     justify-content: center;
     text-align: justify;
     gap: 20px;
+}
+
+footer{
+    height: 10vh;
+    background-color: #222020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400;
 }
