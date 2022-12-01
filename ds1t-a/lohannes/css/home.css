@@ -1,0 +1,22 @@
+#home{
+    width: 100%;
+    background-image: url("../images/bg_intro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.principal{
+    width: 68.5%;
+}
+
+.grande_logo{
+    width: 50%;
+    position: absolute;
+    top: 60%;
+    left: 27%;
+}
