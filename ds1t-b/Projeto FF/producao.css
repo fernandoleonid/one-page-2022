@@ -1,10 +1,6 @@
-.producao{
+.producao {
     display: grid;
-    grid-template-areas: 
-    'titulo titulo'
-    'intro intro'
-    'desen desen'
-    'conclusao conclusao';
+    grid-template-areas: 'titulo titulo' 'intro intro' 'desen desen' 'conclu conclu';
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr 1fr 1fr;
     background-image: url(./img/Background_producao.png);
@@ -16,7 +12,7 @@
     justify-content: center;
 }
 
-.titulo-producao{
+.titulo-producao {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,4 +21,63 @@
     height: 98px;
     padding-top: 50px;
     grid-area: titulo;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-area: intro;
+    height: 100%;
+    width: 100%;
+}
+
+.bloco-producao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 1800px;
+    gap: 80px;
+}
+
+.texto-producao {
+    font-family: 'Yaldevi Colombo Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    width: 902px;
+    height: 250px;
+}
+
+.desen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-area: desen;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.conclu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-area: conclu;
+    height: 100%;
+    width: 100%;
+}
+
+.imagem-producao {
+    height: 100%;
 }
