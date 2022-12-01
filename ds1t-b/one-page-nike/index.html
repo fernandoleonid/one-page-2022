@@ -16,10 +16,12 @@
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/black-friday.css">
-    <link rel="stylesheet" href="./css/section-title.css">
-    <link rel="stylesheet" href="./css/projetos.css">
-    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/soccer.css">
+    <link rel="stylesheet" href="./css/basketball.css">
+    <link rel="stylesheet" href="./css/jordan.css">
+    <link rel="stylesheet" href="./css/follow-us.css">
     <link rel="stylesheet" href="./css/back.css">
+    <script src="./js/script.js"></script>
     <title>One Page - Nike</title>
 </head>
 
@@ -76,125 +78,304 @@
         </section>
 
         <section class="black-friday" id="black-friday">
-            <div class="faixa">BLACK FRIDAY
-                <img src="./img/logo-nike-black.png" height="40px" width="100px" alt="logo nike preto">
+            <button id="prev-button"></button>
+            <div class="container-slider">
+                <div class="container-images1">
+                    <img src="./img/black-friday/produtos2/agasalho-fem.png" alt="agasalho-fem" class="slider">
+                    <img src="./img/black-friday/produtos2/calca-masc.png" alt="calca-masc" class="slider">
+                    <img src="./img/black-friday/produtos2/camiseta-barca3.png" alt="camiseta-barca3" class="slider">
+                </div>
+
+                <div class="container-images2">
+                    <img src="./img/black-friday/produtos2/camiseta-psg-white.png" alt="camiseta-psg-white" class="slider">
+                    <img src="./img/black-friday/produtos2/legging-nike.png" alt="legging-nike" class="slider">
+                    <img src="./img/black-friday/produtos2/shorts-nike-10.png" alt="shorts-nike-10" class="slider">
+                </div>
+                <button id="next-button"></button>
             </div>
-            <div class="card-container">
-                <a href="https://github.com/MatheusAlves099/landing-page-pikachu" target="blank" class="card">
-                    <img src="./img/black-friday/produtos1/chuteira1.png" height="200px" width="200px" alt="chuteira nike">
+
+            <div class="faixa">
+                <span class="title">BLACK FRIDAY</span>
+            </div>
+            <img class="logo" src="./img/logo-nike-red-border.png" height="40px" width="100px" alt="logo nike preto">
+            <div class="img-container">
+                <a href="https://www.nike.com.br/chuteira-nike-phantom-gt2-academy-society-012717.html?cor=15&utm_source=googleshop&utm_medium=CPC&utm_campaing=Top_Sellers_PRS&gclid=Cj0KCQiAg_KbBhDLARIsANx7wAwfNEBtQieqL5z-XPcBMnz6ugPb_PUQjTeoyVSabHHvni0G_1uqYJcaArvGEALw_wcB" target="blank" class="img">
+                    <img class="images" src="./img/black-friday/produtos1/chuteira1.png" height="200px" width="200px" alt="chuteira nike">
+                    <div class="description">
+                        <p class="description-title">Chuteira Nike Phantom GT2 Academy Society</p>
+                        <p class="description-old-price">R$ 799,99</p>
+                        <p class="description-new-price">R$ 499,99</p>
+                        <p class="description-discount">38 %OFF</p>
+                    </div>
                 </a>
-                <a href="https://github.com/MatheusAlves099/headphone-purple" target="blank" class="card">
-                    <img src="./img/black-friday/produtos1/camiseta-drifit.png" height="200px" width="200px" alt="camiseta-dri-fit">
+                <a href="https://www.nike.com.br/camisa-nike-dri-fit-masculina-007226.html?cor=ID&gclid=Cj0KCQiAg_KbBhDLARIsANx7wAz2H2ZJaVLs32z-kYjppQVtZFvAUwTV_fAwZzsqK0sVMy_rWP8gAV8aApHIEALw_wcB" target="blank" class="img">
+                    <img class="images" src="./img/black-friday/produtos1/camiseta-drifit.png" height="200px" width="200px" alt="camiseta-dri-fit">
+                    <div class="description">
+                        <p class="description-title">Camiseta Nike Dri-FIT Uniformes</p>
+                        <p class="description-old-price">R$ 119,99</p>
+                        <p class="description-new-price">R$ 49,99</p>
+                        <p class="description-discount">58 %OFF</p>
+                    </div>
                 </a>
-                <a href="https://github.com/MatheusAlves099/atividade_LIMA" target="blank" class="card">
-                    <img src="./img/black-friday/produtos1/camiseta-barca.png" height="200px" width="200px" alt="camiseta-barca">
+                <a href="https://www.nike.com.br/camiseta-nike-barcelona-strike-masculina--021883.html?cor=15#u_gclid=Cj0KCQiAg_KbBhDLARIsANx7wAz2H2ZJaVLs32z-kYjppQVtZFvAUwTV_fAwZzsqK0sVMy_rWP8gAV8aApHIEALw_wcB" target="blank" class="img">
+                    <img class="images" src="./img/black-friday/produtos1/camiseta-barca.png" height="200px" width="200px" alt="camiseta-barca">
+                    <div class="description">
+                        <p class="description-title">Camiseta Nike Barcelona Strike Masculina</p>
+                        <p class="description-old-price">R$ 299,99</p>
+                        <p class="description-new-price">R$ 209,99</p>
+                        <p class="description-discount">30 %OFF</p>
+                    </div>
                 </a>
-                <a href="https://github.com/MatheusAlves099/projeto-nike" target="blank" class="card">
-                    <img src="./img/black-friday/produtos1/shorts-drifit.png" height="200px" width="200px" alt="shorts-dri-fit">
+                <a href="https://www.nike.com.br/shorts-nike-dri-fit-academy-masculino-011264.html?cor=ID#u_gclid=Cj0KCQiAg_KbBhDLARIsANx7wAz2H2ZJaVLs32z-kYjppQVtZFvAUwTV_fAwZzsqK0sVMy_rWP8gAV8aApHIEALw_wcB" target="blank" class="img">
+                    <img class="images" src="./img/black-friday/produtos1/shorts-drifit.png" height="200px" width="200px" alt="shorts-dri-fit">
+                    <div class="description">
+                        <p class="description-title">Shorts Nike Dri-FIT Academy Masculino</p>
+                        <p class="description-old-price">R$ 119,99</p>
+                        <p class="description-new-price">R$ 79,99</p>
+                        <p class="description-discount">33 %OFF</p>
+                    </div>
                 </a>
-                <a href="https://github.com/MatheusAlves099/FormativaTabuada" target="blank" class="card">
-                    <img src="./img/black-friday/produtos1/camiseta-psg.png" height="200px" width="200px" alt="camiseta-psg">
+                <a href="https://www.nike.com.br/camiseta-nike-psg-crest-masculina-021846.html?cor=15#u_gclid=Cj0KCQiAg_KbBhDLARIsANx7wAz2H2ZJaVLs32z-kYjppQVtZFvAUwTV_fAwZzsqK0sVMy_rWP8gAV8aApHIEALw_wcB" target="blank" class="img">
+                    <img class="images" src="./img/black-friday/produtos1/camiseta-psg.png" height="200px" width="200px" alt="camiseta-psg">
+                    <div class="description">
+                        <p class="description-title">Camiseta Nike PSG Crest Masculina</p>
+                        <p class="description-old-price">R$ 199,99</p>
+                        <p class="description-new-price">R$ 139,99</p>
+                        <p class="description-discount">30 %OFF</p>
+                    </div>
                 </a>
-                <a href="https://github.com/MatheusAlves099/receita-bolo" target="blank" class="card">
-                    <img src="./img/black-friday/produtos1/bola-brasil.png" height="200px" width="200px" alt="bola-brasil">
+                <a href="https://www.nike.com.br/bola-nike-brasil-strike-013867.html?cor=51#u_gclid=Cj0KCQiAg_KbBhDLARIsANx7wAz2H2ZJaVLs32z-kYjppQVtZFvAUwTV_fAwZzsqK0sVMy_rWP8gAV8aApHIEALw_wcB" target="blank" class="img">
+                    <img class="images"src="./img/black-friday/produtos1/bola-brasil.png" height="200px" width="200px" alt="bola-brasil">
+                    <div class="description">
+                        <p class="description-title">Bola Nike Brasil Strike</p>
+                        <p class="description-old-price">R$ 199,99</p>
+                        <p class="description-new-price">R$ 169,99</p>
+                        <p class="description-discount">15 %OFF</p>
+                    </div>
+                </a>
+            </div>
+            <nav class="circulos-interacao">
+                <a href="#">
+                    <div class="circulo1"></div>
+                </a>
+                <a href="#">
+                    <div class="circulo2"></div>
+                </a>
+            </nav>
+
+        </section>
+
+        <section class="soccer" id="soccer">
+            <div class="title-soccer">
+                <span>NIKE <span class="soccer-t">SOCCER</span> </span>
+                <p class="soccer-t2">Everything you need to own the pitch.</p>
+            </div>
+
+            <div class="img-container-soccer">
+                <a href="https://www.nike.com.br/camisa-nike-franca-i-202223-torcedor-pro-masculina-023156.html?cor=15#u_gclid=Cj0KCQiAg_KbBhDLARIsANx7wAz2H2ZJaVLs32z-kYjppQVtZFvAUwTV_fAwZzsqK0sVMy_rWP8gAV8aApHIEALw_wcB" target="blank" class="img">
+                    <img class="images-soccer" src="./img/soccer/produtos1/camiseta-franca.png" height="300px" width="300px" alt="camiseta-franca">
+                    <div class="description-soccer">
+                        <p class="description-soccer-title">Camisa Nike França I 2022/23 Torcedor Pro Masculina</p>
+                        <p class="description-soccer-price">R$ 399,99</p>
+                    </div>
+                </a>
+                <a href="https://www.nike.com.br/camisa-nike-inglaterra-ii-202223-torcedor-pro-masculina-023143.html?cor=P1#u_gclid=Cj0KCQiAg_KbBhDLARIsANx7wAz2H2ZJaVLs32z-kYjppQVtZFvAUwTV_fAwZzsqK0sVMy_rWP8gAV8aApHIEALw_wcB" target="blank" class="img">
+                    <img class="images-soccer" src="./img/soccer/produtos1/camiseta-inglaterra.png" height="300px" width="300px" alt="camiseta-inglaterra">
+                    <div class="description-soccer">
+                        <p class="description-soccer-title">Camisa Nike Inglaterra II 2022/23 Torcedor Pro Masculina</p>
+                        <p class="description-soccer-price">R$ 399,99</p>
+                    </div>
+                </a>
+                <a href="https://www.nike.com.br/camisa-nike-holanda-i-202223-torcedor-pro-masculina-023138.html?cor=A1#u_gclid=Cj0KCQiAg_KbBhDLARIsANx7wAz2H2ZJaVLs32z-kYjppQVtZFvAUwTV_fAwZzsqK0sVMy_rWP8gAV8aApHIEALw_wcB" target="blank" class="img">
+                    <img class="images-soccer" src="./img/soccer/produtos1/camiseta-holanda.png" height="300px" width="300px" alt="camiseta-holanda">
+                    <div class="description-soccer">
+                        <p class="description-soccer-title">Camisa Nike Holanda I 2022/23 Torcedor Pro Masculina</p>
+                        <p class="description-soccer-price">R$ 399,99</p>
+                    </div>
+                </a>
+                <a href="https://www.nike.com.br/chuteira-nike-zoom-vapor-15-academy-infantil-futsal-024078.html?cor=ID#u_gclid=Cj0KCQiAg_KbBhDLARIsANx7wAz2H2ZJaVLs32z-kYjppQVtZFvAUwTV_fAwZzsqK0sVMy_rWP8gAV8aApHIEALw_wcB" target="blank" class="img">
+                    <img class="images-soccer" src="./img/soccer/produtos1/chuteira-vapor15.png" height="300px" width="300px" alt="chuteira-vapor15">
+                    <div class="description-soccer">
+                        <p class="description-soccer-title">Chuteira Nike Zoom Vapor 15 Academy Infantil Futsal</p>
+                        <p class="description-soccer-price">R$ 499,99</p>
+                    </div>
+                </a>
+                <a href="https://www.nike.com.br/chuteira-nike-zoom-mercurial-superfly-9-academy-cr7-infantil-futsal-024404.html?cor=51#u_gclid=Cj0KCQiAg_KbBhDLARIsANx7wAz2H2ZJaVLs32z-kYjppQVtZFvAUwTV_fAwZzsqK0sVMy_rWP8gAV8aApHIEALw_wcB" target="blank" class="img">
+                    <img class="images-soccer" src="./img/soccer/produtos1/chuteira-superfly9.png" height="300px" width="300px" alt="chuteira-superfly9">
+                    <div class="description-soccer">
+                        <p class="description-soccer-title">Chuteira Nike Zoom Mercurial Superfly 9 Academy CR7 Infantil Futsal</p>
+                        <p class="description-soccer-price">R$ 549,99</p>
+                    </div>
+                </a>
+                <a href="https://www.nike.com.br/bola-nike-strike-3rd-013865.html?cor=52#u_gclid=Cj0KCQiAg_KbBhDLARIsANx7wAz2H2ZJaVLs32z-kYjppQVtZFvAUwTV_fAwZzsqK0sVMy_rWP8gAV8aApHIEALw_wcB" target="blank" class="img">
+                    <img class="images-soccer" src="./img/soccer/produtos1/bola-premier.png" height="300px" width="300px" alt="bola-premier">
+                    <div class="description-soccer">
+                        <p class="description-soccer-title">Bola Nike Premier League Strike Third</p>
+                        <p class="description-soccer-price">R$ 139,99</p>
+                    </div>
+                </a>
+            </div>
+            <nav class="circulos-interacao-soccer">
+                <a href="#">
+                    <div class="circulo1"></div>
+                </a>
+                <a href="#">
+                    <div class="circulo2"></div>
+                </a>
+            </nav>
+        </section>
+
+        <section class="basketball" id="basketball">
+            <div class="title-basketball">
+                <span>NIKE <span class="basketball-t">BASKETBALL</span> </span>
+                <p class="basketball-t2">We play with our heads, and when we need to, with our hearts.</p>
+            </div>
+            <div class="img-container-basketball">
+                <a href="https://www.nike.com.br/regata-nike-kevin-durant-nets-statement-edition-2020-masculina-011023.html?cor=7U" target="blank" class="img">
+                    <img class="images-basketball" src="./img/basketball/produtos1/brooklyn-nets-durant.png" height="200px" width="200px" alt="nike-brooklyn-nets">
+                    <div class="description">
+                        <p class="description-title">Regata Nike Kevin Durant Nets Statement Edition 2020 Masculina</p>
+                        <p class="description-basketball-price">R$ 369,99</p>
+                    </div>
+                </a>
+                <a href="https://www.nike.com.br/camiseta-nike-x-space-jam-lebron-james-masculina-013749.html?cor=51" target="blank" class="img">
+                    <img class="images-basketball" src="./img/basketball/produtos1/nike-space-jam-lebron.png" height="200px" width="200px" alt="camiseta-space-jam">
+                    <div class="description">
+                        <p class="description-title">Camiseta Nike x Space Jam Lebron James Masculina</p>
+                        <p class="description-basketball-price">R$ 119,99</p>
+                    </div>
+                </a>
+                <a href="https://www.nike.com.br/camiseta-nike-just-do-it-masculina-019979.html?cor=ID" target="blank" class="img">
+                    <img class="images-basketball" src="./img/basketball/produtos1/nike-just-do-it.png" height="200px" width="200px" alt="camiseta-just-do-it">
+                    <div class="description">
+                        <p class="description-title">Camiseta Nike "Just Do It" Masculina</p>
+                        <p class="description-basketball-price">R$ 179,99</p>
+                    </div>
+                </a>
+                <a href="https://www.nike.com.br/camiseta-nike-masculina-022049.html?cor=51" target="blank" class="img">
+                    <img class="images-basketball" src="./img/basketball/produtos1/nike-white.png" height="200px" width="200px" alt="camiseta-white">
+                    <div class="description">
+                        <p class="description-title">Camiseta Nike Masculina</p>
+                        <p class="description-basketball-price">R$ 149,99</p>
+                    </div>
+                </a>
+                <a href="https://www.nike.com.br/regata-nike-giannis-antetokounmpo-bucks-icon-edition-2020-masculina-011189.html?cor=NX" target="blank" class="img">
+                    <img class="images-basketball" src="./img/basketball/produtos1/nike-bucks.png" height="200px" width="200px" alt="camiseta-bucks">
+                    <div class="description">
+                        <p class="description-title">Regata Nike Giannis Antetokounmpo Bucks Icon Edition 2020 Masculina</p>
+                        <p class="description-basketball-price">R$ 379,99</p>
+                    </div>
+                </a>
+                <a href="https://www.nike.com.br/camiseta-nike-los-angeles-lakers-statement-edition-masculina-023835.html?cor=ID" target="blank" class="img">
+                    <img class="images-basketball"src="./img/basketball/produtos1/nike-lakers-statement.png" height="200px" width="200px" alt="nike-lakers-statement">
+                    <div class="description">
+                        <p class="description-title">Camiseta Nike Los Angeles Lakers Statement Edition Masculina</p>
+                        <p class="description-basketball-price">R$ 599,99</p>
+                    </div>
+                </a>
+            </div>
+            <nav class="circulos-interacao-basketball">
+                <a href="#">
+                    <div class="circulo1"></div>
+                </a>
+                <a href="#">
+                    <div class="circulo2"></div>
+                </a>
+            </nav>
+        </section>
+
+        <section class="jordan" id="jordan">
+            <div class="title-jordan">
+                <span>JORDAN <span class="jordan-t">COLLECTION</span> </span>
+                <p class="jordan-t2">Talent wins games, but only teamwork wins championships.</p>
+            </div>
+
+            <div class="img-container-jordan">
+                <a href="https://www.nike.com.br/tenis-air-jordan-1-hi-flyease-016737.html?cor=IX" target="blank" class="img">
+                    <img class="images-jordan" src="./img/jordan/produtos1/jordan-mid.png" height="300px" width="300px" alt="jordan-mid">
+                    <div class="description-jordan">
+                        <p class="description-jordan-title">Tênis Air Jordan 1 Hi FlyEase Masculino</p>
+                        <p class="description-jordan-price">R$ 1299,99</p>
+                    </div>
+                </a>
+                <a href="https://www.nike.com.br/shorts-m-j-df-sprt-dmnd-short-013961.html?cor=ID" target="blank" class="img">
+                    <img class="images-jordan" src="./img/jordan/produtos1/shorts-jordan.png" height="300px" width="300px" alt="shorts-jordan">
+                    <div class="description-jordan">
+                        <p class="description-jordan-title">Shorts Jordan Sport Dri-FIT Masculino</p>
+                        <p class="description-jordan-price">R$ 299,99</p>
+                    </div>
+                </a>
+                <a href="https://www.nike.com.br/chinelo-jordan-super-play-slide-022814.html?cor=51" target="blank" class="img">
+                    <img class="images-jordan" src="./img/jordan/produtos1/chinelo-jordan.png" height="300px" width="300px" alt="chinelo-jordan">
+                    <div class="description-jordan">
+                        <p class="description-jordan-title">Chinelo Jordan Super Play Masculino</p>
+                        <p class="description-jordan-price">R$ 339,99</p>
+                    </div>
+                </a>
+                <a href="https://www.nike.com.br/blusao-jordan-essential-fleece-masculino-022974.html?cor=ID" target="blank" class="img">
+                    <img class="images-jordan" src="./img/jordan/produtos1/blusao-jordan.png" height="300px" width="300px" alt="blusao-jordan">
+                    <div class="description-jordan">
+                        <p class="description-jordan-title">Blusão Jordan Essential Fleece Masculino</p>
+                        <p class="description-jordan-price">R$ 279,99</p>
+                    </div>
+                </a>
+                <a href="https://www.nike.com.br/tenis-air-jordan-1-zoom-air-cmft-016755.html?cor=51" target="blank" class="img">
+                    <img class="images-jordan" src="./img/jordan/produtos1/jordan-zoom.png" height="300px" width="300px" alt="jordan-zoom">
+                    <div class="description-jordan">
+                        <p class="description-jordan-title">Tênis Air Jordan 1 Zoom Confort Masculino</p>
+                        <p class="description-jordan-price">R$ 1399,99</p>
+                    </div>
+                </a>
+                <a href="https://www.nike.com.br/bone-jordan-jumpman-heritage86-unissex-012788.html?cor=ID" target="blank" class="img">
+                    <img class="images-jordan" src="./img/jordan/produtos1/bone-jordan.png" height="300px" width="300px" alt="bone-jordan">
+                    <div class="description-jordan">
+                        <p class="description-jordan-title">Boné Jordan Jumpman Heritage86 Unissex</p>
+                        <p class="description-jordan-price">R$ 199,99</p>
+                    </div>
+                </a>
+            </div>
+            <nav class="circulos-interacao-jordan">
+                <a href="#">
+                    <div class="circulo1"></div>
+                </a>
+                <a href="#">
+                    <div class="circulo2"></div>
+                </a>
+            </nav>
+        </section>
+
+        <section class="follow-us" id="follow-us">
+            <div class="title-follow-us">
+                <span>FOLLOW US</span>
+            </div>
+            
+            <div class="icons-social">
+                <a href="https://pt-br.facebook.com/nike/" target="blank" class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/nike/" target="blank" class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/nike" target="blank" class="icon">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.youtube.com/user/nike/videos" target="blank" class="icon">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://m.twitch.tv/nike/about" target="blank" class="icon">
+                    <i class="fa-brands fa-twitch"></i>
+                </a>
+                <a href="https://www.tiktok.com/@nike" target="blank" class="icon">
+                    <i class="fa-brands fa-tiktok"></i>
                 </a>
             </div>
         </section>
 
-        <section class="projetos" id="projetos">
-            <h2 class="section-title">Projetos</h2>
-            <div class="card-container">
-                <a href="https://github.com/MatheusAlves099/landing-page-pikachu" target="blank" class="card">
-                    <img src="./img/pikachu.png" alt="Pikachu">
-                </a>
-                <a href="https://github.com/MatheusAlves099/headphone-purple" target="blank" class="card">
-                    <img src="./img/headphone.png" alt="Headphone">
-                </a>
-                <a href="https://github.com/MatheusAlves099/atividade_LIMA" target="blank" class="card">
-                    <img src="./img/regular-show.png" alt="Regular Show">
-                </a>
-                <a href="https://github.com/MatheusAlves099/projeto-nike" target="blank" class="card">
-                    <img src="./img/nikee.png" alt="Nike">
-                </a>
-                <a href="https://github.com/MatheusAlves099/FormativaTabuada" target="blank" class="card">
-                    <img src="./img/tabuada.png" alt="Tabuada">
-                </a>
-                <a href="https://github.com/MatheusAlves099/receita-bolo" target="blank" class="card">
-                    <img src="./img/receita-bolo.png" alt="receita-bolo">
-                </a>
-            </div>
-        </section>
-
-        <section class="contato" id="contato">
-            <h2 class="section-title">Contato</h2>
-            <ul class="contato-container">
-                <li>
-                    <h3 class="contato-title">Contato</h3>
-                </li>
-                <li>
-                    <div class="contato-item">
-                        <i class="fas fa-phone"></i>
-                        <span>(11) 4774-4700</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="contato-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>mts02501@gmail.com</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="contato-item">
-                        <i class="fab fa-whatsapp"></i>
-                        <span>(11) 94490-1479</span>
-                    </div>
-                </li>
-            </ul>
-            <ul class="social-container">
-                <li>
-                    <a href="https://instagram.com/math_alves099" class="social-item" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/MatheusAlves099" class="social-item" target="_blank">
-                        <i class="fab fa-github-alt"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/matheusalvesreisdasilva/" class="social-item" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.figma.com/files/user/830208557143248439?fuid=830208557143248439" class="social-item" target="_blank">
-                        <i class="fa-brands fa-figma"></i>
-                    </a>
-                </li>
-            </ul>
-            <ul class="link-container">
-                <li>
-                    <h3 class="link-title">Links</h3>
-                </li>
-                <li>
-                    <a href="#home">Início</a>
-                </li>
-                <li>
-                    <a href="#sobre-mim">Sobre Mim</a>
-                </li>
-                <li>
-                    <a href="#projetos">Projetos</a>
-                </li>
-                <li>
-                    <a href="#contato">Contato</a>
-                </li>
-            </ul>
-        </section>
     </main>
 
     <footer>
         Todos os direitos reservados 2022 | Desenvolvido por Matheus Alves
     </footer>
-
+    
 </body>
 </html>

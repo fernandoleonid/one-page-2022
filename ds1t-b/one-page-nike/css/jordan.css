@@ -1,0 +1,97 @@
+.jordan {
+    background-image: url(../img/jordan/jordan23.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px -40px 40px black; 
+}
+
+.title-jordan {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 13vh;
+    font-size: 7rem;
+    color: #FF0000;
+}
+
+.jordan-t {
+    color: #FFF;
+}
+
+.jordan-t2 {
+    align-items: center;
+    font-size: 2rem;
+    color: #FFF;
+}
+
+.title-jordan:hover {
+    text-shadow: 0 0 5px #FF0000, 0 0 6px #FF0000;
+}
+
+.img-container-jordan {
+    margin-top: 100px;
+    height: 50%;
+    width: 55%;
+    display: flex;
+}
+
+.images-jordan {
+    border: 0.2px solid #FF0000;
+}
+
+.description-jordan {
+    width: 150px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.description-jordan-price {
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #FF0000;
+}
+
+.img::before {
+    content: "Clique aqui para abrir o produto";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0009;
+    display: grid;
+    place-content: center;
+    font-weight: 700;
+    transform: translateX(100%);
+    transition: transform .7s;
+}
+
+.img:hover::before {
+    transform: translateX(0%);
+}
+
+.circulos-interacao-jordan {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.jordan .circulo1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FF0000;
+}
+
+.jordan .circulo2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FFFF;
+}

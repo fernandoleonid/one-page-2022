@@ -1,0 +1,93 @@
+.basketball {
+    background-image: url(../img/basketball/lebron-james.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px -40px 40px black; 
+}
+
+.title-basketball {
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 18vh;
+    font-size: 7rem;
+}
+
+.basketball-t {
+    color: #ff7300;
+}
+
+.basketball-t2 {
+    gap: 10px;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.description-basketball {
+    width: 150px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.description-basketball-price {
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ff7300;
+}
+
+.title-basketball:hover {
+    text-shadow: 0 0 5px #ff7300, 0 0 6px #ff7300;
+}
+
+.img-container-basketball {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.basketball .img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 30%;
+}
+
+ .basketball .images-basketball {
+    border: 8px solid #ff7300;
+}
+
+.basketball .images-basketball:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+    transition: 500ms linear;
+}
+
+.circulos-interacao-basketball {
+    margin-top: 5px;
+    display: flex;
+    gap: 20px;
+}
+
+.basketball .circulo1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ff7300;
+}
+
+.basketball .circulo2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FFFF;
+}
