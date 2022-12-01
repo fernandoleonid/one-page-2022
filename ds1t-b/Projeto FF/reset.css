@@ -28,9 +28,8 @@ html{
 }
 
 .titulo{
-    width: 270px;
+    width: 350px;
     height: 93px;
-    left: 615px;
     top: 14px;
     font-family: 'Varta';
     font-style: normal;
@@ -39,6 +38,7 @@ html{
     line-height: 93px;
     display: flex;
     align-items: center;
+    justify-content: center;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 28.65%, rgba(0, 0, 0, 0.8) 77.6%), #FFFFFF;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

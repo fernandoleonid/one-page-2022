@@ -1,7 +1,22 @@
 .personagens{
+    display: grid;
+    grid-template-areas: 
+    'titulo titulo'
+    'person person';
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
     background-image: url(./img/Background_Personagens.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     grid-area: content;
+}
+
+.titulo-personagens{
+    display: flex;
+    grid-area: titulo;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
 }
