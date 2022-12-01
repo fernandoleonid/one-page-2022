@@ -1,0 +1,71 @@
+section{
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+body{
+    display: grid;
+    grid-template-areas: "content";
+}
+
+header{
+    grid-area: content;
+    height: 100px;
+    background-color: #0000ff75;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-left: 26px;
+    padding-right: 26px;
+    color: white;
+}
+
+main{
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#home{
+    width: 100%;
+    background-color: rgb(255, 75, 75);
+}
+
+#oQueEAvatar{
+    width: 100%;
+    background-color: blue;
+}
+
+#atla_Personagens{
+    width: 100%;
+    background-color: green;
+}
+
+#atlok_Personagens{
+    width: 100%;
+    background-color: purple;
+}
+
+#nacoes{
+    width: 100%;
+    background-color: yellow;
+}
+
+#elementos{
+    width: 100%;
+    background-color: orange;
+}
+
+footer{
+    height: 100px;
+    background-color: black;
+}
