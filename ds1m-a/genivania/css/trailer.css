@@ -5,13 +5,13 @@
     flex-direction: column;
     gap: 80px;
     background-image: url(../img/azul.gif);
-    box-shadow: inset 0px -40px 40px #0c0549;
+    box-shadow: inset 10px -100px 100px #181068;
     background-size: cover;
     
 }
 .trailer_title{
     font-family: 'Eagle Lake', cursive;
-    font-size: 15rem;
+    font-size: 8rem;
     background-image: linear-gradient( #1602F9 , #00C9F5);
     background-clip: text;
     -webkit-background-clip: text;
@@ -37,6 +37,7 @@
     z-index: -1;
     transition: transform 5s;
 }
+
 .img_trailer:hover::before{
     transform: translateY(0%);
     z-index: 1;

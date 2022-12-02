@@ -25,7 +25,7 @@ header{
     place-self: start ;
     z-index: 999;
     max-width: 1500px;
-    width: 100%;
+    width: 100vw;
     margin-top: 70px;
     display: flex;
     margin-left: 72px;
@@ -42,7 +42,6 @@ main{
 section{
     height: 100vh;
 }
-
 .voltar{
     position: fixed;
     right: 16px;
@@ -59,4 +58,7 @@ footer{
     height: 5vh;
     align-items: center;
     display: flex;
+    justify-content: center;
+    font-family: "avatar";
+    font-size: 2rem;
 }
