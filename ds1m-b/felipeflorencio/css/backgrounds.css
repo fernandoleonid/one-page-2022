@@ -1,14 +1,26 @@
 .backgrounds{
-    z-index: -5;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  width: 100vh;
-}
-
-#bghome{
-    position: absolute;
-    top: 15%;
-    left: 15%;
-}
  
+  position: absolute;
+}
+#bghome{
+  top: 1rem;
+  right: 0rem;
+  position: absolute;
+  z-index: -1;
+}
+#bgcomposers{
+  position: absolute;
+  z-index: -1;
+}
+#bginstruments{
+  position: absolute;
+  z-index: -1;
+  transform: translate(-1rem,-20rem); 
+  width: 81rem;
+}
+#bgabout{
+  z-index: -5;
+  transform: translate(-25%, 0%);
+  width: 80rem;
+  height: auto;
+}
