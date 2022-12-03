@@ -3,7 +3,7 @@
     --section-color: #80695420;
     --footer-color: #505050;
     --clear-font-color: #d2d1e8f5;
-    --space-top: 2.5rem;
+    --space-top: 1rem;
     --space-left: 100px;
     --width-desktop: 1694px;
     --height-desktop: 854px;
@@ -26,12 +26,17 @@ body {
     box-sizing: border-box;
 
 }
-
+.container{
+    margin-left: 10%;
+    gap: 94px;
+}
 section {
     background-color: var(--section-color);
-    height: auto;
+    height: 85%;
     width: 85%;
     border-radius: 2px;
+    display: flex;
+    flex-direction: column;
 }
 .index{
     margin-left: 5%;
