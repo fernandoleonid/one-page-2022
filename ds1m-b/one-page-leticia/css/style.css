@@ -33,3 +33,15 @@ main{
 section{
     height: 100vh;
 }
+footer{
+    grid-area: content;
+    place-self: end center;
+    font-weight: bold;
+    background: var(--primary-color);
+    height: 50px;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    border-top: 2px solid #000;
+    font-size: .75rem;
+}
