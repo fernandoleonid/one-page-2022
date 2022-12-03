@@ -29,13 +29,13 @@ body {
 
 section {
     background-color: var(--section-color);
-    height: 95vh;
+    height: auto;
     width: 85%;
     border-radius: 2px;
 }
 .index{
     margin-left: 5%;
-    margin-bottom: 15%;
+    margin-bottom: 4%;
 }
 
 /* TABLET */

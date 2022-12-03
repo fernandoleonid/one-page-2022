@@ -1,0 +1,23 @@
+.info{
+    margin-top: 10%;
+    margin-right: 10%;
+    text-align: end;
+}
+.instruments ul{
+    margin: 4%;
+    margin-left: 6%;
+}
+.instruments ul li{
+    text-align: center;
+}
+.instruments li img{
+    height: auto;
+}
+
+#piano{
+    margin-top: 8%;
+}
+#violino{
+    margin-top: 16%;
+    margin-right: 5%;
+}
