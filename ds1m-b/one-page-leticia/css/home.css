@@ -3,8 +3,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* background-image: url(../img/kiki\ 1.png); */
-   /* background-image: url(http://1.bp.blogspot.com/-zpXEgMjsRgo/UvAQbZj5YmI/AAAAAAAAAvk/p1sws5F5LbE/s1600/tumblr_musmvvonI11r72ht7o1_500.gif); */ 
+    /* background-image: url(http://1.bp.blogspot.com/-zpXEgMjsRgo/UvAQbZj5YmI/AAAAAAAAAvk/p1sws5F5LbE/s1600/tumblr_musmvvonI11r72ht7o1_500.gif);   */
     background-image: url(https://i.pinimg.com/originals/59/0e/26/590e26fc96fbbcaa30438cf5822ed65b.gif); 
     background-repeat: no-repeat;
     background-size: cover; 
@@ -13,5 +12,5 @@
 .profile__name{
     font-size: 5rem;
     font-style: italic;
-    color: #fff;
+    color: #fff; 
 }

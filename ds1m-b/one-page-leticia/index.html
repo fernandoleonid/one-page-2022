@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./css/logo.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/sobre.css">
-    <link rel="stylesheet" href="./css/section-title">
     <link rel="stylesheet" href="./css/fundadores.css">
     <link rel="stylesheet" href="./css/filmes.css">
     <link rel="stylesheet" href="./css/museu.css"> 
@@ -23,7 +22,16 @@
     <title>Studio Ghibli</title>
 </head>
 <body>
-    
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
 <header> 
      <div class="logo">
         <img src="./img/logo_studio.png" alt="imagem logo">
@@ -56,10 +64,8 @@
 <main>
     <section class="home" id ="home">
         <div class="profile">
-             <!-- <img src="https://i.pinimg.com/originals/59/0e/26/590e26fc96fbbcaa30438cf5822ed65b.gif" alt="gif_home"> -->
-             <!-- <img src="http://1.bp.blogspot.com/-zpXEgMjsRgo/UvAQbZj5YmI/AAAAAAAAAvk/p1sws5F5LbE/s1600/tumblr_musmvvonI11r72ht7o1_500.gif" alt="">  -->
             </div>
-            <h1 class="profile__name"> Studio Ghibli</h1>
+            <h1 class="profile__name">Studio Ghibli</h1>
     </section>
     
     <section class="sobre" id = "sobre">
@@ -78,9 +84,6 @@
     </section>
 
     <section class="fundadores" id = "fundadores">
-         <!-- <div class="logo">
-            <img src="./img/logo_studio.png" alt="">
-        </div>  -->
         <h2 class="section-title">Fundadores</h2>
 
         <section class="nome-fundadores">
@@ -236,13 +239,12 @@
 
         <span class="gif">
             <img src="https://64.media.tumblr.com/807cf5c6e3ed6f7db44c3401e0c2fa00/85b2b467b7b384fa-13/s540x810/85928d36c1ead3dfa4c76f35194b884db8c12a90.gif" alt="">
-            <!-- <img src="https://thumbs.gfycat.com/OrderlyShamelessBushbaby-size_restricted.gif" alt=""> -->
         </span>
     </section>
 </main>
 
 <footer>
-    Todos os direitos reservados 2022| Desenvolvido por Letícia Evelin 
+    Copyright © 2022 | Desenvolvido por Letícia Evelin 
 </footer>
 </body>
 </html>
