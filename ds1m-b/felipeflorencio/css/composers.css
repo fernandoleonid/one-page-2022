@@ -1,8 +1,8 @@
 .composers ul{
     display: flex;
-    justify-content: space-between;
-    padding: 3rem;
-    height: 75%;
+    gap: 10%;
+    margin-top: 40px;
+    margin-left: 50px;
 }
 .composers li{
    display: flex;

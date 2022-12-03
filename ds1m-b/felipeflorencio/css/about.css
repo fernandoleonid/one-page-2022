@@ -1,5 +1,5 @@
 .about{
-   height: 840px;
+   margin-bottom: 1rem;
 }
 .about__container{
    padding: 5%;
@@ -15,12 +15,13 @@
 }
 .about__container p{
    font-family: 'Sunflower';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.11em;
-    color: #D2D1E8;
-    text-align: center;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   letter-spacing: 0.11em;
+   color: #D2D1E8;
+   text-align: center;
+   width: 15rem;
 }
 
 .whoiam{

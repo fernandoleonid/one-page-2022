@@ -1,12 +1,9 @@
 .info{
-    margin-top: 10%;
+    margin-top: 5%;
     margin-right: 10%;
     text-align: end;
 }
-.instruments ul{
-    margin: 4%;
-    margin-left: 6%;
-}
+
 .instruments ul li{
     text-align: center;
 }
