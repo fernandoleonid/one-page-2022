@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/responsividade.css" />
     <link rel="stylesheet" href="./css/responsividade-mobile.css" />
+    <link rel="stylesheet" href="./css/mobile-nav.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script
@@ -45,31 +46,25 @@
     </script>
     <main>
       <header>
-        <div class="menu">
-          <a href="#home" aria-label="link para a página home">
-            <span class="menu-text">Início</span>
-          </a>
-          <a href="#personagens" aria-label="link para a página personagens">
-            <span class="menu-text">Personagens</span>
-          </a>
-          <a href="#trama" aria-label="link para a página trama">
-            <span class="menu-text">Trama</span>
-          </a>
-          <a href="#creditos" aria-label="link para a página Créditos">
-            <span class="menu-text">Créditos</span>
-          </a>
-
-          <img src="./img/navigation__logo.webp" alt="logo da netflix" />
-        </div>
-
-        <div class="menu-mobile">
-          <img
-            class="logo-mobile"
-            src="./img/navigation__logo.webp"
-            alt="logo da netflix"
-          />
-          <i class="fas fa-bars icon-nav"></i>
-        </div>
+        <nav class="nav">
+          <a class="logo"
+            ><img
+              class="logo-img"
+              src="./img/container-logo_netflix.webp"
+              alt=""
+          /></a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#personagens">Personagens</a></li>
+            <li><a href="#trama">Trama</a></li>
+            <li><a href="#creditos">Créditos</a></li>
+          </ul>
+        </nav>
       </header>
       <div class="home" id="home">
         <div class="home__logo">
@@ -402,5 +397,6 @@
         ></span
       >
     </footer>
+    <script src="mobile-navbar.js"></script>
   </body>
 </html>
