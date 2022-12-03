@@ -20,7 +20,6 @@
 }
 #bgabout{
   z-index: -5;
-  transform: translate(-25%, 0%);
-  width: 80rem;
-  height: auto;
+  transform: translate(-11%, 2%);
+  width: 78rem;
 }
