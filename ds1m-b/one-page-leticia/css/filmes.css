@@ -8,8 +8,8 @@
 
 .description{
     font-weight: lighter;
-    text-align: justify;
-    /* align-items: center; */
+    text-align: center;
+    margin: 20px;
     font-size: 1.65rem;
     line-height: 150%;
 }
@@ -43,4 +43,17 @@
 }
 .card:hover::before{
     transform: translateY(0%);
+}
+
+@media (max-width: 960px) {
+    .filmes{
+        height: fit-content;  
+        width: 75%;
+        gap: 25px;
+        margin-top: 120px;
+    }
+    .filmes img {
+        width: 670px;
+        height: 420px;  
+    }
 }

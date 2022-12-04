@@ -89,3 +89,41 @@
     visibility: visible;
     z-index: 10;
 }
+
+@media (max-width: 960px) {
+    .museu{
+        height: 15%;
+        display: grid;
+        grid-template-areas: 
+        "title"
+        "text" 
+        "slider";
+        grid-template-rows: auto 1fr 1fr;
+        grid-template-columns:auto;
+        gap: 20px;
+    }
+    .text{
+        text-align: left;
+        width: 70%;
+        margin-left: 30px;
+    }
+    .text__title{
+        font-size: 50px;
+    }
+    .slider img{
+        height: 400px ; 
+        width: 525px;
+    }
+    .slider{
+        margin-left: 30px;
+        align-items: flex-start;
+    }
+    .slider__title{
+        font-size: 50px;
+    }
+    .slider label{
+        bottom: 20px;
+        height: 20px;
+        width: 20px;
+    }
+}

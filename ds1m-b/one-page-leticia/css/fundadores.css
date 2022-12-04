@@ -7,13 +7,6 @@
     gap: 50px;
 }
 
-.logo{
-    grid-area: title;
-    margin-right: 100px;
-    width: 100px;
-    height: 120px;
-}
-
 .nome-fundadores{
     display: flex;
     flex-direction: row;
@@ -21,4 +14,24 @@
     text-align: center;
     gap: 60px;
     font-size: 1.25rem;
+}
+
+@media (max-width: 960px) {
+    .fundadores {
+        height: fit-content;
+        height: 165vh; 
+        margin-top: 140px;
+    }
+    .nome-fundadores{
+        display: flex;
+        font-size: 1.30rem;
+        /* flex-wrap: wrap;  */
+        flex-direction: column; 
+    }
+    .section-title{
+        font-size: 125px;
+    }
+    .fundador{
+        gap: 30px;
+    }
 }

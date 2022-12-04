@@ -24,3 +24,26 @@
     width: 100%;
     line-height: 150%;
 }
+
+@media (max-width: 960px) {
+    .sobre{
+        display: flex;
+        margin-top: 20px; 
+        /* height: 80vh; */
+        flex-direction: column; 
+    }
+    .section-title {
+        font-size: 150px;
+        text-align: center;
+    }
+    .text{
+        grid-area: text;
+        display: flex;
+        width: 80%;
+        text-align: center; 
+        font-size: 1.60rem;
+        margin-left: 5px;  
+        
+
+    }
+}

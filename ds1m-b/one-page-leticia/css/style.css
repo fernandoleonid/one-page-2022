@@ -47,7 +47,13 @@ footer{
 }
 
 @media (max-width: 960px) {
+    header{
+        max-width: 100%;
+    }
     footer{
         font-size: 0.60rem;
+    }
+    section{
+        width: 80%;
     }
 }
