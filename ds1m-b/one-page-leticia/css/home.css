@@ -14,3 +14,12 @@
     font-style: italic;
     color: #fff; 
 }
+
+@media (max-width: 960px) {
+    .profile__name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 6rem;
+    }
+}

@@ -14,3 +14,21 @@
 .menu li:hover{
     border-color: var(--primary-color);
 }
+.menu__icon{
+    display: none;
+}
+
+@media (max-width: 960px) {
+    .menu{
+        display: none;
+    }
+    .menu li{
+        border-bottom: 2px solid transparent;
+    }
+    .menu__icon{
+        display: block;
+        font-size: 2.25rem;
+        margin-top: 60px; 
+        margin-right: 175px; 
+    }
+}
