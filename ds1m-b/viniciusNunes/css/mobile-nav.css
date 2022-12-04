@@ -1,5 +1,6 @@
 .logo-img {
   height: 40px;
+  filter: grayscale(85%);
 }
 
 header {
@@ -16,9 +17,13 @@ header {
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 32px;
-  height: 8vh;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  height: 60px;
+  transform: translateY(-10px);
   width: 100vw;
+  background-color: #6662;
 }
 
 .nav-list {
@@ -44,6 +49,17 @@ header {
   background: #fff;
   margin: 8px;
   transition: 0.3s;
+}
+
+.nav-list__animation {
+  border-bottom: 0.5px solid transparent;
+  transition: all 0.5s;
+  color: var(--tertiary-color);
+}
+
+.nav-list__animation:hover {
+  border-color: #fff;
+  color: var(--secundary-color);
 }
 
 @media (max-width: 999px) {
