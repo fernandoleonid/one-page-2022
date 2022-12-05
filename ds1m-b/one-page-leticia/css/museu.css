@@ -10,7 +10,9 @@
     grid-template-columns: 1fr 1fr; 
     gap: 64px;
 }
-
+.section-title{
+    margin-top: 10px;
+}
 .text{
     grid-area: text;
     display: flex;
@@ -21,109 +23,32 @@
 .text__title{
     font-size: 40px;
 }
-.text__description{
+.description__text{
     text-align: justify;
     font-weight: lighter;
     font-size: 1.65rem;
-    width: 80%;
     line-height: 150%;
-}
-
-.slider {
-    grid-area: slider;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-}
-.slider__title{
-    font-size: 40px;
-}
-
-.slider li {
-    list-style: none;
-    position: absolute; 
-}
-
-.slider img {
-    margin: auto;
-    height: 340px ; 
-    width: 465px;
-    vertical-align: top;
-    opacity: 0;
-    visibility: hidden;
-}
-.slider input {
-    display: none;
-}
-.slider label {
-    background-color: #fff;  
-    bottom: 10px;
-    cursor: pointer;
-    display: block;
-    height: 10px;
-    width: 10px;
-    position: absolute;
-    z-index: 10;
-}
-
-.slider li:nth-child(1) label {
-    left: 10px;
-}
-
-.slider li:nth-child(2) label {
-    left: 40px;
-}
-
-.slider li:nth-child(3) label {
-    left: 70px;
-}
-.slider li:nth-child(4) label{
-    left: 100px;
-}
-.slider li:nth-child(5) label{
-    left: 130px;
-}
-
-.slider li input:checked ~ img {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
 }
 
 @media (max-width: 960px) {
     .museu{
-        height: 15%;
+        height: 15%; 
         display: grid;
         grid-template-areas: 
         "title"
         "text" 
         "slider";
         grid-template-rows: auto 1fr 1fr;
-        grid-template-columns:auto;
-        gap: 20px;
+        grid-template-columns: 1fr;
+        gap: 30px;
     }
     .text{
+        display: flex;
         text-align: left;
-        width: 70%;
-        margin-left: 30px;
+        width: 90%;
+
     }
     .text__title{
-        font-size: 50px;
-    }
-    .slider img{
-        height: 400px ; 
-        width: 525px;
-    }
-    .slider{
-        margin-left: 30px;
-        align-items: flex-start;
-    }
-    .slider__title{
-        font-size: 50px;
-    }
-    .slider label{
-        bottom: 20px;
-        height: 20px;
-        width: 20px;
+        font-size: 45px;
     }
 }

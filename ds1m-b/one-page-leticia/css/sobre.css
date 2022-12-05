@@ -25,25 +25,28 @@
     line-height: 150%;
 }
 
+/* TABLET */
 @media (max-width: 960px) {
     .sobre{
         display: flex;
-        margin-top: 20px; 
-        /* height: 80vh; */
-        flex-direction: column; 
+        margin-top: 15px;  
+        flex-direction: column;
+        grid-template-areas: 
+        "title"
+        "text";
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 1fr; 
     }
     .section-title {
         font-size: 150px;
         text-align: center;
     }
     .text{
-        grid-area: text;
+        grid-area: text; 
         display: flex;
-        width: 80%;
-        text-align: center; 
-        font-size: 1.60rem;
-        margin-left: 5px;  
-        
-
+        text-align: justify; 
+        font-size: 1.30rem;
+        padding-left: 18%;
+        line-height: 130%;
     }
 }

@@ -18,14 +18,12 @@
 
 @media (max-width: 960px) {
     .fundadores {
-        height: fit-content;
-        height: 165vh; 
-        margin-top: 140px;
+        height: fit-content; 
+        /* height: 150vh;  */
     }
     .nome-fundadores{
         display: flex;
         font-size: 1.30rem;
-        /* flex-wrap: wrap;  */
         flex-direction: column; 
     }
     .section-title{
