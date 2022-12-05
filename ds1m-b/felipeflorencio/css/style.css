@@ -44,7 +44,12 @@ section {
 }
 
 /* TABLET */
-@media (max-width: 960px) {}
+@media (max-width: 960px) {
+    body{
+        width: 150%;
+    }
+
+}
 
 /* MOBILE */
 @media (max-width:640px) {}

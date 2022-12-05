@@ -23,3 +23,11 @@
   transform: translate(-11%, 2%);
   width: 78rem;
 }
+/* TABLET */
+@media (max-width: 960px) {
+ #bghome{
+   top: 0%;
+   left: 35%;
+ }
+
+}

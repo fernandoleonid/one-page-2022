@@ -39,3 +39,8 @@
 #felipeflorencio{
    font-size: 5rem;
 }
+@media (max-width: 960px) {
+  .about__container{
+     margin: 5%;
+  }
+}
