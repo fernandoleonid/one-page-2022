@@ -1,5 +1,8 @@
+.instruments{
+    height: max-content;
+}
 .info{
-    margin-top: 5%;
+    margin-top: 3%;
     margin-right: 10%;
     text-align: end;
 }

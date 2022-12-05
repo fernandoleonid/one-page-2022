@@ -1,10 +1,10 @@
 .backgrounds{
- 
   position: absolute;
 }
 #bghome{
-  top: 1rem;
-  right: 0rem;
+  top: -3rem;
+  right: 2rem;
+  width: 73rem;
   position: absolute;
   z-index: -1;
 }
@@ -28,6 +28,9 @@
  #bghome{
    top: 0%;
    left: 35%;
+ }
+ #bgabout{
+   left: 27%;
  }
 
 }

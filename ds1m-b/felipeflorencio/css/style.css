@@ -3,7 +3,7 @@
     --section-color: #80695420;
     --footer-color: #505050;
     --clear-font-color: #d2d1e8f5;
-    --space-top: 1rem;
+    --space-default: 2rem;
     --space-left: 100px;
     --width-desktop: 1694px;
     --height-desktop: 854px;
@@ -17,12 +17,13 @@ html, body{
   scroll-behavior: smooth;  
 }
 body {
+    height: 100vh;
     background-color: var(--body-color);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: var(--space-top);
-    gap: 14px;
+    padding: var(--space-default);
+    gap: 1rem
+    ;
     box-sizing: border-box;
 
 }
@@ -31,22 +32,25 @@ body {
     gap: 94px;
 }
 section {
+    height: 100vh;
+    width: 100%;
     background-color: var(--section-color);
-    height: 85%;
-    width: 85%;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
 }
 .index{
-    margin-left: 5%;
-    margin-bottom: 4%;
+    margin-left: 50px;
+    margin-bottom: 3%;
 }
 
 /* TABLET */
 @media (max-width: 960px) {
     body{
-        width: 150%;
+        margin: 5%;
+    }
+    section{
+        width: 160vh;
     }
 
 }
