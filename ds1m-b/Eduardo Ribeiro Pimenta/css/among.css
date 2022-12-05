@@ -46,5 +46,23 @@
 }
 }
 @media(max-width:770px){
-
+    .green{
+        transform: translate(150px, 400px);
+    }
+    .yellow{
+        position: absolute;
+        transform: translate(0vw, -20px);
+        z-index: 1;
+    }
+    .orange{
+        display: none;
+    }
+    .cian{
+        position: absolute;
+        transform: translate(46vw, -250px);
+        z-index: 1;
+    }
+    .red{
+        transform: translate(20vw, -10px);
+    }
 }

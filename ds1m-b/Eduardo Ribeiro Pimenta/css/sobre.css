@@ -48,3 +48,20 @@
     }
 
 }
+@media(max-width:770px){
+    .tablet{
+        height: 165px;
+    }
+    .sobre{
+        grid-template-columns: 1fr ;
+    }
+    .sobre h2{
+        transform: translate(0px,0px);
+        place-self: center;
+        z-index: 5;
+    }
+    .tablet{
+        transform: translate(0px);
+        place-self: center;
+    }
+}

@@ -64,6 +64,6 @@ footer{
 }
 @media(max-width:770px){
     section{
-        height: 150vh;
+        height: 110vh;
     }
 }

@@ -6,8 +6,7 @@
     flex-direction: column;
 }
 .novidades .section-title{
-    padding-left: 148px;
-   
+    padding-left: 148px; 
 }
 .molde{
     z-index: 0;
@@ -49,4 +48,29 @@
 }
 .social a:hover{
     color: var(--select-color);
+}
+
+@media(max-width:770px){
+    .novidades{
+        font-size: 1.5rem;
+        flex-direction: column;
+    }
+    .novidades span{
+        transform: translate(-30px);
+    }
+    .novidades .section-title{
+        padding-left: 0px; 
+        place-self: center;
+        z-index: 2;
+    }
+    .view-port{
+        position: absolute;
+        width:100%;
+        height: 500px;
+        overflow: hidden;
+    }
+    .images-container{
+        gap: 5px;
+        padding-left: 0px;
+    }
 }

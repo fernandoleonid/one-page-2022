@@ -27,3 +27,13 @@
     align-items: center;
     gap: 31px;
 }
+@media(max-width:770px){
+    .download{
+        height: 150vh;
+    }
+    .download__container{
+        padding-top: 95px;
+        flex-direction: column;
+        gap: 100px;
+    }
+}
