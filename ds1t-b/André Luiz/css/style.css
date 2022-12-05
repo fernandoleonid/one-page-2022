@@ -12,6 +12,28 @@ header{
     align-items: center;
 }
 
+@media (max-width: 320px){
 
+    body{
+        width: 300px;
+    }
+
+   header{
+        height: 15vh;
+        padding: 10px;
+        max-width: 550px;
+        width: 100%;
+   }
+
+   nav{
+        display: none;
+   }
+
+   .menubar-container{
+        color: white;
+        font-size: 2rem;
+   }
+
+}
 
 

@@ -32,3 +32,30 @@
     grid-column: 2;
     grid-row: 1;
 }
+
+@media (max-width: 320px) {
+
+    .section-home{
+        padding: 10px;
+        height: 95vh;
+        max-width: 550px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 2;
+    }
+
+    .promotion-image-container{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .promotion-text-container{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .promotion-text-container span{
+        font-size: 2rem;
+    }
+}

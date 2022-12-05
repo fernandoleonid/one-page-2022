@@ -100,3 +100,15 @@
     border-radius: 30px;
     color: #000;
 }
+
+@media (max-width: 320px){
+
+    .section-mobile{
+        max-width: 550px;
+        width: 100%;
+        grid-template-columns: 1;
+    }
+
+
+
+}
