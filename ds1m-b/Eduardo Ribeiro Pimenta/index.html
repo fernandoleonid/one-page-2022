@@ -44,11 +44,9 @@
             <p>AMONG US é um party game com o objetivo pricipal dos
             <span class="tripulante">tripulantes</span> é encontrar o
             <span class="impostor">impostor</span>, que tem como objetivo eliminar os outros jogadores sem ser descobrerto.</p>
-            <img src="./img/tablet.png" alt="tablet amongus">
-            <div class="among">
-                <img class="red" src="./img/red.png" alt="">
-                <img class="pink"src="img/pink.png" alt="">
-            </div>
+            <img class="tablet" src="./img/tablet.png" alt="tablet amongus">
+            <img class="red" src="./img/red.png" alt="">
+            <img class="pink"src="img/pink.png" alt="">
         </section>
         <section class="novidades" id="novidades">
             <h2 class="section-title">Novidades</h2>
@@ -129,16 +127,29 @@
                    </a>
                 </div>
             </div>
-            <img class="brown" src="./img/brown.png" alt="">
-            <img class="yellow" src="./img/yellow.png" alt="">
+            <div>
+                <img class="brown" src="./img/brown.png" alt="">
+                <img class="yellow" src="./img/yellow.png" alt="">
+            </div>
+
         </section>
         
     <footer>
-        <div class="a">
+        <div class="copyright">
             <p>Todos os direitos reservados 2022 | Desenvolvido por Eduardo Ribeiro</p>         
         </div> 
         <img class="orange" src="./img/orange.png" alt="">
     </footer>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
     <script src="./js/carrousel.js"></script>
 </body>
 </html>

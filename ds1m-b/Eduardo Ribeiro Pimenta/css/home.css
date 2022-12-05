@@ -19,3 +19,10 @@
     padding-top: 50px;
     font-size: 500px;
 }
+
+@media(max-width:1200px){
+.home h1{
+    padding-top: 240px;
+    font-size: 300px;
+}
+}

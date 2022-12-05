@@ -13,7 +13,7 @@
     grid-area: title;
     transform: translate(-35px,0px);
 }
-.sobre img{
+.tablet{
     grid-area: image;
     z-index: 2;
 }
@@ -30,4 +30,21 @@
 }
 .among{
     z-index: 2;
+}
+
+@media(max-width:1200px){
+    .sobre{
+        display: grid;
+        grid-template-areas:
+        "title"
+        "text"
+        "image" ;
+        padding-top: 156px;
+        grid-template-rows: 106px ;
+        grid-template-columns: 550px ;
+    }
+    .tablet{
+        transform: translate(-50px);
+    }
+
 }

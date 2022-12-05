@@ -45,6 +45,7 @@
    justify-content: center;
    padding-top: 150px;
    font-size: 64px;
+   z-index: 2;
 }
 .social a:hover{
     color: var(--select-color);

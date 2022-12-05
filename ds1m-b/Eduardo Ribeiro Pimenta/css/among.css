@@ -1,16 +1,16 @@
 .red{
     position: absolute;
-    transform: translate(1050px, -550px);
+    transform: translate(55vw, 0px);
     z-index: 1;
 }
 .pink{
     position: absolute;
-    transform: translate(-200px, 0px);
+    transform: translate(0px, 400px);
     z-index: 1;
 }
 .cian{
     position: absolute;
-    transform: translate(1300px, -250px);
+    transform: translate(70vw, -250px);
     z-index: 4;
 }
 .green{
@@ -25,11 +25,26 @@
 }
 .yellow{
     position: absolute;
-    transform: translate(500px, 350px);
+    transform: translate(20vw, 50px);
     z-index: 1;
 }
 .orange{
-    
     position: absolute;
     transform: translate(300px, -61px);
+}
+
+@media(max-width:1200px){
+.pink{
+    transform: translate(-200px, 400px);
+    z-index: 2;
+}
+.green{
+    z-index: 1;
+}
+.orange{
+    transform: translate(300px, -62px);
+}
+}
+@media(max-width:770px){
+
 }
