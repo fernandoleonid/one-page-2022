@@ -3,52 +3,60 @@
     --section-color: #80695420;
     --footer-color: #505050;
     --clear-font-color: #d2d1e8f5;
-    --space-default: 2rem;
+    --space-top: 1rem;
     --space-left: 100px;
     --width-desktop: 1694px;
     --height-desktop: 854px;
 }
 
-html {
-    scroll-behavior: smooth;
-   
-}
+
 html, body{
   scroll-behavior: smooth;  
 }
+
 body {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     background-color: var(--body-color);
     display: flex;
     flex-direction: column;
-    padding-top: 10%;
-    padding: var(--space-default);
-    gap: 1rem;
+    align-items: center;
+    gap: 14px;
     box-sizing: border-box;
-
-}
-.container{
-    margin-left: 10%;
-    gap: 94px;
 }
 section {
-    height: 100vh;
+    margin-left: 70px;
+    margin-right: 70px;
     background-color: var(--section-color);
+    height: 95vh;
+    width: 90vw;
     border-radius: 2px;
-    display: flex;
-    flex-direction: column;
+}
+.buttons{
+    display: none;
 }
 .index{
-    margin-left: 50px;
-    margin-bottom: 3%;
+    margin-left: 5%;
+}
+.index-home{
+    margin-bottom: 5%;
+}
+.composers{
+    padding: 3rem;
+    position: relative;
+    max-width: 100%;
+}
+.composers__wrapper{
+    overflow: hidden; 
 }
 
-/* TABLET */
-@media (max-width: 960px) {
-    section{
-        
-    }
 
+/* TABLET */
+@media(max-width: 960px) {
+    section{
+        height: 95vh;
+        width: 90vh;
+    }
 }
 
 /* MOBILE */

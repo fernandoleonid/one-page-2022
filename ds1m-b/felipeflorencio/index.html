@@ -16,14 +16,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/presentation.css">
-    <link rel="stylesheet" href="./css/composers.css">
+    <link rel="stylesheet" href="./css/carousel.css">
     <link rel="stylesheet" href="./css/instruments.css">
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/skills.css">
     <script src="https://kit.fontawesome.com/b2396ffade.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/backgrounds.css">
+    <link rel="stylesheet" href="./css/composers.css">
 </head>
-<body>
+<body> 
     <section class="home" id="home">
         <header>
             <a href="#HOME">
@@ -39,7 +40,6 @@
                 <h2>ABOUT</h2>
             </a>
         </header>
-       
         <div class="home__content">
             <div class="presentation">
                 <h1>MUSIC FOR YOU</h1>
@@ -49,7 +49,7 @@
             <img src="./img/cello-home.png" class="cello">
             <img src="./img/bg-home.png" alt="" id="bghome">
         </div>
-        <nav class="index">
+        <nav class="index index-home">
             <a href="">
                 <img src="./img/circle-1.png" alt="">
             </a>
@@ -62,34 +62,39 @@
         </nav>
        
     </section>
-    <section class="composers perfil">
-        <ul>
-            <li id="chopin">
-                <img src="./img/chopin 1.png" alt="Desenho do Chopin">
-                <h2>CHOPIN</h2>
-                <p>Um pianista polonês radicado na França e compositor para piano da era romântica. É amplamente conhecido como um dos maiores compositores para piano e um dos pianistas mais importantes da história.
-                </p>
-            </li>
-            <li id="bethoven">
-                <img src="./img/bethoven 1.png" alt="Desenho do Bethoven">
-                <h2>BETHOVEN</h2>
-                <p>Considerado um dos pilares da música ocidental, Bethoven é conhecido pelo incontestável desenvolvimento, tanto da linguagem como do conteúdo musical demonstrado nas suas obras, permanecendo como um dos compositores mais respeitados e mais influentes de todos os tempos.
-                </p>
-            </li>
-            <li id="mozart">
-                <img src="./img/mozart 1.png" alt="Desenho do Mozart">
-                <h2>MOZART</h2>
-                <p>Autor de mais de 600 obras, Wolfgang Amadeus Mozart foi um compositor compentente desde os cinco anos de idade. Possuiu habilidades no teclado e violino. Uma de suas maiores composições é a Sinfonia n°40.  
-                </p>
-            </li>
-            <img src="./img/bg-composers.png" alt="" id="bgcomposers">
-        </ul>
-       
+    <section class="composers">
+        <div class="composers__wrapper carousel">
+            <ul>
+                <li class="item current-item"id="chopin">
+                    <img src="./img/chopin 1.png" alt="Desenho do Chopin">
+                    <h2>CHOPIN</h2>
+                    <p>Um pianista polonês radicado na França e compositor para piano da era romântica. É amplamente conhecido como um dos maiores compositores para piano e um dos pianistas mais importantes da história.
+                    </p>
+                </li>
+                <li class="item current-item" id="bethoven">
+                    <img src="./img/bethoven 1.png" alt="Desenho do Bethoven">
+                    <h2>BETHOVEN</h2>
+                    <p>Considerado um dos pilares da música ocidental, Bethoven é conhecido pelo incontestável desenvolvimento, tanto da linguagem como do conteúdo musical demonstrado nas suas obras, permanecendo como um dos compositores mais respeitados e mais influentes de todos os tempos.
+                    </p>
+                </li>
+                <li class="item current-item" id="mozart">
+                    <img src="./img/mozart 1.png" alt="Desenho do Mozart">
+                    <h2>MOZART</h2>
+                    <p>Autor de mais de 600 obras, Wolfgang Amadeus Mozart foi um compositor compentente desde os cinco anos de idade. Possuiu habilidades no teclado e violino. Uma de suas maiores composições é a Sinfonia n°40.  
+                    </p>
+                </li>
+                <img src="./img/bg-composers.png" alt="" id="bgcomposers">
+            </ul>
+        </div>
+        <div class="composers__buttons buttons">
+            <button class="arrow-left control" aria-label="Previous image">Previous</button>
+            <button class="arrow-rigth control" aria-label="Next Image">Next</button>
+        </div>
         <a href="#home">
-            <img src="./img/circle-1.png" alt="" class="index">
+            <img src="./img/circle-1.png" alt="" class="index index-composers">
         </a>
     </section>
-    <section class="composers instruments">
+    <section class="instruments carousel">
         <div class="info">
             <p>Alguns instrumentos são mais propensos para a música clássica. </p>
             <p>Estes possuem propriedades de material e de tempo que reforçam isso.</p>
@@ -158,6 +163,7 @@
         </div>
         <img src="./img/bg-about.png" alt="" class="backgrounds" id="bgabout">
     </section>
+    <script src="./js/composers.js"></script>
 </body>
 
 </html>

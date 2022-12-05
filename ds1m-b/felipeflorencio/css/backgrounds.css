@@ -1,52 +1,43 @@
-.backgrounds{
+.background{
   position: absolute;
-  width: 110%;
 }
 #bghome{
-  top: -4rem;
-  right: 3rem;
-  width: 70rem;
+  top: 0rem;
+  right: 0rem;
   position: absolute;
   z-index: -1;
 }
 #bgcomposers{
   position: absolute;
   z-index: -1;
-  top: 59rem;
-  width: 83rem;
+  width: 100%;
 }
 #bginstruments{
   position: absolute;
   z-index: -1;
-  transform: translate(-1rem,-27rem);
-  width: 100rem;
+  transform: translate(-1rem,-20rem); 
+  width: 81rem;
 }
 #bgabout{
-  z-index: -1;
+  position: absolute;
+  z-index: -5;
+  transform: translate(-11%, 2%);
   width: 78rem;
-  left: 15%;
 }
-/* TABLET */
-@media (max-width: 960px) {
- #bghome{
-  top: 0%;
-  left: 33%;
-  width: 110%;
-
- }
-
- #bgabout{
-   width: 120%;
- }
- #bgcomposers{
-   top: 60rem;
-   width: 120%;
- }
- #bginstruments{
-   width: auto;
-   
-  height: 87rem;
-  transform: translate(0rem,-18rem);
- }
-
+@media (max-width:960px) {
+  #bghome{
+      width: 60rem;
+      height: 65rem;
+      top: 5%;
+      right: 1%;
+  }
+  #bgcomposers{
+    width: 60rem;
+  }
+  #bginstruments{
+    width: 60rem;
+  }
+  #bgabout{
+    width: 60rem;
+  }
 }

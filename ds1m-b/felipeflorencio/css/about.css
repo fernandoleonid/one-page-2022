@@ -6,13 +6,12 @@
    margin-top: 3%;
    font-family: 'Fredericka the Great';
    display: grid;
-   grid-auto-columns: max-content;
+   grid-template-columns: auto 38rem;
    grid-template-rows: auto auto;
    grid-template-areas: 
       "foto nome"
       "descricao skills";
-   gap: 2rem;
-   margin-left: 18%;
+   gap: 36px;
 }
 .about__container p{
    font-family: 'Sunflower';
@@ -23,9 +22,11 @@
    color: #D2D1E8;
    text-align: center;
    width: 15rem;
+   grid-area: descricao;
 }
 
 .whoiam{
+   grid-area: nome;
    font-family: 'Fredericka the Great';
     font-weight: 400;
     color: #BFA185;
@@ -33,16 +34,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 #eusou{
    font-size: 4rem;
 }
 #felipeflorencio{
    font-size: 5rem;
-}
-@media (max-width: 960px) {
-  .about__container{
-     margin: 5%;
-  }
 }

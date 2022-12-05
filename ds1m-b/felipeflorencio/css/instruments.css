@@ -1,8 +1,5 @@
-.instruments{
-    height: max-content;
-}
 .info{
-    margin-top: 3%;
+    margin-top: 5%;
     margin-right: 10%;
     text-align: end;
 }
@@ -20,4 +17,9 @@
 #violino{
     margin-top: 16%;
     margin-right: 5%;
+}
+@media (max-width:960px) {
+    #piano, #violino{
+        display: none;
+    }
 }

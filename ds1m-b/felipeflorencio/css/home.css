@@ -2,6 +2,7 @@
 .home {
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
 }
 .home__content{
     display: flex;
@@ -14,10 +15,20 @@
 .cello{
     width: 546px;
     height: 705px;
-    
 }
 
 nav{
     display: flex;
     gap: 20px;
+}
+
+@media  (max-width:960px) {
+    .home__content{
+        gap: 4%;
+    }
+    .cello{
+        width: 500px;
+        height: 700px;
+    }
+    
 }
