@@ -6,12 +6,12 @@
    margin-top: 3%;
    font-family: 'Fredericka the Great';
    display: grid;
-   grid-template-columns: auto 38rem;
    grid-template-rows: auto auto;
    grid-template-areas: 
       "foto nome"
       "descricao skills";
    gap: 36px;
+   margin-left: 15%;
 }
 .about__container p{
    font-family: 'Sunflower';
