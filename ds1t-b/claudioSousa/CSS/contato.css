@@ -25,6 +25,13 @@
     gap: 51px;
 }
 
+.contato-item{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+}
+
 .compreAqui{
     grid-area: compre;
     display: flex;
@@ -37,4 +44,29 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+
+
+
+
+@media (max-width:640px ){
+    .contato{
+        height: 150vh;
+        max-width: 640px;
+       display: flex;
+       flex-direction: column;
+       font-size: 1rem;
+
+    }
+
+    .contato h3{
+        font-size:2rem;
+        margin-top: 30px;
+    }
+
+    .ifood-img{
+        width: 100px;
+        margin-bottom: 30px;
+    }
 }

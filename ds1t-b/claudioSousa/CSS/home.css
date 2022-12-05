@@ -11,3 +11,13 @@
 .img-logo{
     border-radius: 86px;
 }
+
+
+@media (max-width: 640px ){
+    
+
+    .img-logo{
+        width: 300px;
+    }
+    
+}
