@@ -7,7 +7,7 @@
     align-self: center;
     grid-template-rows: 106px 445px;
     grid-template-columns: 516px 656px;
-    align-self: center;
+    align-self: center center;
 }
 .sobre h2{
     grid-area: title;
@@ -15,6 +15,7 @@
 }
 .sobre img{
     grid-area: image;
+    z-index: 2;
 }
 .impostor{
     color:#F30000;
@@ -26,4 +27,7 @@
     padding-top: 30px;
     font-size: 2rem;
     grid-area: text;
+}
+.among{
+    z-index: 2;
 }

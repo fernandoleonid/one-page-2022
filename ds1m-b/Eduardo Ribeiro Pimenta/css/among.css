@@ -1,0 +1,34 @@
+.red{
+    position: absolute;
+    transform: translate(1050px, -550px);
+    z-index: 1;
+}
+.pink{
+    position: absolute;
+    transform: translate(-200px, 0px);
+    z-index: 1;
+}
+.cian{
+    position: absolute;
+    transform: translate(1300px, -250px);
+    z-index: 4;
+}
+.green{
+    position: absolute;
+    transform: translate(300px, 300px);
+    z-index: 1;
+}
+.brown{
+    position: absolute;
+    transform: translate(-200px, -250px);
+    z-index: 1;
+}
+.yellow{
+    position: absolute;
+    transform: translate(500px, 350px);
+    z-index: 1;
+}
+.orange{
+    position: absolute;
+    transform: translate(300px, -61px);
+}

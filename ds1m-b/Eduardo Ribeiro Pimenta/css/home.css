@@ -12,7 +12,10 @@
     display: flex;
     justify-content: center;
 }
-.logo{
-    position: absolute;
-    height: 700px;
+.home h1{
+    z-index: 2;
+    font-family: Impostograph;
+    font-weight: 100;
+    padding-top: 50px;
+    font-size: 500px;
 }

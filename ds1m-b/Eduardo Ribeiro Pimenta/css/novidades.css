@@ -7,6 +7,7 @@
 }
 .novidades .section-title{
     padding-left: 148px;
+   
 }
 .molde{
     z-index: 0;
@@ -15,6 +16,7 @@
 .images{
     position: absolute;
     transform: translate(0px,9px);
+    
 }
 .images-container{
     display: flex;
