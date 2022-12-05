@@ -46,7 +46,5 @@
 }
 /* TABLET */
 @media (max-width: 960px) {
-    .skills__container{
-        width: 82%;
-    }
+    
 }
