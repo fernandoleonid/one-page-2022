@@ -1,0 +1,18 @@
+.redondo {
+    display: flex;
+    width: 15%;
+}
+
+.curiosidade_text {
+    display: flex;
+    margin-top: 2vw;
+    margin-left: 20vw;
+    gap: 200px;
+    width: 1200px;
+}
+
+.text {
+    display: grid;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.3vw;
+}

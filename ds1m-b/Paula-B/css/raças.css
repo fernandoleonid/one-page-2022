@@ -24,16 +24,14 @@
     font-size: 3rem;
     font-weight: 800;
     justify-content: center;
-    gap: 410px;
+    gap: 300px;
 }
-
-.raca {}
 
 .racas-container {
     display: flex;
     margin-top: 30px;
     justify-content: center;
-    gap: 120px;
+    gap: 150px;
 }
 
 .card {
@@ -61,7 +59,7 @@
     background-color: #f8e89570;
     transform: translateY(100%);
     transition: .7s;
-    border-radius: 20px;
+    border-radius: 130px;
 }
 
 .card:hover::before {
