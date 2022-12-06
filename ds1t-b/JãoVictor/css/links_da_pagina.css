@@ -1,0 +1,22 @@
+.links_da_pagina{
+    display: flex;
+    gap: 2%;
+    padding-left: 13rem;
+    margin-top: -3.4rem;
+    color: #DADADA;
+    font-size: 2vh;
+}
+.lupa{
+    display: flex;
+    padding-left: 96%;
+    margin-top: -3.5rem;
+}
+
+@media (max-width:640px){
+    .lista{
+        display: none ;
+    }
+    .lupa{
+        display: none;
+    }
+}

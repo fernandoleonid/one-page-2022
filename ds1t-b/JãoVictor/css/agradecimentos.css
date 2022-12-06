@@ -1,0 +1,48 @@
+.agradecimento{
+    background-image: url(../img/Clash\ final.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.titulo-agradecimento{
+    display: flex;
+    padding-top: 17%;
+    padding-left: 28%;
+    color: #fff;
+    font-size: 5rem;
+}
+.titulos-links{
+    display: flex;
+    font-size: 3rem;
+    color: #fff;
+    padding-left: 13%;
+    padding-top: 8%;
+    gap: 60%;
+}
+.links-contatos{
+    display: grid;
+    padding-top: 2%;
+    padding-left: 13%;
+    font-size: 2rem;
+    color: #fff;
+    gap: 30%;
+}
+.links-redes-sociais{
+    display: flex;
+    margin-top: -7%;
+    padding-left: 75%;
+    gap: 15%;
+}
+.links-redes-sociais2{
+    display: flex;
+    padding-top: 1%;
+    padding-left: 75%;
+    gap: 15%;
+}
+@media (max-width:640px){
+    .titulo-agradecimento{
+        display: none;
+    }
+    
+}
