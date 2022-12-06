@@ -1,5 +1,8 @@
 # SITE AMONG US 
 <img src="./img/site_amongus.png">
+
+[Link para o site](https://rib3r0.github.io/one-page-2022/ds1m-b/EduardoRibeiroPimenta/)
+
 ## Sobre
 Site do tipo one page para
 divulgar e trazer novidades sobre o jogo AMONG US.
@@ -27,8 +30,11 @@ no curso do [SENAI Jandira](https://jandira.sp.senai.br/).
 
 ---
 ## Links
-figma:
+- figma:
 https://www.figma.com/file/EzjjjwK351SjcC4awiB8Ah/trabalho-amongus?node-id=0%3A1&t=vWXbupJiwvzBQenL-0
+
+- gitpage:
+https://rib3r0.github.io/one-page-2022/ds1m-b/EduardoRibeiroPimenta/
 
 
 
