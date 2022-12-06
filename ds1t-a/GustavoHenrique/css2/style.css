@@ -1,72 +1,61 @@
-:root{
+:root {
     --primary-line-color: #14DFDF;
 }
 
-body{font-family: 'Ubuntu', sans-serif;
+body {
+    font-family: 'Ubuntu', sans-serif;
     color: #fff;
     background-color: black;
     height: 100vh;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
-    
     height: 100%;
-   
 }
 
-header{
-   
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
 }
 
-.conteudo-titulo{
-    
+.conteudo-titulo {
     padding-left: 32px;
     font-size: 1.2rem;
-    
 }
 
-
-.home li{
-    border-bottom: 4px solid transparent ; /*Linha de Borda quando passar o mouse*/
+.home li {
+    border-bottom: 4px solid transparent;
+    /*Linha de Borda quando passar o mouse*/
     transition: border-color .5s;
 }
 
-.home li:hover{
-
-        border-color:var(--primary-line-color);
-     
+.home li:hover {
+    border-color: var(--primary-line-color);
 }
 
-.home{
-    
+.home {
     padding-right: 33px;
     color: white;
     font-size: 1.2rem;
 }
 
-main{
+main {
     height: 100%;
-    
 }
 
-.footer{
-    
+.footer {
     display: flex;
     align-items: center;
     justify-content: center;
     border-top: 3px solid #fff;
-    
     height: 40px;
-
 }
 
-.footer_texto{
+.footer_texto {
     padding-top: 10px;
     font-family: 'Sacramento', cursive;
     font-style: normal;
@@ -74,53 +63,53 @@ main{
     color: white
 }
 
-@media (max-width: 960px){
-    
-    section{
-
+@media (max-width: 960px) {
+    section {
         height: 100%;
     }
-    header{
+    header {
         height: 40px;
         font-size: 0.9rem;
     }
-    .home{
+    .home {
         padding-top: 10px;
     }
-
-    main{
+    main {
         padding-top: 32px;
     }
 }
 
-@media (max-width: 640px){
-    section{
+@media (max-width: 640px) {
+    section {
         height: auto;
     }
-    .home{
+    .home {
         padding-top: 20px;
         padding-right: 20px;
         font-size: 16px;
     }
-    .conteudo-titulo{
+    .conteudo-titulo {
         padding-top: 20px;
     }
-
-    .footer{
+    .footer {
         display: flex;
         align-items: center;
         justify-content: center;
         border-top: 3px solid #fff;
-       
-    
     }
-
-    .footer_texto{
+    .footer_texto {
         padding-top: 10px;
         font-family: 'Sacramento', cursive;
         font-style: normal;
         font-size: 1.2rem;
         color: white
     }
-    
+    @media (max-width: 300px) {
+        .conteudo-titulo {
+            padding-top: 30px;
+        }
+        .home {
+            padding-right: 5px;
+        }
+    }
 }

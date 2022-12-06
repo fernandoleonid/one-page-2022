@@ -36,7 +36,4 @@
         .menu-burger-container.active .menu-burger::after {
             transform: rotate(-45deg);
         }
-
-
-       
     }

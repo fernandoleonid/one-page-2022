@@ -39,20 +39,16 @@
         justify-content: center;
         gap: 90px;
         background-color: black;
-        /*transform: translateX(100%);*/
         opacity: 0;
-        z-index: 3;
-        transition: all 1s;
+        z-index: -10;
     }
     .menu-bars {
         display: flex;
         padding-right: 32px;
     }
-
-    .menu-burger-container.active ~ .menu{
+    .menu-burger-container.active~.menu {
         opacity: 1;
         transform: translateX(0%);
-
-
+        z-index: 3;
     }
 }
