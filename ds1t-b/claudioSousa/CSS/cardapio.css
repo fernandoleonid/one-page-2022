@@ -1,0 +1,166 @@
+.cardapio{
+    background-color: #000;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    grid-template-areas: 
+    "title title foto"
+    "ttext ttext foto"
+    "ttext2 ttext2 foto"
+    ;
+}
+
+.ml{
+    text-align: center;
+    margin-left: 15vw;
+}
+
+.card-text{
+    grid-area: ttext;
+    margin-left: 15rem;
+    font-family: 'Lalezar', cursive;
+}
+
+.card-foto{
+    grid-area: foto;
+    background-image: url(../IMG/fotoCardapio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.porcoes{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    gap: 30px;
+}
+
+.title-2{
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+}
+
+.card-text2{
+    grid-area: ttext2;
+    margin-left: 15rem;
+    font-family: 'Lalezar', cursive;
+}
+
+.bebidas{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    gap: 30px;
+
+}
+
+@media (max-width:960px){
+    .cardapio{
+        max-width: 960px;
+        height: 130vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+                "title title"
+                "ttext ttext"
+                "ttext2 ttext2"
+            ;
+
+    }
+
+    .ml{
+        margin-left: 0px;
+    }
+
+    .card-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .card-text2 {
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 0px;
+
+
+    }
+    .fotoDaCarne{
+        width: 275px;
+    }
+
+    .porcoes{
+        font-size: 1.5rem;
+
+    }
+
+    .bebidas{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 640px){
+    .cardapio{
+        max-width: 640px;
+        height: 130vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+                "title title"
+                "ttext ttext"
+                "ttext2 ttext2"
+            ;
+
+    }
+
+    .ml{
+        margin-left: 0px;
+    }
+
+    .card-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        
+    }
+
+    .porcoes{
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+    .fotoDaCarne{
+        width: 175px;
+    }
+
+    .card-text2 {
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 0px;
+
+
+    }
+
+    .bebidas{
+        font-size: 1rem;
+        display: flex;
+            flex-direction: column;
+    }
+        
+
+
+
+
+}
+
