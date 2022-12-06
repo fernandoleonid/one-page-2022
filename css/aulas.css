@@ -1,0 +1,120 @@
+.aulas {
+    background-image: url('../background-aulas.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 900px;
+}
+
+.content-sobre {
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    background-color: var(--cor-detalhes);
+    
+}
+
+.sobre-text>h1 {
+    font-size: 2.0rem;
+}
+
+.content-text {
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+}
+
+.direcionar1 {
+    display: flex;
+    gap: 30px;
+}
+
+.direcionar2 {
+    display: flex;
+    gap: 30px;
+}
+
+.distanciar-texto-aulas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.distanciar-texto-aulas>span {
+    font-size: 3rem;
+    color: var(--color-cinza);
+}
+
+.content-sobre-text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tipos-de-treinos {
+    color: var(--cor-padrao);
+}
+
+.texto-treinos {
+    color: var(--color-cinza);
+    font-weight: 100;
+}
+
+.skills-aulas {
+    background-color: var(--cor-principal);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    gap: 30px;
+}
+
+.skills-aulas>div {
+    border-bottom: 3px solid var(--cor-padrao);
+    color: var(--cor-padrao);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-aulas>div>p:nth-child(1) {
+    font-size: 2.0rem;
+}
+
+@media screen and (max-width:1250px) {
+    .aulas {
+        flex-direction: row;
+        height: 1200px;
+    }
+    .direcionar1 {
+        flex-direction: column;
+    }
+    .direcionar2 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .aulas {
+        height: 2200px;
+        flex-direction: column;
+    }
+    .content-sobre {
+        width: 300px;
+        height: 260px;
+    }
+    .content-text {
+        width: 300px;
+        height: 260px;
+    }
+    .content-sobre-text {
+        gap: 10px;
+    }
+}
