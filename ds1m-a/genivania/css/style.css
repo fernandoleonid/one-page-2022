@@ -30,14 +30,12 @@ header{
     display: flex;
     margin-left: 72px;
     justify-content: space-between;
-    
 }
 
 main{
     grid-area: content;
     display: flex;
     flex-direction: column;
-   
 }
 section{
     height: 100vh;
