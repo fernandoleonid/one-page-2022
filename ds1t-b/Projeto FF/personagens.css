@@ -20,3 +20,25 @@
     align-items: center;
     justify-content: center;
 }
+
+.blocos-personagens{
+    grid-area: person;
+    display: flex;
+    flex-direction: row;
+    height: 725px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones-personagens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 150vh;
+    height: 100%;
+    gap: 50px
+}
+
+
