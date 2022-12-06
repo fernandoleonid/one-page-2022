@@ -1,0 +1,49 @@
+.about__us{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__us__cards{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    gap: 100px;
+    width: 100%;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 64px;
+}
+
+.cards h2, span{
+    color: black;
+}
+
+.financial__services, 
+.great__quality,
+.costumer__services{
+    width: 500px;
+}
+
+.financial__services{
+    padding-top: 65px;
+}
+
+.about__us__icons i{
+    font-size:3rem;
+    color: #2F93D0;
+}
+.about__us__icons{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+

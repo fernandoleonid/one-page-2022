@@ -1,0 +1,44 @@
+.offers{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCDCDC;
+}
+
+.image-offers-mobile{
+    display: none;
+}
+
+.offers__company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.image__company{
+    height: 513px;
+    width: 565px;
+}
+
+.offers__interactions{
+    padding-left: 53px;
+}
+
+.offers__title{
+    font-size: 48px;
+}
+
+.offers__text{
+    margin-top: 32px;
+    font-size: 24px;
+}
+
+.personalized__button__learn{
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 32px;
+}
