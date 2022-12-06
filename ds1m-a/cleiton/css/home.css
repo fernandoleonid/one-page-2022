@@ -6,6 +6,7 @@
     background-size: cover;
     box-shadow: inset 0px -30px 40px #000000;
     filter: grayscale(10%);
+    overflow: hidden;
 }
 
 .suspenso1,
