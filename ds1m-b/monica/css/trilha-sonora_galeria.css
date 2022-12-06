@@ -1,0 +1,23 @@
+.trilha-sonora_galeria{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(../img/image\ 17.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.musica{
+   
+    padding-top: 60px;
+    font-size: 2rem;
+}

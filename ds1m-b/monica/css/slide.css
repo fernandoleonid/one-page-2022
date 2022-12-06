@@ -2,25 +2,25 @@
     display: flex;
     justify-content: space-between;
     width: 50vw;
-    height: 50vh;
-    background-color: black;
+    height: 70vh;
     margin: 20vh auto;
     border-radius: 10px;
     box-shadow: 0 20px 30px black;
+    
 }
 
 .container-items{
     position: absolute;
     display: flex;
     width: 50vw;
-    height: 50vh;
+    height: 70vh;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .item{
     width: 50vw;
-    height: 50vh;
+    height: 70vh;
     transition: all 1s;
     
 }
@@ -31,7 +31,7 @@
 
 .item img {
     width: 50vw;
-    height: 50vh;
+    height: 70vh;
     border-radius: 10px;
 }
 

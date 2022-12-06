@@ -3,6 +3,7 @@ body{
     grid-template-areas: "content" ;
     background-color: rgb(25, 25, 20);
     color: #fff;
+    font-family: 'Inter', sans-serif;
 }
 
 header{
