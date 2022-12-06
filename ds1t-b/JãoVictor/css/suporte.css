@@ -25,30 +25,19 @@
     color: #fff;
     font-size: 2rem;
     gap: 5%;
-    transition: transform 1s;
-    transform: translateX(0) scale(1);
 }
-.sup-img1:hover,
-.sup-img1:focus{
-    transform: translateX(30px) scale(1.2);
+@media (max-width:640px){
+   .suport-titulo{
+       font-size: 3rem;
+   }
+   .sub-suporte{
+       font-size: 2rem;
+       padding-left: 23%;
+   }
+   .lista-sup{
+       font-size: 1rem;
+       padding-left: 10%;
+   }
+
 }
-.sup-img2:hover,
-.sup-img2:focus{
-    transform: translateX(30px) scale(1.2);
-}
-.sup-img2:hover,
-.sup-img2:focus{
-    transform: translateX(30px) scale(1.2);
-}
-.sup-img3:hover,
-.sup-img3:focus{
-    transform: translateX(30px) scale(1.2);
-}
-.sup-img4:hover,
-.sup-img4:focus{
-    transform: translateX(30px) scale(1.2);
-}
-.sup-img5:hover,
-.sup-img5:focus{
-    transform: translateX(30px) scale(1.2);
-}
+
