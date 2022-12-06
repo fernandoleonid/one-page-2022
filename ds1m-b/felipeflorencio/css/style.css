@@ -41,14 +41,7 @@ section {
 .index-home{
     margin-bottom: 5%;
 }
-.composers{
-    padding: 3rem;
-    position: relative;
-    max-width: 100%;
-}
-.composers__wrapper{
-    overflow: hidden; 
-}
+
 
 
 /* TABLET */
@@ -56,6 +49,7 @@ section {
     section{
         height: 95vh;
         width: 90vh;
+        margin-right: 0;
     }
 }
 

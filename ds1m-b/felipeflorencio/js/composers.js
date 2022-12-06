@@ -1,33 +1,31 @@
-const controls = document.querySelectorAll(".control");
-let currentItem = 0;
-const items = document.querySelectorAll(".item");
-const maxItems = items.length;
 
-controls.forEach((control) => {
-  control.addEventListener("click", (e) => {
-    isLeft = e.target.classList.contains("arrow-left");
+const leftButtonComposers = document.getElementById('left-button-composers')
+const rightButtonComposers = document.getElementById('right-button-composers')
 
-    if (isLeft) {
-      currentItem -= 1;
-    } else {
-      currentItem += 1;
-    }
+const container = document.getElementById('composers__list')
+let contador = 0
 
-    if (currentItem >= maxItems) {
-      currentItem = 0;
-    }
+leftButtonComposers.addEventListener('click', previous)
+rightButtonComposers.addEventListener('click', next)
 
-    if (currentItem < 0) {
-      currentItem = maxItems - 1;
-    }
+function previous() {
+    const cards = document.querySelectorAll('.card')
+    container.appendChild(cards[0]);
+  }
+  function next(){
+    const cards = document.querySelectorAll('.card')
+    container.insertBefore(cards[0], cards[3]);
+  }
+  
+  
 
-    items.forEach((item) => item.classList.remove("current-item"));
-
-    items[currentItem].scrollIntoView({
-      behavior: "smooth",
-      inline: "center"
-    });
-
-    items[currentItem].classList.add("current-item");
-  });
-});
+  // if(contador < 3){
+  //   container.appendChild(cards[contador]);
+  //   contador++;
+  // } else {
+  //   contador = 0;
+  //   container.appendChild(cards[contador])
+  //   contador++;
+  // }
+  
+  console.log(contador)

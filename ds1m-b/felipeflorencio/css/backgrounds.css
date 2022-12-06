@@ -32,7 +32,10 @@
       right: 1%;
   }
   #bgcomposers{
-    width: 60rem;
+    width: 58rem;
+    height: 40rem;
+    top: 5rem;
+    left: -3rem;
   }
   #bginstruments{
     width: 60rem;

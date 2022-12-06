@@ -1,4 +1,4 @@
-.info{
+.intruments__info{
     margin-top: 5%;
     margin-right: 10%;
     text-align: end;
@@ -19,7 +19,29 @@
     margin-right: 5%;
 }
 @media (max-width:960px) {
+    .instruments{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem
+        ;
+    }
+    .instruments__wrapper{
+        overflow-x: hidden;
+        height: 80%;
+    }
     #piano, #violino{
-        display: none;
+        margin-top: 0;
+
+    }
+    .instruments__info{
+        margin: 0;
+    }
+    .instruments ul img{
+        width: 80%;
+        align-self: center;
+    }
+    .instruments ul{
+        display: flex;
+        flex-direction: row;
     }
 }
