@@ -5,15 +5,16 @@
  
  .mySlides-images img {
      vertical-align: middle;
-     width: 500px;
      max-height: 600px;
      justify-content: center;
+     width: 110%;
  }
  
  .slideshow-container {
      display: flex;
      align-items: center;
      justify-content: center;
+     width: 90%;
  }
  
  .slideshow {

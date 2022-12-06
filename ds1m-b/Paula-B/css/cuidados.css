@@ -1,0 +1,8 @@
+.cuidados_container{
+    display: grid;
+    background-image: url(../img/gatinhuu.png);
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    background-repeat: no-repeat;
+}

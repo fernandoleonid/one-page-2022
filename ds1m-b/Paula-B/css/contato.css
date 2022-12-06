@@ -1,6 +1,6 @@
 .Contato {
     height: 280px;
-    background-color: red;
+    background-color: #F8E795;
     display: flex;
     flex-direction: row;
     gap: 400px;
