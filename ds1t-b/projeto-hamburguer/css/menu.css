@@ -9,3 +9,12 @@
     color: #ffc765;
     background: url(../img/ondas.png) repeat-x center bottom;
 }
+/* MOBILE */
+@media (max-width:640px){
+    header{
+        justify-content: space-between;
+    }
+    .menu{
+        display: none;
+    }
+}

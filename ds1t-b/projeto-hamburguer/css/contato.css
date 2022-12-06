@@ -64,3 +64,24 @@
     color: #ffc765;
     transition: .5s;
 }
+/* MOBILE */
+@media (max-width:640px){
+    .container-contato{
+        flex-direction: column;
+        gap: 64px;
+        align-items: center;
+    }
+    .email-container,
+    .telefone-container,
+    .social-container{
+        align-items: center;
+    }
+    .email-description, 
+    .telefone-description, 
+    .social-description{
+        text-align: center;
+    }
+    .social-list{
+        flex-direction: column;
+    }
+}

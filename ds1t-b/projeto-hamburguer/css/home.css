@@ -122,3 +122,27 @@
     background-color: #C63737;
     transition: .75s;
 }
+/* MOBILE */
+@media (max-width:640px){
+    .home{
+        padding-top: 32px;
+        display: grid;
+        grid-template-areas: 
+        "text"
+        "button";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .slider{
+        display: none;
+    }
+    .container__text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .home__text{
+        width: 360px;
+    }
+}

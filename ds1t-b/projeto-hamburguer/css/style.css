@@ -1,9 +1,12 @@
+/* html, body{
+    position: relative;
+    overflow-x: hidden;
+} */
 html{
     scroll-behavior: smooth;
 }
 body{
     display: grid;
-    grid-template-areas: "content";
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-size: 100% 100vh;
@@ -35,4 +38,24 @@ footer{
     border-top: 2px solid #fff;
     color: #fff;
     font-family: 'Ubuntu', sans-serif;
+}
+/* MOBILE */
+@media (max-width:640px){
+    .home{
+        background-image: url(../img/background.png);
+        background-repeat: no-repeat;
+    }
+    .quem-somos{
+        height: 1600px;
+    }
+    .cardapio{
+        height: 2300px;
+    }
+    .unidades{
+        height: 1800px;
+    }
+    .contato{
+        height: 1600px;
+    }
+
 }

@@ -53,3 +53,13 @@
     background-color: #C63737;
     transition: .5s;
 }
+/* MOBILE */
+@media (max-width:640px){
+    .unidades{
+        align-items: center;
+    }
+    .unidades__container{
+        display: flex;
+        flex-direction: column;
+    }
+}
