@@ -29,3 +29,16 @@
         height: auto;
     }
 }
+
+@media (max-width: 640px) {
+    .section-iphone {
+        height: 73vh;
+    }
+    .iphone14 {
+        display: none;
+    }
+    .iphones {
+        width: 80vw;
+        height: auto;
+    }
+}

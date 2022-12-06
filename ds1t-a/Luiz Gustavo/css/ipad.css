@@ -29,3 +29,17 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 640px) {
+    .section-ipad {
+        height: 71vh;
+        gap: 15px;
+    }
+    .main-ipad {
+        height: 48vh;
+    }
+    .img-ipad {
+        width: 80vw;
+        height: auto;
+    }
+}

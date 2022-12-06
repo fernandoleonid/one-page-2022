@@ -43,3 +43,14 @@
         height: auto;
     }
 }
+
+@media (max-width: 640px) {
+    .div-title-wacth {
+        font-size: 2.25rem;
+        height: 10vh;
+    }
+    .text-watch {
+        font-size: 0.875rem;
+        width: 80vw;
+    }
+}

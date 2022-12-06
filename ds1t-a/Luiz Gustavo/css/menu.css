@@ -33,9 +33,13 @@
     border-color: white;
 }
 
+.menu {
+    display: none;
+}
+
 @media (max-width: 960px) {
     .menu-bar {
-        width: 800px;
+        width: 90vw;
     }
     .img-logo {
         width: 70px;
@@ -50,5 +54,23 @@
     }
     .lista-menu {
         font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .lista-menu {
+        display: none;
+    }
+    .img-logo {
+        width: 50px;
+        height: auto;
+    }
+    .text-logo {
+        font-size: 2.5rem;
+    }
+    .menu {
+        display: flex;
+        font-size: 3rem;
+        color: #CCCCCC;
     }
 }

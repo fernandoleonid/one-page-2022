@@ -32,7 +32,20 @@
     transition: border-color .5s;
 }
 
-.button-ipad-airpos-watch:hover{
+.button-ipad-airpos-watch:hover {
     color: #2997FF;
     border-color: #2997FF;
+}
+
+@media (max-width: 640px) {
+    .button-iphone-mac {
+        font-size: 1rem;
+        width: 40vw;
+        height: 8vh;
+    }
+    .button-ipad-airpos-watch {
+        font-size: 1rem;
+        width: 40vw;
+        height: 8vh;
+    }
 }

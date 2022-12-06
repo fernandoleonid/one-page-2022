@@ -60,6 +60,25 @@
         width: 65vw;
     }
     .img-produtos {
-        width: 630px;
+        width: 65vw;
+        height: auto;
+    }
+}
+
+@media (max-width: 640px) {
+    .section-inicio {
+        height: 50vh;
+    }
+    .title-apple {
+        font-size: 2rem;
+    }
+    .text-apple {
+        font-size: 0.875rem;
+    }
+    .main-home {
+        height: 45vh;
+    }
+    .logo-footer {
+        display: none;
     }
 }

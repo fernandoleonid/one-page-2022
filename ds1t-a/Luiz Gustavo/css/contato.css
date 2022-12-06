@@ -139,3 +139,21 @@ h2 {
         place-items: center;
     }
 }
+
+@media (max-width: 640px) {
+    .section-contato {
+        height: 130vh;
+    }
+    .title-contato {
+        font-size: 3rem;
+        height: 10vh;
+    }
+    .main-contato {
+        gap: 30px;
+        width: 100vw;
+    }
+    .social-container {
+        display: flex;
+        flex-direction: column;
+    }
+}

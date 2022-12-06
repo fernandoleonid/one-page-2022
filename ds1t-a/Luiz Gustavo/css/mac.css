@@ -26,3 +26,17 @@
         height: auto;
     }
 }
+
+@media (max-width: 640px) {
+    .section-mac {
+        height: 95vh;
+    }
+    .macs {
+        width: 80vw;
+        height: auto;
+    }
+    .mac-pro {
+        width: 80vw;
+        height: auto;
+    }
+}

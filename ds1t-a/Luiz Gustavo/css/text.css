@@ -22,3 +22,14 @@
         width: 700px;
     }
 }
+
+@media (max-width: 640px) {
+    .text {
+        font-size: 0.875rem;
+        width: 80vw;
+    }
+    .text-button {
+        width: 80vw;
+        font-size: 1rem;
+    }
+}
