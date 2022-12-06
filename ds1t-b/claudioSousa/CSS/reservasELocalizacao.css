@@ -28,7 +28,7 @@
     background-color: #0006;
     border-radius: 54px;
     width: 621px;
-    height: 288px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,6 +85,47 @@
    
 
     
+}
+
+.maps{
+    width: 400px;
+}
+
+@media (max-width:960px){
+    .reservasELocalizacao{
+        
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+                "reservas"
+                "localizacao";
+        max-width: 960px;
+        display: flex;
+        flex-direction: column;
+    }
+    .reservas{
+        font-size: 1.5rem;
+       
+    }
+    .localizacao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .localizacao-bg{
+       
+        font-size: 1.5rem;
+    }
+    
+    .maps{
+        width: 170px;
+        
+    
+        
+    }
+
 }
 
 

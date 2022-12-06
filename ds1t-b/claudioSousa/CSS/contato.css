@@ -48,6 +48,11 @@
 
 
 
+@media (max-width:960px) {
+    .contato{
+        font-size: 1.25rem;
+    }
+}
 
 
 @media (max-width:640px ){

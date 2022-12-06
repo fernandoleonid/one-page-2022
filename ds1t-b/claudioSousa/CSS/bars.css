@@ -1,12 +1,12 @@
 .container-burguer {
     height: 36px;
     width: 36px;
-    position: absolute;
-    display: none;
+    display: flex;
     align-items: center;
     z-index: 2;
-    right: auto;
-    top: 30px;
+    text-align: center;
+    display: none;
+    
 
 }
 
@@ -47,5 +47,9 @@
 @media (max-width: 960px) {
     .container-burguer {
         display: flex;
+    }
+    .container-burguer.active .menu-burguer {
+        /* background-color: transparent; */
+        z-index: 2;
     }
 }

@@ -89,6 +89,14 @@ footer{
             transform: translateX(0%);
     
         }
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+
+        section .reservasELocalizacao{
+            height: 160vh;
+        }
     
 }
 

@@ -56,6 +56,53 @@
 
 }
 
+@media (max-width:960px){
+    .cardapio{
+        max-width: 960px;
+        height: 130vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+                "title title"
+                "ttext ttext"
+                "ttext2 ttext2"
+            ;
+
+    }
+
+    .ml{
+        margin-left: 0px;
+    }
+
+    .card-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .card-text2 {
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 0px;
+
+
+    }
+    .fotoDaCarne{
+        width: 275px;
+    }
+
+    .porcoes{
+        font-size: 1.5rem;
+
+    }
+
+    .bebidas{
+        font-size: 1.5rem;
+    }
+
+}
 
 @media (max-width: 640px){
     .cardapio{
