@@ -1,0 +1,67 @@
+header {
+    width: 100%;
+    height: 13vh;
+    background-color: #222020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.section-iphone,
+.section-ipad,
+.section-mac,
+.section-airpods-watch {
+    height: 100vh;
+}
+
+.main-right {
+    grid-column: 2;
+    display: grid;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 50px;
+}
+
+.main-left {
+    grid-column: 1;
+    display: grid;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    gap: 20px;
+}
+
+footer {
+    height: 10vh;
+    background-color: #222020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400;
+}
+
+@media (max-width: 960px) {
+    .main-right {
+        gap: 20px;
+        grid-area: right;
+    }
+    .main-left {
+        grid-area: left;
+    }
+}
+
+@media (max-width: 640px) {
+    footer {
+        font-size: 1rem;
+    }
+}
