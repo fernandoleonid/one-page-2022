@@ -1,0 +1,107 @@
+.line2 {
+    grid-area: line;
+    width: 94%;
+    height: 2px;
+    background-color: #CF9B9B;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.titulo {
+    font-size: 14vh;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 2.5vh;
+    text-align: center;
+    padding-top: 3vh;
+}
+
+.modelo1 {
+    width: 45vh;
+
+
+}
+
+.modelo2 {
+    width: 48vh;
+}
+
+.modelo3 {
+    width: 55vh;
+}
+
+.modelo4 {
+    width: 53vh;
+}
+
+.modelos {
+    padding-top: 8vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 2%;
+    padding-right: 4vh;
+    gap: 1.5%;
+
+}
+
+
+.makes {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.botao {
+    padding-top: 8vh;
+    padding-left: 34%;
+
+}
+
+.buttonmake {
+    border: none;
+    background-color: #000000;
+    color: #e2b7b7;
+    height: 6.5vh;
+    width: 50%;
+    font-size: 2.6vh;
+
+
+
+}
+
+@media (max-width: 640px) {
+    .modelos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modelo1 {
+        width: 45vh;
+    }
+
+    .modelo2 {
+        margin-top: 3vh;
+        width: 44.7vh;
+    }
+
+    .modelo3 {
+        margin-top: 3vh;
+        width: 45vh;
+    }
+
+    .modelo4 {
+        margin-top: 3vh;
+        width: 45vh;
+    }
+    .titulo{
+        font-size: vh;
+    }
+    .botao {}
+
+    .buttonmake {
+        height: 50%;
+        font-size: 90%;
+    }
+}
