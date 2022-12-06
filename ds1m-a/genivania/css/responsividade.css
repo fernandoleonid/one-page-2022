@@ -1,0 +1,83 @@
+/* MOBALE */
+@media screen and (max-width:640px){
+
+    body{
+        width: 100vw;
+    }
+    main{
+        width: 100vw;
+    }
+    .home{
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        box-shadow: none;
+        background-image: url(../img/avatar-mobale.png);
+        background-repeat: no-repeat;
+        padding-left: 0px; 
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+    .fundo{
+        margin-left: 0px;
+    }
+    .title{
+        font-size: 3rem;
+        margin-left: 10px;
+    }
+    .profile__text{
+        font-size: 1.5rem;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .menu{
+    display: none;
+    }
+    
+    .sinopse{
+        height: 200vw;
+        font-size: 1.5rem;
+        width: 100%;
+        
+    }
+    .card_container{
+        height: 200px;
+        flex-direction: column;
+        margin-left: 0px;
+        gap: 0px;
+        align-items: flex-start;
+        justify-content: center;
+        
+    }
+    .section-title{
+        width: 200px;
+        font-size: 2.5rem;
+        margin-left: 10px;
+       display: flex;
+    
+       place-self: center;
+    }
+    .avatar_foto{
+        width: 50%;
+    }
+    .description{
+        width: 20%;
+        font-size: 1.5rem;
+    }
+    .trailer{
+       display: none;
+    }
+    .curiosidade{
+        display: none;
+    }
+    .personagem{
+        display: none;
+    }
+    
+   
+    footer{
+        display: none;
+    }
+
+    
+}
