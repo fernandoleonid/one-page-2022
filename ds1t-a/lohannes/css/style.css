@@ -2,9 +2,9 @@ section{
     height: 100vh;
 }
 
-section:not(#home){
+/* section:not(#home){
     background: linear-gradient(90deg, #001131 29.69%, #002A7A 100%);
-}
+} */
 
 ::-webkit-scrollbar {
   width: 0px;
@@ -13,6 +13,7 @@ section:not(#home){
 body{
     display: grid;
     grid-template-areas: "content";
+    background: linear-gradient(90deg, #001131 29.69%, #002A7A 100%);
 }
 
 header{
@@ -47,24 +48,16 @@ main{
     overflow: hidden;
 }
 
-#atla_Personagens{
-    width: 100%;
-    background-color: green;
-}
-
 #atlok_Personagens{
     width: 100%;
-    background-color: purple;
 }
 
 #nacoes{
     width: 100%;
-    background-color: yellow;
 }
 
 #elementos{
     width: 100%;
-    background-color: orange;
 }
 
 footer{

@@ -1,0 +1,58 @@
+#oQueEAvatar{
+    padding-top: 110px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "imagem texto";
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 50% 50%;
+}
+
+.titulo{
+    grid-area: titulo;
+    place-self: center end;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4.5rem;
+    transform: translateX(-31%);
+    background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 7.81%, #E6E6E6 14.06%, #C2C2C2 47.4%, #ABABAB 64.58%, #898989 78.12%, #626262 92.71%, #4E4E4E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+    color: #000;
+    -webkit-text-stroke-width: .01px;
+    -webkit-text-stroke-color: #000;
+    z-index: -5;
+    width: 30%;
+}
+
+.wan{
+    grid-area: imagem;
+    place-self: center;
+    width: 50%;
+}
+
+.descricao_serie{
+    grid-area: texto;
+    width: 55%;
+    place-self: center;
+    font-family: 'Sarala', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.letraFogo{
+    color: #FF7A00;
+}
+
+.letraAr{
+    color: #76FFEF;
+}
+
+.letraAgua{
+    color: #3D8AFF;
+}
+
+.letraTerra{
+    color: #039C12;
+}
