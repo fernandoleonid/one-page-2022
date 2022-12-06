@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+    
+    }
+body{
+    grid-template-areas: "content";
+    display: grid;
+    
+    background-size: cover;
+    
+ }
+
+header { 
+     display: flex; 
+     flex-direction: row;
+     grid-area: content;
+    /* trasparente  a imagem Sportyfy*/
+    /* background-color: rgb(0,0,0,0.6) ; */
+    background-color: #808080;
+    color: white;
+/*para a imagem ficar no centro  */
+    justify-content: center;
+    align-items: center;
+
+  
+    position: fixed;
+    top: 0;
+    width: 100%;
+gap:60% ;
+height: 40px;
+z-index: 666;
+/* max-width: 1200px; */
+
+
+}
+
+main {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+   /* max-width: 1200px; */
+    
+}
+
+.menu {
+        
+        display: flex; 
+        flex-direction: row;
+        align-items: center;
+      color: white;
+        
+        font-weight: bold;
+        gap: 72px;    
+        
+}
+
+ul li  {
+background-color: blanchedalmond;
+list-style: none;
+
+}
+
+
+.title {
+    width: max-content;
+    color:black;
+    text-shadow: white;
+    font-size: 70px;      
+    position: absolute;
+    text-shadow: -3px -5px 4px #fff;
+    top: 420px;
+    left: 100px;
+    
+   
+   
+    text-transform: uppercase;
+    /* background-color: aqua; */
+    
+}
+
+.home {
+    
+    /* width: 100%; */
+    background-image: url(img/backgroud.png);
+    /* width: 1200px; */
+    width: 100%;
+    position: relative;
+   margin-top: 40px;
+   background-repeat: no-repeat;
+    background-color:sienna;
+
+}
+
+.frame2{
+    
+    /* max-width: 1200px; */
+    background-image: url(img/background2.png);
+    background-color: blue;
+    width: 100%;
+    position: relative;
+}
+
+.title_frame2 {
+    color:seashell;
+    font-size: 80px;
+    top: 150px;
+    width: max-content;
+   left: 405px;
+   position: absolute;
+}
+
+.Text_frame2 {
+    color:seashell;
+    position: absolute;
+    width: 400px;
+    font-size: 24px;
+    top: 450px;
+    left: 100px;
+}
+
+.Text2_frame2 {
+    position: absolute;
+   color: cornsilk;
+    font-size: 40px;
+ bottom:280px;
+ left: 800px;
+ width: max-content;
+ }
+
+ .Title2 {
+    position: absolute;
+    font-size: 55px;
+    bottom: 100px;
+    left: 850px;
+    color: cornsilk;
+ }
+footer {
+    grid-area: content;
+}
+
+.frame3 {
+    
+    background-color:darkgoldenrod;
+    /* max-width: 1200px; */
+    width: 100%;
+    position: relative;
+   
+    
+    
+    /* background-image: url(img/Ellipse\ 3.png); */
+    /* background-repeat: no-repeat; */
+}
+  
+/* .text_satelete {
+    color: blanchedalmond;
+    background-color: blanchedalmond;
+}  */
+.text_satelete {
+    width: 250px;
+}
+/* .lua_image {
+    position: absolute;
+} */
+
+.satelet_text_image {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    background-color: chartreuse;
+    width: max-content;
+    position: absolute;
+    right: 100px;
+    
+}
+
+.sol_text_image {
+    top: 900px;
+    background-color:darkblue;
+    width: max-content;
+    
+}
+
+.meteoro_text_image{
+    display: flex;
+    background-color: darkcyan;
+    width: max-content;
+    
+    
+}
+
+.galaxia {
+    position: absolute;
+    right: 50%;
+    background-color:aqua;
+    width: max-content;
+    /* right: 38%; */
+    
+    
+}
+
+.text_sol {
+    width: 150px;
+    background-color: sienna;
+    margin-left: 200px;
+}
+.text_meteoro {
+    width: 200px;
+    margin-left: 120px;
+}
+
+
+/* .lua_sol_galaxia_meteoro {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: khaki;
+    
+    
+} */
