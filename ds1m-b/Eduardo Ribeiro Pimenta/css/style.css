@@ -66,4 +66,7 @@ footer{
     section{
         height: 110vh;
     }
+    .copyright p{
+        text-align: center;
+    }
 }

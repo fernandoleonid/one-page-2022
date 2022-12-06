@@ -30,4 +30,7 @@
 .home h1{
     font-size: 150px;
 }
+.home::before{
+    background-size: 1200px 100% ;
+}
 }

@@ -20,7 +20,7 @@
 }
 .brown{
     position: absolute;
-    transform: translate(-200px, -250px);
+    transform: translate(-300px, -550px);
     z-index: 1;
 }
 .yellow{
@@ -60,7 +60,7 @@
     .cian{
         position: absolute;
         transform: translate(46vw, -250px);
-        z-index: 1;
+        z-index: 0;
     }
     .red{
         transform: translate(20vw, -10px);

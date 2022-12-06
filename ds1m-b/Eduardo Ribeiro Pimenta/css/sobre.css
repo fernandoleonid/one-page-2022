@@ -50,10 +50,11 @@
 }
 @media(max-width:770px){
     .tablet{
-        height: 165px;
+        height: 200px;
     }
     .sobre{
         grid-template-columns: 1fr ;
+        padding-top: 20px;
     }
     .sobre h2{
         transform: translate(0px,0px);
@@ -63,5 +64,9 @@
     .tablet{
         transform: translate(0px);
         place-self: center;
+    }
+    .sobre p{
+        font-size: 2rem;
+        text-align: center;
     }
 }
