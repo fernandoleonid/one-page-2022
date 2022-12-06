@@ -60,4 +60,8 @@ footer {
     }
 }
 
-@media (max-width: 640px) {}
+@media (max-width: 640px) {
+    footer {
+        font-size: 1rem;
+    }
+}
