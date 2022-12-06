@@ -1,5 +1,5 @@
 # SITE AMONG US 
-<img src="./img/site_amongus.png">
+<img src="./img/site_amongus.PNG">
 
 [Link para o site](https://rib3r0.github.io/one-page-2022/ds1m-b/EduardoRibeiroPimenta/)
 
@@ -22,11 +22,11 @@ no curso do [SENAI Jandira](https://jandira.sp.senai.br/).
 
 ---
 ## Outras imagens
-<img src="./img/site_amongus_2.png">
+<img src="./img/site_amongus_2.PNG">
 -
-<img src="./img/site_amongus_3.png">
+<img src="./img/site_amongus_3.PNG">
 -
-<img src="./img/site_amongus_4.png">
+<img src="./img/site_amongus_4.PNG">
 
 ---
 ## Links
