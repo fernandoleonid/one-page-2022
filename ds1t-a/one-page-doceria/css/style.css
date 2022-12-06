@@ -1,0 +1,48 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: grid;
+    grid-template-areas: "content";
+    color: #ffffff;
+}
+header{
+    place-self: start center;
+    grid-area: content;
+    background-color: #1CD52E;
+    height: 106px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 700px;
+}
+main{
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    height: 100vh;
+}
+.home{
+    background-color: yellowgreen;
+}
+.menu-cardapio{
+    background-color: yellow;
+}
+.about-us{
+    background-color: wheat;
+}
+.contato{
+    background-color: aquamarine;
+}
+footer{
+    place-self: end center;
+    grid-area: content;
+    height: 70px;
+    width: 100%;
+    display: grid;
+    background-color: bisque;
+}
