@@ -19,10 +19,22 @@
     <link rel="stylesheet" href="css/descricao-filme.css">
     <link rel="stylesheet" href="css/elenco.css">
     <link rel="stylesheet" href="css/concept.css">
+    <link rel="stylesheet" href="css/sequencias.css">
+    <link rel="stylesheet" href="css/back.css">
+    <link rel="stylesheet" href="css/menu-footer.css">
     <title>X, a marca da morte</title>
 </head>
-
 <body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
     <header>
         <nav>
             <div class="menu-responsivo">
@@ -50,10 +62,13 @@
             <p class="logo-filme">X</p>
         </div>
         <div class="button-assista-agora">
-            <a class="assista-agora" href="#">Assista agora</a>
+            <a class="assista-agora" href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0zKssy7E0TykyYPQSSFTITSxKTlRIATLyi0pSAasoCoo&q=a+marca+da+morte&oq=x+a+mar&aqs=chrome.1.69i57j46i10i131i433i512j69i59j0i131i433j46i10i512l2j69i60l2.7646j0j7&sourceid=chrome&ie=UTF-8#wptab=si:AC1wQDASTFuoGXPA14wK_YXbEINnbCw2pWjs436xnE9cxFXKiwXwN17VtUIvI-_xA_NTtaZLc-46O4ih0lrKoSGKhSzkFL6FvzjICmYaM94zq2DXGsYcxFhjWZntz6WTF0-2uAZInmL5">Assista agora</a>
         </div>
     </header>
     <main>
+        <a href="#home" class="back" title="Voltar">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
         <section class="home" id="home">
             <div class="primeiro-titulo">
                 <p>X A marca</p>
@@ -101,7 +116,7 @@
                         com a personagem principal Maxine que deseja se mostrando promissor.</p>
                 </div>
                 <div class="botao-alugue">
-                    <a href="#" class="alugue-agora">Alugue o filme agora</a>
+                    <a href="https://www.youtube.com/watch?v=8yh8WOmeL-g" class="alugue-agora">Alugue o filme agora</a>
                 </div>
             </div>
             <div class="img-pearl">
@@ -244,7 +259,7 @@
                                 em X seus projetos tmabem contam com participação na
                                 serie da netflix Love, Death and Robots.
                             </p>
-                            <a class="botao-artstation" href="#">
+                            <a class="botao-artstation" href="https://www.artstation.com/artwork/nE1zy6">
                                 Confira no ArtStation
                             </a>
                         </div>
@@ -262,9 +277,9 @@
                             <p class="description-weta">
                                 Weta Workshop ficaram responsáveis pela prótese da personagem Pearl encarrecados por seu envelhecimento, Ti west já
                                 tinha preferência no trabalho do estúdio o classificando um de seus favoritos, com a ajuda dos concepts feitos por
-                                Tahiwi eles seguiram o trabalho para torna-lá assustadora mantendo o mais real possível
+                                Tahiwi eles seguiram o trabalho para torna-lá assustadora mantendo o mais real possível.
                             </p>
-                            <a href="#" class="botao-weta">
+                            <a href="https://www.wetaworkshop.com/projects-in-depth/x-horror-prosthetics/" class="botao-weta">
                                 Confira em Weta
                             </a>
                         </div>
@@ -272,9 +287,67 @@
                 </div>
             </div>
         </section>
-        <section class="sequencias" id="sequencias"></section>
+        <section class="sequencias" id="sequencias">
+            <h1 class="titulo-cartazes">Confira as sequências</h1>
+            <div class="cartazes">
+                <div class="pearl-cartaz">
+                    <div class="pearl-movie">
+                        <img src="img/pearl-cartaz.png" alt="">
+                    </div>
+                    <a class="botao-trailer" href="https://www.youtube.com/watch?v=L5PW5r3pEOg&t=4s">Assista ao Trailer</a>
+                </div>
+                <div class="x">
+                    <div class="cartaz-x">
+                        <img src="img/X.png" alt="">
+                    </div>
+                    <a class="botao-trailer" href="https://www.youtube.com/watch?v=Awg3cWuHfoc">Assista ao Trailer</a>
+                </div>
+                
+                <div class="maxxxine">
+                    <div class="cartaz-maxxxine">
+                        <img src="img/Maxxxine.png" alt="">
+                    </div>
+                    <a class="botao-trailer" href="#">Em breve...</a>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="menu-footer">
+            <ul class="footer-menu">
+                <li>
+                    <a href="#home">Ínicio</a>
+                </li>
+                <li>
+                    <a href="#descricao-filme">Sobre o filme</a>
+                </li>
+                <li>
+                    <a href="#elenco">Elenco</a>
+                </li>
+                <li>
+                    <a href="#concept">Concept e Próteses</a>
+                </li>
+                <li>
+                    <a href="#sequencias">Confira as sequências</a>
+                </li>
+            </ul>
+        </div>
+        <div class="github">
+            <a class="link-git" href="https://github.com/nicanico">
+                <img class="icon-nico" src="img/nico.png" alt="Nicole Souza, desenvolvedora">
+                <p class="bio">
+                    Nico, fã de terror e
+                    Front-End
+                    <span class="perfil">
+                        On github - nicanico
+                    </span>
+                </p>
+            </a>
+        </div>
+        <div class="x-logo">
+            <img src="img/x-logo-footer.png" alt="">
+        </div>
+    </footer>
 </body>
 
 </html>

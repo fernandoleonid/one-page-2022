@@ -45,8 +45,7 @@
     font-size: 2rem;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    margin-top: 18px;
-    margin-bottom: 20px;
+    
 }
 .description-concept,
 .description-weta{
@@ -72,7 +71,7 @@
 }
 @media (max-width: 960px) {
     .concept{
-        height: 180rem;
+        height: 100rem;
     }
     .descricoes {
         display: grid;

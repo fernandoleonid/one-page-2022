@@ -31,15 +31,21 @@ section{
     height: 110vh;
     
 }
-.cartazes{
-    background-color: green;
-}
 footer{
     place-self: end start;
     grid-area: content;
     height: 156px;
     width: 100%;
-    display: grid;
+    display: flex;
     place-content: center;
     background-color: #480005;
+    gap: 207px;
+    align-items: center;
+}
+@media (max-width: 960px) {
+    footer{
+        display: grid;
+        height: 309px;
+        gap: 54px;
+    }
 }
