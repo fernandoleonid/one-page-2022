@@ -28,13 +28,8 @@ main{
     align-items: center;
 }
 section{
-    height: 100vh;
-}
-.elenco{
-    background-color: darkslategrey;
-}
-.concept{
-    background-color: forestgreen;
+    height: 110vh;
+    
 }
 .cartazes{
     background-color: green;
