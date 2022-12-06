@@ -26,6 +26,11 @@ no curso do [SENAI Jandira](https://jandira.sp.senai.br/).
 ![](./img/site_amongus_4.png)
 
 ---
+## Links
+figma:
+https://www.figma.com/file/EzjjjwK351SjcC4awiB8Ah/trabalho-amongus?node-id=0%3A1&t=vWXbupJiwvzBQenL-0
+
+
 
 ## Autor
 #### [Eduardo Ribeiro Pimenta](https://github.com/Rib3r0)
