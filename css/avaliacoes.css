@@ -1,0 +1,29 @@
+.avaliacoes {
+    height: 200px;
+    background-color: var(--cor-detalhes);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    color: var(--cor-padrao);
+}
+
+.descricao-avaliacoes {
+    font-size: 1.0rem;
+    color: var(--color-cinza);
+    border-bottom: 3px solid var(--cor-principal);
+}
+
+.avaliacoes>div {
+    text-align: center;
+    font-size: 2.0rem;
+    flex: wrap;
+    gap: 10px;
+}
+
+@media screen and (max-width:750px) {
+    .avaliacoes {
+        height: 500px;
+        flex-direction: column;
+    }
+}
