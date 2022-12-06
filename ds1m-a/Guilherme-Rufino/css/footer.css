@@ -1,0 +1,33 @@
+@media(max-width:640px) {
+
+    footer{
+        /* max-width: 640px;  */
+       /* background-color: aqua;
+       display: flex;
+       align-items: center; */
+      
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 50px;
+     
+       
+       
+   
+     
+   
+   }
+   .footer{
+       font-size: 16px; 
+       /* display: flex;
+        align-items: center;
+       text-align: center; */
+        /* width: 900px;  */
+       /* height: max-content; */
+       margin-left: 30px; 
+      /* color: aqua; */
+      /* background-color: black; */
+      
+   
+   }
+}

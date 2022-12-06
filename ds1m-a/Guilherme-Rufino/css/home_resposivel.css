@@ -1,0 +1,53 @@
+@media(max-width:640px) {
+    .menu {
+        font-size: 13px;
+        gap: 30px;
+        /* background-color: blue; */
+        width:max-content;
+        margin-right: 30px;
+        
+    }
+    .header {   
+        width: 100vw;
+    }
+    .logo {
+        font-size: 13px;
+        /* background: blue; */
+        margin-left: 3px;
+        margin-right: 60px; 
+        
+    }
+    .image_home {
+      
+
+    }
+    /* .home {
+    
+    } */
+
+    .title {
+        display: flex;
+        font-size: 30px;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -350px;
+      height: max-content;
+     
+    
+      
+
+      
+    }
+
+    
+    /* .image_home {
+        display: none;
+    }
+    .image_home_responsivel {
+        
+        display: block;
+ 
+       
+    }   */
+
+}

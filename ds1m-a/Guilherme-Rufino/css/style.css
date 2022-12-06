@@ -1,0 +1,193 @@
+html{
+    scroll-behavior: smooth;
+    
+    }
+body{
+    /* grid-template-areas: "content";
+    display: grid; */
+     overflow-x: hidden;  
+ }
+
+header { 
+     display: flex; 
+     /* flex-direction: row; */
+     /* grid-area: content; */
+    
+    /* background-color: rgb(0,0,0,0.6) ; */
+    background-color:black;
+    color: white;
+/*para a imagem ficar no centro  */
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100vw; */
+
+    /* position: fixed; 
+    /* top: 0; */
+    /* width: 100%; */
+/* gap:60% ; */
+height: 80px;
+/* z-index: 666; */
+
+
+
+/* max-width: 1200px; */
+}
+a {
+    text-decoration: none;
+}
+
+main {
+    /* grid-area: content; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;  */
+    background-color: black;
+}
+
+
+
+
+
+
+
+ .image_home {
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+} 
+
+ 
+ footer {
+   
+}  
+
+   .frame3 {
+ display: flex;  
+  /* background-image: url(../img/galaxia.png);   */
+     /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* height: fit-content;   */
+  /* background-color: aqua; */
+     width: 100%;
+     height: 1200px;
+   
+   background-color: rosybrown;
+     /* position: relative; */
+   
+
+ }  
+  /* .galaxias{
+    height: 100px; 
+    width: 100px;
+    background-color: blue;
+
+ }  */
+ 
+ 
+  /* .galaxia {
+    position: absolute;
+    background-color: blue;
+}  */
+  
+  .text_satelete {
+    color: blanchedalmond;
+    
+}   
+  .text_satelete {
+      width: 250px; 
+     background-color: red;
+     margin-top: 200px;
+}  
+ .lua_image {
+    position: absolute;
+} 
+
+
+.satelet_text_image {
+    display: flex;
+    align-items: center; 
+     /* justify-content: space-between;  */
+     /* align-items: center;  */
+     flex-direction: row;
+    gap: 10px;
+     position: absolute; 
+    background-color: blue;
+    /* width: max-content; */
+    max-width: max-content;
+    height: max-content;
+    height: 200px;
+    margin-top: 400px;
+    margin-left: 150px;
+   
+  
+} 
+
+/* .satelet_text_image{
+    position: relative;
+    width: max-content;
+    
+} */
+
+.sol_text_image {
+    /* position: relative; */
+    width: max-content;
+    margin-top: 1000px;
+    position: absolute; 
+    margin-left: 150px;
+}
+
+
+/* .meteoro_text_image{
+    position: relative;
+    
+} */
+
+ .text_sol {
+    width: 150px;
+    background-color:red;
+    margin-left: 200px;
+    
+} 
+.meteoro_text_image {
+    background-color: seashell;
+    width: max-content;
+    /* height: 200px; */
+}
+
+.text_meteoro {
+    background-color: slateblue;
+}
+
+ /* .text_meteoro {
+    width: 200px;
+    margin-left: 120px;
+    
+}  */
+ 
+
+ /* .lua_sol_galaxia_meteoro {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: khaki;
+    
+    
+}    */
+footer {
+    background-color: black;
+}
+.footer {
+    color:white;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    margin-left: 500px;
+    font-size: 30px;
+    /* background-color: black; */
+    
+
+
+
+}

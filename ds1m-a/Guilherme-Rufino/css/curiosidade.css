@@ -1,0 +1,60 @@
+.curiosidades {
+    background-color: black;
+     /* position: relative;  */
+    /* height: 900px; */
+    display: flex;
+    flex-direction: column;
+   
+    /* align-items: center;  */
+    
+   
+    width: 100%;
+    
+
+} 
+ .Title_curiosidade {
+    color: white;
+    /* position: absolute; */
+    font-size: 100px;
+    /* margin-bottom:100px;
+    margin-top: 100px; */
+     align-items: flex-start; 
+}  
+
+
+  .Text_curiosidades {
+    margin-top: 90px;
+    display: flex;
+    align-items: flex-start; 
+    flex-direction: column;
+     color: white;
+    font-size: 30px;
+    gap: 50px; 
+     /* background-color: tomato;  */
+     width: 500px;
+    height: 100vh;
+    /* margin-bottom: 50px;  */
+    
+     /* position: absolute; */
+}   
+
+/* .curiosidade1{
+    display: flex;
+    position: absolute;
+
+
+width: 500px;
+}
+.curiosidade2{
+    position: absolute;
+    width: 500px;
+    height: 30px;
+
+}
+.curiosidade3{
+    position: absolute;
+    width: 500px;
+} */
+/* .Title_text {
+ margin-left: 100px;
+}  */
