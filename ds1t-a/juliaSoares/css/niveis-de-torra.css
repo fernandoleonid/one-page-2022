@@ -1,0 +1,73 @@
+niveis-de-torra {
+    display: grid;
+    align-content: center;
+}
+
+.container__torra {
+    height: 700px;
+    width: 100%;
+    background-color: #1E3932;
+    margin-top: 10%;
+    display: grid;
+    grid-template-areas: "texto imagem";
+    grid-template-columns: 1fr 1fr;
+    padding: 100px;
+    text-align: center;
+}
+
+.img-graos {
+    grid-area: imagem;
+    padding-left: 250px;
+}
+
+.title__torra {
+    grid-area: texto;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'archivo', sans-serif;
+}
+
+.subtitle__torra {
+    grid-area: texto;
+    font-size: 3rem;
+    color: white;
+    margin-top: 50px;
+}
+
+.text__torra {
+    grid-area: texto;
+    font-size: 2rem;
+    color: white;
+    width: 800px;
+    margin-top: 150px;
+}
+
+.button_torra {
+    grid-area: texto;
+    height: 60px;
+    width: 200px;
+    background-color: #006241;
+    color: white;
+    border-radius: 90px;
+    padding: 15px;
+    justify-self: center;
+    margin-top: 350px;
+}
+
+.button_texto {
+    font-size: 1.5rem;
+}
+
+.livro-branco {
+    grid-area: texto;
+    size: 40px;
+    margin-top: 450px;
+    margin-left: 300px;
+}
+
+.tempo-leitura {
+    grid-area: texto;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 450px;
+}

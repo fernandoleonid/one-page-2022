@@ -1,0 +1,16 @@
+.menu {
+    background-color: #f8f3e7;
+}
+
+.title__menu {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'habibi', sans-serif;
+    color: #917123;
+}
+
+.subtitle__menu {
+    font-size: 3rem;
+    text-align: center;
+    color: #5c460f;
+}

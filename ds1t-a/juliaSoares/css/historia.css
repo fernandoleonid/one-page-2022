@@ -3,6 +3,7 @@
     grid-template-areas: "imagem texto";
     grid-template-columns: 1fr 1fr;
     background-color: #f8f3e7;
+    height: auto;
 }
 
 .store-starbucks {

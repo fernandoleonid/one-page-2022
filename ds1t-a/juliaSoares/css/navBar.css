@@ -15,3 +15,7 @@
     border-bottom: 4px solid transparent;
     transition: .5s;
 }
+
+.navBar li:hover {
+    border-bottom: 4px solid white;
+}
