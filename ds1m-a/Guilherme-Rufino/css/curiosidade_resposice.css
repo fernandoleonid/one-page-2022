@@ -1,0 +1,24 @@
+ @media(max-width:640px) {
+     .curiosidade{
+         display: flex;
+         
+        align-items: center;
+       
+    } 
+    .Title_curiosidade {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: aqua; */
+    } 
+    .Text_curiosidades {
+        /* background-color: brown; */
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        width: 100%;  
+        /* margin-left: 30px; */
+        /* margin-right: 30px; */
+
+    }
+ } 

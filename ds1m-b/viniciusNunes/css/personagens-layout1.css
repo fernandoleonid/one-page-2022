@@ -1,0 +1,134 @@
+.personagens-layout {
+  height: 100vh;
+  border: 1px solid var(--secundary-color);
+  border-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.container-layout {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.layout__tittles {
+  letter-spacing: 0.5rem;
+}
+
+.layout-header__image img {
+  height: 150px;
+  z-index: 2;
+}
+
+.layout-header__image {
+  height: 100px;
+}
+
+.layout__image img {
+  width: 350px;
+  z-index: 2;
+}
+
+.background__image {
+  height: 350px;
+  background-color: var(--background-image-color);
+  width: 350px;
+  position: absolute;
+  transform: translate(40px, -320px);
+  z-index: -1;
+}
+
+/* LAYOUTS TITTLES */
+.layout-1__tittle {
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: 3rem;
+}
+
+.layout-2__tittle {
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: 1.6rem;
+}
+
+.layout-3__tittle {
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: 2.5rem;
+}
+.layout-4__tittle {
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: 3.25rem;
+}
+/* LAYOUTS TITTLES */
+
+.layout__container-subtittle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.layout__subtittle {
+  font-weight: 600;
+  letter-spacing: 0.25rem;
+  color: var(--tertiary-color);
+  font-size: 1rem;
+}
+
+/* LAYOUTS SUBTITTLES */
+.layout-1__subtittle-traco {
+  height: 1px;
+  max-width: 245px;
+  width: 100%;
+  background-color: var(--tertiary-color);
+}
+.layout-2__subtittle-traco {
+  height: 1px;
+  max-width: 273px;
+  width: 100%;
+  background-color: var(--tertiary-color);
+}
+
+.layout-3__subtittle-traco {
+  height: 1px;
+  max-width: 165px;
+  width: 100%;
+  background-color: var(--tertiary-color);
+}
+/* LAYOUTS SUBTITTLES */
+
+.layout__description {
+  max-width: 420px;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+/* LAYOUTS DESCRIPTIONS */
+.layout2__description {
+  max-width: 420px;
+  width: 100%;
+  font-size: 0.9rem;
+  text-align: right;
+}
+.layout-1__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 450px;
+}
+/* LAYOUTS DESCRIPTIONS */
+
+.citacao {
+  height: 10px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 15px;
+  font-size: 0.9rem;
+  color: var(--tertiary-color);
+}
