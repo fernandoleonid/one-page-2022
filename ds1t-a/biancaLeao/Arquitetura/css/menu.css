@@ -1,0 +1,160 @@
+nav{
+    display: flex;
+    gap:72px;
+    font-size:1.5rem;
+    width: 100%;
+    background-color: var(--prime-color);
+    align-items: center;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+}
+
+.menu{
+    float: right;
+    line-height: 100px;
+}
+.menu a{
+    
+    font-size: 30px;
+    padding: 12px;
+    transition: .4s ease-in-out;
+}
+.menu a:hover{
+    border-bottom: 1px solid black;
+}
+
+.show-menu-btn, .hide-menu-btn{
+    transition: .4s;
+    font-size: 35px;
+    cursor: pointer;
+    display: none;
+}
+.show-menu-btn{
+    float: left;
+}
+.show-menu-btn i{
+    line-height: 100px;
+}
+
+#chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+}
+
+    
+
+    @media (max-width: 1035px){
+        .show-menu-btn,.hide-menu-btn{
+            display: block;
+        }
+        .show-menu-btn:hover, .hide-menu-btn:hover{
+        
+            transition: none;
+        }
+        .menu a {
+            display: block;
+            text-align: center;
+            padding: 6vh;
+            
+            
+        }
+        .menu a:hover{
+            
+            border-bottom: 0px transparent;
+        }
+        .hide-menu-btn{
+            position: absolute;
+            top: 100px;
+            left: 88%;
+        }
+        .show-menu-btn{
+            top: 70px;
+            left: 90%;
+            position: absolute;
+        }
+        #chk:checked ~ .menu{
+            left: 0;
+        }
+        .menu{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background-color: #3C3741;
+            color: #ffff;
+            left: -100%;
+            top: 0;
+            line-height: normal;
+            padding: 150px 0;
+            transition: .7s;
+        }
+        @media (max-width: 660px) {
+            .logo img{
+                height: 100px;
+                width: 261px;
+            }
+            .hide-menu-btn{
+                position: absolute;
+                top: 60px;
+                left: 83%;
+            }
+            .show-menu-btn{
+                top: 30px;
+                left: 85%;
+                position: absolute;
+            }
+            .menu{
+
+                padding: 130px 0;
+                
+            }
+        }
+        @media (max-width: 400px) {
+            .logo img{
+                height: 62px;
+                width: 161px;
+            }
+            .hide-menu-btn{
+                position: absolute;
+                top: 32px;
+                left: 78%;
+            }
+            .show-menu-btn{
+                top: 5px;
+                left: 80%;
+                position: absolute;
+            }
+            .menu{
+               
+                padding: 100px 0;
+                
+            }
+        
+        }
+        @media (max-width: 300px) {
+            .logo img{
+                height: 62px;
+                width: 161px;
+            }
+            .hide-menu-btn{
+                position: absolute;
+                top: 32px;
+                left: 75%;
+            }
+            .show-menu-btn{
+                top: 5px;
+                left: 75%;
+                position: fixed;
+            }
+            .menu{
+               
+                padding: 100px 0;
+                
+            }
+        
+        }
+
+
+        
+    }

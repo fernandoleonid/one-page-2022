@@ -1,0 +1,404 @@
+@media(max-width:940px){
+
+    section{
+        height: 100vh;
+    }
+
+}
+
+
+
+@media(max-width:640px){
+
+    
+   section{
+       height: 99vh;
+   }
+
+   header{
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       font-size: 60px;
+   }
+   .logo{
+       font-size: 1.2rem;
+   }
+   .logo-final{
+       display: none;
+   }
+   .amarelo{
+       width: 22px;
+       height: 22px;
+   }
+   .azul{
+    width: 22px;
+    height: 22px;
+   }
+   .vermelho{
+    width: 22px;
+    height: 22px;   
+   }
+
+
+   
+   .home{
+       display: flex;
+       justify-content: start;
+       align-items: flex-start;
+       font-size: 1rem;
+       gap: 13%;
+       
+   }
+   .linha{
+       display: none;
+   }
+   .section-title{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+      
+      
+   }
+   .titulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+   }
+   .images{
+       display: flex;    
+       width: 100%;  
+       align-items: center; 
+       justify-content: space-around;
+       font-size: 1.9rem;
+           
+   }
+   .logo3anos{
+       width: 190px;
+   }
+   .texts{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       width: 100%;
+       padding-left: 0;
+       padding: 10px;
+       
+       
+      
+   }
+   .text_home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.1rem;
+        padding: 12px;
+   }
+
+
+   .fulfilment{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0;
+    padding-left: 0;
+    font-size: 1rem;
+    gap: 7%;
+    height: 99vh;
+   }
+   .section__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    width: 100%;
+    gap: 10px;
+    
+    color: white;
+    }
+    .Ux-amarelo{
+        color:#eab828 ;
+    }
+    .section__subtitle__text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .subtitulo{
+        padding: 15px;
+        font-size: 1.01rem;
+        font-weight: 800;
+        color: #ffffff;
+    }
+    .pai_{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 0px;
+    }
+    .text__image{
+        width: 100%;
+    }
+    .image__text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        gap: 10px;
+    }
+    .text_pai{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        color: #ffffff;
+        font-size: 1rem;
+        text-align: center;
+        gap: 50px;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        color: #ffffff;
+        font-size: 1.1rem;
+        width: 90%;
+        
+    }
+    .botao_fulfilment{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        width: 250px;
+        border-radius: 10px;
+        height: 30px;
+        background-color: #eab828;
+        color: #000000;
+        font-size: 0.9rem;
+    }
+    .image_logic{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    }
+    
+
+
+   .solutions{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 0;
+        padding-left: 0px;
+        border-bottom: 3px solid black;
+    }
+    .section_title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        gap: 10px;
+        color: #ffffff;
+        padding-left: 0px;
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #ffffff;
+        font-size: 1rem;
+        width: 100%;
+        gap: 40px;
+    }
+    .pai_{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+    .text_pai{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;    
+        gap: 40px;
+    }
+    .text__image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+        
+    }
+    .botao_solutions{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        width: 250px;
+        border-radius: 10px;
+        height: 30px;
+        background-color: #407bff;
+        color: #000000;
+        font-size: 0.9rem;
+    }
+
+   .image_logic{
+    
+    width: 40%;
+    height: 100%;
+}
+
+
+
+   .delivery{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding-left: 0px;
+        box-shadow: inset 0px 20px 20px #212121;
+        border-bottom: 3px solid black;
+   }
+   .section__title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        gap: 10px;
+        color:#ffffff; 
+    }
+    .section__subtitle__textt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        gap: 30px;
+        flex-direction: column;
+    }
+    .subtituloo{
+        font-size: 1.01rem;
+        color: #ffffff;
+    }
+    .textt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #ffffff;
+        font-size: 1rem;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        gap: 20px;
+    }
+    .image__textt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+        gap: 30px;
+    }
+    .paii{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        gap: 10%;
+    }
+    .text_paii{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+    .botao_delivery{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        width: 250px;
+        border-radius: 10px;
+        font-size: 0.9rem;
+        height: 30px;
+        background-color:#c43e3e;
+        color: #000000;
+    }
+    .image-delivery{
+        display:flex ;
+        width: 60%;
+        height: 100%;
+    }
+
+
+
+   .contato{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-top: 0;
+        padding-left: 0px;
+        gap: 10px;
+   }
+   .icons_somosux{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    }
+    .somos_ux_contato{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2rem;
+    }
+    .classp{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+     
+    }
+    .title__contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        gap: 10px;
+        color:#ffffff;
+    }
+    .logo_contato{
+        display: flex;
+        width: 60%;
+        height: 100%;
+    }
+   
+
+    
+}
