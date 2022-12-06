@@ -1,5 +1,5 @@
 # SITE AMONG US 
-![](./img/site_amongus.png)
+<img src="./img/site_amongus.png">
 ## Sobre
 Site do tipo one page para
 divulgar e trazer novidades sobre o jogo AMONG US.
@@ -19,11 +19,11 @@ no curso do [SENAI Jandira](https://jandira.sp.senai.br/).
 
 ---
 ## Outras imagens
-![](./img/site_amongus_2.png)
+<img src="./img/site_amongus_2.png">
 -
-![](./img/site_amongus_3.png)
+<img src="./img/site_amongus_3.png">
 -
-![](./img/site_amongus_4.png)
+<img src="./img/site_amongus_4.png">
 
 ---
 ## Links
