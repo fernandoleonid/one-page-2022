@@ -1,0 +1,39 @@
+.cafes-variados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    background-image: url(../img/CV-BG.png);
+    height: 528px;
+    width: 100%;
+}
+
+.titulo-cv p {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--cor-primaria);
+}
+
+.slider {
+    margin: 0 auto;
+    width: 1170px;
+    height: 552px;
+    overflow: hidden;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 1170px;
+    height: 552px;
+}

@@ -1,0 +1,39 @@
+:root {
+    --cor-marrom: #C59D5F;
+    --cor-marrom-escuro: #816334;
+    --cor-cinza-escuro: #191919;
+    --cor-primaria: #ffffff;
+}
+
+body {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    place-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    grid-area: header;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+        "content";
+    background-color: #0005;
+}
+
+main {
+    grid-area: main;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+}
+
+footer {
+    grid-area: footer;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0px 15px;
+    background-color: lawngreen;
+}

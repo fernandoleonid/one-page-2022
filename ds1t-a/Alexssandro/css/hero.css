@@ -1,0 +1,44 @@
+.hero {
+    grid-area: content;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url(../img/Hero-BG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.conteudo p {
+    color: var(--cor-primaria);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.conteudo p:last-child {
+    font-weight: 300;
+}
+
+.conteudo img {
+    height: 64px;
+    width: 64px;
+}
+
+.btn {
+    color: var(--cor-primaria);
+    border: 1px solid var(--cor-marrom);
+    border-radius: 25px;
+    padding: 26px 86px;
+}
+
+.btn p {
+    font-size: 1.5rem;
+}
