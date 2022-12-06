@@ -7,14 +7,14 @@
      vertical-align: middle;
      max-height: 600px;
      justify-content: center;
-     width: 110%;
+     width: 80%;
  }
  
  .slideshow-container {
      display: flex;
      align-items: center;
      justify-content: center;
-     width: 90%;
+     width: 100%;
  }
  
  .slideshow {
@@ -27,7 +27,7 @@
  
  .dots-images {
      margin: 13px 0px;
-     margin-left: 900px;
+     margin-left: 790px;
  }
  
  .dot-images {

@@ -1,0 +1,18 @@
+.container_porque {
+    display: grid;
+    background-image: url(../img/ui.png);
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    background-repeat: no-repeat;
+    font-family: 'Patrick Hand', cursive;
+    text-shadow: black 0.2em 0.2em 0.3em;
+}
+
+.porque_title {
+    display: flex;
+    margin-left: 13vw;
+    width: 70%;
+    color: aliceblue;
+    font-size: 2vw;
+}

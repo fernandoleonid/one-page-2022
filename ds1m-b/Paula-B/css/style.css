@@ -45,13 +45,14 @@ footer {
     font-family: 'Patrick Hand', cursive;
     font-size: 2rem;
 }
+
 .voltar {
     position: fixed;
     right: 16px;
     bottom: 16px;
     display: grid;
     place-content: center;
-    font-size: 8rem;
+    font-size: 7rem;
     transition: all .5s;
     color: black;
 }
