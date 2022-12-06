@@ -67,6 +67,11 @@
     color: #000;
 }
 
+.smartwatch-promotion-container a:hover{
+        opacity: 70%;    
+        transition: .4s;
+}
+
 .smartwatch-text-container2{
         grid-column: 3;
         grid-row: 1;

@@ -73,6 +73,12 @@
     color: #000;
 }
 
+
+.tab-promotion-container a:hover{
+    opacity: 70%;    
+    transition: .4s;
+}
+
 @media (max-width: 640px){
     .section-tab{
         height: 170vh;
@@ -99,6 +105,7 @@
         width: 300px;
         height: 80px;
     }
+
 
     .tab-text-container{
         grid-column: 1;

@@ -16,6 +16,16 @@ header{
      display: none;
 }
 
+.menu li{
+     border-bottom: 4px solid transparent;
+     border-radius: 2px;
+}
+
+.menu li:hover{
+     border-color: #fff;
+     transition: border-color .4s;
+}
+
 footer{
      height: 10vh;
      width: 100%;

@@ -55,6 +55,11 @@
     font-size: 5rem;
 }
 
+.icons-container i:hover{
+    color: #000000;
+    transition: .5s;
+}
+
 .informacoes-contato-container {
     grid-column: 2;
     grid-row: 1;
