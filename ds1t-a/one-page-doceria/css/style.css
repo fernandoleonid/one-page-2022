@@ -26,12 +26,7 @@ main{
 section{
     height: 100vh;
 }
-.home{
-    background-color: yellowgreen;
-}
-.menu-cardapio{
-    background-color: yellow;
-}
+
 .about-us{
     background-color: wheat;
 }

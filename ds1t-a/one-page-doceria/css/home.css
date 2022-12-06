@@ -2,6 +2,10 @@
     background-image: url(../img/capa_doce.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 1800px;
+    height: 1100px;
+
+    
 }
 .titulo-home{
     display: flex;
