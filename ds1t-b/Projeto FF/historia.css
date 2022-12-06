@@ -64,3 +64,54 @@
 .imagem-conclusao{
     width: 100%;
 }
+
+/* MOBILE */
+@media(max-width:640px) {
+
+    .container-titulo{
+        padding-top: 0px;
+    }
+
+    .texto-historia{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 100%;
+        padding-left: 15px;
+        gap: 15px;
+    }
+
+    .introducao{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 0px;
+        width: 100%;
+        height: 641px;
+        top: 101px;
+        align-items: center;
+    }
+
+    .texto{
+        width: 100%;
+        height: 370px;
+        font-family: 'Yaldevi Colombo Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .imagem-introducao{
+        box-sizing: border-box;
+        width: 100%;
+        height: 200px;
+    }
+
+    .conclusoa{
+        gap: 0px;
+    }
+
+}
