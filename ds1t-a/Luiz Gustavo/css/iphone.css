@@ -13,3 +13,19 @@
     width: 316px;
     height: 304px;
 }
+
+@media (max-width: 960px) {
+    .section-iphone {
+        display: grid;
+        grid-template-areas: "right right" "left left";
+        height: 135vh;
+    }
+    .iphone14 {
+        width: 386px;
+        height: auto;
+    }
+    .iphones {
+        width: 597px;
+        height: auto;
+    }
+}

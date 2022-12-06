@@ -10,7 +10,8 @@
     align-items: center;
 }
 
-.text-logo {
+.text-logo,
+.text-logo-footer {
     font-weight: 700;
     font-size: 3.75rem;
     color: #CCCCCC;
@@ -30,4 +31,24 @@
 
 .lista-menu li:hover {
     border-color: white;
+}
+
+@media (max-width: 960px) {
+    .menu-bar {
+        width: 800px;
+    }
+    .img-logo {
+        width: 70px;
+        height: auto;
+    }
+    .img-logo-footer {
+        width: 78px;
+        height: auto;
+    }
+    .text-logo {
+        font-size: 3rem;
+    }
+    .lista-menu {
+        font-size: 0.875rem;
+    }
 }

@@ -1,11 +1,10 @@
-.text{
+.text {
     color: white;
     width: 700px;
     font-size: 1.5rem;
     font-weight: 600;
     text-align: justify;
 }
-
 
 .text-button {
     color: white;
@@ -15,3 +14,11 @@
     text-align: justify;
 }
 
+@media (max-width: 960px) {
+    .text {
+        font-size: 1.25rem;
+    }
+    .text-button {
+        width: 700px;
+    }
+}

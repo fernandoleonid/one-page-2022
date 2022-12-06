@@ -39,7 +39,7 @@ body {
     gap: 20px;
 }
 
-footer{
+footer {
     height: 10vh;
     background-color: #222020;
     display: flex;
@@ -48,4 +48,14 @@ footer{
     font-size: 1.5rem;
     color: white;
     font-weight: 400;
+}
+
+@media (max-width: 960px) {
+    .main-right {
+        gap: 20px;
+        grid-area: right;
+    }
+    .main-left {
+        grid-area: left;
+    }
 }

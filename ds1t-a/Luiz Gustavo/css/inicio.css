@@ -10,7 +10,7 @@
 
 .main-home {
     font-family: 'Poppins';
-    width: 1600px;
+    width: 85vw;
     display: flex;
     justify-content: space-between;
     height: 80vh;
@@ -37,7 +37,7 @@
 }
 
 .img-produtos {
-    width: 41.5vw;
+    width: 785px;
     height: auto;
 }
 
@@ -49,4 +49,17 @@
     width: 100%;
     align-items: flex-start;
     grid-area: footer-inicio;
+}
+
+@media (max-width: 960px) {
+    .main-home {
+        display: flex;
+        flex-direction: column;
+    }
+    .home-text {
+        width: 65vw;
+    }
+    .img-produtos {
+        width: 630px;
+    }
 }

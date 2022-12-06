@@ -1,4 +1,4 @@
-.div-title-wacth{
+.div-title-wacth {
     grid-row: 1;
     grid-column: 2;
     display: flex;
@@ -10,7 +10,7 @@
     height: 25vh;
 }
 
-.main-watch{
+.main-watch {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +18,7 @@
     justify-content: center;
 }
 
-.text-watch{
+.text-watch {
     color: white;
     width: 700px;
     font-size: 1.5rem;
@@ -26,7 +26,20 @@
     text-align: justify;
 }
 
-.watch{
+.watch {
     height: 27.5vh;
     width: 27.5vw;
+}
+
+@media (max-width: 960px) {
+    .div-title-wacth {
+        height: 15vh;
+    }
+    .main-watch {
+        height: 70vh;
+    }
+    .watch {
+        width: 523px;
+        height: auto;
+    }
 }

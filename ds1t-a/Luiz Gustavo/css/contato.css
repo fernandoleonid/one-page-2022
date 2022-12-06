@@ -1,13 +1,12 @@
 .section-contato {
     display: grid;
-    grid-template-areas: "title title title"
-        " contatos contatos contatos";
+    grid-template-areas: "title title title" " contatos contatos contatos";
     grid-template-rows: auto 1fr;
     align-items: center;
     height: 90vh;
 }
 
-.main-contato{
+.main-contato {
     display: grid;
     grid-template-areas: " contato social link";
     grid-template-rows: auto 1fr;
@@ -99,7 +98,7 @@ h2 {
     font-weight: 600;
 }
 
-.li-link{
+.li-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,7 +108,34 @@ h2 {
     background-color: #222020;
     color: white;
 }
+
 .li-link:hover {
     color: #2997FF;
     box-shadow: 0px 0px 16px #2997FF;
+}
+
+@media (max-width: 960px) {
+    .section-contato {
+        height: 120vh;
+    }
+    .title-contato {
+        width: 100vw;
+    }
+    .main-contato {
+        display: grid;
+        grid-template-areas: " contato contato contato" "social social social" "link link link";
+        grid-template-rows: auto 1fr 1fr;
+        place-items: center;
+    }
+    .contatos {
+        grid-row: 1;
+        width: 525px;
+    }
+    .social-container {
+        grid-row: 2;
+    }
+    .link-container {
+        grid-row: 3;
+        place-items: center;
+    }
 }
