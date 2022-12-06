@@ -2,9 +2,9 @@
     width: 100%;
     display: grid;
     grid-template-areas: 
-    "diretor-filme frase pearl nome-filme"
-    "diretor-filme descricao-movie pearl nome-filme";
-    grid-template-columns: 19px 1fr 518px 19px;
+    "diretor-filme frase pearl"
+    "diretor-filme descricao-movie pearl";
+    grid-template-columns: 19px 1fr 518px;
 }
 .frase-efeito{
     grid-area: frase;
@@ -85,7 +85,7 @@
     width: 518px;
 }
 .nome-do-filme{
-    grid-area: nome-filme;
+    /* grid-area: pearl; */
     display: flex;
     white-space: nowrap;
     align-items: flex-start;
@@ -97,10 +97,12 @@
     grid-area: diretor-filme;
     display: flex;
     white-space: nowrap;
-    align-items: flex-start;
-    align-self: flex-start;
+    /* align-items: flex-start;
+    align-self: flex-start; */
+    place-self: end start;
     color: #86150F;
     transform: rotate(90deg);
+    background-color: tomato;
 }
 @media (max-width: 960px) {
     .descricao-filme{
