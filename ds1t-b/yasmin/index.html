@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5c84213cbd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/menu.css">
@@ -11,13 +15,25 @@
     <link rel="stylesheet" href="./css/sobre.css">
     <link rel="stylesheet" href="./css/destinos.css">
     <link rel="stylesheet" href="./css/avaliacoes.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/back.css">
     <title>TRVLS</title>
     <link rel="icon" href="./img/mundo.png">
 </head>
 <body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+      <a href="#home" class="back" title="Voltar">
+        <i class="fas fa-angle-double-up"></i>
+    </a>
     <header>
         <img src="./img/logotrvls.png" alt="">
         <nav>
@@ -40,12 +56,10 @@
             </ul>
         </nav>
     </header>
-    <main>
-        
+    <main>   
         <section class="home" id="home">
             <h3 class="home__title">Há novos horizontes a sua espera, vá explorar.</h3>
         </section>
-
         <section class="sobre" id="sobre">
             <img class="img-turista" src="./img/turista.png" alt="Turista">
             <div class="sobre__info">
@@ -58,7 +72,6 @@
                 </p>
             </div>
         </section>
-
         <section class="destinos" id="destinos">
             <div class="destinos__text">
                 <h3 class="destinos__title">Encontre destinos populares!</h3>
@@ -71,8 +84,7 @@
                 </div>
                 <div class="lencois">
                     <p>Lençóis Maranhenses, MA</p>
-                    <img src="./img/lencois.png" alt="Lençóis Maranhenses">
-                    
+                    <img src="./img/lencois.png" alt="Lençóis Maranhenses">                  
                 </div>
                 <div class="cataratas">
                     <img src="./img/cataratas.png" alt="Cataratas do Iguaçu">
@@ -80,7 +92,6 @@
                 </div>
             </div>
         </section>
-
         <section class="avaliacoes" id="avaliacoes">
             <h3 class="avaliacoes__title">Sua satisfação é a nossa!</h3>
             <div class="avaliacoes__divs">
@@ -101,11 +112,39 @@
                 </div>
             </div> 
         </section>
-    <section class="contato" id="contato"></section>
-
+    <section class="contato" id="contato">
+        <h3 class="contato__title">Fale conosco</h3>
+        <ul class="sociais">
+            <li class="social-item">
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>             
+            </li>
+            <li class="social-item">
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>             
+            </li>
+            <li class="social-item">
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>             
+            </li>
+            <li class="social-item">
+                <a href="#">
+                    <i class="fab fa-whatsapp"></i>
+                </a>             
+            </li>
+        </ul>
+        <ul class="contatos">
+            <li class="contato-item">(11) 94830-3519</li>
+            <li class="contato-item">contact@trvls.com</li>
+            <li class="contato-item">(11) 4001-9300</li>
+        </ul>
+    </section>
     </main>
     <footer>
-        
+        <p>@2022 Yasmin Gonçalves. Todos os direitos reservados </p>
     </footer>
 </body>
 </html>

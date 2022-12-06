@@ -5,3 +5,10 @@
     font-weight: 400;
     gap: 50px;
 }
+.menu li{
+    border-bottom: 4px solid transparent;
+    transition: border-color .5s;
+}
+.menu li:hover{
+    border-color: var(--primary-color);
+}

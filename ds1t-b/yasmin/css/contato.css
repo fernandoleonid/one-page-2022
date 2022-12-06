@@ -1,0 +1,36 @@
+.contato{
+    display: grid;
+    justify-content: center;
+}
+.contato__title{
+    font-size: 4rem;
+    justify-self: center;
+}
+.sociais{
+    display: flex;
+    flex-direction: row;
+    gap: 8.5vw;
+}
+.social-item{
+    color: var(--primary-color);
+    font-size: 3rem;
+    background-color: #D4E1D4;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contatos{
+    justify-content: center;
+}
+.contato-item{
+    font-size: 2rem;
+    text-align: center;
+}
+.social-item:hover{
+    background-color: #1B361D;
+    color: white;
+    transition: 1s;
+}

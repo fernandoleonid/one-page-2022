@@ -41,3 +41,9 @@
     max-width: 300px;
     width: 100%;
 }
+.destinos__lugares img:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 1s;
+}

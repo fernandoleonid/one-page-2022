@@ -1,6 +1,9 @@
 :root{
     --primary-color: #1B361D;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Red Rose', cursive;
     color: var(--primary-color);
@@ -26,10 +29,14 @@ section{
     height: 100vh;
 }
 footer{
+    display: flex;
     grid-area: content;
     place-self: end start;
-    background-color: rgb(255, 140, 0);
+    background-color: #749C8D;
     height: 50px;
     width: 100%;
     z-index: 1;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
