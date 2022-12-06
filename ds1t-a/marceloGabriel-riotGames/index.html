@@ -4,24 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/main-home.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/jogos.css">
+    <link rel="stylesheet" href="./css/e-sports.css">
+    <link rel="stylesheet" href="./css/sobre-nos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
     <title>RiotGames - Início</title>
 </head>
 <body>
     <Header>
-        <div class="cabecalho-home-um">
-            <img src="./img/Logo Riot Games.png" alt="Logo da Riot Games do Header">
-        </div>
-        <div class="lista-cabecalho-home">
-            <a href="#">Home</a>
-            <a href="#">Jogos</a>
-            <a href="#">E-Sports</a>
-            <a href="#">Sobre Nós</a>
-            <a href="#">Contatos</a>
-        </div>
+        <nav class="navegacao-cabecalho">
+            <div class="cabecalho-home-um">
+                <a href="">
+                    <img src="./img/Logo Riot Games.png" alt="Logo da Riot Games do Header">
+                </a>  
+            </div>
+            <div class="lista-cabecalho-home">
+                <a id="item-um" class="item-nav-header" href="#">
+                    <img id="fundo-item-um" src="./img/Rectangle 7.png" alt="">
+                    Home
+                </a>
+                <a id="item-dois" class="item-nav-header" href="#"> 
+                    <img id="fundo-item-dois" src="./img/Rectangle 7.png" alt="">
+                    Jogos
+                </a>
+                <a id="item-tres" class="item-nav-header" href="#"> 
+                    <img id="fundo-item-tres" src="./img/Rectangle 7.png" alt="">
+                    E-Sports
+                </a>
+                <a id="item-quatro" class="item-nav-header" href="#"> 
+                    <img id="fundo-item-quatro" src="./img/Rectangle 7.png" alt="">
+                    Sobre Nós
+                </a>
+                <a id="item-cinco" class="item-nav-header" href="#"> 
+                    <img id="fundo-item-cinco" src="./img/Rectangle 7.png" alt="">
+                    Contatos
+                </a>
+            </div>
+        </nav>
     </Header>
     <Main>
-        
+        <section class="home">
+            <div class="container-home">
+                <img class="logo-arcane-corpo" src="img/Logo Arcane.png" alt="">
+                <p class="paragrafo-arcane">
+                    Baseado no jogo League of Legends, Arcane é uma animação original da Netflix e reconta as histórias de origem dos personagens de Piltover e Zaun. A trama gira em torno de uma tecnologia mágica conhecida com hextec que dá a qualquer pessoa a habilidade de controlar energia mística e essa ferramenta acaba causando um desequilíbrio entre os reinos. Ao longo dos episódio, a série apresentará ao público os caminhos que os personagens percorreram para se tornar quem são, além de também apresentar inúmeros personagens novos
+                </p>
+                <a class="botao-assistir-arcane" href="">
+                    <img class="fundo-botao-assistir" src="./img/Rectangle 24.png" alt=""> 
+                    <p class="assistir">Assistir</p>
+                    
+                </a>
+            </div>            
+        </section>
+        <section class="jogos">
+            <div class="container-titulo-jogos">
+                <h1 class="titulo-jogos">
+                    Jogos
+                </h1>
+            </div>
+            <img class="fundo-jogos" src="./img/Fundo jogos.png" alt="">
+        </section>
+
+        <section class="e-sports">
+            <div class="container-titulo-e-sports">
+                <h1 class="titulo-e-sports">
+                    E-Sports
+                </h1>
+            </div>
+            <div>
+
+            </div>
+            <img class="fundo-e-sports" src="./img/Fundo jogos.png" alt="">
+        </section>
+
+        <section class="sobre-nos">
+            <div class="container-titulo-sobre-nos">
+                <h1 class="titulo-sobre-nos">
+                    E-Sports
+                </h1>
+            </div>
+        </section>
+
     </Main>
 </body>
 </html>

@@ -1,27 +1,16 @@
-Header {
-    position: relative;
+:root {
+    --primary-color: #ee5840;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     display: grid;
-    padding: 10px;
-    place-items: center;
+    grid-template-areas: "content";
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    background: linear-gradient(90deg, #541F1F 0%, #1A1717 43.23%, #0E0C0C 100%);
 }
 
-.cabecalho-home-um {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-
-}
-
-Main {
-    height: 100vh;
-}
-
-.lista-cabecalho-home {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-   
-    
-}

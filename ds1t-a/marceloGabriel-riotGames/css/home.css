@@ -1,0 +1,53 @@
+.home {
+    background-image: url(../img/Imagem\ De\ Fundo\ Arcane.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding-left: 50px;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.paragrafo-arcane {
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Ubuntu';
+    width: 550px;
+    padding-bottom: 60px;
+}
+
+.botao-assistir-arcane {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 2.188rem;
+    position: relative;
+}
+
+.fundo-botao-assistir {
+    position: absolute;
+    background-size: contain;
+    transform: translateY(-9px);
+}
+
+.assistir {
+    position: absolute;
+    transform: translateX(40px);
+    color: #ffffff;
+    
+}
+
+.assistir:hover {
+    color: black;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
