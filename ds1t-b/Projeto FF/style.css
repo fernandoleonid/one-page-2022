@@ -3,8 +3,6 @@ section{
     border-top: 5px solid #023158;
 }
 body{
-    display: grid;
-    grid-template-areas: "content";
 }
 main{
     grid-area: content;
@@ -33,19 +31,54 @@ html{
     background-clip: text;
 }
 
+footer{
+    place-self: end start;
+    height: 70px;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    background: #000000;
+    font-size: .74rem;
+    border-top: 3px solid #fff;
+    font-family: 'Ubuntu';
+    font-style: normal; font-weight: 400; font-size: 30px; color: #FFFFFF;
+}
+
 /* MOBILE */
-@media(max-width:640px) {
-
-    
-
-    body{
-        width: 100%;
-    }
-
+@media(max-width:640px){
     .home{
-        height: 1600px;
         width: 100%;
+        height: 667px;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03)), rgba(12, 20, 27, 0.87);
+        background-size: cover;
+        margin-right: 0px;
     }
 
+    .historia{
+        display: none;
+    }
+    
+    .personagens{
+        display: none;
+    }
 
+    .producao{
+        display: none;
+    }
+
+    .criadores{
+        display: none;
+    }
+
+    .contatos{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+    .back{
+        display: none;
+    }
 }
