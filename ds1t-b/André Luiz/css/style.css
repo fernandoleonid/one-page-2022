@@ -14,9 +14,7 @@ header{
 
 @media (max-width: 320px){
 
-    body{
-        width: 300px;
-    }
+    
 
    header{
         height: 15vh;
