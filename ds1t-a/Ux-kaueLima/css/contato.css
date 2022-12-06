@@ -38,56 +38,56 @@
 }
 .icons{
     display: flex;
-    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
     font-size: 4rem;
+    width: 20%;
 }
 .icon_linkedin{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
-    background-color: rgb(148, 145, 145);
-    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
 }
 .icon_linkedin:hover{
-    background-color: #000000;
+    
     transition: 1s;
-    border: solid white 0.2px;
-    color: white;
+    color: rgb(40,103,178);
+    background-color: #ffffff;
 }
 
 .icon_instagram{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
-    background-color:rgb(148, 145, 145);
-    border-radius: 20px;
+    color: #ffffff;
+    
 }
 .icon_instagram:hover{
-    background-color: #000000;
-    transition: 1s;
-    border: solid white 0.2px;
-    color: white;
+    transition: 1s;   
+    color: #ffffff;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    width: 55px;
+    height: 55px;
+    border-radius: 20px;
+    
 }
 
 .icon_youtube{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
-    background-color: rgb(148, 145, 145);
-    border-radius: 20px;
-    
+    color: white;
 }
 .icon_youtube:hover{
-    border: solid white 0.2px;
-    background-color: #000000;
     transition: 1s;
-    color: white;
+    color: rgb(207, 64, 64);
+    background-color: white;
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
 }
 .direitos{
     display: flex;
