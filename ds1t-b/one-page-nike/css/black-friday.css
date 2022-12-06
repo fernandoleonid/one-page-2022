@@ -112,3 +112,11 @@
     border-radius: 50%;
     background-color: #ffffff;
 }
+
+.container-slide{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
