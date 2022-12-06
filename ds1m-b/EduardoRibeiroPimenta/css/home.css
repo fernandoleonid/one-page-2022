@@ -1,0 +1,36 @@
+.home::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image:  url(../img/background_home.png);
+    background-repeat: no-repeat;
+    background-size: 1800px 100% ;
+    background-position:center;
+}
+.home{
+    display: flex;
+    justify-content: center;
+}
+.home h1{
+    z-index: 2;
+    font-family: Impostograph;
+    font-weight: 100;
+    padding-top: 50px;
+    font-size: 500px;
+}
+
+@media(max-width:1200px){
+.home h1{
+    padding-top: 240px;
+    font-size: 300px;
+}
+}
+@media(max-width:770px){
+.home h1{
+    font-size: 150px;
+}
+.home::before{
+    background-size: 1200px 100% ;
+}
+}
