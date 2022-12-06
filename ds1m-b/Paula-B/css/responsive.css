@@ -1,14 +1,63 @@
 /* TABLET */
 
-@media(max-width: 1310px) {
-    .img-raças img {
-        width: 250px;
-        height: 200px;
+@media(max-width:960px) {
+    .description-text {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .description-title {
+        display: grid;
+    }
+    .curiosidade_text {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin-left: 30vw;
+        gap: 30px;
+        font-size: 2vw;
+    }
+    .text {
+        font-size: 80%;
+    }
+    .dots-images {
+        display: none;
+    }
+    .slideshow-container {
+        display: flex;
+        margin-left: 4vw;
+    }
+    .mySlides-images img {
+        width: 65%;
+    }
+    .outros {
+        display: flex;
+        margin-top: 5vw;
+    }
+    footer {
+        font-size: 3vw;
     }
 }
 
-@media (max-width: 960px) {
+
+/* MOBILE  */
+
+@media(max-width:640px) {
     nav {
         display: none;
+    }
+    .racas-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4vw;
+    }
+    .racas-containeer {
+        display: none;
+    }
+    .name {
+        display: none;
+    }
+    .outros {
+        display: flex;
     }
 }

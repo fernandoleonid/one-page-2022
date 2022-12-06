@@ -11,6 +11,14 @@
     width: 1200px;
 }
 
+.curiosidade_title {
+    display: flex;
+    margin-top: 2vw;
+    margin-left: 23vw;
+    gap: 200px;
+    width: 1200px;
+}
+
 .text {
     display: grid;
     font-family: 'Patrick Hand', cursive;
