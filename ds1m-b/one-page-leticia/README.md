@@ -2,7 +2,7 @@
 
 ![](./img/image.png)
 
-## [Clique aqui](link) para acessar o site
+## [Clique aqui](https://leticia-evelin.github.io/one-page-2022/ds1m-b/one-page-leticia/) para acessar o site
 
 ---
 
