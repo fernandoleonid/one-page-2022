@@ -78,6 +78,57 @@
         place-self: center;
 }
 
+
+@media (max-width: 640px){
+    .section-smartwatch{
+        height: 140vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 120px 1fr 1fr 1fr;
+    }
+
+    .smartwatch-title-container{
+        grid-column: 1;
+        grid-row: 1;
+        padding-left: 0;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .smartwatch-text-container1{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .smartwatch-text-container1 p{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .smartwatch-promotion-container{
+        grid-column: 1;
+        grid-row: 3;
+        align-self: center;
+    }
+
+    .smartwatch-promotion-container a{
+        width: 300px;
+        height: 80px;
+    }
+
+    .smartwatch-text-container2{
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .smartwatch-text-container2 p {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
+
 @media (max-width: 960px) {
     .section-smartwatch{
         width: 100%;

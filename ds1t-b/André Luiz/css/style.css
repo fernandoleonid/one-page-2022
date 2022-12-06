@@ -12,7 +12,25 @@ header{
     align-items: center;
 }
 
-@media (max-width: 320px){
+.menubar-container{
+     display: none;
+}
+
+footer{
+     height: 10vh;
+     width: 100%;
+     color: #000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: linear-gradient(180deg, #fff 100%, #fff 100%);
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 1.5rem;
+}
+
+@media (max-width: 640px) {
 
     
 
@@ -30,6 +48,11 @@ header{
    .menubar-container{
         color: white;
         font-size: 2rem;
+        display: flex;
+   }
+
+   footer{
+        font-size: 1rem;
    }
 
 }

@@ -33,6 +33,27 @@
     grid-row: 1;
 }
 
+@media (max-width:640px){
+    .section-home{
+        height: 90vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .promotion-image-container{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .promotion-text-container{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+
+}
+
 @media (max-width: 320px) {
 
     .section-home{
