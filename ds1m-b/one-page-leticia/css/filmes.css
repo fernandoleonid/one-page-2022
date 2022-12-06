@@ -1,0 +1,59 @@
+.filmes{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.description{
+    font-weight: lighter;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.65rem;
+    line-height: 150%;
+}
+
+.card-container{
+    max-width: 1440px;
+    display: flex;
+    width: 100%; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 48px; 
+}
+
+.card{
+    display: block; 
+    position: relative;
+    overflow: hidden;
+    border: 6px solid var(--primary-color);
+}
+
+.card::before{
+    content: "Clique aqui para visualizar o filme";
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    display: grid;
+    place-content: center;
+    background-color: azure;
+    transform: translateY(100%);
+    transition: transform .7s;
+}
+.card:hover::before{
+    transform: translateY(0%);
+}
+
+@media (max-width: 960px) {
+    .filmes{
+        height: fit-content;  
+        width: 75%;
+        gap: 25px;
+        margin-top: 60%;
+    }
+    .filmes img {
+        width: 670px;
+        height: 420px;  
+    }
+}

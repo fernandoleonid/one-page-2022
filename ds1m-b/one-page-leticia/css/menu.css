@@ -1,0 +1,34 @@
+.menu{
+    display: flex;
+    gap: 55px;
+    font-size: 1.25rem;
+    margin-top: 80px; 
+    margin-right: 35px; 
+}
+
+.menu li{
+    border-bottom: 4px solid transparent;
+    transition: border-color .5s;
+}
+
+.menu li:hover{
+    border-color: var(--primary-color);
+}
+.menu__icon{
+    display: none;
+}
+
+@media (max-width: 960px) {
+    .menu{
+        display: none;
+    }
+    .menu li{
+        border-bottom: 2px solid transparent;
+    }
+    .menu__icon{
+        display: block;
+        font-size: 2.25rem;
+        margin-top: 60px; 
+        margin-right: 100px; 
+    }
+}
