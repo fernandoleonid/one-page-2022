@@ -1,0 +1,26 @@
+.imgBo1 {
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   place-items: center;
+   gap: 25px ;
+}
+
+.img_bo1 {
+    height: 450px;
+}
+
+.linhas {
+    display: flex;
+    gap: 30px;
+}
+
+#linha-pequena {
+    width: 100px;
+    border: 4px solid gray;
+}
+
+#linha-pequena2 {
+    width: 100px;
+    border: 4px solid gray;
+}

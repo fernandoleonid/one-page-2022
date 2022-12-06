@@ -3,10 +3,12 @@
 }
 
 .logoBo1 {
-    z-index: 6;
-    position: absolute;
+    width: 30%;
+    padding-top: 90px;
     display: flex;
-    height: 7rem;
-    margin-top: 4rem;
-    margin-left: 8rem;
+    justify-content: center;
+}
+
+.logo_bo1 {
+    
 }
