@@ -1,10 +1,21 @@
 .casal-warren{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    background-image: url(../img/image\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .casal{
     display: flex;
-    padding: 80px;
-    gap: 30px;
+    width: 90%;
+    padding-top: 80px;
+    gap: 80px; 
+}
+
+.foto-casal{
+    width: 55%;
+    height: 80%;
 }
 
