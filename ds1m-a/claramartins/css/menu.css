@@ -1,0 +1,19 @@
+.logo{
+    padding-left: 34px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    place-self: flex-start;
+    gap: 72px;
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: 400;
+}
+.menu li{
+    border-bottom: 4px solid transparent;
+    transition: border-color .5s;
+}
+.menu li:hover{
+    border-color: var(--pink-color);
+}
