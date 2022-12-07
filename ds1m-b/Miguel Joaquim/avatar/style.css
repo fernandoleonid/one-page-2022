@@ -1,29 +1,28 @@
-
-*{
+* {
     padding: 0%;
     margin: 0%;
 }
 
 header {
-
-    height: 135vh;
+    height: 100vh;
     background-image: url(./img/avatar-a-lenda-de-aang-2-temp-plano-critico.jpg);
     background-repeat: no-repeat;
     background-attachment: center;
     background-size: 100%;
 }
-.logo{
+
+.logo {
     display: grid;
     grid-row: auto;
     margin-left: 30%;
-   }
-main{
-  
+}
+
+main {
     height: 1000vh;
     background-color: crimson;
 }
 
-footer{
+footer {
     background-color: cornflowerblue;
     height: 20vh;
 }
