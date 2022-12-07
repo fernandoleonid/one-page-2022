@@ -1,0 +1,18 @@
+.textImg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.textImg span{
+    width: 700px;
+    text-align: right;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    gap: 128px;
+    height: 900px;
+}
