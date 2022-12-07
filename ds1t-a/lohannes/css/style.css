@@ -2,10 +2,6 @@ section{
     height: 100vh;
 }
 
-/* section:not(#home){
-    background: linear-gradient(90deg, #001131 29.69%, #002A7A 100%);
-} */
-
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -49,10 +45,6 @@ main{
 }
 
 #atlok_Personagens{
-    width: 100%;
-}
-
-#nacoes{
     width: 100%;
 }
 

@@ -1,0 +1,476 @@
+#nacoes{
+    width: 100%;
+    position: relative;
+}
+
+.mapa{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -5;
+}
+
+.personagens{
+    height: 100vh;
+}
+
+.botoesEAreas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 99vw;
+    height: 100%;
+    padding-right: 11.8%;
+    padding-left: 11.8%;
+}
+
+.botoesEAreas img{
+    width: 60%;
+}
+
+.botoes1{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    justify-content: space-around;
+}
+
+.botoes2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    justify-content: space-around;
+}
+
+.agua{
+    display: grid;
+    place-items: center;
+    background-color: #001AFF;
+    width: 11vw;
+    height: 17vh;
+    border: none;
+    border-radius: 100%;
+    transition: all .5s;
+    cursor: default;
+}
+
+.fogo{
+    display: grid;
+    place-items: center;
+    background-color: #C80000;
+    width: 11vw;
+    height: 17vh;
+    border: none;
+    border-radius: 100%;
+    transition: all .5s;
+    cursor: default;
+}
+
+.terra{
+    display: grid;
+    place-items: center;
+    background-color: #0E6400;
+    width: 11vw;
+    height: 17vh;
+    border: none;
+    border-radius: 100%;
+    transition: all .5s;
+    cursor: default;
+}
+
+.ar{
+    display: grid;
+    place-items: center;
+    background-color: #9DFFF9;
+    width: 11vw;
+    height: 17vh;
+    border: none;
+    border-radius: 100%;
+    cursor: default;
+    transition: all .5s;
+}
+
+.agua:focus{
+    background-color: #001132;
+    box-shadow: 0px 0px 25px 5px #0038FF, 0px 0px 25px 5px inset #000;
+}
+
+.agua:focus .agua_icon{
+    filter: invert(100%);
+}
+
+.agua:focus .triboNorte{
+    opacity: 1;
+}
+
+.agua:focus .triboSul{
+    opacity: 1;
+}
+
+.agua:hover{
+    z-index: 5;
+}
+
+.fogo:focus{
+    background-color: #520000;
+    box-shadow: 0px 0px 25px 5px #ff0000, 0px 0px 25px 5px inset #000;
+}
+
+.fogo:focus .fogo_icon{
+    filter: invert(100%);
+}
+
+.fogo:focus .nacaoFogo{
+    opacity: 1;
+}
+
+.fogo:hover{
+    z-index: 5;
+}
+
+.terra:focus{
+    background-color: #042000;
+    box-shadow: 0px 0px 25px 5px #149400, 0px 0px 25px 5px inset #000;
+}
+
+.terra:focus .terra_icon{
+    filter: invert(100%);
+}
+
+.terra:focus .nacaoTerra{
+    opacity: 1;
+}
+
+.terra:hover{
+    z-index: 5;
+}
+
+.ar:focus{
+    background-color: #1a3130;
+    box-shadow: 0px 0px 25px 5px #00ffee, 0px 0px 25px 5px inset #000;
+}
+
+.ar:focus .ar_icon{
+    filter: invert(100%);
+}
+
+.ar:focus .ilhaNoroeste{
+    opacity: 1;
+}
+
+.ar:focus .ilhaSudeste{
+    opacity: 1;
+}
+
+.ar:focus .ilhaSudoeste{
+    opacity: 1;
+}
+
+.ar:hover{
+    z-index: 5;
+}
+
+.tribos{  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    transform: translate(200%, 36.3%);
+    gap: 69%;
+    height: 80%;
+}
+
+.triboNorte{
+    opacity: 0;
+    background: radial-gradient(#008cff, transparent 70%);
+    border-radius: 50%;
+    height:  10.672358591248665vh;
+    width: 15.625vw;
+    transition: all .5s;
+}
+
+.triboNorte:hover{
+    opacity: 1;
+}
+
+.triboNorte:hover .aguaNorte{
+    display: block;
+}
+
+.triboSul{
+    opacity: 0;
+    background: radial-gradient(#001f86, transparent);
+    border-radius: 50%;
+    height:  10.672358591248665vh;
+    width: 15.625vw;
+    transition: all .5s;
+}
+
+.triboSul:hover{
+    opacity: 1;
+}
+
+.triboSul:hover .aguaSul{
+    display: block;
+}
+
+.nacaoFogo{
+    opacity: 0;
+    border-radius: 50%;
+    background: radial-gradient(#910000, transparent 70%);
+    position: absolute;
+    transform: translate(60%, -150%);
+    width: 21.354166666666668vw;
+    height: 18.14300960512273vh;
+    transition: all .5s;
+}
+
+.nacaoFogo:hover{
+    opacity: 1;
+}
+
+.nacaoFogo:hover .palacio{
+    display: block;
+}
+
+.nacaoTerra{
+    opacity: 0;
+    border-radius: 50%;
+    background: radial-gradient(#1c8a00, transparent);
+    position: absolute;
+    transform: translate(-80%, 50%);
+    width: 23.958333333333332vw;
+    height:  37.353255069370334vh;
+    transition: all .5s;
+}
+
+.nacaoTerra:hover{
+    opacity: 1;
+}
+
+.nacaoTerra:hover .baSingSe{
+    display: block;
+}
+
+.ilhaNoroeste{
+    opacity: 0;
+    border-radius: 50%;
+    background: radial-gradient(#2eb4ab, transparent 70%);
+    position: absolute;
+    transform: translate(-400%, -390%);
+    width: 13.020833333333334vw;
+    height: 11.739594450373533vh;
+    transition: all .5s;
+}
+
+.ilhaNoroeste:hover{
+    opacity: 1;
+}
+
+.ilhaNoroeste:hover .ilhaDosMongesNO{
+    display: block;
+}
+
+.ilhasSul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    transform: translate(-50%, -60%);
+    gap: 10%;
+    width: 45%;
+    transition: all .5s;
+}
+
+.ilhaSudeste{
+    opacity: 0;
+    border-radius: 50%;
+    background: radial-gradient(#2eb4ab, transparent 70%);
+    width:  18.229166666666668vw;
+    height: 11.739594450373533vh;
+    transition: all .5s;
+}
+
+.ilhaSudeste:hover{
+    opacity: 1;
+}
+
+.ilhaSudeste:hover .ilhaDosMongesSE{
+    display: block;
+}
+
+.ilhaSudoeste{
+    opacity: 0;
+    border-radius: 50%;
+    background: radial-gradient(#2eb4ab, transparent 70%);
+    width: 15.625vw;
+    height: 11.739594450373533vh;
+    transform: translate(25%, -50%) rotate(-20deg);
+    transition: all .5s;
+}
+
+.ilhaSudoeste:hover{
+    opacity: 1;
+}
+
+.ilhaSudoeste:hover .ilhaDosMongesSO{
+    display: block;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 50%;
+    height: 80%;
+    gap: 10%;
+    justify-content: center;
+}
+
+.titulo{
+    font-weight: 100;
+    font-family: 'Marcellus SC', serif;
+    font-size: 2rem;
+}
+
+.descricao{
+    font-family: 'Sarala', sans-serif;
+    font-size: 1rem;
+}
+
+.foto{
+    height: 100%;
+    width: 50%;
+    
+}
+
+.terra .foto{
+    background-image: url("../images/Ba_Sing_Se.jpg");
+    background-size: cover;
+}
+
+.fogo .foto{
+    background-image: url("../images/palacio.jpg");
+    background-size: cover;
+}
+
+.ar .foto{
+    background-image: url("../images/ilha.png");
+    background-size: cover;
+}
+
+.aguaNorte .foto{
+    background-image: url("../images/triboNorte.jpg");
+    background-size: cover;
+}
+
+.aguaSul .foto{
+    background-image: url("../images/triboSul.jpg");
+    background-size: cover;
+}
+
+.baSingSe{
+    display: none;
+    position: absolute;
+    width: 31.354166666666668vw;
+    height: 30.113636363636363vh;
+    background-color: #A28961;
+    border: 3px solid #FF9D00;
+    padding: 20px;
+    transform: translate(-150%, 48%);
+}
+
+.palacio{
+    display: none;
+    position: absolute;
+    width: 31.354166666666668vw;
+    height: 30.113636363636363vh;
+    background-color: #A28961;
+    border: 3px solid #FF9D00;
+    padding: 20px;
+    transform: translate(143%, -13%);
+}
+
+.ilhaDosMongesNO{
+    display: none;
+    position: absolute;
+    width: 31.354166666666668vw;
+    height: 30.113636363636363vh;
+    background-color: #A28961;
+    border: 3px solid #FF9D00;
+    padding: 20px;
+    transform: translate(35%, 30%);
+}
+
+.ilhaDosMongesSO{
+    display: none;
+    position: absolute;
+    width: 31.354166666666668vw;
+    height: 30.113636363636363vh;
+    background-color: #A28961;
+    border: 3px solid #FF9D00;
+    padding: 20px;
+    transform: rotate(20deg) translate(-97.8%, -59%);
+}
+
+.ilhaDosMongesSE{
+    display: none;
+    position: absolute;
+    width: 31.354166666666668vw;
+    height: 30.113636363636363vh;
+    background-color: #A28961;
+    border: 3px solid #FF9D00;
+    padding: 20px;
+    transform: translate(-9.49%, -98.6%);
+}
+
+.aguaNorte {
+    display: none;
+    position: absolute;
+    width: 31.354166666666668vw;
+    height: 30.113636363636363vh;
+    background-color: #A28961;
+    border: 3px solid #FF9D00;
+    padding: 20px;
+    transform: translate(-20.5%, 77.4%);
+}
+
+.aguaSul {
+    display: none;
+    position: absolute;
+    width: 31.354166666666668vw;
+    height: 30.113636363636363vh;
+    background-color: #A28961;
+    border: 3px solid #FF9D00;
+    padding: 20px;
+    transform: translate(-20.5%, -141.4%);
+}
+
+.instrucoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #1382b9;
+    font-size: 1rem;
+    font-family: 'Marcellus SC', serif;
+    font-weight: bold;
+    width: 100%;
+    height: 10%;
+    transform: translateY(850%);
+    position: absolute;
+}
