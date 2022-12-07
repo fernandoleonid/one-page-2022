@@ -56,3 +56,26 @@ footer{
     font-size: .85rem;
     border-top: 2px solid #fff;
 }
+
+/* MOBILE */
+@media (max-width:640px){
+    .black-friday {
+        height: 350vh;
+    }
+
+    .soccer {
+        height: 300vh;
+    }
+
+    .basketball {
+        height: 350vh;
+    }
+    
+    .jordan {
+        height: 300vh;
+    }
+
+    .follow-us {
+        height: 100vh;
+    }
+}

@@ -13,3 +13,19 @@
 .menu li:hover {
     border-bottom: 4px solid var(--primary-color);
 }
+
+/* MOBILE */
+@media (max-width:640px) {
+    header {
+        max-width: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    } 
+    .menu {
+        display: none;
+    }   
+    .menu__bars {
+        font-size: 1.5rem;
+    }
+}

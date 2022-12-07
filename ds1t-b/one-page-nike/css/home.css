@@ -35,3 +35,10 @@
 .menu__bars {
     display: none;
 }
+
+/* MOBILE */
+@media (max-width:640px){
+    .menu__bars {
+        display: flex;
+    }
+}
