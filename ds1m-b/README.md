@@ -5,5 +5,5 @@
 | Nome          | Código                        | Site                              |
 | --------------| ------------------------------|-----------------------------------|
 | [EduardoRibeiroPimenta](https://github.com/)     |[Sandman](./EduardoRibeiroPimenta/)      | [<img src="./EduardoRibeiroPimenta/img/site_amongus.PNG" width="300">](https://fernandoleonid.github.io/one-page-2022/ds1m-b/EduardoRibeiroPimenta)|
-| [Matheus Siqueira](https://github.com/ma7hs)     |[EZE Eletronics](./Matheus%20Siqueira/)      | [<img src="./Matheus Siqueira/img/site_amongus.PNG" width="300">](https://fernandoleonid.github.io/one-page-2022/ds1m-b/Matheus%20Siqueira)|
+| [Matheus Siqueira](https://github.com/ma7hs)     |[EZE Eletronics](./Matheus%20Siqueira/)      | [<img src="./Matheus%20Siqueira/images/EZE.png" width="300">](https://fernandoleonid.github.io/one-page-2022/ds1m-b/Matheus%20Siqueira)|
 | [Vinicius Nunes](https://github.com/VINICIUSNUNES137)     |[Sandman](./viniciusNunes/)      | [<img src="./viniciusNunes/img/HOME.png" width="300">](https://fernandoleonid.github.io/one-page-2022/ds1m-b/viniciusNunes)|
