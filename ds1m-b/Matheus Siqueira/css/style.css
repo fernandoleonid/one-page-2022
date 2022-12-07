@@ -1,0 +1,32 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header{
+    height: 80px;
+    background-color: #2F93D0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    place-self: start center;   
+}
+
+main{
+    background-color:#F8F8FF;
+    align-content: center;
+    flex-direction: column;
+}
+
+section{
+    background-color: #DCDCDC;
+    align-content: center;
+   
+}
