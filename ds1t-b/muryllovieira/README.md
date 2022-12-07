@@ -18,5 +18,9 @@ O objetivo deste projeto é colocar em prática os conhecimentos, sobre desenvol
 - JavaScriptgit 
 
 ---
+## Link Figma
+- [Figma](https://www.figma.com/file/qa63XwZRWIFyar2KvMZpIg/Genshin-Impact?node-id=1%3A3&t=wKuPsqUKU7UYdogd-0)
+
+---
 ## Autor
 - [Muryllo Vieira](https://github.com/muryllovieira)
