@@ -7,6 +7,24 @@
     align-items: center;
 }
 
+.container-effect {
+    width: 100%;
+    height: 5px;
+    animation: changeBackgroundColor 4s infinite;
+}
+
+@keyframes changeBackgroundColor {
+    0% {
+        background-color: #0009;
+      }
+      50% {
+        background-color: #FF0000;
+      }
+      100% {
+        background-color: #0009;
+      }
+}
+
 .faixa {
     height: 10vh;
     width: 60%;

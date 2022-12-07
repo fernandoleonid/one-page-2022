@@ -78,4 +78,8 @@ footer{
     .follow-us {
         height: 100vh;
     }
+    footer {
+        height: 8vh;
+        font-size: 0.65rem;
+    }
 }
