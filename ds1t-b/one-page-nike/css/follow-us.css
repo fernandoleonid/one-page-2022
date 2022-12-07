@@ -46,3 +46,15 @@
     color: var(--primary-color);
     box-shadow: inset 0px 0px 5px var(--primary-color);
 }
+
+/* MOBILE */
+@media (max-width:640px){
+    .title-follow-us{
+        font-size: 3rem;
+}
+    .icons-social {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
