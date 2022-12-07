@@ -20,8 +20,6 @@
 
 .modelo1 {
     width: 45vh;
-
-
 }
 
 .modelo2 {
@@ -47,16 +45,12 @@
 
 }
 
-
 .makes {
     font-family: 'Ubuntu', sans-serif;
-
 }
-
 .botao {
     padding-top: 8vh;
     padding-left: 34%;
-
 }
 
 .buttonmake {
@@ -66,9 +60,6 @@
     height: 6.5vh;
     width: 50%;
     font-size: 2.6vh;
-
-
-
 }
 
 @media (max-width: 640px) {
