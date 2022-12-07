@@ -1,6 +1,6 @@
 # PROJETOS - DS1T-A
 
-## Clique [aqui](/) para ver a descrição do projeto
+## Clique [aqui](https://github.com/fernandoleonid/one-page-2022) para ver a descrição do projeto
 
 | Nome          | Código                        | Site                              |
 | --------------| ------------------------------|-----------------------------------|
