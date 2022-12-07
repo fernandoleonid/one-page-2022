@@ -1,4 +1,6 @@
-# PROJETOS - DS1M-A
+# PROJETOS - Turma DS1M-A
+
+## Clique [aqui](/) para ver a descrição do projeto
 
 | Nome          | Código                        | Site                              |
 | --------------| ------------------------------|-----------------------------------|
