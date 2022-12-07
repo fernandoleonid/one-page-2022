@@ -1,0 +1,31 @@
+.tiulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 35%;
+    font-size: 10vh;
+}
+.sub{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 17%;
+    margin-left: -500px;
+}
+.sub-titulo{
+    font-size: 4vh;
+}
+@media (max-width:640px){
+    .tiulo{
+        display: flex;
+        margin-top: -28%;
+        padding-left: 18%;
+        font-size: 400%;
+    }
+    .sub-titulo{
+        font-size: 4vh;
+    }
+    .sub{
+       padding-left: 14%;
+    }
+}
