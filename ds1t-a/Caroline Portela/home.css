@@ -1,0 +1,110 @@
+.desconto{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 100%;
+}
+
+.headerdiv{
+    display: flex;
+    justify-content: space-around;   
+    background-color: #CF9B9B;
+}
+
+.frase-marca{
+    font-size: 6.1vh;
+}
+
+.marimaria{
+    margin-left: 2%;
+    margin-top: 4vh;
+    width: 58vh;
+    height: 95vh;
+    border: 2px solid #CF9B9B;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 0px;
+}
+.marimaria:hover{
+    border: 0px solid #605d5e;
+}
+.image{
+    display: flex; 
+}
+.produto-base{
+    padding-left: 4vh;
+    padding-top: 16vh;
+   width: 280px;
+   height: 500px;
+   border: 2px solid #ffffff;
+   cursor: pointer;
+   box-shadow: 0px 0px 0px 0px; 
+ }
+ .produto-base:hover{
+    border: 0px solid #605d5e;
+
+ }
+ .inspire{
+    height: 50%;
+    padding-left: 40vh;
+    padding-top: 17vh;
+    font-family: 'Karla', sans-serif;
+ }
+ .seja{
+    font-size: 9.5vh;
+ }
+.oi{
+    color:  #1f1f1f;
+    font-size: 3vh;
+}
+.importante{
+    font-size: 3vh;
+}
+.button{
+    width: 250px;
+    height: 45px;
+    background-color: #000000;
+    color: #CF9B9B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    margin-left: 9%; 
+ }
+ @media (max-width: 640px) {
+   .marimaria{ 
+    margin-top: 3vh;
+    width: 300px;
+    height: 600.42px;
+    display: flex;
+    justify-content: center;
+   }
+   .image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .image2{
+    padding-left: 4%;
+    width: 90px;
+    height: 20px;
+   }
+   .produto-base{
+    /* margin-top: 10vh;
+    width: 200px;
+    height: 280px; */
+    display: none;
+   }
+  .lista{
+    font-size: 70;
+  }
+  .inspire{
+    display: none;
+  }
+ 
+   
+  
+   }

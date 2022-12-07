@@ -1,0 +1,228 @@
+
+.ofertas {
+    display: grid;
+    grid-template-areas:
+        "line line"
+        "oferta ."
+        "oferta preco";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+}
+
+.line-rosa {
+    grid-area: line;
+    width: 94%;
+    height: 2px;
+    background-color: #CF9B9B;
+    margin-top: 3.2%;
+    margin-left: 3%;
+}
+
+.oferta-title {
+    font-size: 8vh;
+
+}
+
+.container-oferta {
+    display: flex;
+    margin-left: 4vh;
+    margin-top: 4vh;
+
+}
+
+.mulher {
+    width: 85vh;
+    padding-top: 2vh;
+
+}
+
+.oferta-description {
+    padding-top: 2vh;
+}
+
+.oferta {
+    grid-area: oferta;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.produtos-oferta {
+    grid-area: preco;
+    padding-left: 40vh;
+
+    
+}
+.serum-rosa{
+    padding-top: 68%;
+}
+.serum-marrom{
+    padding-top: 47%;
+
+}
+.produtos-oferta2 {
+    grid-area: preco;
+    padding-left: 12vh;
+
+}
+
+.produto1 {
+    width: 19%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vh;
+    margin-top: 27vh;
+}
+
+.produto2 {
+    width: 10%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vh;
+    padding-top: 11vh;
+
+}
+
+.produto1 img {
+    width: 26vh;
+}
+
+.produto2 img {
+    width: 26vh;
+}
+
+.produto3 {
+    width: 10%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vh;
+    margin-top: 28vh;
+}
+
+.produto4 {
+    width: 10%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vh;
+    padding-top: 11vh;
+
+
+}
+
+.produto3 img {
+    width: 26vh;
+}
+
+.produto4 img {
+    width: 26vh;
+}
+
+.produto-description {
+    width: 24vh;
+    padding-left: 6vh;
+
+}
+
+.preco {
+    justify-items: center;
+    width: 24vh;
+    padding-top: 1vh;
+    padding-left: 9vh;
+}
+
+.produto-description2 {
+    width: 24vh;
+    padding-left: 6vh;
+
+}
+
+.preco2 {
+    justify-items: center;
+    width: 24vh;
+    padding-top: 1vh;
+    padding-left: 9vh;
+}
+
+.produto-description3 {
+    width: 24vh;
+    padding-left: 6vh;
+
+}
+
+.preco3 {
+    justify-items: center;
+    width: 24vh;
+    padding-top: 2vh;
+    padding-left: 9vh;
+}
+.produto-description4 {
+    width: 24vh;
+    padding-left: 6vh;
+
+}
+
+.preco4 {
+    justify-items: center;
+    width: 24vh;
+    padding-left: 9vh;
+}
+@media (max-width: 640px) {
+    .pai{
+        margin-left: 9vh;
+    }
+    .container-oferta{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 20%;
+        margin-top: 65rem;
+        margin-left: 7rem;
+        height: 15%;  
+    }
+    .oferta{
+       margin-left: 2rem;
+    }
+  .oferta-title{
+    font-size: 300%;
+    display: flex;
+    
+
+  }
+  .oferta-description{
+    font-size: 2.6vh;
+
+  }
+ .oferta img{
+    width: 160%;
+    height: 110%;
+  
+ }
+ .iluminador-amarelo{
+    width: 10vh;
+ 
+ }
+ .produtos-oferta{
+    grid-area: preco;
+    justify-content: center;
+    align-items: center;
+    margin-right: 14rem;
+ }
+ .produtos-oferta2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-left:  30%;
+ }
+section .cuidados{
+    margin-top: 100%;
+}
+
+ }
