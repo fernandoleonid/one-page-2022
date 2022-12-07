@@ -26,7 +26,7 @@
     margin: 0 auto;
     width: 1170px;
     height: 552px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .slide {
@@ -50,9 +50,10 @@
 .texto-cv {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 24px;
+    height: 491px;
     text-align: justify;
 }
 
