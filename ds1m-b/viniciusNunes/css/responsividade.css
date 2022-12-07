@@ -18,7 +18,7 @@
   .menu-mobile img {
     height: 32px;
   }
-  .logo-mobile{
+  .logo-mobile {
     height: 64px;
   }
 
@@ -27,7 +27,6 @@
   }
   /* HOME */
   .home {
-    /* overflow: hidden; */
     width: 100vw;
   }
 

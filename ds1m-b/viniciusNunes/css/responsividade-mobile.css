@@ -1,4 +1,8 @@
-@media (max-width: 380px) {
+@media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .home__logo img {
     width: 260px;
   }
@@ -175,7 +179,7 @@
   }
 
   .trama__image-container {
-    transform: translateX(-400px);
+    transform: translateX(-640px);
   }
 
   .trama-line {
