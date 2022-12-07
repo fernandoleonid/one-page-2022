@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #0F4E98;
+    --second-color: #922929;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Berserk';
+    color: #ffffff;
+}
+
+header {
+    height: 100px;
+    background-color: #101010;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 50px;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    gap: 35px;
+}
+
+#menu li:hover,
+.omega:hover {
+    color: var(--primary-color);
+    transition: 0.7s;
+}
+
+.logo {
+    height: 100px;
+    width: 180px;
+}
+
+.bars {
+    display: none;
+}
+
+section {
+    height: 100vh;
+}
+
+footer {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #101010;
+}
