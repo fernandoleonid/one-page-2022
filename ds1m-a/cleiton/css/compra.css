@@ -37,12 +37,12 @@
     width: 300px;
 }
 
-.compre span {
+.compre a {
     height: 53px;
     background-color: #1B91EB;
 }
 
-.compre span:hover {
+.compre a:hover {
     color: #922929;
     transition: 1s;
 }
