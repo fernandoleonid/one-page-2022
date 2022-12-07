@@ -7,3 +7,9 @@
     margin-top: 64px;
     grid-area: title;
 }
+/* MOBILE */
+@media (max-width:640px){
+    .section-title{
+        font-size: 4rem;
+    }
+}

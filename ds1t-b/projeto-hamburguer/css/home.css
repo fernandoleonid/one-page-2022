@@ -85,10 +85,16 @@
 }
 .container__text{
     grid-area: text;
-    width: 560px;
     place-self: center;
+    width: 560px;
+    padding-top: 32px;
 }
-.home__text{
+.home__text1{
+    grid-area: text;
+    font-family: 'Concert One', cursive;
+    font-size: 4rem;
+}
+.home__text2{
     grid-area: text;
     font-family: 'Concert One', cursive;
     font-size: 4rem;
@@ -125,7 +131,6 @@
 /* MOBILE */
 @media (max-width:640px){
     .home{
-        padding-top: 32px;
         display: grid;
         grid-template-areas: 
         "text"
@@ -137,12 +142,17 @@
         display: none;
     }
     .container__text{
+        grid-area: text;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
+        width: 320px;
     }
-    .home__text{
-        width: 360px;
+    .home__text1, .home__text2{
+        font-size: 3rem;
+    }
+    .home__line{
+        width: 280px;
     }
 }

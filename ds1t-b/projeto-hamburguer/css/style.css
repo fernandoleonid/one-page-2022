@@ -1,7 +1,7 @@
-/* html, body{
+html, body{
     position: relative;
     overflow-x: hidden;
-} */
+}
 html{
     scroll-behavior: smooth;
 }
@@ -41,21 +41,16 @@ footer{
 }
 /* MOBILE */
 @media (max-width:640px){
-    .home{
-        background-image: url(../img/background.png);
-        background-repeat: no-repeat;
-    }
     .quem-somos{
-        height: 1600px;
+        height: 1440px;
     }
     .cardapio{
         height: 2300px;
     }
     .unidades{
-        height: 1800px;
+        height: 1700px;
     }
     .contato{
-        height: 1600px;
+        height: 1500px;
     }
-
 }
