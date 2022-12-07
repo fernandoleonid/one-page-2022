@@ -1,0 +1,29 @@
+.linha-horizontal_2 {
+    width: 150vh;
+    border: 1px solid var(--pink-color);
+}
+.social{
+    padding-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.icons_social {
+    display: flex;
+    gap: 200px;
+    font-size: 5vh;
+}
+
+.vlive{
+    height: 6vh;
+}
+.social_links{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.copyright{
+    padding-top: 64px;
+}

@@ -1,0 +1,86 @@
+.section_title{
+    padding-top: 66px;
+    padding-left: 74px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.info_shows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.billboard_comment{
+    display: flex;
+    flex-direction: column;
+}
+.billboard{
+    color: var(--pink-color);
+    font-weight: 400;
+    font-size: 5rem;
+    max-width: 500px;
+    padding-left: 30px;
+}
+.shows_info{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+.shows{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
+.data{
+    color: var(--grey-color);
+    font-size: 24px;
+}
+.country{
+    color: #fff;
+    font-size: 32px;
+}
+.local{
+    padding-top: 14px;
+    color: #fff;
+    font-size: 24px;
+}
+.buy_tickets{
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    color: #fff;
+    align-items: center;
+    gap: 1vh;
+}
+.seta{
+    height: 20px;
+    width: 20px;
+}
+.bill_nome{
+    margin-left: 145px;
+}
+.linha_horizontal {
+    position: relative;
+    display: inline-block;
+    color: var(--pink-color);
+    font-size: 1rem;
+    margin: 12px;
+    margin-left: 100px;
+  }
+  .linha_horizontal::before,
+  .linha_horizontal::after {
+    content: "";
+    position: absolute;
+    top: 0.65em;
+    width: 15em;
+    height: 0.05em;
+    background-color: var(--pink-color);
+    left: -1.25em;
+  }
+  .linha_horizontal::after {
+    left: initial;
+    right: -1.25em;
+  }
+  

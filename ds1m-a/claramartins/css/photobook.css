@@ -1,0 +1,21 @@
+.foto_e_nome{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 100%;
+    gap: 12px;
+}
+.nome_pessoa{
+    color: #fff;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    align-items: center;
+    justify-content: center;
+}
+.slider i{
+    color: var(--pink-color);
+    font-size: 2rem;
+}
