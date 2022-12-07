@@ -26,14 +26,41 @@
     margin: 0 auto;
     width: 1170px;
     height: 552px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .slide {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
     width: 1170px;
     height: 552px;
+    gap: 30px;
+    margin: 148px 0px;
+}
+
+.descricao-cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.texto-cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    text-align: justify;
+}
+
+.texto-cv h1{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.texto-cv p{
+    font-size: 1.5rem;
 }
