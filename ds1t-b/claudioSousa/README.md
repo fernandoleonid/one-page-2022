@@ -1,6 +1,6 @@
 # Sousa Churrascaria
 
-![](!./IMG/meuProjeto.PNG)
+![](./IMG/meuProjeto.PNG)
 
 [Clique aqui](https://www.figma.com/file/8KL6r2pXDbwnipDerQbEFf/Sousa_Churrascaria?node-id=33%3A63&t=A9CYBBjUmTss5svY-0) para acessar o projeto no Figma.
 
