@@ -27,6 +27,15 @@
     gap: 300px;
 }
 
+.name_text {
+    display: flex;
+    font-family: 'Updock', cursive;
+    font-size: 3rem;
+    font-weight: 800;
+    justify-content: center;
+    gap: 300px;
+}
+
 .racas-container {
     display: flex;
     margin-top: 30px;
