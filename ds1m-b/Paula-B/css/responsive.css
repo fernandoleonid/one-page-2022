@@ -1,0 +1,85 @@
+/* TABLET */
+
+@media(max-width:960px) {
+    .description-text {
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 3vw;
+    }
+    .description-title {
+        display: grid;
+        font-size: 3vw;
+    }
+    .curiosidade_text {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin-left: 30vw;
+        gap: 30px;
+        font-size: 2.3vw;
+    }
+    .cuidados_list {
+        font-size: 3vw;
+    }
+    .porque_title {
+        font-size: 3vw;
+    }
+    .text {
+        font-size: 80%;
+    }
+    .dots-images {
+        display: none;
+    }
+    .slideshow-container {
+        display: flex;
+        margin-left: 4vw;
+    }
+    .mySlides-images img {
+        width: 65%;
+    }
+    .outros {
+        display: flex;
+        margin-top: 5vw;
+    }
+    footer {
+        font-size: 3vw;
+    }
+}
+
+
+/* MOBILE  */
+
+@media(max-width:640px) {
+    .menu {
+        font-size: 5.5vw;
+        gap: 30px;
+    }
+    .title_main {
+        font-size: 8vw;
+    }
+    .curiosidade_text {
+        font-size: 3vw;
+        gap: 15px;
+    }
+    .racas-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3vw;
+    }
+    .raca {
+        height: 33vw;
+    }
+    .racas-containeer {
+        display: none;
+    }
+    .name {
+        display: none;
+    }
+    .name_text {
+        display: none;
+    }
+    .outros {
+        display: flex;
+    }
+}
