@@ -54,7 +54,7 @@ Para entregar o seu projeto você deverá criar um Pull Request deste repositór
 - [ ] A navegabilidade é intuitiva?
 - [ ] As cores, imagens, botões, links e outros elementos tem designer padronizado? (Identidade visual)
 - [ ] Codificou o site conforme planejado(protótipo)?
-- [ ] [O site está responsivo?]()
+- [ ] [O site está responsivo?](./)
 - [ ] **Usou unidades de medida relativas, ou seja, criou um site flexivel?**
 - [ ] Utilizou media queries para a responsividade? *
 - [ ] Utilizou a ferramenta lighthouse para verificar o desempenho, acessibilidade, boas praticas e SEO?
