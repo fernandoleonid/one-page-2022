@@ -41,8 +41,37 @@
     gap: 15%;
 }
 @media (max-width:640px){
+
     .titulo-agradecimento{
-        display: none;
+        font-size: 3rem;
+        padding-left: 15%;
+    }
+    .titulos-links{
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+        padding-top: 12%;
+        padding-left: 40%;
+        gap: 150px;
+    }
+    .links-contatos{
+        margin-top: -30%;
+        padding-left: 30%;
+        gap: 10px;
+    }
+    .links-redes-sociais{
+        display: flex;
+        flex-direction: column;
+        padding-top: 27%;
+        padding-left: 47%;
+        gap: 20px;
+    }
+    .links-redes-sociais2{
+        display: flex;
+        flex-direction: column;
+        padding-top: 8%;
+        padding-left: 47%;
+        gap: 20px;
     }
     
 }

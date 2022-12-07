@@ -41,3 +41,28 @@
     cursor: pointer;
     transition: all 1s;
 }
+
+/*  Não sei como fazer a img do carussel ficar pequena/*/
+@media (max-width:640px){
+    .container-slide{
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        height: 20%;
+        background-color: black;
+    }
+    
+    .container-items{
+        display: flex;
+        width: 20%;
+        height: 30%;
+        overflow: hidden;
+    }
+    
+    .item{
+        width: 20%;
+        height: 30%;
+        transition: all 1s;
+    }
+    
+}

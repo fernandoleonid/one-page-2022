@@ -7,3 +7,8 @@
     color: #fff;
     border-top: 2px solid #fff;
 }
+@media (max-width:640px){
+    .fim{
+        padding-top: 13%;
+    }
+}
