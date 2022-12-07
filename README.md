@@ -75,8 +75,8 @@ Para entregar o seu projeto você deverá criar um Pull Request deste repositór
 - [ ] `Existe um link do autor do projeto no README?`
 - [ ] Fez a autoavaliação?
   
-> *Os textos em destaques são critérios críticos, ou seja, tem que ser atingidos.* <br>
-> *Os demais são critérios desejáveis, não necessários para aprovação, mas importantes para se destacar entre os demais desenvolvedores.*
+> *Os textos em destaque são critérios críticos, ou seja, precisam ser atingidos.* <br>
+> *Os demais, são critérios desejáveis, não necessários para aprovação, mas importantes para se destacar entre os demais desenvolvedores.*
 
 # Projeto dos alunos
 * [DS1M-A](./ds1m-a/)
