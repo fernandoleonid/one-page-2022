@@ -40,9 +40,17 @@ footer{
      font-size: 1.5rem;
 }
 
+@media (max-width: 960px){
+     .menu li{
+          font-weight: 1.5rem;
+     }
+}
+
 @media (max-width: 640px) {
 
-    
+    body{
+     overflow-x: hidden;
+    }
 
    header{
         height: 15vh;
@@ -58,7 +66,7 @@ footer{
    .menubar-container{
         color: white;
         font-size: 2rem;
-        display: flex;
+        display: block;
    }
 
    footer{

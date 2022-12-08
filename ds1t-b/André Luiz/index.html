@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site feito com a intenção de colocar em prática dos conteúdos desenvolvidos no Senai Jandira">
     <title>One Page Samsung</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,10 +22,19 @@
     <link rel="stylesheet" href="./css/tab.css">
     <link rel="stylesheet" href="./css/smartwatch.css">
     <link rel="stylesheet" href="./css/informacoes.css">
-    <script src="main.js"></script>
 </head>
 
 <body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
     <header>
         <div class="logo">
             <a href="#">
@@ -34,24 +44,26 @@
         <nav>
             <ul class="menu">
                 <li>
-                    <a href="#">Sobre nós</a>
+                    <a href="#" aria-label="Sobre nós">Sobre nós</a>
                 </li>
                 <li>
-                    <a href="#">Mobile</a>
+                    <a href="#" aria-label="Mobile">Mobile</a>
                 </li>
                 <li>
-                    <a href="#">Tab</a>
+                    <a href="#" aria-label="Tab">Tab</a>
                 </li>
                 <li>
-                    <a href="#">Smartwatch</a>
+                    <a href="#" aria-label="Smartwatch">Smartwatch</a>
                 </li>
                 <li>
-                    <a href="#">Informações</a>
+                    <a href="#" aria-label="Informacoes">Informações</a>
                 </li>
             </ul>
         </nav>
         <div class="menubar-container" id="btn-mobile">
-            <i class="fa-solid fa-bars"></i>
+            <a href="#">
+                <i class="fa-solid fa-bars"></i>
+            </a>
         </div>
     </header>
     <section class="section-home">
@@ -70,17 +82,17 @@
         <div class="promotion-container1">
             <span>Galaxy Z Flip</span>
             <img src="./img/Zflip-image.png" alt="Imagem promocional Zflip">
-            <a href="#" class="button-promotion-comprar">Comprar</a>
+            <a href="#" class="button-promotion-comprar" aria-label="botao comprar Zflip">Comprar</a>
         </div>
         <div class="promotion-text-container-mobile">
             <p class="promotion-text">Nossa linha de mobile de 
                 celulares com displays 
-                dobraveis são uma revolução</p>
+                dobráveis são uma revolução</p>
         </div>
         <div class="promotion-container2">
             <span>Galaxy Fold</span>
-            <img src="./img/fold-image-promotional.png" alt="Imagem promocional Zflip">
-            <a href="#" class="button-promotion-comprar">Comprar</a>
+            <img src="./img/fold-image-promotional.png" alt="Imagem promocional Galaxy Fold">
+            <a href="#" class="button-promotion-comprar" aria-label="botao comprar Fold">Comprar</a>
         </div>
     </section>
     <section class="section-tab">
@@ -97,7 +109,7 @@
         </div>
         <div class="tab-promotion-container">
             <img src="./img/tab-image.png" alt="Imagem promocial tab">
-            <a href="#" class="button-promotion-comprar">Comprar</a>
+            <a href="#" class="button-promotion-comprar" aria-label="botao comprar tab">Comprar</a>
         </div>
     </section>
     <section class="section-smartwatch">
@@ -113,7 +125,7 @@
         </div>
         <div class="smartwatch-promotion-container">
             <img src="./img/smartwatch-image.png" alt="Imagem promocional watch4">
-            <a href="#" class="button-promotion-comprar">Comprar</a>
+            <a href="#" class="button-promotion-comprar" aria-label="botao comprar smartwatch">Comprar</a>
         </div>
         <div class="smartwatch-text-container2">
             <p class="smartwatch-text">
@@ -131,13 +143,13 @@
             <img src="./img/criador-image.png" alt="Imagem do criador">
             <p class="criador-text">André Luiz</p>
             <div class="icons-container">
-                <a href="#">
+                <a href="#" aria-label="botao rede social instagram">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a href="#">
+                <a href="#" aria-label="botao rede social github">
                     <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="#">
+                <a href="#" aria-label="botao rede social facebook">
                     <i class="fa-brands fa-facebook"></i>
                 </a>
             </div>
