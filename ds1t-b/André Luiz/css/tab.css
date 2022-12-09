@@ -79,6 +79,38 @@
     transition: .4s;
 }
 
+@media (max-width:960px){
+    .section-tab{
+        height: 120vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .tab-text-container{
+        grid-column: 1;
+        grid-row: 1;
+
+    }
+
+    .tab-text-container p{
+        font-size: 3rem;
+        width: 478px;
+        height: 492px;
+        align-self: center;
+        padding-top: 10vh;
+    }
+
+    .tab-promotion-container{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .tab-promotion-container a{
+        width: 259px;
+        height: 76px;
+    }
+}
+
 @media (max-width: 640px){
     .section-tab{
         height: 170vh;

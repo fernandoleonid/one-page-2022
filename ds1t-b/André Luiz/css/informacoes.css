@@ -83,6 +83,29 @@
     font-size: 3rem;
 }
 
+@media (max-width: 960px){
+    .section-informacoes{
+        height: 120vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .informacoes-criador-container{
+        grid-column: 1;
+        grid-row: 1;
+        padding-top: 10vh;
+    }
+
+    .informacoes-contato-container{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .informacoes-contato-container p{
+        font-size: 2rem;
+    }
+}
+
 @media(max-width: 640px){
     .section-informacoes{
         height: 120vh;
