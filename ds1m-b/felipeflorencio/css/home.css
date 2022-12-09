@@ -33,9 +33,6 @@ nav{
         height: 650px;
         transform: translate(10%,0%);
     }
-    .home{
-        
-    }
     .home__content{
         gap: 0;
     }
@@ -44,4 +41,19 @@ nav{
         right : 1rem; 
     }
     
+}
+@media  (max-width:640px){
+    .home{
+        height: 380vw;
+    }
+    .home__content{
+        height: 100%;
+        justify-content: start;
+        align-items: center;
+    }
+    .cello{
+
+        width: 100%;
+        height: 100%;
+    }
 }

@@ -95,3 +95,9 @@
     color: aqua;
    }
 }
+@media (max-width: 640px) {
+    #bgcomposers-tablet{
+        display: none;
+      }
+    
+}

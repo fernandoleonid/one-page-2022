@@ -47,3 +47,16 @@
     left: 2%;
   }
 }
+
+@media (max-width:640px) {
+  #bghome{
+    display: none;
+  }
+  
+  #bginstruments{
+    display: none;
+  }
+  #bgabout{
+    display: none;
+  }
+}
