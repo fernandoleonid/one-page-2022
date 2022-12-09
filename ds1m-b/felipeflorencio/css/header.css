@@ -21,3 +21,8 @@ header h2 {
 #HOME{
     color: #FAA04B;
 }
+@media (max-width:960px) {
+    header{
+        margin-bottom: 1.5rem;
+    }    
+}

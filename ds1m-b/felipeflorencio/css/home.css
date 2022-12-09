@@ -28,12 +28,17 @@ nav{
 }
 
 @media  (max-width:960px) {
-    .home__content{
-        gap: 4%;
-    }
     .cello{
-        width: 500px;
-        height: 700px;
+        width: 420px;
+        height: 650px;
+        transform: translate(10%,0%);
+    }
+    .home__content{
+        gap: 0;
+    }
+
+    #bghome{
+        right : 1rem; 
     }
     
 }

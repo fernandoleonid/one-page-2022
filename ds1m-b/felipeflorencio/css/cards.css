@@ -11,9 +11,7 @@
     width: 100%;
     gap: 20px;
 }
-/* .card__img{
-    
-} */
+
 .card__title{
     font-family: 'Fredericka the Great';
     font-weight: 400;
@@ -28,4 +26,29 @@
     font-size: 14px;
     letter-spacing: 0.11em;
     color: #D2D1E8;
+}
+
+@media (max-width:960px) {
+    .cards-list{
+        gap: 8rem;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    .card{
+        width: 75vw;
+        gap: 5%;
+    }
+    .card__img{
+        width: 10rem;
+    }
+    .card__title{
+        font-size: 64px;
+    }
+    .card__text{
+        font-size: 24px;
+        width: 48rem;
+        
+    }
+    
 }
