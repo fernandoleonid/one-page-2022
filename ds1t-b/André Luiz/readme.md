@@ -5,7 +5,7 @@
 - [x] As cores, imagens, botões, links e outros elementos tem designer padronizado? (Identidade visual)
 - [x] Codificou o site conforme planejado(protótipo)?
 - [x] [O site está responsivo?]
-- [ ] Usou unidades de medida relativas, ou seja, criou um site flexivel?
+- [x] Usou unidades de medida relativas, ou seja, criou um site flexivel?
 - [x] Utilizou media queries para a responsividade?
 - [x] Utilizou a ferramenta lighthouse para verificar o desempenho, acessibilidade, boas praticas e SEO?
 - [x] Otimizou as imagens para melhorar o desempenho?

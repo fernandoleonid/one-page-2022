@@ -104,6 +104,7 @@
     .informacoes-contato-container p{
         font-size: 2rem;
     }
+
 }
 
 @media(max-width: 640px){
@@ -122,7 +123,7 @@
     }
 
     .informacoes-title{
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .informacoes-criador-container{
@@ -142,6 +143,7 @@
     .informacoes-contato-container{
         grid-column: 1;
         grid-row: 3;
+        gap: 16px;
     }
 
     .informacoes-contato-container p{

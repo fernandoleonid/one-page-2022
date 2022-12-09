@@ -55,7 +55,6 @@ footer{
    header{
         height: 15vh;
         padding: 10px;
-        max-width: 550px;
         width: 100%;
    }
 
@@ -65,7 +64,7 @@ footer{
 
    .menubar-container{
         color: white;
-        font-size: 2rem;
+        font-size: 2.5rem;
         display: block;
    }
 
