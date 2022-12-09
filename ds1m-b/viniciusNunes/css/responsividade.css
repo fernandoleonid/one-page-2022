@@ -64,6 +64,10 @@
     gap: 100px;
   }
 
+  .trama {
+    height: 70vh;
+  }
+
   .trama-number {
     font-size: 15rem;
   }
@@ -84,7 +88,7 @@
   }
 
   .trama__image-container {
-    transform: translateX(-200px);
+    transform: translateX(-50%);
   }
 
   .creditos {
