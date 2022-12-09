@@ -2,7 +2,7 @@
 .home {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    height: 90vh;
 }
 .home__content{
     display: flex;
@@ -13,13 +13,18 @@
 }
 
 .cello{
-    width: 546px;
-    height: 705px;
+    width: 30rem;
+    height: 40rem;
 }
 
 nav{
     display: flex;
     gap: 20px;
+}
+#bghome{
+    position: absolute;
+    top:0%;
+    right : 20rem; 
 }
 
 @media  (max-width:960px) {

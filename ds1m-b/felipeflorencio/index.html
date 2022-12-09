@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./css/backgrounds.css">
     <link rel="stylesheet" href="./css/composers.css">
     <link rel="stylesheet" href="./css/index-buttons.css">
+    <link rel="stylesheet" href="./css/cards.css">
 </head>
 <body> 
     <section class="home" id="home">
@@ -30,13 +31,13 @@
             <a href="#HOME">
                 <h2 id="HOME">HOME</h2>
             </a>
-            <a href="#MUSICIANS">
+            <a href="#composers">
                 <h2>MUSICIANS</h2>
             </a>
-            <a href="">
+            <a href="#instruments">
                 <h2>INSTRUMENTS</h2>
             </a>
-            <a href="">
+            <a href="#about">
                 <h2>ABOUT</h2>
             </a>
         </header>
@@ -47,9 +48,8 @@
                 <button>Open App</button>
             </div>
             <img src="./img/cello-home.png" class="cello">
-            <img src="./img/bg-home.png" alt="" id="bghome">
         </div>
-        <nav class="index index-home">
+        <nav class="index">
             <a href="">
                 <img src="./img/circle-1.png" alt="">
             </a>
@@ -60,72 +60,68 @@
                 <img src="./img/circle-3.png" alt="">
             </a>
         </nav>
-       
+        <img src="./img/bg-home.png" alt="" id="bghome">
     </section>
-    <section class="composers">
-        <ul id="composers__list">
-            <li class="card" >
-                <img src="./img/chopin 1.png" alt="Desenho do Chopin">
-                <h2>CHOPIN</h2>
-                <p>Um pianista polonês radicado na França e compositor para piano da era romântica. É amplamente conhecido como um dos maiores compositores para piano e um dos pianistas mais importantes da história.
+    <section class="composers" id="composers">
+        <ul class="cards-list" id="list-composers">
+            <li class="card chopin">
+                <img class="card__img" src="./img/chopin 1.png" alt="Desenho do Chopin">
+                <h2 class="card__title">CHOPIN</h2>
+                <p class="card__text">Um pianista polonês radicado na França e compositor para piano da era romântica. É amplamente conhecido como um dos maiores compositores para piano e um dos pianistas mais importantes da história.
                 </p>
             </li>
-            <li class="card" >
-                <img src="./img/bethoven 1.png" alt="Desenho do Bethoven">
-                <h2>BETHOVEN</h2>
-                <p>Considerado um dos pilares da música ocidental, Bethoven é conhecido pelo incontestável desenvolvimento, tanto da linguagem como do conteúdo musical demonstrado nas suas obras, permanecendo como um dos compositores mais respeitados e mais influentes de todos os tempos.
+            <li class="card bethoven">
+                <img class="card__img"src="./img/bethoven 1.png" alt="Desenho do Bethoven">
+                <h2 class="card__title">BETHOVEN</h2>
+                <p class="card__text">Considerado um dos pilares da música ocidental, Bethoven é conhecido pelo incontestável desenvolvimento, tanto da linguagem como do conteúdo musical demonstrado nas suas obras, permanecendo como um dos compositores mais respeitados e mais influentes de todos os tempos.
                 </p>
             </li>
-            <li class="card" >
-                <img src="./img/mozart 1.png" alt="Desenho do Mozart">
-                <h2>MOZART</h2>
-                <p>Autor de mais de 600 obras, Wolfgang Amadeus Mozart foi um compositor compentente desde os cinco anos de idade. Possuiu habilidades no teclado e violino. Uma de suas maiores composições é a Sinfonia n°40.  
+            <li class="card mozart">
+                <img class="card__img" src="./img/mozart 1.png" alt="Desenho do Mozart">
+                <h2 class="card__title">MOZART</h2>
+                <p class="card__text">Autor de mais de 600 obras, Wolfgang Amadeus Mozart foi um compositor compentente desde os cinco anos de idade. Possuiu habilidades no teclado e violino. Uma de suas maiores composições é a Sinfonia n°40.  
                 </p>
             </li>
-            
         </ul>
         <nav class="composers__buttons buttons">
             <button aria-label="Previous image" id="left-button-composers">Previous</button>
             <button aria-label="Next Image" id="right-button-composers">Next</button>
         </nav>
-        <button class="index-buttons composers-button"></button>  
+        <a class="home-link" href="#home">
+            <img src="./img/circle-1.png" alt="">
+        </a>
         <img src="./img/bg-composers.png" alt="" id="bgcomposers"> 
     </section>
-    <section class="instruments">
-        <div class="instruments__info">
-            <p>Alguns instrumentos são mais propensos para a música clássica. </p>
-            <p>Estes possuem propriedades de material e de tempo que reforçam isso.</p>
-        </div>
-        <div class="instruments__wrapper carousel">
-            <ul>
-                <li id="cravo">
-                    <img src="./img/cravo.png" alt="Desenho do cravo">
-                    <h2>CRAVO</h2>
-                    <p>Surgindo ao século XV, o Cravo é um instrumento de cordas pinçadas semelhante ao piano. Possui som tangendo ou beliscando as cordas. Ele veio antes do piano existir.
+    <section class="instruments" id="instruments">
+        <p class="instruments__info">Alguns instrumentos são mais propensos para a música clássica<br>Estes possuem propriedades de material e de tempo que reforçam isso.</p>
+        </p>
+            <ul class="cards-list">
+                <li class="card" id="cravo">
+                    <img class="card__img" src="./img/cravo.png" alt="Desenho do cravo">
+                    <h2 class="card__title">CRAVO</h2>
+                    <p class="card__text">Surgindo ao século XV, o Cravo é um instrumento de cordas pinçadas semelhante ao piano. Possui som tangendo ou beliscando as cordas. Ele veio antes do piano existir.
                     </p>
                 </li>
-                <li id="piano">
-                    <img src="./img/piano.png" alt="Imagem de um piano">
-                    <h2>PIANO</h2>
-                    <p>O Piano é um instrumento de cordas percussivas com som semelhante ao de uma harpa. É considerado uns dos mais difíceis instrumentos de tocar. Foi um dos principais instrumentos de Bethoven.
+                <li class="card"id="piano">
+                    <img class="card__img" src="./img/piano.png" alt="Imagem de um piano">
+                    <h2 class="card__title">PIANO</h2>
+                    <p class="card__text">O Piano é um instrumento de cordas percussivas com som semelhante ao de uma harpa. É considerado uns dos mais difíceis instrumentos de tocar. Foi um dos principais instrumentos de Bethoven.
                     </p>
                 </li>
-                <li id="violino">
-                    <img src="./img/violino.png" alt="Imagem de um violion">
-                    <h2>VIOLINO</h2>
-                    <p>O instrumento de cordas mais agudo de sua família, o violino possui um arco que o caracteriza como instrumento de atrito. Possui um som doce e suave. 
+                <li class="card" id="violino">
+                    <img class="card__img" src="./img/violino.png" alt="Imagem de um violion">
+                    <h2 class="card__title">VIOLINO</h2>
+                    <p class="card__text">O instrumento de cordas mais agudo de sua família, o violino possui um arco que o caracteriza como instrumento de atrito. Possui um som doce e suave. 
                     </p>
                 </li>
                 <img src="./img/bg-instruments.png" alt="" id="bginstruments">
             </ul>
         </div>
-        <!-- <nav class="instruments__buttons buttons">
-            <button class="arrow-left control" aria-label="Previous image">Previous</button>
-            <button class="arrow-rigth control" aria-label="Next Image">Next</button>
-        </nav> -->
-        <button class="index-buttons instruments-button"></button>  
+        <<a href="#home">
+            <img src="./img/circle-2.png" alt="">
+        </a>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="about__container">
             <img src="./img/foto perfil felipe 1.png" alt="">
             <div class="whoiam">

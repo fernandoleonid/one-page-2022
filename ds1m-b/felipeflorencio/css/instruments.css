@@ -1,16 +1,32 @@
-.intruments__info{
-    margin-top: 5%;
-    margin-right: 10%;
-    text-align: end;
+.instruments{
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
+.instruments__info{
+    align-self: flex-end;
+    width: 50%;
+    text-align: start;
+    font-family: 'Sunflower';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color:#D2D1E8;
 
+}
+.instruments__info p{
+    text-align: start;
+    align-items: flex-end;
+}
 .instruments ul li{
     text-align: center;
 }
 .instruments li img{
     height: auto;
 }
-
+#bginstruments{
+    top: 20%;
+}
 #piano{
     margin-top: 8%;
 }

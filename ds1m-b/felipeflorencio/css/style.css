@@ -23,14 +23,20 @@ body {
     align-items: center;
     gap: 14px;
     box-sizing: border-box;
+    padding-left: 3rem;
+    padding-top: 4rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem;
 }
 section {
-    margin-left: 70px;
-    margin-right: 70px;
     background-color: var(--section-color);
     height: 95vh;
-    width: 90vw;
+    width: 100%;
     border-radius: 2px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
 }
 .buttons{
     display: none;
@@ -38,19 +44,12 @@ section {
 .index{
     margin-left: 5%;
 }
-.index-home{
-    margin-bottom: 5%;
-}
 
 
 
 /* TABLET */
 @media(max-width: 960px) {
-    section{
-        height: 95vh;
-        width: 90vh;
-        margin-right: 0;
-    }
+    
 }
 
 /* MOBILE */

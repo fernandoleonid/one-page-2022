@@ -2,7 +2,7 @@
 const leftButtonComposers = document.getElementById('left-button-composers')
 const rightButtonComposers = document.getElementById('right-button-composers')
 
-const container = document.getElementById('composers__list')
+const container = document.getElementById('list-composers')
 let contador = 0
 
 leftButtonComposers.addEventListener('click', previous)
