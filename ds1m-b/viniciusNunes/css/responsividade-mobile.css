@@ -164,6 +164,11 @@
     margin-left: 48px;
   }
 
+  .trama {
+    height: 100vh;
+    padding-left: 10%;
+  }
+
   .trama-tittle {
     font-size: 4rem;
     letter-spacing: 0.25rem;
