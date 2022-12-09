@@ -172,6 +172,45 @@
     width: 24vh;
     padding-left: 9vh;
 }
+.iluminador-amarelo:hover,
+.iluminador-amarelo:focus {
+    transform: translateX(2px) scale(1.2);
+}
+
+.iluminador-amarelo {
+    transition: transform 1s;
+    transform: translateX(0) scale(1);
+}
+
+.iluminador-rosa:hover,
+.iluminador-rosa:focus {
+    transform: translateX(2px) scale(1.2);
+}
+
+.iluminador-rosa {
+    transition: transform 1s;
+    transform: translateX(0) scale(1);
+}
+
+.serum-rosa:hover,
+.serum-rosa:focus {
+    transform: translateX(2px) scale(1.2);
+}
+
+.serum-rosa {
+    transition: transform 1s;
+    transform: translateX(0) scale(1);
+}
+.serum-marrom:hover,
+.serum-marrom:focus {
+    transform: translateX(2px) scale(1.2);
+}
+
+.serum-marrom {
+    transition: transform 1s;
+    transform: translateX(0) scale(1);
+}
+
 @media (max-width: 640px) {
     .pai{
         margin-left: 9vh;
