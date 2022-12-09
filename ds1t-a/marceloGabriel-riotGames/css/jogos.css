@@ -5,10 +5,10 @@
 
 .fundo-jogos {
     position: absolute;
-    width: 1000px;
-    height: 1031px;
-    left: 40%;
-    top: 0%;
+    width: 60vw;
+    height: 100vh;
+    left: 37%;
+    top: 10%;
     z-index: -1;
 }
 
