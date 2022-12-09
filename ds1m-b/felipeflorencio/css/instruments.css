@@ -38,8 +38,8 @@
     margin-right: 5%;
 }
 @media (max-width:960px) {
-    #piano, #violino{
-        margin-top: 0;
+    #piano, #violino, #cravo{
+        margin: 0;
     }
     
     #bginstruments{
@@ -60,5 +60,11 @@
     }
     button{
         background-color: #D2D1E8;
+    }
+}
+@media (max-width:640px) {
+    .instruments ul{
+        margin-left: 1%;
+        margin-right: 50%;
     }
 }

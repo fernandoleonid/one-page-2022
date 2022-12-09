@@ -54,12 +54,5 @@ section {
 
 /* MOBILE */
 @media (max-width:640px) {
-    body{
-        width: 230vw;
-        align-items: unset;
-    }
-    section{
-        height: 100vh;
-        padding: 0;
-    }
+   
 }

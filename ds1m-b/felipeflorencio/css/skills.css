@@ -68,3 +68,24 @@
      }
     
 }
+@media (max-width:640px) {
+    .skills{
+        align-items: center;
+        height: 55vw;
+    }
+    .skills h3{
+        position: initial;
+        font-size: 1.5rem;
+        margin-bottom: 5%;
+    }
+    .skills__container{
+        position: initial;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .skills__icon{
+        width: 6rem;
+        height: 6rem;
+    }
+    
+}

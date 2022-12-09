@@ -53,3 +53,10 @@
     }
     
 }
+@media(max-width:640px){
+    .card__text{
+        font-size: 18px;
+    width: 70vw;
+    height: 30vw;
+    }
+}

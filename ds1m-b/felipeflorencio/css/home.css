@@ -43,17 +43,13 @@ nav{
     
 }
 @media  (max-width:640px){
-    .home{
-        height: 380vw;
-    }
-    .home__content{
-        height: 100%;
-        justify-content: start;
-        align-items: center;
-    }
-    .cello{
-
-        width: 100%;
-        height: 100%;
-    }
+   .home__content{
+    height: 100%;
+    width: 100%;
+    align-items: flex-start;
+   }
+   .cello{
+    height: 80%;
+    width: 75%;
+   }
 }
