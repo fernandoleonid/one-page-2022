@@ -132,7 +132,7 @@
   }
 
   .container-logo img {
-    width: 340px;
+    width: 320px;
   }
 
   .layout-1__tittle {
@@ -184,7 +184,7 @@
   }
 
   .trama__image-container {
-    transform: translateX(-640px);
+    transform: translateX(-80%);
   }
 
   .trama-line {
