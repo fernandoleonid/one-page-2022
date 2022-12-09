@@ -1,5 +1,5 @@
 .trama {
-  height: 100vh;
+  height: 150vh;
   display: flex;
   justify-content: space-between;
   border: 1px solid var(--secundary-color);
@@ -11,11 +11,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 5%;
 }
 
 .trama-description {
   z-index: 1;
-  margin-left: 64px;
+
   display: flex;
   width: 500px;
   align-content: center;
@@ -41,7 +42,7 @@
 }
 
 .trama__image-container {
-  height: 100vh;
+  height: 100%;
 }
 
 .trama-description__container {

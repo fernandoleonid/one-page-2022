@@ -6,6 +6,8 @@
 header {
   padding-top: 32px;
   position: fixed;
+  font-weight: 600;
+  width: 100vw;
 }
 
 @media (max-width: 9999px) {
@@ -21,9 +23,9 @@ header {
   padding-left: 32px;
   padding-right: 32px;
   height: 60px;
-  transform: translateY(-10px);
+  transform: translateY(-11px);
   width: 100vw;
-  background-color: #6662;
+  background-color: #222;
 }
 
 .nav-list {
@@ -69,12 +71,15 @@ header {
     right: 0;
     width: 100vw;
     height: 100vh;
-    background: #232327;
+    background: #222;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
+  }
+  .logo-img {
+    /* display: none; */
   }
   .nav-list li {
     margin-left: 0;
