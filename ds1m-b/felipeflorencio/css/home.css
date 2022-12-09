@@ -33,6 +33,9 @@ nav{
         height: 650px;
         transform: translate(10%,0%);
     }
+    .home{
+        
+    }
     .home__content{
         gap: 0;
     }

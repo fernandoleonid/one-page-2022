@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="./css/composers.css">
     <link rel="stylesheet" href="./css/index-buttons.css">
     <link rel="stylesheet" href="./css/cards.css">
+    <link rel="stylesheet" href="./css/button.css">
 </head>
 <body> 
     <section class="home" id="home">
@@ -64,19 +65,19 @@
     </section>
     <section class="composers" id="composers">
         <ul class="cards-list" id="list-composers">
-            <li class="card chopin">
+            <li class="card card-composer chopin">
                 <img class="card__img" src="./img/chopin 1.png" alt="Desenho do Chopin">
                 <h2 class="card__title">CHOPIN</h2>
                 <p class="card__text">Um pianista polonês radicado na França e compositor para piano da era romântica. É amplamente conhecido como um dos maiores compositores para piano e um dos pianistas mais importantes da história.
                 </p>
             </li>
-            <li class="card bethoven">
+            <li class="card card-composer bethoven">
                 <img class="card__img"src="./img/bethoven 1.png" alt="Desenho do Bethoven">
                 <h2 class="card__title">BETHOVEN</h2>
                 <p class="card__text">Considerado um dos pilares da música ocidental, Bethoven é conhecido pelo incontestável desenvolvimento, tanto da linguagem como do conteúdo musical demonstrado nas suas obras, permanecendo como um dos compositores mais respeitados e mais influentes de todos os tempos.
                 </p>
             </li>
-            <li class="card mozart">
+            <li class="card card-composer mozart">
                 <img class="card__img" src="./img/mozart 1.png" alt="Desenho do Mozart">
                 <h2 class="card__title">MOZART</h2>
                 <p class="card__text">Autor de mais de 600 obras, Wolfgang Amadeus Mozart foi um compositor compentente desde os cinco anos de idade. Possuiu habilidades no teclado e violino. Uma de suas maiores composições é a Sinfonia n°40.  
@@ -95,20 +96,20 @@
     <section class="instruments" id="instruments">
         <p class="instruments__info">Alguns instrumentos são mais propensos para a música clássica<br>Estes possuem propriedades de material e de tempo que reforçam isso.</p>
         </p>
-            <ul class="cards-list">
-                <li class="card" id="cravo">
+            <ul class="cards-list" id="list-instruments">
+                <li class="card card-instrument" id="cravo">
                     <img class="card__img" src="./img/cravo.png" alt="Desenho do cravo">
                     <h2 class="card__title">CRAVO</h2>
                     <p class="card__text">Surgindo ao século XV, o Cravo é um instrumento de cordas pinçadas semelhante ao piano. Possui som tangendo ou beliscando as cordas. Ele veio antes do piano existir.
                     </p>
                 </li>
-                <li class="card"id="piano">
+                <li class="card card-instrument"id="piano">
                     <img class="card__img" src="./img/piano.png" alt="Imagem de um piano">
                     <h2 class="card__title">PIANO</h2>
                     <p class="card__text">O Piano é um instrumento de cordas percussivas com som semelhante ao de uma harpa. É considerado uns dos mais difíceis instrumentos de tocar. Foi um dos principais instrumentos de Bethoven.
                     </p>
                 </li>
-                <li class="card" id="violino">
+                <li class="card card-instrument" id="violino">
                     <img class="card__img" src="./img/violino.png" alt="Imagem de um violion">
                     <h2 class="card__title">VIOLINO</h2>
                     <p class="card__text">O instrumento de cordas mais agudo de sua família, o violino possui um arco que o caracteriza como instrumento de atrito. Possui um som doce e suave. 
@@ -117,9 +118,13 @@
                 <img src="./img/bg-instruments.png" alt="" id="bginstruments">
             </ul>
         </div>
-        <<a href="#home">
-            <img src="./img/circle-2.png" alt="">
-        </a>
+        <nav>
+            <a href="#home">
+                <img src="./img/circle-2.png" alt="">
+            </a>
+            <button aria-label="Previous image" id="next-instrument"></button>
+        </nav>
+        <img src="./img/bg-instruments-tablet.png" id="bginstruments-tablet" alt="">
     </section>
     <section class="about" id="about">
         <div class="about__container">
@@ -161,6 +166,7 @@
         <img src="./img/bg-about.png" alt="" class="backgrounds" id="bgabout">
     </section>
     <script src="./js/composers.js"></script>
+    <script src="./js/instruments.js"></script>
 </body>
 
 </html>

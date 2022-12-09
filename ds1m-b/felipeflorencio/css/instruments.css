@@ -27,6 +27,9 @@
 #bginstruments{
     top: 20%;
 }
+#bginstruments-tablet{
+    display: none;
+}
 #piano{
     margin-top: 8%;
 }
@@ -35,29 +38,27 @@
     margin-right: 5%;
 }
 @media (max-width:960px) {
-    .instruments{
-        display: flex;
-        flex-direction: column;
-        gap: 2rem
-        ;
-    }
-    .instruments__wrapper{
-        overflow-x: hidden;
-        height: 80%;
-    }
     #piano, #violino{
         margin-top: 0;
-
+    }
+    
+    #bginstruments{
+        display: none;
+    }
+    #bginstruments-tablet{
+       display: none;
     }
     .instruments__info{
-        margin: 0;
+        display: none;
     }
-    .instruments ul img{
-        width: 80%;
-        align-self: center;
+    .instruments li img{
+        width: 25rem;
+        height: 30rem;
     }
-    .instruments ul{
-        display: flex;
-        flex-direction: row;
+    .instruments nav{
+        justify-content: space-between;
+    }
+    button{
+        background-color: #D2D1E8;
     }
 }

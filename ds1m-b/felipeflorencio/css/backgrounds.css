@@ -41,6 +41,9 @@
     width: 60rem;
   }
   #bgabout{
-    width: 60rem;
+    width: 115%;
+    height: 100%;
+    top: 10%;
+    left: 2%;
   }
 }

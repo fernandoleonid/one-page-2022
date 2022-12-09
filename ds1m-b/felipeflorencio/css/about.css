@@ -1,5 +1,6 @@
 .about{
    margin-bottom: 1rem;
+   position: relative;
 }
 .about__container{
    padding: 5%;
@@ -40,4 +41,28 @@
 }
 #felipeflorencio{
    font-size: 5rem;
+}
+@media (max-width:960px) {
+   .about__container{
+      padding: 0%;
+      grid-template-rows: auto auto auto;
+      grid-template-areas: 
+      "foto nome"
+      "descricao title"
+      "skills skills";
+   }
+   .about__container img{
+      height: 18rem;
+      width: 18rem;
+   }
+   #eusou{
+      font-size: 40px;
+   }
+   #felipeflorencio{
+      font-size: 48px;
+   }
+   .about__container p{
+      font-size: 20px;
+      width: 18rem;
+   }
 }

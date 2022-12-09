@@ -46,3 +46,25 @@
     font-family: "Sunflower";
     font-weight: 700;
 }
+@media (max-width: 960px) {
+    .skills{
+        grid-area: skills;
+        align-items: start;
+     }
+     .skills h3{
+        position: absolute;
+        top: 50%;
+        right: 15%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+     }
+     .skills__container{
+        position: absolute;
+        grid-area: skills;
+        gap: 4rem;
+        width: 75%;
+        bottom: 2%;
+        left: 18%;
+     }
+    
+}
