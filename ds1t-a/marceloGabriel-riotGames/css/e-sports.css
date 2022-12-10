@@ -48,16 +48,38 @@
 }
 
 .card-principal-e-sports {
+    display: flex;
+
+}
+
+#item-grande {
     background: rgba(14, 29, 40, 0.86);
     border-radius: 20px;
     width: 35vw;
     height: 80vh;
+    
+}
+
+#item-grande img {
+    height: 55vh;
+    width: 35vw;
+
+}
+
+#item-grande h3 {
+    padding-left: 20px;
+}
+
+#item-grande p {
+    padding-top: 24px;
+    padding-left: 10px;
 }
 
 .lista-de-cards-e-sports {
     display: flex;
     flex-direction: column;
     gap: 5vh;
+    align-items: center;
 }
 
 .cards-horizontal {
@@ -67,10 +89,10 @@
 }
 
 #item-um-horizontal, #item-dois-horizontal {
-    background: #222B33;
+    background: rgba(14, 29, 40, 0.86);
     border-radius: 20px;
     width: 16vw;
-    height: 33vh;
+    height: 30vh;
     position: relative;
 }
 
@@ -78,58 +100,113 @@
     position: relative;
     left: 5.7vh;
     width: 13vw;
+}
 
+#item-um-horizontal h3 {
+    padding-left: 20px;
+}
+
+#item-um-horizontal p {
+    padding-left: 10px;
+    padding-top: 24px;
 }
 
 #item-dois-horizontal img {
     position: relative;
     left: 5.7vh;
     width: 13vw;
+}
 
+#item-dois-horizontal h3 {
+    padding-left: 20px;
+}
+
+#item-dois-horizontal p {
+    padding-left: 10px;
+    padding-top: 24px;
 }
 
 .cards-vertical {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    gap: 20px;
     
 }
 
 #item-um-vertical {
-   
     display: flex;
-    height: 10vh;
-    align-items: baseline;
-  
-    
-  
-}
-
-.conteudo-um {
-    display: flex;
-    flex-direction: column ;
-    background-color: #222B33;
-    
-
-}
-
-#item-dois-vertical {
-
-   
-  
+    flex-direction: column;
+    background: rgba(14, 29, 40, 0.86);
+    border-radius: 20px;
+    height: 12vh;
+    width: 33vw;
+    padding-left: 10px;
 }
 
 #item-um-vertical img {
-    position: relative;
-    width: 250.76px;
-    height: 122.32px;
-    top: -6.5vh;
-    left: 19vw;
+    position: absolute;
+    left: 76%;
+    height: 11vh;
+    width: 9vw;
+}
+
+#item-um-vertical h3 {
+    padding-top: 10px;
+}
+
+#item-um-vertical p {
+    padding-top: 10px;
+}
+
+#item-dois-vertical {
+    display: flex;
+    flex-direction: column;
+    background: rgba(14, 29, 40, 0.86);
+    border-radius: 20px;
+    width: 33vw;
+    height: 12vh;
+    padding-left: 10px;
 }
 
 #item-dois-vertical img {
-    position: relative;
-    width: 250.76px;
-    height: 122.32px;
-    top: -6.5vh;
-    left: 19vw;
+    position: absolute;
+    left: 76%;
+    height: 11vh;
+    width: 9vw;
+}
+
+#item-dois-vertical h3 {
+    padding-top: 10px;
+}
+
+#item-dois-vertical p {
+    padding-top: 10px;
+}
+
+#item-tres-vertical {
+    display: flex;
+    flex-direction: column;
+    background: rgba(14, 29, 40, 0.86);
+    border-radius: 20px;
+    width: 33vw;
+    height: 12vh;
+    padding-left: 10px;
+}
+
+#item-tres-vertical img {
+    position: absolute;
+    left: 76%;
+    height: 11vh;
+    width: 9vw;
+}
+
+#item-tres-vertical h3 {
+    padding-top: 10px;
+}
+
+#item-tres-vertical p {
+    padding-top: 10px;
 }
 
 #item-tres-botao-ver-mais {
@@ -139,4 +216,6 @@
     font-family: 'Ubuntu';
     font-weight: 700;
     font-size: 1rem;
+    width: 5vw;
+    text-align: center;
 }
