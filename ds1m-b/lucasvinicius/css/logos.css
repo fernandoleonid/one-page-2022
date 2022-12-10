@@ -1,7 +1,17 @@
 .logoPrimeira {
-    height: 3.2rem;
+    width: 300px;
 }
 
 .logo_bo1 {
+    width: 300px;
+}
+
+.logo_bo2 {
+    width: 300px;
+    display: flex;
+    place-self: flex-end;
+}
+
+.logo_bo3 {
     width: 300px;
 }

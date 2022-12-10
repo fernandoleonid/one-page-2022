@@ -27,21 +27,14 @@ main{
 
 section{
     height: 100vh;
-    width: 100%;
-}
-
-
-#bo2{
-    background-color: aqua;
-}
-
-#bo3{
-    background-color: violet;
+    width: 100vw;
 }
 
 
 footer{
     grid-area: footer;
-    background-color: tomato;
-    height: 50vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
 }
