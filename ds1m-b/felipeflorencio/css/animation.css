@@ -1,6 +1,6 @@
 [data-anime]{
     opacity: 0;
-    transition: .6s;
+    transition: .5s;
 }
 [data-anime="left"]{
     transform: translate3d(-50%,0,0);

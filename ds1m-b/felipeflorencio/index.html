@@ -30,18 +30,28 @@
 <body> 
     <section class="home" id="home">
         <header data-anime="bottom">
-            <a href="#HOME">
-                <h2 id="HOME">HOME</h2>
-            </a>
-            <a href="#composers">
-                <h2>MUSICIANS</h2>
-            </a>
-            <a href="#instruments">
-                <h2>INSTRUMENTS</h2>
-            </a>
-            <a href="#about">
-                <h2>ABOUT</h2>
-            </a>
+            <ul>
+                <li>
+                    <a href="#HOME">
+                        <h2 id="HOME">HOME</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="#composers">
+                    <h2>MUSICIANS</h2>
+                        </a>
+                </li>
+                <li>
+                    <a href="#instruments">
+                        <h2>INSTRUMENTS</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <h2>ABOUT</h2>
+                    </a>
+                </li>
+            </ul>
         </header>
         <div class="home__content">
             <div class="presentation" data-anime="bottom">
@@ -64,15 +74,15 @@
         </nav>
         <img data-anime="left" src="./img/bg-home.png" alt="" id="bghome">
     </section>
-    <section class="composers" id="composers">
-        <ul class="cards-list" id="list-composers">
+    <section  class="composers"  id="composers">
+        <ul  data-anime="top" class="cards-list" id="list-composers">
             <li class="card card-composer chopin">
                 <img class="card__img" src="./img/chopin 1.png" alt="Desenho do Chopin">
                 <h2 class="card__title">CHOPIN</h2>
                 <p class="card__text">Um pianista polonês radicado na França e compositor para piano da era romântica. É amplamente conhecido como um dos maiores compositores para piano e um dos pianistas mais importantes da história.
                 </p>
             </li>
-            <li class="card card-composer bethoven">
+            <li  class="card card-composer bethoven">
                 <img class="card__img"src="./img/bethoven 1.png" alt="Desenho do Bethoven">
                 <h2 class="card__title">BETHOVEN</h2>
                 <p class="card__text">Considerado um dos pilares da música ocidental, Bethoven é conhecido pelo incontestável desenvolvimento, tanto da linguagem como do conteúdo musical demonstrado nas suas obras, permanecendo como um dos compositores mais respeitados e mais influentes de todos os tempos.
@@ -94,10 +104,10 @@
         <img src="./img/bg-composers.png" alt="" id="bgcomposers">
         <img src="./img/bg-composers-tablet.png" id="bgcomposers-tablet"alt=""> 
     </section>
-    <section class="instruments" id="instruments">
+    <section class="instruments"  id="instruments">
         <p class="instruments__info">Alguns instrumentos são mais propensos para a música clássica<br>Estes possuem propriedades de material e de tempo que reforçam isso.</p>
         </p>
-            <ul class="cards-list" id="list-instruments">
+            <ul data-anime="top" class="cards-list" id="list-instruments">
                 <li class="card card-instrument" id="cravo">
                     <img class="card__img" src="./img/cravo.png" alt="Desenho do cravo">
                     <h2 class="card__title">CRAVO</h2>
@@ -127,8 +137,8 @@
         </nav>
         <img src="./img/bg-instruments-tablet.png" id="bginstruments-tablet" alt="">
     </section>
-    <section class="about" id="about">
-        <div class="about__container">
+    <section data-anime="top" class="about" id="about">
+        <div  class="about__container">
             <img src="./img/foto perfil felipe 1.png" alt="">
             <div class="whoiam">
                 <h3 id="eusou">Eu sou</h3>

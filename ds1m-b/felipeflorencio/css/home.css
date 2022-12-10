@@ -34,7 +34,7 @@ nav{
         transform: translate(10%,0%);
     }
     .home__content{
-        gap: 0;
+        gap: 10%;
     }
 
     #bghome{

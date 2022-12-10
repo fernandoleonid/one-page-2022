@@ -45,6 +45,12 @@ section {
     margin-left: 5%;
 }
 
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #D2D1E8;
+}
 
 
 /* TABLET */

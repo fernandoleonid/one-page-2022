@@ -54,7 +54,7 @@
      .skills h3{
         position: absolute;
         top: 50%;
-        right: 15%;
+        right: 5%;
         margin-right: 0%;
         margin-bottom: 0%;
      }
@@ -62,7 +62,6 @@
         position: absolute;
         grid-area: skills;
         gap: 4rem;
-        width: 75%;
         bottom: 2%;
         left: 18%;
      }
