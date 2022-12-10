@@ -59,20 +59,20 @@
                 <p>Meet the grand composers of classical musician and apreciate your instruments</p>
                 <button>Open App</button>
             </div>
-            <img src="./img/cello-home.png" class="cello" data-anime="right">
+            <img src="./img/cello-home.png" class="cello" alt="Homem tocando violoncelo de olhos fechados."data-anime="right">
         </div>
         <nav class="index" data-anime="left">
             <a href="#composers">
-                <img src="./img/circle-1.png" alt="">
+                <img src="./img/circle-1.png" alt="Circulo marrom para indicar a seção de compositores.">
             </a>
             <a href="#instruments">
-                <img src="./img/circle-2.png" alt="">
+                <img src="./img/circle-2.png" alt="Circulo marrom acinzentado para indicar a seção de instrumentos.">
             </a>
             <a href="#about">
-                <img src="./img/circle-3.png" alt="">
+                <img src="./img/circle-3.png" alt="Circulo laranja para indicar a seção de informações.">
             </a>
         </nav>
-        <img data-anime="left" src="./img/bg-home.png" alt="" id="bghome">
+        <img data-anime="left" src="./img/bg-home.png" alt="Imagem de fundo para home" id="bghome">
     </section>
     <section  class="composers"  id="composers">
         <ul  data-anime="top" class="cards-list" id="list-composers">
@@ -101,8 +101,8 @@
             </a>
             <button aria-label="Previous image" id="left-button-composers"></button>
         </nav>
-        <img src="./img/bg-composers.png" alt="" id="bgcomposers">
-        <img src="./img/bg-composers-tablet.png" id="bgcomposers-tablet"alt=""> 
+        <img src="./img/bg-composers.png" alt="Imagem de fundo para a seção de compositores." id="bgcomposers">
+        <img src="./img/bg-composers-tablet.png" id="bgcomposers-tablet"alt="Imagem de fundo para a seção de compositores via tablet."> 
     </section>
     <section class="instruments"  id="instruments">
         <p class="instruments__info">Alguns instrumentos são mais propensos para a música clássica<br>Estes possuem propriedades de material e de tempo que reforçam isso.</p>
@@ -121,17 +121,17 @@
                     </p>
                 </li>
                 <li class="card card-instrument" id="violino">
-                    <img class="card__img" src="./img/violino.png" alt="Imagem de um violion">
+                    <img class="card__img" src="./img/violino.png" alt="Imagem de um violino">
                     <h2 class="card__title">VIOLINO</h2>
                     <p class="card__text">O instrumento de cordas mais agudo de sua família, o violino possui um arco que o caracteriza como instrumento de atrito. Possui um som doce e suave. 
                     </p>
                 </li>
-                <img src="./img/bg-instruments.png" alt="" id="bginstruments">
+                <img src="./img/bg-instruments.png" alt="Imagem de fundo para a seção de instrumentos." id="bginstruments">
             </ul>
         </div>
         <nav>
             <a href="#home">
-                <img src="./img/circle-2.png" alt="">
+                <img src="./img/circle-2.png" alt="Circulo marrom acinzentado com link para o início da página.">
             </a>
             <button aria-label="Previous image" id="next-instrument"></button>
         </nav>
@@ -139,14 +139,14 @@
     </section>
     <section data-anime="top" class="about" id="about">
         <div  class="about__container">
-            <img src="./img/foto perfil felipe 1.png" alt="">
+            <img src="./img/foto perfil felipe 1.png" alt="Foto de Perfil para o Felipe Florêncio.">
             <div class="whoiam">
                 <h3 id="eusou">Eu sou</h3>
                 <h3 id="felipeflorencio">Felipe Florencio</h3>
             </div>
             <p>Estou aprendendo programação front-end e back-end. Gosto de música e também sei tocar alguns intrumentos.</p>
             <a class="home-link" href="#home" >
-                <img id="about-button" src="./img/circle-3.png" alt="">
+                <img id="about-button" src="./img/circle-3.png" alt="Circulo laranja para voltar para o início da página.">
             </a>
             <div class="skills">
                 <h3 class="skills__title">Habilidades</h3>
@@ -178,11 +178,21 @@
                 </ul>
                 
         </div>
-        <img src="./img/bg-about.png" alt="" class="backgrounds" id="bgabout">
+        <img src="./img/bg-about.png" alt="Imagem de fundo para a seção de informações." class="backgrounds" id="bgabout">
     </section>
     <script src="./js/composers.js"></script>
     <script src="./js/instruments.js"></script>
     <script src="./js/animate.js"></script>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
 </body>
 
 </html>
