@@ -25,10 +25,11 @@
     <link rel="stylesheet" href="./css/index-buttons.css">
     <link rel="stylesheet" href="./css/cards.css">
     <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/animation.css">
 </head>
 <body> 
     <section class="home" id="home">
-        <header>
+        <header data-anime="bottom">
             <a href="#HOME">
                 <h2 id="HOME">HOME</h2>
             </a>
@@ -43,14 +44,14 @@
             </a>
         </header>
         <div class="home__content">
-            <div class="presentation">
+            <div class="presentation" data-anime="bottom">
                 <h1>MUSIC FOR YOU</h1>
                 <p>Meet the grand composers of classical musician and apreciate your instruments</p>
                 <button>Open App</button>
             </div>
-            <img src="./img/cello-home.png" class="cello">
+            <img src="./img/cello-home.png" class="cello" data-anime="right">
         </div>
-        <nav class="index">
+        <nav class="index" data-anime="left">
             <a href="#composers">
                 <img src="./img/circle-1.png" alt="">
             </a>
@@ -61,7 +62,7 @@
                 <img src="./img/circle-3.png" alt="">
             </a>
         </nav>
-        <img src="./img/bg-home.png" alt="" id="bghome">
+        <img data-anime="left" src="./img/bg-home.png" alt="" id="bghome">
     </section>
     <section class="composers" id="composers">
         <ul class="cards-list" id="list-composers">
@@ -167,6 +168,7 @@
     </section>
     <script src="./js/composers.js"></script>
     <script src="./js/instruments.js"></script>
+    <script src="./js/animate.js"></script>
 </body>
 
 </html>
