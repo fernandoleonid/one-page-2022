@@ -20,6 +20,7 @@
 nav{
     display: flex;
     gap: 20px;
+    z-index: 1;
 }
 #bghome{
     position: absolute;

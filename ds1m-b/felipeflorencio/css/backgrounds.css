@@ -15,14 +15,15 @@
 #bginstruments{
   position: absolute;
   z-index: -1;
-  transform: translate(-1rem,-20rem); 
-  width: 81rem;
+  transform: translate(0rem,-14rem);
+  width: 110%;
+    height: 125%;
 }
+
 #bgabout{
   position: absolute;
   z-index: -5;
-  transform: translate(-11%, 2%);
-  width: 78rem;
+  transform: translate(-5%, 25%);
 }
 @media (max-width:960px) {
   #bghome{
@@ -61,10 +62,10 @@
     display: none;
   }
   #bgabout{
-    height: 50rem;
-    top: 22%;
-    left: -10%;
-    width: 45rem;
+    height: 75%;
+    top: 10%;
+    left: -7%;
+    width: 125%;
     z-index: 1;
   }
 }

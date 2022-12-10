@@ -42,6 +42,14 @@
 #felipeflorencio{
    font-size: 5rem;
 }
+#about-button{
+   position: absolute;
+   height: 40px;
+   width: 40px;
+   bottom: 5%;
+   left: 5%;
+   z-index: 2;
+}
 @media (max-width:960px) {
    .about__container{
       padding: 0%;
@@ -91,5 +99,8 @@
    .about__container p{
       width: 100%;
       font-size: 3vw;
+   }
+   #about-button{
+      display: none;
    }
 }

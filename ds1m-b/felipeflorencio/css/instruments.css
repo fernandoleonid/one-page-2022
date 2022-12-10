@@ -75,7 +75,7 @@
         display: inline;
         position: absolute;
         z-index: -1;
-        transform: translate(-10%, -10%);
+        transform: translate(6%, 13%);
         height: 110%;
         width: 110%;
     }
