@@ -54,5 +54,7 @@ section {
 
 /* MOBILE */
 @media (max-width:640px) {
-   
+   .index{
+    margin-left: 0;
+   }
 }

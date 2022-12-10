@@ -67,4 +67,12 @@
         margin-left: 1%;
         margin-right: 50%;
     }
+    #bginstruments-tablet{
+        display: inline;
+        position: absolute;
+        z-index: -1;
+        transform: translate(-10%, -25%);
+        height: 110%;
+        width: 110%;
+    }
 }

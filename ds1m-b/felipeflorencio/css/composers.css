@@ -97,7 +97,12 @@
 }
 @media (max-width: 640px) {
     #bgcomposers-tablet{
-        display: none;
+        position: absolute;
+        display: inline;
+        top: -23%;
+        left: -28%;
+        height: 65rem;
+        width: 60rem;
       }
     
 }

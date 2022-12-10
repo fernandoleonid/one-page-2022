@@ -50,13 +50,21 @@
 
 @media (max-width:640px) {
   #bghome{
-    display: none;
+   top: 10%;
+   left: 3%;
+   height: 80%;
+   width: 100%;
   }
+  
   
   #bginstruments{
     display: none;
   }
   #bgabout{
-    display: none;
+    height: 50rem;
+    top: 22%;
+    left: -10%;
+    width: 45rem;
+    z-index: 1;
   }
 }
