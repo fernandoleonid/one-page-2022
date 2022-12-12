@@ -146,13 +146,15 @@
 
 #item-um-vertical img {
     position: absolute;
-    left: 76%;
-    height: 11vh;
-    width: 9vw;
+    left: 74%;
+    height: 12vh;
+    width: 11vw;
 }
 
-#item-um-vertical h3 {
+#item-um-vertical h2 {
     padding-top: 10px;
+    width: 20vw;
+    flex-wrap: wrap;
 }
 
 #item-um-vertical p {
@@ -176,8 +178,10 @@
     width: 9vw;
 }
 
-#item-dois-vertical h3 {
+#item-dois-vertical h2 {
     padding-top: 10px;
+    width: 20vw;
+    flex-wrap: wrap;
 }
 
 #item-dois-vertical p {
@@ -201,8 +205,10 @@
     width: 9vw;
 }
 
-#item-tres-vertical h3 {
+#item-tres-vertical h2 {
     padding-top: 10px;
+    width: 20vw;
+    flex-wrap: wrap;
 }
 
 #item-tres-vertical p {
@@ -218,4 +224,119 @@
     font-size: 1rem;
     width: 5vw;
     text-align: center;
+}
+
+.noticia-mobile {
+    display: none;
+}
+
+@media (max-width:660px ) {
+
+    .container-conteudo-e-sports {
+        width: 90vw;
+    }
+
+    .card-principal-e-sports {
+        display: none;
+    }
+
+    .cards-horizontal {
+        display: none;
+    }
+
+    .cards-vertical {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 70vh;
+        width: 100%;
+    }
+
+    .noticia-mobile {
+        display: initial;
+    }
+
+    
+    .noticia-desktop {
+        display: none;
+    }
+
+    #item-um-vertical {
+        width: 80vw;
+        height: 50vh;
+        font-size: 0.7rem;
+        text-align: left;
+        padding-bottom: 10px;
+        position: relative;
+    }
+
+    #item-um-vertical h2 {
+        width: 30vw;
+    }
+
+    #item-um-vertical p {
+      display: none;
+    }
+
+    #item-um-vertical img {
+        position: absolute;
+        left: 45%;
+        top: 15%;
+        height: 15vh;
+        width: 40vw;
+    }
+
+    #item-dois-vertical {
+        width: 80vw;
+        height: 50vh;
+        font-size: 0.7rem;
+        text-align: left;
+        padding-bottom: 10px;
+        position: relative;
+    }
+
+    #item-dois-vertical h2 {
+        width: 30vw;
+    }
+
+    #item-dois-vertical p {
+        display: none;
+      }
+
+    #item-dois-vertical img {
+        position: absolute;
+        left: 45%;
+        top: 15%;
+        height: 15vh;
+        width: 40vw;
+    }
+
+    #item-tres-vertical {
+        width: 80vw;
+        height: 50vh;
+        font-size: 0.7rem;
+        text-align: left;
+        padding-bottom: 10px;
+        position: relative;
+    }
+
+    #item-tres-vertical h2 {
+        width: 30vw;
+    }
+
+    #item-tres-vertical p {
+        display: none;
+      }
+
+    #item-tres-vertical img {
+        position: absolute;
+        left: 45%;
+        top: 15%;
+        height: 15vh;
+        width: 40vw;
+    }
+    #item-tres-botao-ver-mais {
+        width: 50vw;
+    }
+
 }

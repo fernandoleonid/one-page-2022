@@ -60,3 +60,38 @@
     text-align: center;
     border-radius: 10px;
 }
+
+.fundo-mobile {
+    display: none;
+}
+
+@media (max-width: 660px) {
+
+    .sobre-nos {
+        display: flex;
+    }
+
+
+    .sub-titulo-descricao-sobre-nos {
+        display: none;
+    }
+
+    .fundo-sobre-nos {
+        display: none;
+        
+    }
+
+    .fundo-mobile {
+        display: initial;
+        position: absolute;
+        left: 10%;
+        top: 15%;
+        width: 90vw;
+        height: 70vh;
+    }
+
+    .botao-trabalhe-conosco-sobre-nos {
+        width: 50vw;
+    }
+
+}

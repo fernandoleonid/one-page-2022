@@ -11,7 +11,8 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .informacoes-contato a {
@@ -19,7 +20,62 @@
     font-weight: 400;
 }
 
-.direitos-contato {
+.footer-contato h3 {
     font-size: 1.25rem;
     font-weight: 400;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: 1s;
+}
+
+.suporte {
+    transition: 1s;
+}
+
+.suporte:hover {
+    color: var(--primary-color);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+#facebook:hover {
+    color: var(--primary-color);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+#twitter:hover {
+    color: var(--primary-color);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+#linkedin:hover {
+    color: var(--primary-color);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+#youtube:hover {
+    color: var(--primary-color);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+@media (max-width: 660px) {
+
+    .informacoes-contato {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .footer-contato h3 {
+        font-size: 0.8rem;
+    }
 }
