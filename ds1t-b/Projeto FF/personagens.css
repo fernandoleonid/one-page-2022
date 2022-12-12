@@ -41,4 +41,15 @@
     gap: 50px
 }
 
+/* MOBILE */
+@media(max-width:640px) {
+
+    .titulo-personagens{
+        height: 100px;
+    }
+
+    .blocos-personagens{
+        height: 600px;
+    }
+}
 

@@ -80,3 +80,43 @@
     line-height: 37px;
     color: #FFFFFF;
 }
+
+/* MOBILE */
+@media(max-width:640px) {
+
+    .titulo-contatos {
+        font-family: 'Varta';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 93px;
+        display: flex;
+        align-items: center;
+    }
+
+    .imagem-informacoes {
+        display: none;
+    }
+
+    .div-informacoes {
+        width: 100%;
+    }
+
+    .informacoes {
+        width: 100%;
+        align-items: center;
+    }
+
+    .texto-informacoes {
+        width: 95%;
+    }
+
+    .info-item {
+        gap: 0px;
+    }
+
+   .texto-vetor {
+    font-weight: 400;
+    font-size: 20px;
+   }
+}

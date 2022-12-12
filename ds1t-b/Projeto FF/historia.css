@@ -81,6 +81,8 @@
         gap: 15px;
     }
 
+    
+
     .introducao{
         display: flex;
         flex-direction: column-reverse;
