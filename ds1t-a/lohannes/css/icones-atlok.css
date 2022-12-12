@@ -1,0 +1,385 @@
+.icones{
+    grid-area: icones;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.esquerdo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.korraIcone{
+    display: flexbox;
+    width: 200px;
+}
+
+.korra{
+    z-index: 0;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    background-color: #004698;
+    box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.64), 0px 0px 3px 5px rgba(0, 0, 0, 0.64), 0px 0px 3px 5px rgba(0, 0, 0, 0.64);
+    transition: .5s;
+}
+
+.korraIcone:focus{
+    cursor: default;
+    z-index: 1;
+}
+
+.korraIcone:focus .korra{
+    display: flex;
+    gap: 10%;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.korraInfo{
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+}
+
+.korra_foto{
+    width: 100%;
+}
+
+.korraInfo2{
+    opacity: 0;
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nomeKorra{
+    font-size: 6.25rem;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 7.81%, #E6E6E6 14.06%, #C2C2C2 47.4%, #ABABAB 64.58%, #898989 78.12%, #626262 92.71%, #4E4E4E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+    color: #000;
+    -webkit-text-stroke-width: .01px;
+    -webkit-text-stroke-color: #000;
+    place-self: start;
+}
+
+.descKorra{
+    font-size: 1.25rem;
+}
+
+.korraIcone:focus .korraInfo{
+    opacity: 1;
+}
+
+.korraIcone:focus .korraInfo2{
+    opacity: 1;
+}
+
+.korraIcone:focus .korra_foto{
+    width: 13%;
+}
+
+#title{
+    font-family: 'Permanent Marker', cursive;
+}
+
+#desc{
+    font-family: 'Sarala', sans-serif;
+}
+
+.asamiIcone{
+    display: flexbox;
+    width: 200px;
+}
+
+.asami{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    background-color: #760015;
+    box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.64), 0px 0px 3px 5px rgba(0, 0, 0, 0.64), 0px 0px 3px 5px rgba(0, 0, 0, 0.64);
+    transition: transform 1s, width .5s, height .5s;
+    transition-delay: .1s;
+    transition-property: width, height;
+}
+
+.asami_photo{
+    height: 100%;
+}
+
+.asamiIcone:focus{
+    z-index: 1;
+    cursor: default;
+}
+
+.asamiIcone:focus .asami{
+    display: flex;
+    transform: translateY(-100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.asamiInfo{
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    gap: 20%;
+}
+
+.asamiInfo2{
+    opacity: 0;
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.nomeAsami{
+    font-size: 6.25rem;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 7.81%, #E6E6E6 14.06%, #C2C2C2 47.4%, #ABABAB 64.58%, #898989 78.12%, #626262 92.71%, #4E4E4E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+    color: #000;
+    -webkit-text-stroke-width: .01px;
+    -webkit-text-stroke-color: #000;
+    place-self: start;
+}
+
+.descAsami{
+    font-size: 1.25rem;
+}
+
+.asamiIcone:focus .asamiInfo{
+    opacity: 1;
+}
+
+.asamiIcone:focus .asamiInfo2{
+    opacity: 1;
+}
+
+.direito{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.bolinIcone{
+    display: flexbox;
+    width: 200px;
+}
+
+.bolin{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    background-color: #1C8A00;
+    box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.64), 0px 0px 3px 5px rgba(0, 0, 0, 0.64), 0px 0px 3px 5px rgba(0, 0, 0, 0.64);
+    transition: .5s;
+}
+
+.bolin_photo{
+    height: 60vh;
+    transform: translate(-2%,-13%);
+}
+
+.bolinInfo{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+}
+
+.bolinInfo2{
+    display: none;
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.nomeBolin{
+    font-size: 6.25rem;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 7.81%, #E6E6E6 14.06%, #C2C2C2 47.4%, #ABABAB 64.58%, #898989 78.12%, #626262 92.71%, #4E4E4E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+    color: #000;
+    -webkit-text-stroke-width: .01px;
+    -webkit-text-stroke-color: #000;
+    place-self: start;
+}
+
+.descBolin{
+    font-size: 1.25rem;
+}
+
+.bolinIcone:focus{
+    z-index: 1;
+    cursor: default;
+}
+
+.bolinIcone:focus .bolin{
+    display: flex;
+    transform: translateX(-89.1%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.bolinIcone:focus .bolin_photo{
+    height: 110%;
+    transform: translate(0, -6.5%);
+}
+
+.bolinIcone:focus .bolinInfo{
+    display: flex;
+}
+
+.bolinIcone:focus .bolinInfo2{
+    display: flex;
+}
+
+.zukoIcone{
+    display: flexbox;
+    width: 200px;
+}
+
+.zuko{
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    background-color: #B02000;
+    box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.64), 0px 0px 3px 5px rgba(0, 0, 0, 0.64), 0px 0px 3px 5px rgba(0, 0, 0, 0.64);
+    transition: transform 1s, width .5s, height .5s;
+    transition-delay: .01s;
+    transition-property: width, height;
+}
+
+.zukoIcone:focus{
+    z-index: 1;
+    cursor: default;
+}
+
+.zuko_photo{
+    height: 45vh;
+    transform: translate(-40%, -15%);
+}
+
+.zukoInfo{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+}
+
+.zukoInfo2{
+    display: none;
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.nomeZuko{
+    font-size: 6.25rem;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 7.81%, #E6E6E6 14.06%, #C2C2C2 47.4%, #ABABAB 64.58%, #898989 78.12%, #626262 92.71%, #4E4E4E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+    color: #000;
+    -webkit-text-stroke-width: .01px;
+    -webkit-text-stroke-color: #000;
+    place-self: start;
+}
+
+.descZuko{
+    font-size: 1.25rem;
+}
+
+.zukoIcone:focus{
+    z-index: 1;
+    cursor: default;
+}
+
+.zukoIcone:focus .zuko{
+    display: flex;
+    transform: translate(-89.1%, -100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.zukoIcone:focus .zukoInfo{
+    display: flex;
+}
+
+.zukoIcone:focus .zuko_photo{
+    height: 100%;
+    transform: translate(0, 0);
+}
+
+.zukoIcone:focus .zukoInfo2{
+    display: flex;
+}
+
+.elemento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatarElemento{
+    width: 144px;
+    height: 141.76px;
+    background: #B5B5B5;
+    border-width: 4px 2px 2px 4px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 27px;
+    display: grid;
+    place-items: center;
+}
+
+.elementoNome{
+    font-size: 1.875rem;
+    font-family: 'Marcellus SC', serif;
+    font-weight: 400;
+}
+
+.gif{
+    border-width: 4px 2px 2px 4px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 31px;
+    height: 50%;
+    width: 60%;
+}
