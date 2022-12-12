@@ -2,7 +2,7 @@
 
 ---
 
-# Portfólio
+# a cat's life
 
 ![Screenshot](screenshot.PNG)
 
@@ -48,3 +48,6 @@ O Layout deste site foi baseado no Figma. Segue o link:
 ---
 ## Equipe
 - [Paula Blesa](https://github.com/StaniukaitisPaula)
+---
+## Critérios de Avaliação
+- 
