@@ -1,0 +1,108 @@
+@media (max-width:640px) {
+    .logo{
+        align-items: flex-start;
+    }
+    .menu{
+        display: none;
+    }
+    .title__text{
+        font-size: 1rem;
+    }
+    .group__name{
+        font-size: 5rem;
+    }
+    .description{
+        font-size: 1rem;
+        width: 300px;
+    }
+    .description__title{
+        font-size: 1.5rem;
+        padding-left: 32px;
+    }
+    .description__text{
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        flex-direction: column;
+        padding-left: 32px;
+    }
+    .section_title{
+        padding-left: 12px;
+    }
+    .albums{
+        display: flex;
+        flex-direction: column;
+    }
+    .album_e_nome{
+        width: 250px;
+        height: 250px;
+    }
+    .slider{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .info_shows{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 12px;
+    }
+    .billboard{
+        font-size: 2.5rem;
+        max-width: 300px;
+    }
+    .billboard_comment{
+        max-width: 200px;
+        padding-left: 0px;
+    }
+    .bill_nome{
+        margin-left: 10px;
+    }
+    .data{
+        font-size: 20px;
+    }
+    .country{
+        font-size: 24px;
+    }
+    .local{
+        font-size: 20px;
+    }
+    .buy_tickets{
+        flex-direction: row;
+        font-size: 1rem;
+       padding-bottom: 64px;
+    }
+    .seta{
+        height: 10px;
+        width: 10px;
+    }
+    .linha-horizontal_2 {
+        width: 10vh;
+        border: 1px solid var(--pink-color);
+    }
+    .icons_social {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        align-self: flex-start;
+    }
+    .social{
+        align-self: flex-start;
+    }
+    .vlive{
+        height: 3vh;
+    }
+    .social_links{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-self: flex-start;
+    }
+    .copyright{
+        padding-top: 64px;
+        align-self: flex-start;
+    }
+}
