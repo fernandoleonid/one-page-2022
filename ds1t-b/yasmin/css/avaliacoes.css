@@ -7,7 +7,7 @@
     gap:5vh;
 }
 .avaliacoes__title{
-    font-size: 4rem;
+    font-size: 3.5vw;
     grid-area: title;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@
     background-color: #D4E1D4;
     border-radius: 20px;
     width: 24vw;
-    height: 34vh;
+    height: auto;
     box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.5);
 }
 .avaliacoesl1{
@@ -36,9 +36,16 @@
     display: flex;
     justify-content: center;
 }
-.av p{
-    font-size: 1.5rem;
+.avaliacao{
+    font-size: 1.4vw;
     font-weight: 300;
+    display: flex;
+    align-self: center;
+    margin: 20px;
+}
+.autor{
+    font-size: 1.4vw;
+    font-weight: 700;
     display: flex;
     align-self: center;
     margin: 20px;

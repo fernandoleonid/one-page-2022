@@ -4,7 +4,7 @@
     text-align: right;
     justify-content: center;
     align-content: center;
-    gap: 15vw;
+    gap: 10vw;
 }
 .sobre p{
     font-weight: 300;
@@ -16,15 +16,15 @@
     align-content: center;
     gap: 5vh;
     flex-direction: column;
-    max-width: 890px;
+    max-width: 850px;
     width: 100%;
-  
+    
 }
 .sobre__title{
-    font-size: 4rem;
+    font-size: 3.5vw;
 }
 .sobre__description{
-    font-size: 2.25rem;
+    font-size: 1.8vw;
 }
 .img-turista{
     width: 25vw;

@@ -9,6 +9,10 @@
     font-weight: 300;
     color: black;
 }
+.destinos img{
+    width: 45vw;
+    height: auto;
+}
 .destinos__text{
     display: flex;
     flex-direction: column;
@@ -16,19 +20,19 @@
     gap: 65px;
 }
 .destinos__title{
-    font-size: 4rem;
+    font-size: 3.5vw;
     display: flex;
     justify-content: center;   
 }
 .destinos__description{
     display: flex;
-    font-size: 2.25rem;  
+    font-size: 1.8vw;  
     align-self: center;
     max-width: 1200px;
     width: 100%;
 }
 .destinos__lugares p{
-    font-size: 3.75rem;
+    font-size: 3vw;
 }
 .destinos__lugares div{
     display: flex;
