@@ -86,7 +86,7 @@
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 460px) {
     .home {
         width: 100vw;
         background-image: url(../img/Fundo\ Mobile.png);
