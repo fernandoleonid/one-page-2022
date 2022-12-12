@@ -109,6 +109,9 @@
         width: 259px;
         height: 76px;
     }
+    .tab-text{
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 640px){
@@ -156,8 +159,27 @@
     }
 }
 
-@media (max-width: 960px) {
-    .tab-text{
-        font-size: 2rem;
+@media (max-width: 375px) {
+    .section-tab{
+        height: 150vh;
+        width: 100%;
+    }
+
+    .tab-promotion-container{
+        padding-top: 0;
+    }
+
+    .tab-promotion-container img{
+        width: 324px;
+        height: 279px;
+    }
+
+    .tab-promotion-container a{
+        width: 300px;
+        height: 100px;
+    }
+
+    .tab-text-container p{
+        font-size: 1.5rem;
     }
 }

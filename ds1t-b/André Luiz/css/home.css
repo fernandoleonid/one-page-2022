@@ -71,29 +71,17 @@
 
 }
 
-@media (max-width: 320px) {
-
+@media  (max-width: 375px){
     .section-home{
-        padding: 10px;
-        height: 85vh;
-        max-width: 550px;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1;
-        grid-template-rows: 2;
-    }
-
-    .promotion-image-container{
-        grid-column: 1;
-        grid-row: 1;
-    }
-
-    .promotion-text-container{
-        grid-column: 1;
-        grid-row: 2;
+        height: 82vh;
     }
 
     .promotion-text-container span{
-        font-size: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .promotion-image-container img{
+        width: 285.04px;
+        height: auto;
     }
 }
