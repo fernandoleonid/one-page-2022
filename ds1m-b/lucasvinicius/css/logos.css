@@ -9,7 +9,6 @@
 .logo_bo2 {
     width: 300px;
     display: flex;
-    place-self: flex-end;
 }
 
 .logo_bo3 {

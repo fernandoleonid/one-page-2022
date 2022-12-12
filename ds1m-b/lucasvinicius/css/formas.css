@@ -1,0 +1,33 @@
+#linha-horizontal2 {
+    height: 300px;
+    border: 3px solid #ffffff;
+}
+
+#linha-horizontal22 {
+    height: 325px;
+    border: 3px solid #ffffff;
+}
+
+.quadrado {
+    background-color: gray;
+    width: 105px;    
+    color: black;
+    border-radius: 10%;
+    display: none;
+}
+
+#linha-horizontal222{
+    height: 360px;
+    border: 3px solid #ffffff;
+    display: flex;  
+    flex-direction: column;
+    place-self: center;
+}
+
+.quadrado2 {
+    background-color: gray;
+    width: 105px;
+    color: black;
+    border-radius: 10%;
+    display: none;
+}

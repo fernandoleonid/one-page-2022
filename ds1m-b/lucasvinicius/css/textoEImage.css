@@ -7,6 +7,32 @@
 .imagensBo2 {
     display: flex;
     flex-direction: column;
-    
     height: 900px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.imgBo2 {
+    display: flex;
+    width: 85vw;
+    justify-content: space-between;
+}
+
+.imgBo2 span {
+    width: 700px;
+    height: 350px;
+    font-size: 1.5rem;
+    display: flex;  
+    flex-direction: column;
+    place-content: center;
+}
+
+.textQuadrado {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.textQuadrado span:hover ~ .quadrado2 {
+    display: flex;
 }
