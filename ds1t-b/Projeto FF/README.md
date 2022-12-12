@@ -1,6 +1,6 @@
 # Final Fantasy VII
 
-![](./img/home.png)
+![](./img/Home.png)
 
 [Clique aqui](https://github.com/MateusAlves595/one-page-2022.git) para acessar o site.
 ---
