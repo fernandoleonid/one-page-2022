@@ -16,3 +16,8 @@
     align-items: center;
     justify-content: center;
 }
+@media (max-width: 960px){
+    .home__title{
+        font-size: 6vw;
+    }
+}

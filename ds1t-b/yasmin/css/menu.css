@@ -12,3 +12,17 @@
 .menu li:hover{
     border-color: var(--primary-color);
 }
+.bars{
+    display: none;
+}
+@media (max-width: 960px) {
+    .menu{
+        display: none;
+    }
+    .bars{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 2rem;
+    }
+}

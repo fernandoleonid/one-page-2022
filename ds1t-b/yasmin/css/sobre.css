@@ -31,3 +31,9 @@
     height: auto;
     align-self: center;
 }
+@media (max-width: 960px){
+    .sobre{
+        max-width: 750px;
+        width: 100%;
+    }
+}
