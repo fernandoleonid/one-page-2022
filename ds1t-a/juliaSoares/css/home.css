@@ -77,21 +77,3 @@
 #radio3:checked ~ .navigation-auto .auto-btn3{
     background-color: #82c3b4b8;
 }
-
-@media(max-width: 640px){
-    /* .home{
-        max-width: 375px;
-    }
-
-.slider{
-    width: 300px;   
-    height: 250px;
-}
-
-.slides{
-    width: 500%;
-    height: 40px;
-    display: flex;
-} */
-
-}

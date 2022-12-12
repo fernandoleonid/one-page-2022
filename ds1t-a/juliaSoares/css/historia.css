@@ -73,34 +73,3 @@
     margin-top: 660px;
     margin-left: 350px;
 }
-/* 
-@media(max-width: 640px){
-    .historia{
-      max-width: 375px ;
-      display: grid;
-      grid-template-areas: "historia";
-      height: auto; 
-    }
-
-    .store-starbucks{
-        display: flex;
-        height: 200px;
-    }
-
-    .historia__title{
-        display: flex;
-        font-size: 1rem;
-        margin-top: 50px;
-        padding-left: 100px;
-    }
-
-    .historia__subtitle{
-        font-size: 1.75rem;
-        margin-top: 60px;
-    }
-
-    .historia__text{
-        font-size: 1.25rem;
-        width: 350px;
-    }
-} */

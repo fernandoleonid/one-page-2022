@@ -28,7 +28,6 @@
          justify-content: space-between;
          align-items: center;
          width: 1670px;
-         /* max-width: 200vw; */
          height: 125px;
          z-index: 1;
      }
@@ -86,15 +85,3 @@
          font-size: 1.25rem;
          text-align: center;
      }
-
-     /* @media(max-width:640px){
-        .header{
-            max-width: 550px;
-        }
-
-        .main {
-            grid-template-columns: 1fr;
-        }
-
-
-     } */

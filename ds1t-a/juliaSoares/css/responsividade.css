@@ -1,11 +1,8 @@
 @media(max-width:640px){
     header {
-        /* max-width: 600px; */
         width: 375px;
         height: 80px;
-        /* margin-left: 10px; */
         padding-left: 10px ;
-        transform: translatex(-85%);
     }
 
     .logo-principal {
@@ -13,15 +10,16 @@
         margin: 10px;
     }
 
+    nav{
+        width: 290px;
+    }
+
     .navBar {
         display: flex;
         font-size: 16px;
         gap: 15px;
-        transform: translatex(-25%);
-        width: 375px;
-        /* width: 375px; */
-        /* padding: 5px; */
-        /* padding-left: 100px; */
+        transform: translatex(-32%);
+        width: 280px;
     }
 
     body{
@@ -53,71 +51,58 @@
     .historia{
         display: grid;
         grid-template-areas: "historia";
-        /* height: auto; */
         max-width: 375px;
         justify-content: center;
-        /* max-width: 375px ;
-        display: grid;
-        grid-template-areas: "historia";
-        height: auto;  */
       }
   
       .store-starbucks{
-          /* display: flex;
-          height: 200px; */
+          grid-area: historia;
           height: 300px;
           margin-left: 70px;
           margin-top: 150px;
       }
   
       .historia__title{
-          /* display: flex;
-          font-size: 1rem;
-          margin-top: 50px;
-          padding-left: 100px; */
+          grid-area: historia;
           font-size: 1rem;
           align-self: center;
           margin-top: 25px;
-          margin-left: 170px;
+          margin-left: 140px;
       }
   
       .historia__subtitle{
-          /* font-size: 1.75rem;
-          margin-top: 60px; */
+          grid-area: historia;
           font-size: 1.75rem;
-          margin-top: 60px;
-          margin-left: 60px;
+          margin-top: 80px;
+          margin-left: 50px;
       }
   
       .historia__text{
-          /* font-size: 1.25rem;
-          width: 350px; */
+          grid-area: historia;
           font-size: 1.1rem;
           width: 325px;
-          margin-top: 110px;
+          margin-top: 130px;
           margin-left: 30px;
       }
 
       .button-historia{
+        grid-area: historia;
         height: 40px;
         width: 150px;
         font-size: 1rem;
-        margin-top: 550px;
+        margin-top: 600px;
         margin-left: 35%;
         padding-left: 30px;
         padding-top: 10px;
+        margin-block-end: 50px;
       }
 
       .livro-img{
-        height: 20px;
-        margin-top: 600px;
-        margin-left: 150px;
         display: none;
 
       }
 
       .texto-leitura{
-        /* font-size: 1.25rem; */
         display: none;
         
       }
@@ -170,8 +155,10 @@
         grid-area: niveis-de-torra;
         height: 40px;
         width: 150px;
-        padding: 5px;
+        font-size: 1rem;
         margin-top: 450px;
+        margin-left: -10%;
+        padding: 5px;
     }
     
     .livro-branco {
@@ -210,60 +197,50 @@
     
     .container__menu{
         display: none;
-        /* margin: 0;
+        margin: 0;
         background: lightgray;
         text-align: center;
         font-family: sans-serif;
-        color: #fefefe;*/
+        color: #fefefe;
     } 
     
       .container-carrosel {
         display: none;
-        /* position: relative;
-        width: 300px;
+        position: relative;
+        width: 150px;
         margin: 100px auto 0 auto;
-        perspective: 1000px; */
+        perspective: 1000px;
       }
       
       .carrosel {
         display: none;
-        /* position: absolute;
-        width: 100%;
+        position: absolute;
+        width: 375px;
         height: 100%;
         transform-style: preserve-3d; 
-        animation: rotate360 60s infinite forwards linear; */
+        animation: rotate360 60s infinite forwards linear;
       }
       .carrosel__img { 
         display: none;
-        /* position: absolute;
-        width: 150px;
-        height: 250px;
+        position: absolute;
+        width: 70px;
+        height: 100px;
         top: 20px;
         left: 10px;
         right: 10px;
         background-size: cover;
         box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
-        display: flex; */
+        display: flex;
       }
       
       span {
-        /* margin: auto;
-        font-size: 1.75rem; */
+        margin: auto;
+        font-size:.5rem;
       }
 
       footer {
-        width: 375px;
-        height: 250px;
-        /* grid-template-columns: 1fr; */
-        /* display: flex;
-        flex-direction: column;
-        background-color: #006241;
         width: 100%;
-        height: 400px;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        color: white; */
+        height: 250px;
     }
     
     .logo-footer {
@@ -278,6 +255,7 @@
         flex-direction: row;
         gap: 30px;
         padding: 5px;
+        margin-top: 120px;
     }
     
     .social-icon {
@@ -290,7 +268,7 @@
     .linha {
         border-top: 2px solid #fff;
         width: 100%;
-        margin-top: 150px;
+        margin-top: 10px;
     }
     
     .direitos {
