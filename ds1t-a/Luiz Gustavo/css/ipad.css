@@ -55,11 +55,11 @@
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 375px){
     .section-ipad{
-        height: 80vh;
+        height: 95vh;
     }
     .main-ipad{
-        height: 50vh;
+        height: 60vh;
     }
 }

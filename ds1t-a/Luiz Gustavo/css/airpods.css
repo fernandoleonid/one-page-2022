@@ -107,7 +107,10 @@
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 375px){
+    .section-airpods-watch{
+        height: 160vh;
+    }
     .img-airpods-pro{
         width: 80vw;
     }

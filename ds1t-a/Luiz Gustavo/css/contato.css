@@ -161,7 +161,10 @@ h2 {
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 375px){
+    .section-contato{
+        height: auto;
+    }
     .title-contato{
         font-size: 1.5rem;
     }

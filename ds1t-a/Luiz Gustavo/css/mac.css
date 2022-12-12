@@ -84,8 +84,8 @@
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 375px){
     .section-mac{
-        height: 100vh;
+        height: 130vh;
     }
 }

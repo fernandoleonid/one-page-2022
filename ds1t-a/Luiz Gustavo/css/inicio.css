@@ -93,8 +93,8 @@
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 375px){
     .section-inicio{
-        height: 60vh;
+        height: 75vh;
     }
 }

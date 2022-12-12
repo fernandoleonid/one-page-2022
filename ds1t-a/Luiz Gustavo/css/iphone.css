@@ -79,11 +79,11 @@
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 375px){
     .section-iphone{
-        height: 100vh;
+        height: 120vh;
     }
     .main-right-iphone{
-        height: 40vh;
+        height: 50vh;
     }
 }
