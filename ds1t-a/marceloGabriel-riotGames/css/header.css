@@ -11,6 +11,10 @@ header {
     justify-content: space-around;
 }
 
+.fa-bars {
+    display: none;
+}
+
 .cabecalho-home-um {
     background: rgba(0, 0, 0, 0.44);
     width: 100%;
@@ -106,4 +110,38 @@ header {
 #item-cinco {
     height: 35px;
     width: 100px;
+}
+
+@media (max-width: 660px) {
+    header {
+        max-width: 660px;
+        width: 100vw;
+    }
+
+    .navegacao-cabecalho {
+        max-width: 660px;
+        width: 100vw;
+       
+    }
+
+    .fa-bars {
+        display: initial;
+        font-size: 1.25rem;
+    }
+
+    .cabecalho-home-um {
+        max-width: 660px;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .lista-cabecalho-home {
+        display: none;
+    }
+
+    .logo-riot-games-header {
+        width: 25vw;
+    }
 }

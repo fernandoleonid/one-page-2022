@@ -51,3 +51,55 @@
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
 }
+
+@media (max-width: 660px) {
+
+    .home {
+        width: 100vw;
+        background-image: url(../img/Fundo\ Arcane\ 600px.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10vh;
+    }
+
+    .paragrafo-arcane {
+        display: none;
+    }
+
+    .logo-arcane-corpo {
+        width: 60vw;
+        padding-bottom: 80%;
+        padding-right: -60%;
+    }
+
+    .botao-assistir-arcane {
+        font-size: 1rem;
+        left: -80px;
+    }
+
+    .fundo-botao-assistir {
+        width: 150px;
+        left: -5px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .home {
+        width: 100vw;
+        background-image: url(../img/Fundo\ Mobile.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10vh;
+    }
+
+    .logo-arcane-corpo {
+        width: 80vw;
+        padding-bottom: 80%;
+        padding-right: -90%;
+    }
+}

@@ -15,45 +15,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ddaca44862.js" crossorigin="anonymous"></script>
     <script>
         
 
-    const controls = 
-    document.querySelectorAll('.control');
-
-    let currentIten = 0;
-
-    const itens = document.querySelectorAll('.item');
-
-    const maxItens = itens.length;
-
-    controls.forEach(control => {
-        control.addEventListener('click', () => {
-            const isLeft = control.classList.contains('arrow-left');
-            
-            if (isLeft) {
-                currentIten -= 1;
-            } else {
-                currentIten += 1;
-            }
-
-            if (currentIten >= maxItens) {
-                currentIten = 0;
-            }
-
-            if (currentIten < 0) {
-                currentIten = maxItens - 1 ;
-            }
-
-            item.forEach(item => item.classList.renove('current-iten'));
-
-            item[currentIten].scrollIntoView({
-                inline: "center",
-                behavior: "smooth",
-                
-            });
-        });
-    });
     </script>
     
     <title>RiotGames - Início</title>
@@ -66,8 +31,10 @@
             <div class = "cabecalho-home-um">
 
                 <a href = "">
-                    <img src = "./img/Logo Riot Games.png" alt = "Logo da Riot Games do Header">
+                    <img class="logo-riot-games-header" src = "./img/Logo Riot Games.png" alt = "Logo da Riot Games do Header">
                 </a>
+
+                <i class="fas fa-bars"></i>
             
             </div>
             
@@ -150,42 +117,42 @@
                     <div class = "slide first slide-first">
                         
                         <a class = "link-jogo-lol" href = "#">
-                            <div class="borda-um"></div>
+                            <div class="borda-um borda"></div>
                             <img src = "./img/Card LeagueOfLegends.png" alt = "Card 1">
                         </a>
                     </div>
 
                     <div class = "slide slide-first">
                         <a href = "#">
-                            <div class="borda-dois"></div>
+                            <div class="borda-dois borda"></div>
                             <img src = "./img/Card Valorant.png" alt = "Card 2">
                         </a>
                     </div>
 
                     <div class = "slide slide-first">
                         <a href = "#">
-                            <div class="borda-tres"></div>
+                            <div class="borda-tres borda"></div>
                             <img src = "./img/Card WR.png" alt = "Card 3">
                         </a>
                     </div>
 
                     <div class = "slide slide-three">
                         <a href = "#">
-                            <div class="borda-quatro"></div>
+                            <div class="borda-quatro borda"></div>
                             <img src = "./img/Card HM.png" alt = "Card 4">
                         </a>
                     </div>
 
                     <div class = "slide slide-four">
                         <a href = "#">
-                            <div class="borda-cinco"></div>
+                            <div class="borda-cinco borda"></div>
                             <img src = "./img/Card TFT.png" alt = "Card 4">
                         </a>
                     </div>
 
                     <div class = "slide slide-first">
                         <a href = "#">
-                            <div class="borda-seis"></div>
+                            <div class="borda-seis borda"></div>
                             <img src = "./img/Card RK.png" alt = "Card 4">
                         </a>
                     </div>
@@ -211,7 +178,59 @@
 
             </div>
 
-                
+            <div class = "cards-tablet">
+
+                <a href = "">
+                    <img src = "./img/Card Rei Destruido tablet.png" alt = "">
+                </a>
+                <a href = "">
+                    <img src = "./img/Card Tft tablet.png" alt = "">
+                </a>
+                <a href = "">
+                    <img src = "./img/Card Runeterra tablet.png" alt = "">
+                </a>
+                <a href = "">
+                    <img src = "./img/Card League Of Legends WR tablet.png" alt = "">
+                </a>
+                <a href = "">
+                    <img src = "./img/Card HextecMayhem tablet.png" alt = "">
+                </a>
+                <a href = "">
+                    <img src = "./img/Card League Of Legends tablet.png" alt = "">
+                </a>
+                <a href = "">
+                    <img src = "./img/Card Valorant tablet.png" alt = "">
+                </a>
+               
+
+            </div>
+
+            <div class = "cards-mobile">
+
+                <a class = "card-um" href = "">
+                    <img src = "./img/Card Rei Destruido.png" alt = "">
+                </a>
+                <a class = "card-dois" href = "">
+                    <img src = "./img/Card Tft.png" alt = "">
+                </a>
+                <a class = "card-tres" href = "">
+                    <img src = "./img/Card Runeterra.png" alt = "">
+                </a>
+                <a class = "card-quatro" href = "">
+                    <img src = "./img/Card League Of Legends WR mobile.png" alt = "">
+                </a>
+                <a class = "card-cinco" href = "">
+                    <img src = "./img/Card HextecMayhem.png" alt = "">
+                </a>
+                <a class = "card-seis" href = "">
+                    <img src = "./img/Card League Of Legends mobile.png" alt = "">
+                </a>
+                <a class = "card-sete" href = "">
+                    <img src = "./img/Card Valorant.png" alt = "">
+                </a>
+               
+
+            </div>
           
         </section>
 

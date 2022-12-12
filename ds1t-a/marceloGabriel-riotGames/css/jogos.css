@@ -87,13 +87,17 @@
     width: 15vw;
     top: 26px;
     left: 23px;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(7deg);
-    -o-transform: skew(-20deg);
+   
     background: #c1c1c100;
     border: 3px solid var(--primary-color);
     z-index: 3;
     transition: 1s;
+}
+
+.borda {
+    -webkit-transform: skew(7deg);
+    -moz-transform: skew(7deg);
+    -o-transform: skew(20deg);
 }
 
 .borda-um:hover {
@@ -108,9 +112,7 @@
     width: 15vw;
     top: 26px;
     left: 15px;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(7deg);
-    -o-transform: skew(-20deg);
+   
     background: #c1c1c100;
     border: 3px solid var(--primary-color);
     z-index: 3;
@@ -129,9 +131,7 @@
     width: 14vw;
     top: 26px;
     left: 15px;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(7deg);
-    -o-transform: skew(-20deg);
+    
     background: #c1c1c100;
     border: 3px solid var(--primary-color);
     z-index: 3;
@@ -150,9 +150,7 @@
     width: 14vw;
     top: 26px;
     left: 12px;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(7deg);
-    -o-transform: skew(-20deg);
+  
     background: #c1c1c100;
     border: 3px solid var(--primary-color);
     z-index: 3;
@@ -171,9 +169,7 @@
     width: 14vw;
     top: 26px;
     left: 10px;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(7deg);
-    -o-transform: skew(-20deg);
+    
     background: #c1c1c100;
     border: 3px solid var(--primary-color);
     z-index: 3;
@@ -192,9 +188,7 @@
     width: 14vw;
     top: 26px;
     left: 8px;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(7deg);
-    -o-transform: skew(-20deg);
+  
     background: #c1c1c100;
     border: 3px solid var(--primary-color);
     z-index: 3;
@@ -292,4 +286,65 @@
 #radio5:checked ~ .navigation-auto .auto-btn5{
     background-color: #fff;
 
+}
+
+.cards-mobile {
+    display: none;
+}
+
+.cards-tablet {
+    display: none;
+}
+
+@media (max-width: 660px) {
+
+    .jogos {
+        width: 100vw;
+        height: 130vh;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .fundo-jogos {
+        display: none;
+    }
+
+    .container-titulo-jogos {
+        top: -10%;
+    }
+
+    .cards-tablet {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 42px;
+      padding-bottom: 20px;
+    }
+
+    .cards-mobile {
+        display: none;
+    }
+
+    
+}
+
+@media (max-width: 340px) {
+
+    .cards-tablet {
+        display: none;
+    }
+
+    .cards-mobile {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cards-mobile img {
+        display: flex;
+        width: 100%;
+    }
 }
