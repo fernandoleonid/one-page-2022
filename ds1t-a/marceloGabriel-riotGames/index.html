@@ -11,49 +11,102 @@
     <link rel="stylesheet" href="./css/jogos.css">
     <link rel="stylesheet" href="./css/e-sports.css">
     <link rel="stylesheet" href="./css/sobre-nos.css">
+    <link rel="stylesheet" href="./css/contato.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+        
+
+    const controls = 
+    document.querySelectorAll('.control');
+
+    let currentIten = 0;
+
+    const itens = document.querySelectorAll('.item');
+
+    const maxItens = itens.length;
+
+    controls.forEach(control => {
+        control.addEventListener('click', () => {
+            const isLeft = control.classList.contains('arrow-left');
+            
+            if (isLeft) {
+                currentIten -= 1;
+            } else {
+                currentIten += 1;
+            }
+
+            if (currentIten >= maxItens) {
+                currentIten = 0;
+            }
+
+            if (currentIten < 0) {
+                currentIten = maxItens - 1 ;
+            }
+
+            item.forEach(item => item.classList.renove('current-iten'));
+
+            item[currentIten].scrollIntoView({
+                inline: "center",
+                behavior: "smooth",
+                
+            });
+        });
+    });
+    </script>
+    
     <title>RiotGames - Início</title>
 </head>
 
 <body>
     <Header>
-        <nav class="navegacao-cabecalho">
-            <div class="cabecalho-home-um">
-                <a href="">
-                    <img src="./img/Logo Riot Games.png" alt="Logo da Riot Games do Header">
+        <nav class = "navegacao-cabecalho">
+
+            <div class = "cabecalho-home-um">
+
+                <a href = "">
+                    <img src = "./img/Logo Riot Games.png" alt = "Logo da Riot Games do Header">
                 </a>
+            
             </div>
-            <div class="lista-cabecalho-home">
-                <a id="item-um" class="item-nav-header" href="#home">
-                    <img id="fundo-item-um" src="./img/Rectangle 7.png" alt="">
+            
+            <div class = "lista-cabecalho-home">
+                
+                <a id = "item-um" class = "item-nav-header" href = "#home">
+                    <img id = "fundo-item-um" src = "./img/Rectangle 7.png" alt = "botão que vai para a aba principal">
                     Home
                 </a>
-                <a id="item-dois" class="item-nav-header" href="#jogos">
-                    <img id="fundo-item-dois" src="./img/Rectangle 7.png" alt="">
+                <a id = "item-dois" class = "item-nav-header" href = "#jogos">
+                    <img id = "fundo-item-dois" src = "./img/Rectangle 7.png" alt = "botão que vai para a aba secundária que se chama Jogos">
                     Jogos
                 </a>
-                <a id="item-tres" class="item-nav-header" href="#e-sports">
-                    <img id="fundo-item-tres" src="./img/Rectangle 7.png" alt="">
+                <a id = "item-tres" class = "item-nav-header" href = "#e-sports">
+                    <img id = "fundo-item-tres" src = "./img/Rectangle 7.png" alt = "botão que vai para a aba terciária que se chama E-Sports">
                     E-Sports
                 </a>
-                <a id="item-quatro" class="item-nav-header" href="#sobre-nos">
-                    <img id="fundo-item-quatro" src="./img/Rectangle 7.png" alt="">
+                <a id = "item-quatro" class = "item-nav-header" href = "#sobre-nos">
+                    <img id = "fundo-item-quatro" src = "./img/Rectangle 7.png" alt = "botão que vai para a aba quarta que se chama Sobre-nós">
                     Sobre Nós
                 </a>
-                <a id="item-cinco" class="item-nav-header" href="#">
-                    <img id="fundo-item-cinco" src="./img/Rectangle 7.png" alt="">
+                <a id = "item-cinco" class = "item-nav-header" href = "#footer-contato">
+                    <img id = "fundo-item-cinco" src = "./img/Rectangle 7.png" alt = "botão que vai para a aba quinta que se chama Contato">
                     Contatos
                 </a>
+            
             </div>
+        
         </nav>
+    
     </Header>
     <Main>
-        <section class="home" id="home">
-            <div class="container-home">
-                <img class="logo-arcane-corpo" src="img/Logo Arcane.png" alt="">
-                <p class="paragrafo-arcane">
+        <section class = "home" id = "home">
+
+            <div class = "container-home">
+
+                <img class = "logo-arcane-corpo" src = "img/Logo Arcane.png" alt = "Logo da séria Arcane da Netflix">
+
+                <p class = "paragrafo-arcane">
                     Baseado no jogo League of Legends, Arcane é uma animação original da Netflix e reconta as histórias
                     de origem dos personagens de Piltover e Zaun. A trama gira em torno de uma tecnologia mágica
                     conhecida com hextec que dá a qualquer pessoa a habilidade de controlar energia mística e essa
@@ -61,52 +114,156 @@
                     apresentará ao público os caminhos que os personagens percorreram para se tornar quem são, além de
                     também apresentar inúmeros personagens novos
                 </p>
-                <a class="botao-assistir-arcane" href="">
-                    <img class="fundo-botao-assistir" src="./img/Rectangle 24.png" alt="">
-                    <p class="assistir">Assistir</p>
-
+                
+                <a class = "botao-assistir-arcane" href = "https://www.netflix.com/br/title/81435684">
+                    <img class = "fundo-botao-assistir" src = "./img/Rectangle 24.png" alt = "fundo de cor vermelha do botão assitir a séria Arcane da Netflix">
+                    <p class = "assistir">
+                        Assistir
+                    </p>
                 </a>
+            
             </div>
         </section>
-        <section class="jogos" id="jogos">
-            <div class="container-titulo-jogos">
-                <h1 class="titulo-jogos">
+
+        <section class = "jogos" id = "jogos">
+
+            <div class = "container-titulo-jogos">
+                <h1 class = "titulo-jogos">
                     Jogos
                 </h1>
             </div>
-            <img class="fundo-jogos" src="./img/Fundo jogos.png" alt="">
+            
+            <img class = "fundo-jogos" src = "./img/Fundo jogos.png" alt = "fundo de enfeite que fica na aba Jogos">
+        
+            
+
+            <div class = "slider">
+
+                <div class = "slides">
+
+                    <input type = "radio" name = "radio-btn" id = "radio1">
+                    <input type = "radio" name = "radio-btn" id = "radio2">
+                    <input type = "radio" name = "radio-btn" id = "radio3">
+                    <input type = "radio" name = "radio-btn" id = "radio4">
+                    <input type = "radio" name = "radio-btn" id = "radio5">
+
+                    <div class = "slide first slide-first">
+                        
+                        <a class = "link-jogo-lol" href = "#">
+                            <div class="borda-um"></div>
+                            <img src = "./img/Card LeagueOfLegends.png" alt = "Card 1">
+                        </a>
+                    </div>
+
+                    <div class = "slide slide-first">
+                        <a href = "#">
+                            <div class="borda-dois"></div>
+                            <img src = "./img/Card Valorant.png" alt = "Card 2">
+                        </a>
+                    </div>
+
+                    <div class = "slide slide-first">
+                        <a href = "#">
+                            <div class="borda-tres"></div>
+                            <img src = "./img/Card WR.png" alt = "Card 3">
+                        </a>
+                    </div>
+
+                    <div class = "slide slide-three">
+                        <a href = "#">
+                            <div class="borda-quatro"></div>
+                            <img src = "./img/Card HM.png" alt = "Card 4">
+                        </a>
+                    </div>
+
+                    <div class = "slide slide-four">
+                        <a href = "#">
+                            <div class="borda-cinco"></div>
+                            <img src = "./img/Card TFT.png" alt = "Card 4">
+                        </a>
+                    </div>
+
+                    <div class = "slide slide-first">
+                        <a href = "#">
+                            <div class="borda-seis"></div>
+                            <img src = "./img/Card RK.png" alt = "Card 4">
+                        </a>
+                    </div>
+
+                    <div class = "navigation-auto">
+                        <div class = "auto-btn1"></div>
+                        <div class = "auto-btn2"></div>
+                        <div class = "auto-btn3"></div>
+                        <div class = "auto-btn4"></div>
+                        <div class = "auto-btn5"></div>
+                    </div>
+
+                </div>
+
+                <div class = "manual-navigation">
+                   <label for = "radio1" class = "manual-btn"></label>
+                   <label for = "radio2" class = "manual-btn"></label>
+                   <label for = "radio3" class = "manual-btn"></label>
+                   <label for = "radio4" class = "manual-btn"></label>
+                   <label for = "radio5" class = "manual-btn"></label>
+                </div>
+
+
+            </div>
+
+                
+          
         </section>
 
-        <section class="e-sports" id="e-sports">
-            <div class="container-titulo-e-sports">
-                <h1 class="titulo-e-sports">
+        <section class = "e-sports" id = "e-sports">
+
+            <div class = "container-titulo-e-sports">
+                <h1 class = "titulo-e-sports">
                     E-Sports
                 </h1>
             </div>
-            <div class="container-conteudo-e-sports">
 
-                <div class="card-principal-e-sports">
-                    <a id="item-grande" href="#">
-                     <img src="./img/noticia-worlds.png" alt="">
-                        <h3>Lorem ipsum dolor sit amet, consectetur.</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium vitae modi in voluptate velit nostrum Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel porro atque earum explicabo ducimus deserunt libero eum sunt. Nostrum, maxime tenetur. Maxime nesciunt blanditiis, tempora fugit architecto dolorum voluptate nemo?.</p>
+            <div class = "container-conteudo-e-sports">
+
+                <div class = "card-principal-e-sports">
+
+                    <a id = "item-grande" href = "#">
+
+                     <img src = "./img/noticia-worlds.png" alt = "imagem em um card referente a uma noticia do campeonato mundial de 2022 do jogo League Of Legends">
+
+                        <h2>
+                            Lorem ipsum dolor sit amet, consectetur.
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium vitae modi in voluptate velit nostrum Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel porro atque earum explicabo ducimus deserunt libero eum sunt. Nostrum, maxime tenetur. Maxime nesciunt blanditiis, tempora fugit architecto dolorum voluptate nemo?.
+                        </p>
+
                     </a>
+                
                 </div>
 
-                <div class="lista-de-cards-e-sports">
+                <div class = "lista-de-cards-e-sports">
 
                     <div class = "cards-horizontal">
 
                         <a id = "item-um-horizontal" href = "">
-                            <img src = "./img/valorant-noticia-novo-agente.png" alt="">
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                            <img src = "./img/valorant-noticia-novo-agente.png" alt = "">
+                            <h2>
+                                Lorem Ipsum
+                            </h2>
+                            <p>
+                                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            </p>
                         </a>
 
                         <a id = "item-dois-horizontal" href = "">
-                            <img src = "./img/valorant-noticia-novo-agente.png" alt="">
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                            <img src = "./img/valorant-noticia-novo-agente.png" alt = "">
+                            <h2>
+                                Lorem Ipsum
+                            </h2>
+                            <p>
+                                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            </p>
                         </a>
 
                     </div>
@@ -115,55 +272,113 @@
 
                         <a id = "item-um-vertical" href = "">
                             
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                            <img src = "./img/valorant-noticia-novo-agente.png" alt="">
+                            <h2>
+                                Lorem Ipsum
+                            </h2>
+                            <p>
+                                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            </p>
+                            <img src = "./img/valorant-noticia-novo-agente.png" alt = "">
                         </a>
 
                         <a id = "item-dois-vertical" href = "">
                             
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                            <img src = "./img/valorant-noticia-novo-agente.png" alt="">
+                            <h2>
+                                Lorem Ipsum
+                            </h2>
+                            <p>
+                                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            </p>
+                            <img src = "./img/valorant-noticia-novo-agente.png" alt = "">
                         </a>
                         
                         <a id = "item-tres-vertical" href = "">
                             
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                            <img src = "./img/valorant-noticia-novo-agente.png" alt="">
+                            <h2>
+                                Lorem Ipsum
+                            </h2>
+                            <p>
+                                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            </p>
+                            <img src = "./img/valorant-noticia-novo-agente.png" alt = "">
                         </a>
 
                     </div>
 
-                    <a id="item-tres-botao-ver-mais" href="">
+                    <a id = "item-tres-botao-ver-mais" href = "">
                         Ver Mais
                     </a>
 
-
                 </div>
-
-                
-
-
 
             </div>
 
            
 
-            <img class="fundo-e-sports" src="./img/Fundo jogos.png" alt="">
+            <img class = "fundo-e-sports" src = "./img/Fundo jogos.png" alt = "">
 
         </section>
 
-        <section class="sobre-nos" id="sobre-nos">
-            <div class="container-titulo-sobre-nos">
-                <h1 class="titulo-sobre-nos">
+        <section class = "sobre-nos" id = "sobre-nos">
+
+            <div class = "container-titulo-sobre-nos">
+
+                <h1 class = "titulo-sobre-nos">
                     Sobre Nós
                 </h1>
+
             </div>
+
+            <img class = "fundo-sobre-nos" src = "./img/Img Cards Fundo.png" alt = "">
+
+            <div class = "sub-titulo-descricao-sobre-nos">
+
+                <h2>
+                    Sobre Nós
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non justo quis massa euismod finibus. Pellentesque laoreet nulla odio, in imperdiet leo ultricies a. Integer eget placerat dui. Mauris sed tortor fringilla, posuere augue eget, dapibus eros. Ut convallis pretium erat, ac tempus neque dictum id. Proin rutrum bibendum elit non varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean at ligula ut felis tristique egestas a nec dolor.
+                </p>
+
+            </div>
+
+            <a class = "botao-trabalhe-conosco-sobre-nos" href = "">
+                Trabalhe Conosco
+            </a>
+
         </section>
 
     </Main>
+
+    <Footer>
+
+        <section id = "footer-contato" class = "footer-contato">
+
+            <div class = "informacoes-contato">
+
+                <a href = "">
+                    Suporte ao Jogador
+                </a>
+
+                <ul>
+                    <li>facebook</li>
+                    <li>twitter</li>
+                </ul>
+
+            </div>
+
+            <a class = "direitos-contato" href = "">
+                Marcelo Gabriel © 2022 | Todos os direitos reservados.
+            </a>
+
+        </section>
+
+    </Footer>
+
+    <script src = "myscript.js"></script>
+
 </body>
+
 
 </html>
