@@ -1,6 +1,47 @@
-.menu{
+.dropdown-menu{
     display: flex;
-    gap: 8rem;
-    font-size: 1.5rem;
-    color: #ffffff 75%;
 }
+
+.dropdown-menu li{
+    width: 170px ;
+    list-style: none;
+}
+
+.dropdown-menu ul{
+    font-size: 1.5rem;
+    height: 60px;
+}
+
+.dropdown-menu a{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    transition: all .3s linear;
+}
+
+.dropdown-menu li:hover > a{
+    background-color:gray;
+    color: white;
+}
+
+.dropdown-menu li:hover > .dropdown-submenu {
+    display: block;
+}
+
+.dropdown-submenu{
+    display: none;
+}
+
+.dropdown-submenu a{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1rem;
+    border-left: 8px solid transparent;
+}
+.dropdown-submenu li:hover > a{
+    border-left: 8px solid black;
+}
+
