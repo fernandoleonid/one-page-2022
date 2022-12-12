@@ -41,11 +41,12 @@
     .button-iphone-mac {
         font-size: 1rem;
         width: 40vw;
-        height: 8vh;
+        height: 10vh;
     }
     .button-ipad-airpos-watch {
         font-size: 1rem;
         width: 40vw;
-        height: 8vh;
+        height: 10vh;
     }
 }
+

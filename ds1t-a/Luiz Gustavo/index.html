@@ -5,64 +5,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site com a finalidade estudantil, para praticar o aprendizado">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cb4f3aa626.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="./img/MAÇÃ.png" type="image/x-icon">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/menu.css">
-    <link rel="stylesheet" href="/css/inicio.css">
-    <link rel="stylesheet" href="/css/iphone.css">
-    <link rel="stylesheet" href="/css/ipad.css">
-    <link rel="stylesheet" href="/css/mac.css">
-    <link rel="stylesheet" href="/css/airpods.css">
-    <link rel="stylesheet" href="/css/title.css">
-    <link rel="stylesheet" href="/css/text.css">
-    <link rel="stylesheet" href="/css/button.css">
-    <link rel="stylesheet" href="/css/watch.css">
-    <link rel="stylesheet" href="/css/contato.css">
+    <link rel="shortcut icon" href="./img/simbolo-apple.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/iphone.css">
+    <link rel="stylesheet" href="css/ipad.css">
+    <link rel="stylesheet" href="css/mac.css">
+    <link rel="stylesheet" href="css/airpods.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/watch.css">
+    <link rel="stylesheet" href="css/contato.css">
     <title>One Page</title>
 </head>
 
 <body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
     <header>
         <div class="menu-bar">
             <div class="logo">
-                <img src="/img/simbolo-apple.png" alt="logo" class="img-logo">
+                <img src="./img/simbolo-apple.png" alt="logo" class="img-logo">
                 <p class="text-logo">APPLE</p>
             </div>
             <div class="menu">
                 <i class="fa-solid fa-bars"></i>
             </div>
             <ul class="lista-menu">
-
                 <li id="li-inicio">
-                    <a href="#inicio">
+                    <a href="#inicio" aria-label="link utilizado pra mudar de seção">
                         Início
                     </a>
                 </li>
                 <li id="li-iphone">
-                    <a href="#iphone">
+                    <a href="#iphone" aria-label="link utilizado pra mudar de seção">
                         Iphone
                     </a>
                 </li>
                 <li id="li-ipad">
-                    <a href="#ipad">
+                    <a href="#ipad" aria-label="link utilizado pra mudar de seção">
                         Ipad
                     </a>
                 </li>
                 <li id="li-mac">
-                    <a href="#mac">
+                    <a href="#mac" aria-label="link utilizado pra mudar de seção">
                         MacBook
                     </a>
                 </li>
                 <li id="li-ipod-watch">
-                    <a href="#airpods-watch">
+                    <a href="#airpods-watch" aria-label="link utilizado pra mudar de seção">
                         AirWatch e AirPods
                     </a>
                 </li>
                 <li id="li-contatos">
-                    <a href="#contato">
+                    <a href="#contato" aria-label="link utilizado pra mudar de seção">
                         Contato
                     </a>
                 </li>
@@ -80,30 +90,31 @@
                         a linha de computadores Macintosh, iPod, iPhone, iPad, Apple TV e o Apple Watch.
                     </p>
                 </div>
-                <img src="/img/produtos.png" alt="produtos" class="img-produtos">
+                <img src="./img/produtos.png" alt="produtos" class="img-produtos">
             </div>
 
             <div class="logo-footer">
-                <img src="/img/simbolo-apple.png" alt="logo" class="img-logo-footer">
+                <img src="./img/simbolo-apple.png" alt="logo" class="img-logo-footer">
                 <p class="text-logo-footer">APPLE</p>
             </div>
 
         </section>
         <section class="section-iphone" id="iphone">
-            <div class="main-left">
-                <img src="/img/iphones.png" alt="iphones" class="iphones">s
+            <div class="main-left-iphone">
+                <img src="./img/iphones.png" alt="iphones" class="iphones">s
                 <p class="text-button">
                     IPhone 14 pro o mais potente e tecnologico atualmente, clique no botão e veja:
                 </p>
-                <a href="https://www.apple.com/br/iphone-14-pro/" class="button-iphone-mac">Clique Aqui</a>
+                <a href="https://www.apple.com/br/iphone-14-pro/" class="button-iphone-mac"
+                aria-label="botão para ir ao produto da pagina, o iphone 14 pro">Clique Aqui</a>
             </div>
-            <div class="main-right">
+            <div class="main-right-iphone">
                 <h1 class="title">IPhone</h1>
                 <p class="text">
                     iPhone é uma linha de smartphones desenvolvidos e comercializados pela Apple Inc. É o único smartphone a operar com o sistema operacional móvel iOS. A primeira geração do iPhone foi lançada em 29 de junho de 2007, desde então, a Apple lançou novos modelos
                     anualmente sendo o iPhone 14, iPhone 14 Plus, iPhone 14 Pro e iPhone 14 Pro Max os modelos mais recentes. A linha ‘14’ do iPhone foi anunciada em 7 de setembro de 2022 na conferência anual da Apple, transmitida na Apple Park, em Cupertino.
                 </p>
-                <img src="/img/iphone-14.png" alt="iphone14" class="iphone14">
+                <img src="./img/iphone-14.png" alt="iphone14" class="iphone14">
             </div>
         </section>
         <section class="section-ipad" id="ipad">
@@ -113,31 +124,33 @@
                     A linha iPad Pro compreende os tablets estado-da-arte da Apple. Estes contam com telas de 11 e 12,9 polegadas, tecnologia True Tone e taxa de atualização de 120 Hz (que a Apple chama de ProMotion), o poderoso processador exclusivo Apple A12X Bionic, mais
                     RAM (4 ou 6 GB), e um corpo com bordas finas e sem botão Home.
                 </p>
-                <img src="/img/ipad.png" alt="ipad" class="img-ipad">
+                <img src="./img/ipad.png" alt="ipad" class="img-ipad">
             </div>
             <div class="ipad-pro">
                 <p class="text-button">
                     IPad pro o mais potente e tecnologico atualmente veja:
                 </p>
-                <a href="https://www.apple.com/br/ipad-pro/" class="button-ipad-airpos-watch ">Clique Aqui</a>
+                <a href="https://www.apple.com/br/ipad-pro/" class="button-ipad-airpos-watch "
+                aria-label="botão para ir ao produto da pagina, o ipad pro">Clique Aqui</a>
             </div>
         </section>
         <section class="section-mac" id="mac">
             <h1 class="title">MacBook</h1>
             <div class="main-mac">
-                <div class="main-left">
+                <div class="main-left-mac">
                     <p class="text">
                         Atualmente a apple conta com 3 versões da sua linha desktop, o IMac, AirMac e o Mac. Sendo o AirMac como se fosse um notebook, o mac uma computador padrão não tem monitor outro tipo de periférico embutido e o IMac é um computador embutido em um monitor
                         de alta qualidade e de tamanho a partir de 24 polegadas.
                     </p>
-                    <img src="/img/variedades-mac.png" alt="macs" class="macs">
+                    <img src="./img/variedades-mac.png" alt="macs" class="macs">
                 </div>
-                <div class="main-right">
-                    <img src="/img/mac-pro.png" alt="mac-pro" class="mac-pro">
+                <div class="main-right-mac">
+                    <img src="./img/mac-pro.png" alt="mac-pro" class="mac-pro">
                     <p class="text">
                         O desktop mais atual é o Macbook pro, Os dois podem ser configurados com o chip M1 Pro ou o M1 Max e oferecem um desempenho profissional incomparável. Veja no clicando no botão:
                     </p>
-                    <a href="https://www.apple.com/br/macbook-pro-13/" class="button-iphone-mac">Clique Aqui</a>
+                    <a href="https://www.apple.com/br/macbook-pro-13/" class="button-iphone-mac"
+                    aria-label="botão para ir ao produto da pagina, o MacBook pro de 13 polegadas">Clique Aqui</a>
                 </div>
             </div>
         </section>
@@ -151,11 +164,12 @@
                         AirPods é uma linha de fones bluetooth desenvolvidos pela Apple. A primeira geração foi lançada em setembro de 2016 e a sua segunda geração em março de 2019.
                     </p>
                     <div class="airpods-pro">
-                        <img src="/img/airpods-pro.png" alt="airpods" class="img-airpods-pro">
+                        <img src="./img/airpods-pro.png" alt="airpods" class="img-airpods-pro">
                         <p class="text-button-airpods">Clique no botão e vejo o mais atual, o Airpos Pro:</p>
                     </div>
                 </div>
-                <a href="https://www.apple.com/br/airpods-pro/" class="button-ipad-airpos-watch ">Clique Aqui</a>
+                <a href="https://www.apple.com/br/airpods-pro/" class="button-ipad-airpos-watch"
+                aria-label="botão para ir ao produto da pagina, o airpods-pro">Clique Aqui</a>
 
             </div>
             <div class="div-title-wacth">
@@ -166,8 +180,9 @@
                     O Apple Watch (estilizado como WATCH) é uma linha de relógios inteligentes criado pela Apple. Ele possui a capacidade de rastrear exercícios físicos, recursos voltados para a saúde, comunicações sem fio e é integrado com o iOS e outros produtos da Apple
                     para realização de algumas ações. Clique no botão e vejo o Apple Watch Series 6 o mais avaçado atualmente:
                 </p>
-                <img src="/img/watch.png" alt="watch" class="watch">
-                <a href="https://www.apple.com/br/apple-watch-ultra/" class="button-ipad-airpos-watch ">Clique Aqui</a>
+                <img src="./img/watch.png" alt="watch" class="watch">
+                <a href="https://www.apple.com/br/apple-watch-ultra/" class="button-ipad-airpos-watch " 
+                aria-label="botão para ir ao produto da pagina, o apple apple-watch-ultra">Clique Aqui</a>
             </div>
             </div>
         </section>
@@ -200,52 +215,54 @@
                 </div>
                 <ul class="social-container">
                     <li class="social-icon">
-                        <a href="https://www.instagram.com/luyz.dev/">
+                        <a href="https://www.instagram.com/luyz.dev/" aria-label="link utilizado ir a rede social do instagram do autor">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                     </li>
                     <li class="social-icon">
-                        <a href="https://www.linkedin.com/in/luyz-dev">
+                        <a href="https://www.linkedin.com/in/luyz-dev" aria-label="link utilizado ir a rede social do linkedin do autor">
                             <i class="fa-brands fa-linkedin"></i>
                         </a>
                     </li>
                     <li class="social-icon">
-                        <a href="https://github.com/luyz-dev">
+                        <a href="https://github.com/luyz-dev" aria-label="link utilizado ir a rede social do github do autor">
                             <i class="fa-brands fa-github"></i>
                         </a>
                     </li>
                     <li class="social-icon">
-                        <i class="fa-brands fa-facebook"></i>
+                        <a href="https://www.facebook.com/profile.php?id=100043078784368" aria-label="link utilizado ir a rede social do facebook do autor">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
                     </li>
                 </ul>
                 <ul class="link-container">
                     <li class="li-link">
-                        <a href="#inicio">
+                        <a href="#inicio" aria-label="link utilizado pra mudar de seção">
                             Início
                         </a>
                     </li>
                     <li class="li-link">
-                        <a href="#iphone">
+                        <a href="#iphone" aria-label="link utilizado pra mudar de seção">
                             Iphone
                         </a>
                     </li>
                     <li class="li-link">
-                        <a href="#ipad">
+                        <a href="#ipad" aria-label="link utilizado pra mudar de seção">
                             Ipad
                         </a>
                     </li>
-                    <li class="li-link">
+                    <li class="li-link" aria-label="link utilizado pra mudar de seção">
                         <a href="#mac">
                             MacBook
                         </a>
                     </li>
                     <li class="li-link">
-                        <a href="#airpods-watch">
+                        <a href="#airpods-watch" aria-label="link utilizado pra mudar de seção">
                             AirPods
                         </a>
                     </li>
                     <li class="li-link">
-                        <a href="#contato">
+                        <a href="#contato" aria-label="link utilizado pra mudar de seção">
                             Contato
                         </a>
                     </li>

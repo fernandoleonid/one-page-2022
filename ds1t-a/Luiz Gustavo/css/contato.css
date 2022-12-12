@@ -116,7 +116,7 @@ h2 {
 
 @media (max-width: 960px) {
     .section-contato {
-        height: 120vh;
+        height: 150vh;
     }
     .title-contato {
         width: 100vw;
@@ -142,11 +142,14 @@ h2 {
 
 @media (max-width: 640px) {
     .section-contato {
-        height: 130vh;
+        height: 150vh;
     }
     .title-contato {
         font-size: 3rem;
         height: 10vh;
+    }
+    .contatos{
+        width: auto;
     }
     .main-contato {
         gap: 30px;
@@ -157,3 +160,13 @@ h2 {
         flex-direction: column;
     }
 }
+
+@media (max-width: 320px){
+    .title-contato{
+        font-size: 1.5rem;
+    }
+    span{
+        font-size: 0.75rem;
+    }
+}
+

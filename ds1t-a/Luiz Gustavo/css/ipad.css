@@ -20,26 +20,46 @@
     gap: 25px;
 }
 
+.img-ipad{
+    width: 31vw;
+    height: 46vh;
+}
+
 @media (max-width: 960px) {
     .section-ipad {
         gap: 50px;
+        height: 135vh;
     }
     .main-ipad {
         display: flex;
         flex-direction: column;
+        height: 75vh;
+    }
+    .img-ipad{
+        width: 50vw;
+        height: 46vh;
     }
 }
 
 @media (max-width: 640px) {
     .section-ipad {
-        height: 71vh;
+        height: 90vh;
         gap: 15px;
     }
     .main-ipad {
-        height: 48vh;
+        height: 60vh;
     }
     .img-ipad {
         width: 80vw;
         height: auto;
+    }
+}
+
+@media (max-width: 320px){
+    .section-ipad{
+        height: 80vh;
+    }
+    .main-ipad{
+        height: 50vh;
     }
 }

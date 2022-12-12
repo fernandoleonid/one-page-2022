@@ -4,6 +4,27 @@
     grid-template-columns: 50% 50%;
 }
 
+.main-right-iphone {
+    grid-column: 2;
+    display: grid;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 50px;
+}
+
+.main-left-iphone {
+    grid-column: 1;
+    display: grid;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    gap: 20px;
+}
+
 .iphones {
     width: 710px;
     height: 400px;
@@ -18,7 +39,16 @@
     .section-iphone {
         display: grid;
         grid-template-areas: "right right" "left left";
-        height: 135vh;
+        height: 160vh;
+    }
+    .main-right-iphone {
+        gap: 20px;
+        grid-area: right;
+        height: 80vh;
+    }
+    .main-left-iphone {
+        grid-area: left;
+        height: 70vh;
     }
     .iphone14 {
         width: 386px;
@@ -32,7 +62,13 @@
 
 @media (max-width: 640px) {
     .section-iphone {
-        height: 73vh;
+        height: 100vh;
+    }
+    .main-right-iphone{
+        height: 30vh;
+    }
+    .main-left-iphone{
+        height: 60vh;
     }
     .iphone14 {
         display: none;
@@ -40,5 +76,14 @@
     .iphones {
         width: 80vw;
         height: auto;
+    }
+}
+
+@media (max-width: 320px){
+    .section-iphone{
+        height: 100vh;
+    }
+    .main-right-iphone{
+        height: 40vh;
     }
 }

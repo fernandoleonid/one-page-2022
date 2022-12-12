@@ -5,6 +5,11 @@
     align-items: center;
 }
 
+.img-logo{
+    width: 5vw;
+    height: auto;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -72,5 +77,14 @@
         display: flex;
         font-size: 3rem;
         color: #CCCCCC;
+    }
+}
+
+@media (max-width: 320px){
+    .text-logo{
+        font-size: 2rem;
+    }
+    .menu{
+        font-size: 2rem;
     }
 }
