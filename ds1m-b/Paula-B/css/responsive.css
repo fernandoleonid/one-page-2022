@@ -83,3 +83,37 @@
         display: flex;
     }
 }
+
+@media(max-width:380px) {
+    header {
+        display: flex;
+    }
+    .menu {
+        display: none;
+    }
+    .description-title {
+        display: flex;
+        width: 60vw;
+        margin-left: 4vw;
+        font-size: 5vw;
+    }
+    .description-text {
+        font-size: 5vw;
+    }
+    .icon>img {
+        width: 40px;
+        height: 40px;
+    }
+    .cuidados_list {
+        margin-top: 2vw;
+        font-size: 1rem;
+    }
+}
+
+.cuidado_title {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+
+}

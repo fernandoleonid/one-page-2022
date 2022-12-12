@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Landing Page sobre gatos">
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script src="./js/sidenav.js"></script>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -17,6 +18,7 @@
     <link rel="stylesheet" href="./css/cuidados.css">
     <link rel="stylesheet" href="./css/porque.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/sidenav.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,8 +29,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Updock&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
-
-    <script src="./js/sign-language.js"></script>
+    <!-- 
+    <script src="./js/sign-language.js"></script> -->
     <script src="https://kit.fontawesome.com/6cc8a6f404.js" crossorigin="anonymous"></script>
 
     <title>a cat's life</title>
@@ -41,6 +43,27 @@
             <img src="./img/logo.png" alt="pata" class="logo">
         </div>
         <nav>
+            <i onclick="openNavHalf()" id="icon-half-menu" class="fas fa-bars"></i>
+            <ul id="mySidenav" class="sidenav">
+                <li>
+                    <a href="#" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="#racas">Raças</a>
+                </li>
+                <li>
+                    <a href="#curiosidades">Curiosidades</a>
+                </li>
+                <li>
+                    <a href="#cuidados">Cuidados</a>
+                </li>
+                <li>
+                    <a href="#porque">Porque?</a>
+                </li>
+            </ul>
             <ul class="menu">
                 <li>
                     <a href="#sobre">Sobre</a>
