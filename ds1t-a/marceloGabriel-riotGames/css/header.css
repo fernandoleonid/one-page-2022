@@ -112,6 +112,10 @@ header {
     width: 100px;
 }
 
+.fa-bars {
+    display: none;
+}
+
 @media (max-width: 660px) {
     header {
         max-width: 660px;
