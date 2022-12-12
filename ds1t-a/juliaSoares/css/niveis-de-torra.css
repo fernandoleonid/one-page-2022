@@ -5,7 +5,7 @@
 
 .container__torra {
     height: 700px;
-    width: 100%;
+    width: 100vw;
     background-color: #1E3932;
     display: grid;
     grid-template-areas: "texto imagem";
@@ -62,7 +62,7 @@
     grid-area: texto;
     size: 40px;
     margin-top: 450px;
-    margin-left: 300px;
+    margin-left: 340px;
 }
 
 .tempo-leitura {
@@ -70,4 +70,5 @@
     font-size: 1.5rem;
     color: white;
     margin-top: 450px;
+    margin-left: 70px;
 }

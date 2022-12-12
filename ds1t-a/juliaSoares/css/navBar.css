@@ -3,12 +3,18 @@
     margin: 50px;
 }
 
+
+/* nav {
+    width: 100vh;
+} */
+
 .navBar {
     display: flex;
     gap: 100px;
     font-size: 2rem;
     color: white;
     margin: 100px;
+    width: 800px;
 }
 
 .navBar li {

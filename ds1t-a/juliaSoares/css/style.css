@@ -27,7 +27,7 @@
          background-color: #006241;
          justify-content: space-between;
          align-items: center;
-         width: 1670px;
+         width: 100vw;
          height: 125px;
          z-index: 1;
      }
@@ -45,7 +45,7 @@
          display: flex;
          flex-direction: column;
          background-color: #006241;
-         width: 100%;
+         width: 100vw;
          height: 400px;
          justify-content: center;
          align-items: center;
