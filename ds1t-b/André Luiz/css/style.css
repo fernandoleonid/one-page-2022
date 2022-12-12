@@ -51,21 +51,11 @@ footer{
     body{
      overflow-x: hidden;
     }
-
+    
    header{
         height: 15vh;
         padding: 10px;
         width: 100%;
-   }
-
-   nav{
-        display: none;
-   }
-
-   .menubar-container{
-        color: white;
-        font-size: 2.5rem;
-        display: block;
    }
 
    footer{
