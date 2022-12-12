@@ -32,11 +32,19 @@ Nesse projeto foi desenvolvido um fómulario para compra.Esse formulario foi des
 ![](./imgReadme/Formulario.png)
 
 ---
+## Boas Práticas
+![](./imgReadme/BoasPraticas.png)
+
+---
 ## AUTOR
 
 - [Gustavo Henrique](https://github.com/GustavoHenriqueProjects)
-- [Pizzaria Fornalha](https://gustavohenriqueprojects.github.io/PizzariaFornalha/)
 
+---
+## Links para acessa os projetos
+
+- [Pizzaria Fornalha](https://gustavohenriqueprojects.github.io/PizzariaFornalha/)
+- [Figma](https://www.figma.com/file/pijyGv3HaFVa3vJ5amyuNy/Untitled?node-id=0%3A1&t=LKkO1F5Fv7XwvEdy-1)
 
 
 
