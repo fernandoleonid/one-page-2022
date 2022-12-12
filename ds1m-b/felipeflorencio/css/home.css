@@ -1,0 +1,56 @@
+
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+.home__content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.cello{
+    width: 30rem;
+    height: 40rem;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    z-index: 1;
+}
+#bghome{
+    position: absolute;
+    top:0%;
+    right : 20rem; 
+}
+
+@media  (max-width:960px) {
+    .cello{
+        width: 420px;
+        height: 650px;
+        transform: translate(10%,0%);
+    }
+    .home__content{
+        gap: 10%;
+    }
+
+    #bghome{
+        right : 1rem; 
+    }
+    
+}
+@media  (max-width:640px){
+   .home__content{
+    height: 100%;
+    width: 100%;
+    align-items: flex-start;
+   }
+   .cello{
+    height: 80%;
+    width: 75%;
+   }
+}
