@@ -1,0 +1,303 @@
+@media(max-width:640px){
+    header {
+        /* max-width: 600px; */
+        width: 375px;
+        height: 80px;
+        /* margin-left: 10px; */
+        padding-left: 10px ;
+        transform: translatex(-85%);
+    }
+
+    .logo-principal {
+        height: 50px;
+        margin: 10px;
+    }
+
+    .navBar {
+        display: flex;
+        font-size: 16px;
+        gap: 15px;
+        transform: translatex(-25%);
+        width: 375px;
+        /* width: 375px; */
+        /* padding: 5px; */
+        /* padding-left: 100px; */
+    }
+
+    body{
+        width: 100%;
+    }
+
+    main{
+        width: 375px;
+        grid-template-columns: 1fr;
+    }
+
+    .home {
+        max-width: 375px;
+    }
+
+    .slider {
+        /* width: 300px;
+        height: 250px; */
+        display: none;
+    }
+
+    .slides {
+        /* width: 500%;
+        height: 40px;
+        display: flex; */
+        display: none;
+    }
+
+    .historia{
+        display: grid;
+        grid-template-areas: "historia";
+        /* height: auto; */
+        max-width: 375px;
+        justify-content: center;
+        /* max-width: 375px ;
+        display: grid;
+        grid-template-areas: "historia";
+        height: auto;  */
+      }
+  
+      .store-starbucks{
+          /* display: flex;
+          height: 200px; */
+          height: 300px;
+          margin-left: 70px;
+          margin-top: 150px;
+      }
+  
+      .historia__title{
+          /* display: flex;
+          font-size: 1rem;
+          margin-top: 50px;
+          padding-left: 100px; */
+          font-size: 1rem;
+          align-self: center;
+          margin-top: 25px;
+          margin-left: 170px;
+      }
+  
+      .historia__subtitle{
+          /* font-size: 1.75rem;
+          margin-top: 60px; */
+          font-size: 1.75rem;
+          margin-top: 60px;
+          margin-left: 60px;
+      }
+  
+      .historia__text{
+          /* font-size: 1.25rem;
+          width: 350px; */
+          font-size: 1.1rem;
+          width: 325px;
+          margin-top: 110px;
+          margin-left: 30px;
+      }
+
+      .button-historia{
+        height: 40px;
+        width: 150px;
+        font-size: 1rem;
+        margin-top: 550px;
+        margin-left: 35%;
+        padding-left: 30px;
+        padding-top: 10px;
+      }
+
+      .livro-img{
+        height: 20px;
+        margin-top: 600px;
+        margin-left: 150px;
+        display: none;
+
+      }
+
+      .texto-leitura{
+        /* font-size: 1.25rem; */
+        display: none;
+        
+      }
+
+      .niveis-de-torra {
+        display: grid;
+        height: auto;
+        max-width: 375px;
+        align-items: center;
+    }
+    
+    .container__torra {
+        grid-template-areas: "niveis-de-torra";
+        justify-items: center;
+        padding: 40px;
+        width: 375px;
+        height: 600px;
+    }
+    
+    .img-graos {
+        grid-area: niveis-de-torra;
+        height: 350px;
+        margin-top: 150px;
+        margin-left: -300px;
+    }
+    
+    .title__torra {
+        grid-area: niveis-de-torra;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 90px;
+    }
+    
+    .subtitle__torra {
+        grid-area: niveis-de-torra;
+        font-size: 2rem;
+        margin-left: -40px;
+    }
+    
+    .text__torra {
+        grid-area: niveis-de-torra;
+        font-size: 1.1rem;
+        width: 350px;
+        margin-left: -20px;
+        margin-top: 100px;
+    }
+    
+    .button_torra {
+        grid-area: niveis-de-torra;
+        height: 40px;
+        width: 150px;
+        padding: 5px;
+        margin-top: 450px;
+    }
+    
+    .livro-branco {
+        grid-area: niveis-de-torra;
+        margin-top: 500px;
+        margin-left: 10px; 
+        display: none;
+    }
+    
+    .tempo-leitura {
+        grid-area: niveis-de-torra;
+        margin-top: 900;
+        display: none;
+        /* grid-area: texto;
+        font-size: 1.5rem;
+        color: white;
+        margin-top: 450px; */
+    }
+
+    .menu {
+        width: 375px;
+        align-items: center;
+    }
+    
+    .title__menu {
+        font-size: 1.25rem;
+        margin-top: 20px;
+        text-align: center;
+    } 
+    
+    .subtitle__menu {
+        font-size: 2rem;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .container__menu{
+        display: none;
+        /* margin: 0;
+        background: lightgray;
+        text-align: center;
+        font-family: sans-serif;
+        color: #fefefe;*/
+    } 
+    
+      .container-carrosel {
+        display: none;
+        /* position: relative;
+        width: 300px;
+        margin: 100px auto 0 auto;
+        perspective: 1000px; */
+      }
+      
+      .carrosel {
+        display: none;
+        /* position: absolute;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d; 
+        animation: rotate360 60s infinite forwards linear; */
+      }
+      .carrosel__img { 
+        display: none;
+        /* position: absolute;
+        width: 150px;
+        height: 250px;
+        top: 20px;
+        left: 10px;
+        right: 10px;
+        background-size: cover;
+        box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+        display: flex; */
+      }
+      
+      span {
+        /* margin: auto;
+        font-size: 1.75rem; */
+      }
+
+      footer {
+        width: 375px;
+        height: 250px;
+        /* grid-template-columns: 1fr; */
+        /* display: flex;
+        flex-direction: column;
+        background-color: #006241;
+        width: 100%;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        color: white; */
+    }
+    
+    .logo-footer {
+        height: 100px;
+        position: absolute;
+        transform: translateY(-110%);
+    }
+    
+    .contatos {
+        display: flex;
+        font-size: 1.25rem;
+        flex-direction: row;
+        gap: 30px;
+        padding: 5px;
+    }
+    
+    .social-icon {
+        display: flex;
+        gap: 5px;
+        font-size: 1rem;
+        padding-right: 20px;
+    } 
+    
+    .linha {
+        border-top: 2px solid #fff;
+        width: 100%;
+        margin-top: 150px;
+    }
+    
+    .direitos {
+        width: 325px;
+        font-size: .75rem;
+        text-align: center;
+    }
+    
+
+}

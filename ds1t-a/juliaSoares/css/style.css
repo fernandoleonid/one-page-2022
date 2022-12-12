@@ -9,7 +9,7 @@
      
      body {
          display: grid;
-         grid-template-areas: "content";
+         grid-template-areas: "conteiner";
          background-color: #f8f3e7;
      }
      
@@ -21,20 +21,21 @@
      }
      
      header {
-         grid-area: content;
+         grid-area: conteiner;
          display: flex;
          place-self: start center;
          background-color: #006241;
          justify-content: space-between;
          align-items: center;
-         width: 100%;
+         width: 1670px;
+         /* max-width: 200vw; */
          height: 125px;
          z-index: 1;
      }
      
      main {
-         grid-area: content;
-         width: 100%;
+         grid-area: conteiner;
+         width: 1670px;
      }
      
      section {
@@ -85,3 +86,15 @@
          font-size: 1.25rem;
          text-align: center;
      }
+
+     /* @media(max-width:640px){
+        .header{
+            max-width: 550px;
+        }
+
+        .main {
+            grid-template-columns: 1fr;
+        }
+
+
+     } */

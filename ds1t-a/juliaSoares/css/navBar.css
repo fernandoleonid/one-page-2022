@@ -19,3 +19,24 @@
 .navBar li:hover {
     border-bottom: 4px solid white;
 }
+
+/* @media(max-width: px){
+
+    .logo-principal{
+        height: 60px;
+        margin: 10px;
+    }
+
+    .navBar{
+        display: flex;
+        font-size: 1.25rem;
+        gap: 30px;
+        padding-left: 100px;
+    }
+
+
+
+
+
+
+} */
