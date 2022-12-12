@@ -1,13 +1,9 @@
 .home{
     background-image: url(../img/capa_doce.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 1800px;
-    height: 1100px;
-
-    
+    background-size: cover; 
 }
-.titulo-home{
+.titulo_home{
     display: flex;
     margin-left: 50%;
     margin-top: 10%;
