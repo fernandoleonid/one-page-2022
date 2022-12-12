@@ -32,6 +32,10 @@ Nesse projeto foi desenvolvido um fómulario para compra.Esse formulario foi des
 ![](./imgReadme/Formulario.png)
 
 ---
+## Boas Práticas
+![](./imgReadme/BoasPraticas.png)
+
+---
 ## AUTOR
 
 - [Gustavo Henrique](https://github.com/GustavoHenriqueProjects)
