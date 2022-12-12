@@ -31,7 +31,6 @@ html{
 }
 
 footer{
-    place-self: end start;
     height: 70px;
     width: 100%;
     display: grid;
@@ -86,17 +85,19 @@ footer{
 
     .contatos{
         width: 100%;
-        height: 1000px;
+        height: 600px;
         grid-template-rows: 125px auto;
         background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03)), rgba(12, 20, 27, 0.87);
         background-size: cover;
     }
 
-    .footer{
-        display: none;
+    footer {
+        height: 70px;
+        font-size: 10px;   
     }
 
     .back{
         display: none;
     }
+   
 }

@@ -103,8 +103,10 @@
     }
 
     .informacoes {
+        height: 100%;
         width: 100%;
         align-items: center;
+        justify-content: center;
     }
 
     .texto-informacoes {
@@ -112,11 +114,12 @@
     }
 
     .info-item {
-        gap: 0px;
+        padding-left: 110px ;
+        gap: 10px;
     }
 
    .texto-vetor {
-    font-weight: 400;
-    font-size: 20px;
+        font-weight: 400;
+        font-size: 20px;
    }
 }
