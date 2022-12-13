@@ -7,6 +7,7 @@
     grid-template-columns: 50% 50%;
     height: 75vh;
 }
+
 .main-right-mac {
     grid-column: 2;
     display: grid;
@@ -28,19 +29,22 @@
     gap: 20px;
 }
 
-.mac-pro{
+.mac-pro {
     width: 35vw;
     height: 41vh;
 }
 
-.macs{
+.macs {
     width: 31vw;
     height: 40vh;
 }
 
 @media (max-width: 960px) {
     .section-mac {
-        height: 160vh;
+        height: 130vh;
+    }
+    .section-mac h1 {
+        height: 17vh;
     }
     .main-mac {
         display: flex;
@@ -66,12 +70,15 @@
 
 @media (max-width: 640px) {
     .section-mac {
-        height: 125vh;
+        height: 100vh;
     }
-    .main-right-mac{
+    .section-mac h1 {
+        height: 6vh;
+    }
+    .main-right-mac {
         height: 60vh;
     }
-    .main-left-mac{
+    .main-left-mac {
         height: 60vh;
     }
     .macs {
@@ -84,8 +91,8 @@
     }
 }
 
-@media (max-width: 375px){
-    .section-mac{
+@media (max-width: 375px) {
+    .section-mac {
         height: 130vh;
     }
 }

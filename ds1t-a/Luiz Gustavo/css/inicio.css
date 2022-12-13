@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.img-logo-footer{
+.img-logo-footer {
     width: 5vw;
     height: 11vh;
 }
@@ -57,8 +57,8 @@
 }
 
 @media (max-width: 960px) {
-    .section-inicio{
-        height: 100vh;
+    .section-inicio {
+        height: 95vh;
     }
     .main-home {
         display: flex;
@@ -72,12 +72,21 @@
         width: 65vw;
         height: 76vh;
     }
-
+    .img-logo-footer {
+        width: 70px;
+        height: auto;
+    }
+    .logo-footer {
+        height: auto;
+    }
+    .text-logo-footer {
+        font-size: 3rem;
+    }
 }
 
 @media (max-width: 640px) {
     .section-inicio {
-        height: 55vh;
+        height: 50vh;
     }
     .title-apple {
         font-size: 2rem;
@@ -93,8 +102,8 @@
     }
 }
 
-@media (max-width: 375px){
-    .section-inicio{
+@media (max-width: 375px) {
+    .section-inicio {
         height: 75vh;
     }
 }

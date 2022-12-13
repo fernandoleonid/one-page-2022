@@ -8,6 +8,7 @@
     <meta name="description" content="Site com a finalidade estudantil, para praticar o aprendizado">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cb4f3aa626.js" crossorigin="anonymous"></script>
+    <script src="./js/burger.js" defer></script>
     <link rel="shortcut icon" href="./img/simbolo-apple.png" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -22,6 +23,7 @@
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/watch.css">
     <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/menu-mob.css">
     <title>One Page</title>
 </head>
 
@@ -29,22 +31,22 @@
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
+            <div class="vw-plugin-top-wrapper"></div>
         </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
-      </script>
+    </script>
     <header>
         <div class="menu-bar">
             <div class="logo">
                 <img src="./img/simbolo-apple.webp" alt="logo" class="img-logo">
                 <p class="text-logo">APPLE</p>
             </div>
-            <div class="menu">
-                <i class="fa-solid fa-bars"></i>
-            </div>
+            <a href="#" class="menu-burger-container" aria-label="container do menu">
+                <i class="menu-burger"></i>
+            </a>
             <ul class="lista-menu">
                 <li id="li-inicio">
                     <a href="#inicio" aria-label="link utilizado pra mudar de seção">
@@ -105,8 +107,7 @@
                 <p class="text-button">
                     IPhone 14 pro o mais potente e tecnologico atualmente, clique no botão e veja:
                 </p>
-                <a href="https://www.apple.com/br/iphone-14-pro/" class="button-iphone-mac"
-                aria-label="botão para ir ao produto da pagina, o iphone 14 pro">Clique Aqui</a>
+                <a href="https://www.apple.com/br/iphone-14-pro/" class="button-iphone-mac" aria-label="botão para ir ao produto da pagina, o iphone 14 pro">Clique Aqui</a>
             </div>
             <div class="main-right-iphone">
                 <h1 class="title">IPhone</h1>
@@ -130,8 +131,7 @@
                 <p class="text-button">
                     IPad pro o mais potente e tecnologico atualmente veja:
                 </p>
-                <a href="https://www.apple.com/br/ipad-pro/" class="button-ipad-airpos-watch "
-                aria-label="botão para ir ao produto da pagina, o ipad pro">Clique Aqui</a>
+                <a href="https://www.apple.com/br/ipad-pro/" class="button-ipad-airpos-watch " aria-label="botão para ir ao produto da pagina, o ipad pro">Clique Aqui</a>
             </div>
         </section>
         <section class="section-mac" id="mac">
@@ -149,8 +149,7 @@
                     <p class="text">
                         O desktop mais atual é o Macbook pro, Os dois podem ser configurados com o chip M1 Pro ou o M1 Max e oferecem um desempenho profissional incomparável. Veja no clicando no botão:
                     </p>
-                    <a href="https://www.apple.com/br/macbook-pro-13/" class="button-iphone-mac"
-                    aria-label="botão para ir ao produto da pagina, o MacBook pro de 13 polegadas">Clique Aqui</a>
+                    <a href="https://www.apple.com/br/macbook-pro-13/" class="button-iphone-mac" aria-label="botão para ir ao produto da pagina, o MacBook pro de 13 polegadas">Clique Aqui</a>
                 </div>
             </div>
         </section>
@@ -168,8 +167,7 @@
                         <p class="text-button-airpods">Clique no botão e vejo o mais atual, o Airpos Pro:</p>
                     </div>
                 </div>
-                <a href="https://www.apple.com/br/airpods-pro/" class="button-ipad-airpos-watch"
-                aria-label="botão para ir ao produto da pagina, o airpods-pro">Clique Aqui</a>
+                <a href="https://www.apple.com/br/airpods-pro/" class="button-ipad-airpos-watch" aria-label="botão para ir ao produto da pagina, o airpods-pro">Clique Aqui</a>
 
             </div>
             <div class="div-title-wacth">
@@ -181,8 +179,7 @@
                     para realização de algumas ações. Clique no botão e vejo o Apple Watch Series 6 o mais avaçado atualmente:
                 </p>
                 <img src="./img/watch.webp" alt="watch" class="watch">
-                <a href="https://www.apple.com/br/apple-watch-ultra/" class="button-ipad-airpos-watch " 
-                aria-label="botão para ir ao produto da pagina, o apple apple-watch-ultra">Clique Aqui</a>
+                <a href="https://www.apple.com/br/apple-watch-ultra/" class="button-ipad-airpos-watch " aria-label="botão para ir ao produto da pagina, o apple apple-watch-ultra">Clique Aqui</a>
             </div>
             </div>
         </section>

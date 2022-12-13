@@ -39,12 +39,12 @@
     .section-iphone {
         display: grid;
         grid-template-areas: "right right" "left left";
-        height: 160vh;
+        height: 140vh;
     }
     .main-right-iphone {
         gap: 20px;
         grid-area: right;
-        height: 80vh;
+        height: 70vh;
     }
     .main-left-iphone {
         grid-area: left;
@@ -62,13 +62,13 @@
 
 @media (max-width: 640px) {
     .section-iphone {
-        height: 100vh;
+        height: 75vh;
     }
-    .main-right-iphone{
-        height: 30vh;
+    .main-right-iphone {
+        height: 20vh;
     }
-    .main-left-iphone{
-        height: 60vh;
+    .main-left-iphone {
+        height: 55vh;
     }
     .iphone14 {
         display: none;
@@ -79,11 +79,11 @@
     }
 }
 
-@media (max-width: 375px){
-    .section-iphone{
+@media (max-width: 375px) {
+    .section-iphone {
         height: 120vh;
     }
-    .main-right-iphone{
+    .main-right-iphone {
         height: 50vh;
     }
 }

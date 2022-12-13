@@ -116,7 +116,7 @@ h2 {
 
 @media (max-width: 960px) {
     .section-contato {
-        height: 150vh;
+        height: 130vh;
     }
     .title-contato {
         width: 100vw;
@@ -142,13 +142,13 @@ h2 {
 
 @media (max-width: 640px) {
     .section-contato {
-        height: 150vh;
+        height: 140vh;
     }
     .title-contato {
         font-size: 3rem;
         height: 10vh;
     }
-    .contatos{
+    .contatos {
         width: auto;
     }
     .main-contato {
@@ -161,15 +161,14 @@ h2 {
     }
 }
 
-@media (max-width: 375px){
-    .section-contato{
+@media (max-width: 375px) {
+    .section-contato {
         height: auto;
     }
-    .title-contato{
+    .title-contato {
         font-size: 1.5rem;
     }
-    span{
+    span {
         font-size: 0.75rem;
     }
 }
-
