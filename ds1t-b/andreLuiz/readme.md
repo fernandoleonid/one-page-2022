@@ -1,7 +1,7 @@
-# ONE PAGE APPLE
+# ONE PAGE SAMSUNG
 
 ![](./img/Home.ong)
-- [Link do site](https://luyz-dev.github.io/one-page-2022/ds1t-a/Luiz%20Gustavo/index.html)
+- [Link do site]()
 
 ---
 ## Sobre
@@ -38,5 +38,5 @@ Antes da realização do site, fiz o protótipo no figma, tanto do desktop, quan
 ## Contatos
 - [Instagram](https://www.instagram.com/andreluisconstanino/)
 - [Linkedin](https://www.linkedin.com/in/andré-luiz-constantino-4b779124a/)
-- WhatsApp: (11) 9-6759-3159
+- WhatsApp: (11) 97049-3172
 
