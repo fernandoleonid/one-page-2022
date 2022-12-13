@@ -1,6 +1,6 @@
 .destinos{
     display: flex;
-    gap: 50px;
+    gap: 3.6vw;
     flex-direction: column;
     text-align: center;
     height: auto;
@@ -50,4 +50,7 @@
     -ms-transform: scale(1.05);
     transform: scale(1.05);
     transition: 1s;
+}
+@media (max-width: 960px){
+
 }

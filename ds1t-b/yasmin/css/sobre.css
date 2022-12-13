@@ -33,7 +33,18 @@
 }
 @media (max-width: 960px){
     .sobre{
-        max-width: 750px;
+        
         width: 100%;
+        width: 100%;
+        height: auto;
+    }
+    .img-turista{
+        width: 35vw;
+    }
+    .sobre__title{
+        font-size: 6vw;
+    }
+    .sobre__description{
+        font-size: 3vw;
     }
 }
