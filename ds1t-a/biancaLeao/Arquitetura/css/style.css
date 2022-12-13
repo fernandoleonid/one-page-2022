@@ -62,15 +62,20 @@ footer{
     place-self: end center;
     place-content: center;
     font-size: 2.6rem;
-    width: 100%;
     color: #ffff;
     background-color: #000000;
 }
+
+footer p{
+    font-size: 1.2rem;
+   
+}
 .social-media{
     display: flex;
-    gap: 7vw;
+    justify-content: space-between;
     padding-top: 3vh;
     padding-bottom: 3vh;
+
 }
 @media (max-width: 660px) {
     header{
@@ -80,8 +85,12 @@ footer{
         opacity: .3;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 430px) {
     header{
         margin-top: 22px;
     }
+    
+footer p{
+    font-size: .7rem;
+}
 }
