@@ -1,235 +1,159 @@
 @media(max-width:640px) {
-   .mercurio {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-       margin: 0;
-   }
-   .Image_text_mercurio {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
-
-   
-.title_mercurio{
-   margin: 0;
-  
-}
-.Text_mercurio {
-width: 500px;
-/* background-color: blueviolet; */
-text-align: center;
-
-
-}
-.Image_text_mercurio {
-   gap: 32px;
-}
-
-/* venus */
-.venus {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-    margin: 0;
-}
-.Image_text_venus {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
-
-.title_venus{
-margin: 0;
-
-}
-.Text_venus{
-width: 500px;
-/* background-color: blueviolet; */
-text-align: center;
-
-
-}
-.Image_text_venus {
-gap: 32px;
-}
-
-/* Terra */
-
-.terra {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-    margin: 0;
-}
-.Image_text_terra {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
-
-.title_terra{
-margin: 0;
-
-}
-.Text_terra{
-width: 500px;
-/* background-color: blueviolet; */
-text-align: center;
-
-
-}
-.Image_text_terra {
-gap: 32px;
-}
-
-/* marte */
-.marte {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-    margin: 0;
-}
-.Image_text_marte {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
-
-.title_marte{
-margin: 0;
-
-}
-.Text_marte{
-width: 500px;
-/* background-color: blueviolet; */
-text-align: center;
-
-
-}
-.Image_text_marte {
-gap: 32px;
-}
-
-/* jupter */
-.jupiter {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-    margin: 0;
-}
-.Image_text_jupiter {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
-
-.title_jupiter{
-margin: 0;
-
-}
-.Text_jupiter{
-width: 500px;
-/* background-color: blueviolet; */
-text-align: center;
-
-
-}
-.Image_text_jupiter {
-gap: 32px;
-
-}
-/* saturno */
-.saturno {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-    margin: 0;
-    
-}
-.Image_text_saturno {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
-
-.title_saturno{
-margin: 0;
-
-}
-.Text_saturno{
-width: 500px;
-/* background-color: blueviolet; */
-text-align: center;
-
-
-}
-.Image_text_saturno {
-gap: 32px;
-}
-
-/* Urano */
-.urano{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-    margin: 0;
-}
-.Image_text_urano {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
-
-.title_urano{
-margin: 0;
-
-}
-.Text_urano{
-width: 500px;
-/* background-color: blueviolet; */
-text-align: center;
-
-
-}
-.Image_text_urano {
-gap: 32px;
-}
-
-/* Netuno */
-
-.netuno{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-    margin: 0;
-}
-.Image_text_netuno {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
-
-.title_netuno{
-margin: 0;
-
-}
-.Text_netuno{
-width: 500px;
-/* background-color: blueviolet; */
-text-align: center;
-
-
-}
-.Image_text_netuno {
-gap: 32px;
-}
+    .mercurio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .Image_text_mercurio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .frame4 img {
+        width: 300px;
+    }
+    .title_mercurio {
+        margin: 0;
+    }
+    .Text_mercurio,
+    .Text_venus,
+    .Text_terra,
+    .Text_marte,
+    .Text_jupiter,
+    .Text_saturno,
+    .Text_netuno,
+    .Text_urano {
+        width: 300px;
+        padding-bottom: 50px;
+    }
+    .Image_text_mercurio {
+        gap: 32px;
+    }
+    /* venus */
+    .venus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .Image_text_venus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_venus {
+        margin: 0;
+    }
+    .Image_text_venus {
+        gap: 32px;
+    }
+    /* Terra */
+    .terra {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .Image_text_terra {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_terra {
+        margin: 0;
+    }
+    .Image_text_terra {
+        gap: 32px;
+    }
+    /* marte */
+    .marte {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .Image_text_marte {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_marte {
+        margin: 0;
+    }
+    .Image_text_marte {
+        gap: 32px;
+    }
+    /* jupter */
+    .jupiter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .Image_text_jupiter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_jupiter {
+        margin: 0;
+    }
+    .Image_text_jupiter {
+        gap: 32px;
+    }
+    /* saturno */
+    .saturno {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .Image_text_saturno {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_saturno {
+        margin: 0;
+    }
+    .Image_text_saturno {
+        gap: 32px;
+    }
+    /* Urano */
+    .urano {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .Image_text_urano {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_urano {
+        margin: 0;
+    }
+    .Image_text_urano {
+        gap: 32px;
+    }
+    /* Netuno */
+    .netuno {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .Image_text_netuno {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_netuno {
+        margin: 0;
+    }
+    .Image_text_netuno {
+        gap: 32px;
+    }
 }

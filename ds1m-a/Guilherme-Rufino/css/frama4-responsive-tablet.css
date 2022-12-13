@@ -1,0 +1,7 @@
+@media(max-width:1300px) {
+    .frame4 img {
+        width: 500px;
+        font-size: 1.5rem;
+        gap: 30px;
+    }
+}

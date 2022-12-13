@@ -1,272 +1,168 @@
 .frame4 {
     width: 100%;
     height: 100%;
-    background-color:black;
+    background-color: black;
     display: flex;
     flex-direction: column;
-     /* height: 100vh;  */
 }
-/* 
 
+.frame4 img {
+    width: 900px;
+}
 
-
-*/
 .Text_mercurio {
     width: 900px;
     color: white;
-    /* background-color: tomato; */
     font-size: 30px;
     align-items: center;
     display: flex;
     justify-content: center;
 }
+
 .title_mercurio {
-    /* background-color: teal; */
     color: white;
     font-size: 39px;
-    /* background-color: tomato; */
     margin-left: 200px;
     margin-top: 200px;
     margin-bottom: 100px;
     max-width: max-content;
-    
-  
+}
 
-}
-.image_mercurio{
-    max-width: max-content;
-}
-.Image_text_mercurio {
+.Image_text_mercurio,
+.Image_text_venus,
+.Image_text_terra,
+.Image_text_marte,
+.Image_text_jupiter,
+.Image_text_saturno,
+.Image_text_urano,
+.Image_text_netuno {
     display: flex;
     flex-direction: row;
-    gap: 300px;
+    gap: 100px;
 }
-
-/* 
-
-venus
-*/
 
 .Text_venus {
     width: 900px;
     color: white;
-    /* background-color: tomato; */
     font-size: 30px;
     align-items: center;
     display: flex;
     justify-content: center;
 }
+
 .title_venus {
-    /* background-color: teal; */
     color: white;
     font-size: 39px;
-    /* background-color: tomato; */
     margin-left: 200px;
     margin-top: 200px;
     margin-bottom: 100px;
     max-width: max-content;
-    
-  
-
 }
-.image_venus{
-    max-width: max-content;
-}
-.Image_text_venus {
-    display: flex;
-    flex-direction: row;
-    gap: 300px;
-}
-
-/* terra */
 
 .Text_terra {
     width: 900px;
     color: white;
-    /* background-color: tomato; */
     font-size: 30px;
     align-items: center;
     display: flex;
     justify-content: center;
 }
+
 .title_terra {
-    /* background-color: teal; */
     color: white;
     font-size: 39px;
-    /* background-color: tomato; */
     margin-left: 200px;
     margin-top: 200px;
     margin-bottom: 100px;
     max-width: max-content;
-    
-  
-
 }
-.image_terra{
-    max-width: max-content;
-}
-.Image_text_terra {
-    display: flex;
-    flex-direction: row;
-    gap: 300px;
-}
-
-/* marte */
 
 .Text_marte {
     width: 900px;
     color: white;
-    /* background-color: tomato; */
     font-size: 30px;
     align-items: center;
     display: flex;
     justify-content: center;
 }
+
 .title_marte {
-    /* background-color: teal; */
     color: white;
     font-size: 39px;
-    /* background-color: tomato; */
     margin-left: 200px;
     margin-top: 200px;
     margin-bottom: 100px;
     max-width: max-content;
-    
-  
-
-}
-.image_marte{
-    max-width: max-content;
-}
-.Image_text_marte {
-    display: flex;
-    flex-direction: row;
-    gap: 300px;
 }
 
-/* jupiter */
 .Text_jupiter {
     width: 900px;
     color: white;
-    /* background-color: tomato; */
     font-size: 30px;
     align-items: center;
     display: flex;
     justify-content: center;
 }
+
 .title_jupiter {
-    /* background-color: teal; */
     color: white;
     font-size: 39px;
-    /* background-color: tomato; */
     margin-left: 200px;
     margin-top: 200px;
     margin-bottom: 100px;
     max-width: max-content;
-    
-  
-
 }
-.image_jupiter{
-    max-width: max-content;
-}
-.Image_text_jupiter {
-    display: flex;
-    flex-direction: row;
-    gap: 300px;
-}
-/* saturno */
 
 .Text_saturno {
     width: 900px;
     color: white;
-    /* background-color: tomato; */
     font-size: 30px;
     align-items: center;
     display: flex;
     justify-content: center;
 }
+
 .title_saturno {
-    /* background-color: teal; */
     color: white;
     font-size: 39px;
-    /* background-color: tomato; */
     margin-left: 200px;
     margin-top: 200px;
     margin-bottom: 100px;
     max-width: max-content;
-    
-  
-
-}
-.image_saturno{
-    max-width: max-content;
-}
-.Image_text_saturno {
-    display: flex;
-    flex-direction: row;
-    gap: 300px;
 }
 
-/* urano */
 .Text_urano {
     width: 900px;
     color: white;
-    /* background-color: tomato; */
     font-size: 30px;
     align-items: center;
     display: flex;
     justify-content: center;
 }
+
 .title_urano {
-    /* background-color: teal; */
     color: white;
     font-size: 39px;
-    /* background-color: tomato; */
     margin-left: 200px;
     margin-top: 200px;
     margin-bottom: 100px;
     max-width: max-content;
-    
-  
+}
 
-}
-.image_urano{
-    max-width: max-content;
-}
-.Image_text_urano {
-    display: flex;
-    flex-direction: row;
-    gap: 300px;
-}
-/* netuno */
 .Text_netuno {
     width: 900px;
     color: white;
-    /* background-color: tomato; */
     font-size: 30px;
     align-items: center;
     display: flex;
     justify-content: center;
 }
+
 .title_netuno {
-    /* background-color: teal; */
     color: white;
     font-size: 39px;
-    /* background-color: tomato; */
     margin-left: 200px;
     margin-top: 200px;
     margin-bottom: 100px;
     max-width: max-content;
-    
-  
-
-}
-.image_netuno{
-    max-width: max-content;
-}
-.Image_text_netuno {
-    display: flex;
-    flex-direction: row;
-    gap: 300px;
 }
