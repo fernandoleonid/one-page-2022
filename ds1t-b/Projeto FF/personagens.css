@@ -9,7 +9,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    grid-area: content;
 }
 
 .titulo-personagens{
@@ -26,7 +25,6 @@
     display: flex;
     flex-direction: row;
     height: 725px;
-    width: 100%;
     align-items: center;
     justify-content: center;
 }
@@ -36,9 +34,94 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 150vh;
-    height: 100%;
-    gap: 50px
+    width: 100%;
+    gap: 150px;
+}
+
+.icone {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 200px;
+}
+
+.texto-personagem {
+    padding-top: 300px;
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    flex: none;
+    transform: rotate(-90deg);
+}
+
+.texto-personagem-dois {
+    padding-top: 180px;
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    flex: none;
+    transform: rotate(-90deg);
+}
+
+.texto-personagem-tres {
+    padding-top: 160px;
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    flex: none;
+    transform: rotate(-90deg);
+}
+
+.texto-personagem-quatro {
+    padding-top: 200px;
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    flex: none;
+    transform: rotate(-90deg);
+}
+
+.texto-personagem-cinco {
+    padding-top: 100px;
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    flex: none;
+    transform: rotate(-90deg);
+}
+
+.botao-esquerdo {
+    display: none;
+}
+
+.botao-direito {
+    display: none;
 }
 
 /* MOBILE */
@@ -51,5 +134,64 @@
     .blocos-personagens{
         height: 600px;
     }
+
+    .icone{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .icones-personagens{
+        align-items: center;
+        align-self: center;
+    }
+
+    .texto-personagem{
+        padding: 0px;
+        transform: none;
+    }
+
+    .texto-personagem-dois{
+        padding: 0px;
+        transform: none;
+    }
+
+    .texto-personagem-tres{
+        padding: 0px;
+        transform: none;
+    }
+
+    .texto-personagem-quatro{
+        padding: 0px;
+        transform: none;
+    }
+    .texto-personagem-cinco{
+        padding: 0px;
+        transform: none;
+    }
+
+    .botao-esquerdo{
+        display: flex;
+        flex-direction: column;
+        width: 25px;
+        height: 85px;
+        padding-top: 250px;
+        padding-left: 30px;
+        align-items: center;
+        align-self:auto;
+        grid-area: person;
+    }
+
+    .botao-direito {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 1.56%;
+        padding-top: 353px;
+        padding-right: 10px;
+    }
+
+    
 }
 
