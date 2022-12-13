@@ -1,4 +1,4 @@
-# DS1T - A - LUIZ GUSTAVO
+# ONE PAGE APPLE
 
 ![](./img/telainicial.webp)
 - [Link do site](https://luyz-dev.github.io/one-page-2022/ds1t-a/Luiz%20Gustavo/index.html)
