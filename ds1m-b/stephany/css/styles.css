@@ -1,17 +1,27 @@
 body{
     display: grid;
-    grid-template-rows: 1fr 100px;
+    grid-template-rows: 100px 1fr 100px;
     grid-template-columns: 1fr;
+    background-color:black;
+    font-family: 'Pacifico', cursiva;
+
+    
+}
+html{
+    scroll-behavior: smooth;
 }
 
 
+
 header{
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 0 64px;
+    background-color: white;
+
 }
 
 .menu {
@@ -26,6 +36,8 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff;
+    font-family: 'Pacifico', cursiva;
 }
 .o-que-foi h1{
     display: flex;
@@ -33,9 +45,35 @@ header{
     justify-content: center;
     font-size: 40px;
     margin: 24px 0;
+    color: #fff;
+
  }
 .o-que-foi p {
     font-size: 30px;    
     text-align: center;
+    justify-content: center;
+    color: #fff;
 }
+.imagens-header{
+    display: flex;
+    gap: 800px;
+    margin-top: 80px;
+    justify-content: center;
+}
+.joseph{
+    padding-top: 300px;
+}
+section{
+    height: auto;
+}
+
+footer{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-top: 200px;
+    color:white;
+    border-top: 2px solid white;
+}
+
 

@@ -1,0 +1,40 @@
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin: 24px 0;
+    padding-top: 200px;
+    color: #fff;
+}
+.experimentos{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    margin: 24px 0;
+    padding-top: 200px;
+    gap: 64px;
+    height: 800px;
+}
+.img_txt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    max-width: 650px;
+    gap: 12px;
+    color: #fff;
+}
+.cig_olho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+.gemeos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
