@@ -6,7 +6,7 @@
 ---
 ## Sobre
 
-Site do tipo one-page sobre a grande compania de tecnologia Apple. 
+Site do tipo one-page sobre a grande companhia de tecnologia Apple. 
 O objetivo deste projeto é colocar em prática os conhecimentos adquiridos no curso de Desenvolvimento de Sistemas do [Senai Jandira](https://jandira.sp.senai.br/). 
 ---
 ## Tecnologias Utilizadas
