@@ -1,0 +1,52 @@
+header {
+    grid-area: content;
+    max-width: 1800px;
+    width: 100%;
+    place-self: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.logo::after {
+    content: "Pet";
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.estrela {
+    transform: translate(1080%, 280%);
+    width: 90px;
+}
+
+.menu {
+    margin-top: 2rem;
+    display: flex;
+    gap: 40px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-right: 2rem;
+}
+
+.menu li {
+    border-bottom: 4px solid transparent;
+    transition: border-color .5s;
+}
+
+.menu li:hover {
+    border-bottom: 4px solid var(--primary-color);
+}
+
+.mini-menu {
+    width: 30px;
+    display: none;
+}

@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #3cadeede;
+    --default-padding: 2rem;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    display: grid;
+    grid-template-areas: "content";
+    /*     background-color: pink;
+ */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    height: 100vh;
+    /* background-color: blue; */
+}
+
+.voltar {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    display: grid;
+    font-size: 2.5rem;
+    transition: all .5s;
+    z-index: 7;
+    color: white;
+}
+
+.voltar:hover {
+    color: rgb(156, 218, 247)
+}

@@ -1,0 +1,58 @@
+    .contatos {
+        background-color: var(--primary-color);
+        display: grid;
+        height: 30vh;
+        width: 100%;
+    }
+    
+    .logo2 {
+        font-size: 2rem;
+        font-family: 'Fredoka One', cursive;
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+    
+    .logo2::after {
+        content: "Pet";
+        font-size: 2rem;
+        color: white;
+        font-weight: 500;
+    }
+    
+    .contatos-div {
+        display: grid;
+        align-self: center;
+        text-align: center;
+        grid-template-columns: 0.5fr 0.5fr 0.5fr;
+        width: 100%;
+        align-items: center;
+        transform: translateY(-30px);
+    }
+    
+    .social-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .social {
+        font-size: 2rem;
+        color: white;
+    }
+    
+    .social:hover {
+        color: black;
+    }
+    
+    .contato-title {
+        font-size: 1.3rem;
+    }
+    
+    .contato-title:hover {
+        font-size: 1.4rem;
+        color: white;
+    }
+    
+    .contato-item {
+        font-size: 1.3rem;
+    }

@@ -1,0 +1,57 @@
+.caracteristicas {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "title" "img" "text";
+}
+
+.titles-caracteristicas {
+    font-size: 4rem;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+    text-align: center;
+    display: grid;
+    margin-top: 20px;
+    grid-area: title;
+}
+
+.titles-caracteristicas::after {
+    content: " físicas";
+    color: var(--primary-color);
+}
+
+.foto-ultimo-gato {
+    grid-area: img;
+    margin-left: 14rem;
+    margin-top: 50px;
+}
+
+.gatito {
+    width: 850px;
+}
+
+.text-caracteristicas {
+    margin-top: 20px;
+}
+
+.textos-todos {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.5rem;
+    width: 700px;
+    height: auto;
+    grid-area: text;
+    text-align: right;
+    transform: translate(1000px, -600px);
+}
+
+.linha-antes {
+    grid-area: title;
+    margin-top: 100px;
+    transform: translateX(300px);
+}
+
+.linha-depois {
+    grid-area: title;
+    margin-top: 100px;
+    transform: translateX(1250px);
+}
