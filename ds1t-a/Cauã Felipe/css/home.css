@@ -1,0 +1,64 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/home2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-home{
+    overflow: hidden;
+    position: fixed;
+    place-self:start center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 45px;
+    justify-content: space-between;
+    color: #FFFFFF;
+    gap: 900px;
+    text-shadow: 
+               -1px -1px 0px #000, 
+               -1px 1px 0px #000,                    
+                1px -1px 0px #000,                  
+                1px 0px 0px #000;
+    
+}
+
+.text-home li{
+    border-bottom: 4px solid transparent;
+    transition: border-color .5s;
+}
+
+.text-home li:hover{
+    border-color: #FF9929;
+}
+
+
+.nav{
+    display: flex;
+    gap: 55px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.img-naruto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.img-home{
+    padding: 240px;
+}
+
+.img-home:hover{
+    
+}
+
