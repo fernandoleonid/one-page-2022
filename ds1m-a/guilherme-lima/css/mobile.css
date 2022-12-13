@@ -11,7 +11,7 @@ header{
     height: 1070px;
 }
 .title-sobre{
-    font-size: 3.5rem
+    font-size: 3rem
 }
 .description-sobre{
     font-size: 1.25rem;
@@ -20,13 +20,13 @@ header{
     height: 960px;
 }
 .title-protagonista{
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 .description-protagonista{
     font-size: 1.25rem;
 }
 .icones{
-    width: 475px;
+    width: 455px;
 }
 .frases{
     height: 2040px;
@@ -44,7 +44,7 @@ header{
     flex-direction: column;
 }
 .title-frases{
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 .jogo{
     height: 1890px;
@@ -58,7 +58,7 @@ header{
     height: 1100px;
 }
 .title-filme{
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 .trailer{
     width: 325px;
@@ -67,6 +67,9 @@ header{
     font-size: 1.35rem;
 }
 .title-mais{
-    font-size: 3.5rem;
+    font-size: 3rem;
+}
+footer{
+    font-size: .7rem;
 }
 }
