@@ -1,0 +1,233 @@
+.banda{
+
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  
+
+}
+
+.banda::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(imagens/fundoGranulado\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -100;
+
+}
+
+  .Roger{
+
+    display: grid;
+     grid-template-areas:"Nomeimagem TextoRoger";
+  }
+
+  .imgRoger{
+
+ width: 42vw;
+ height: 22vw;
+
+  }
+  .Nomeimagem{
+
+    grid-area:Nomeimagem ;
+
+  }  
+  .TextoRoger{
+    grid-area:TextoRoger;
+    color: var(--claro);
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    margin-top: 6vw;
+    width: 55vw;
+    margin-left: 1vw;
+}
+  }
+
+  .imgRoger{
+
+    
+
+  }
+
+.Syd{
+
+    display: grid;
+     grid-template-areas:"TextoRoger Nomeimagem ";
+  }
+  .Nomeimagem{
+
+   
+    grid-area:Nomeimagem ;
+
+  }  
+  .TextoSyd{
+   
+    grid-area:TextoRoger;
+    color: var(--claro);
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    margin-top: 9vw;
+    width: 55vw;
+    margin-left: 1%;
+}
+  
+
+.imgSid{
+
+  width: 42vw;
+  height: 22vw;
+}
+
+  .Nomeimagem{
+
+   
+    grid-area:Nomeimagem ;
+
+  }  
+  .Richard{
+
+    display: grid;
+     grid-template-areas:" Nomeimagem TextoRichard ";
+  }
+  
+  .TextoRichard{
+    grid-area:TextoRichard;
+    color: var(--claro);
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    margin-top: 6vw;
+    width: 55vw;
+    margin-left: 1vw;
+}
+
+.imgRichard1{
+  
+  width: 42vw;
+  height: 22vw;
+}
+
+.Nic{
+
+  display: grid;
+   grid-template-areas:" TextoNic Nomeimagem ";
+}
+.Nomeimagem{
+  height: 23vw;
+  width: 45vw;
+  grid-area:Nomeimagem ;
+
+}  
+.Textonic{
+  grid-area:TextoNic;
+  color: var(--claro);
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: 'Inter', sans-serif;
+  margin-top: 10vw;
+  width: 55vw;
+  margin-left: 1vw;
+}
+
+.imgNic{
+  margin-top: -9vw;
+  width: 42vw;
+  height: 22vw;
+
+}
+
+.giraRoger{
+  position: absolute;
+  width: 7vw;
+  height: 7vw;
+  animation: spin 7s infinite linear;
+  left: 37vw;
+
+}
+.giraSyd{
+
+  position: absolute;
+  width: 11vw;
+  height: 11vw;
+  animation: spin 7s infinite linear;
+  right: 36vw;
+
+}
+.giraRichard{
+  left: 35vw;
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    animation: spin 7s infinite linear;
+
+}
+.giraNic{
+  
+  position: absolute;
+  width: 11vw;
+  height: 11vw;
+  animation: spin 7s infinite linear;
+  right: 36vw;
+}
+@media (max-width:768px) {
+
+  .banda{
+    height: 75vh;
+}
+
+
+ .imgRoger{
+   margin-top: 7%;
+  width: 45vw;
+  height: 25vw;
+ 
+   }
+  .TextoRoger{
+    margin-left: -50vw;
+    margin-right: 1vw;
+    width: 49vw;
+  }
+
+  .TextoSyd{
+      margin-right: 1vw;
+      width: 49vw;
+    }
+  
+
+.imgSid{
+  margin-left: -44vw;
+  margin-top: 10%;
+  width: 45vw;
+  height: 25vw;
+}
+
+  .TextoRichard{
+    margin-top: -8vw;
+    margin-left: -50vw;
+    margin-right: 1vw;
+    width: 49vw;
+}
+
+.imgRichard1{
+  margin-top: -50vw;
+  margin-top: 7%;
+  width: 45vw;
+  height: 25vw;
+  
+}
+
+.imgNic{
+  margin-top: 5%;
+  margin-left: -25vw;
+  width: 42vw;
+  height: 22vw;
+
+}
+
+}
