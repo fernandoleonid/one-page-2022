@@ -85,11 +85,11 @@
     width: 518px;
 }
 .nome-do-filme{
-    /* grid-area: pearl; */
+    position: absolute;
     display: flex;
     white-space: nowrap;
-    align-items: flex-start;
-    align-self: flex-start;
+    z-index: 1;
+    place-self: start end;
     color: #86150F;
     transform: rotate(90deg);
 }
@@ -97,12 +97,10 @@
     grid-area: diretor-filme;
     display: flex;
     white-space: nowrap;
-    /* align-items: flex-start;
-    align-self: flex-start; */
     place-self: end start;
     color: #86150F;
     transform: rotate(90deg);
-    background-color: tomato;
+    
 }
 @media (max-width: 960px) {
     .descricao-filme{
@@ -113,7 +111,6 @@
         background-repeat: no-repeat;
         background-size: 700px 1100px;
     }
-    
     .titulo{
         margin-left: 29px;
     }
