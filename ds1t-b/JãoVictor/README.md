@@ -23,6 +23,6 @@ O objetivo deste projeto é colocar em prática os conhecimentos, sobre desenvol
 
 - [Figma](https://www.figma.com/file/W2rtrGVNqsK48h4yoqPleN/Untitled?node-id=215%3A7&t=Zc8ps83QdY0mwKqE-0) 
 
-- Auto Avaliação : Nota 7/8 por causa da responsividade  
+- Auto Avaliação : Nota 7/10 por causa da responsividade  
 
 
