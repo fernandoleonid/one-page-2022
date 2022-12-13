@@ -158,7 +158,10 @@
     .vlive{
         height: 3vh;
     }
-    
+    .social_links{
+        display: flex;
+        flex-direction: column;
+    }
     .copyright{
         padding-top: 64px;
         align-self: flex-start;
