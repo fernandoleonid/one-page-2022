@@ -1,0 +1,134 @@
+.chaveamento{
+    height: 100vh;
+    background-color: #550066;
+    background: linear-gradient(#550066, #730a88) ;
+}
+.linha-chav{
+    width: 100vw;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+.linha2-chav{
+    width: 100vw;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 130px;
+}
+.chaveamento-title{
+    text-align: start;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Signika', sans-serif;
+    font-size: 44px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.chaveamento-desc{
+    width: 700px;
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    font-size: 36px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.chaveamento-list{
+    width: 700px;
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.chaveamento-img{
+    margin-top: -600px;
+    margin-left: 900px;
+    width: 900px;
+    height: 550px;
+}
+.direitos{
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    justify-content: center;
+    color: #ffffff;
+}
+/* Responsividade */
+@media (max-width:1630px){
+    .chaveamento-title{
+        font-family: 'Signika', sans-serif;
+        font-size: 32px;
+    
+    }
+    .chaveamento-desc{
+        font-family: 'Kanit', sans-serif;
+        font-size: 28px;
+    }
+    .chaveamento-list{
+        font-family: 'Kanit', sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .chaveamento-img{
+        margin-left: 800px;
+        width: 700px;
+        height: 450px;
+    }
+}
+
+@media(max-width:640px){
+    .linha-chav{
+        width: 400px;
+        height: 3px;
+        background-color: #ffffff;
+        margin-top: 20px;
+    }
+    .linha2-chav{
+        width: 400px;
+        height: 3px;
+        background-color: #ffffff;
+        margin-top: 0px;
+    }
+    .chaveamento-img{
+        margin-left: 40px;
+        margin-top: 0px;
+        padding: 10px;
+        width: 320px;
+        height: 200px;
+    }
+    .chaveamento-title{
+        font-family: 'Signika', sans-serif;
+        font-size: 22px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .chaveamento-desc{
+        font-family: 'Kanit', sans-serif;
+        font-size: 16px;
+        width: 350px;
+        padding: 0;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .chaveamento-list{
+        font-family: 'Kanit', sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        margin-left: 20px;
+        width: 200px;
+    }
+    .direitos{
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    justify-content: flex-start;
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: 30px;
+    }
+}
