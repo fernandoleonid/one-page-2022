@@ -24,7 +24,7 @@ O objetivo deste projeto é colocar em prática os conhecimentos adquiridos em a
 ---
 ## Links
 - [Figma](https://www.figma.com/file/ZYdnHcemBedHFLmvtIgiMq/Avatar?node-id=0%3A1&t=s3D5EUGjbI0b4d3U-0)
-- [Github] 
+- [Github](https://lohannn.github.io/Lohannes-da-Silva-Costa/ds1t-a/lohannes/index.html)
 
 ---
 - [x] `Prototipou o site utilizando o Figma?`
@@ -51,3 +51,7 @@ O objetivo deste projeto é colocar em prática os conhecimentos adquiridos em a
 - [x] `Existe um link para o github page no README?`
 - [x] `Existe um link do autor do projeto no README?`
 - [x] Fez a autoavaliação?
+
+--
+## Lighthouse
+![](./images/Capturar1.png)
