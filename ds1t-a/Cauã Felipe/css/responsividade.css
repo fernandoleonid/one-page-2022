@@ -1,0 +1,56 @@
+@media (max-width: 640px){
+    :root{
+        --space-default: 30px;
+    }
+
+main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 272%;
+}
+
+.text-home{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 270px;
+}
+
+.img-home{
+    z-index: 1;
+    height: 65%;
+    padding: 110px;
+}
+
+.text-hist{
+    font-size: 4rem;
+}
+
+.sobre_text{
+    font-size: 1rem;
+}
+
+.pai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 2.5rem;
+}
+
+.sobre_pers{
+    font-size: 0.75rem;
+}
+
+}
+
