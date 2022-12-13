@@ -1,0 +1,60 @@
+.fale-conosco {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+}
+
+.container-title-contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #FFFFFF;
+}
+
+.contatos-title {
+    position: absolute;
+}
+
+.fundo-contatos {
+    width: 100%;
+    height: 165px;
+}
+
+.contato-container {
+    display: flex;
+    font-size: 5rem;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.container-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato-item {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 16px;
+}
+
+
+/* MOBILE */
+
+@media (max-width:640px) {
+    .container-title-contatos {
+        font-size: 3rem;
+    }
+    .contato-item {
+        font-size: 1.5rem;
+    }
+    .contatos-title {
+        font-size: 2.5rem;
+    }
+}
