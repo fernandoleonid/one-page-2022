@@ -1,0 +1,19 @@
+.about-us{
+    background-color: #E5E5E5;
+    height: 120vh;
+}
+.subtitulo{
+    font-size: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.64);;
+    text-align: center;
+    margin-left: 279px;
+    margin-right: 178px;
+    margin-top: 68px;
+}
+
+.img_loja {
+    margin-left: 450px;
+    margin-top: 80px;
+}

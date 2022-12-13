@@ -1,0 +1,42 @@
+.contato{
+    background-color: #E5E5E5;
+    height: 140vh;
+}
+
+.maps{
+    margin-left: 400px;
+    margin-top: 80px;
+}
+
+.localizacao{
+    display: flex;
+    align-content: center;
+    place-content: center;
+    
+}
+
+.localizacao i{
+    color: black;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.whatsapp,
+.instagram,
+.facebook{
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+    margin-left: 61px;
+    gap: 11px;
+    font-family: 'Inter';
+    font-size: 2rem;
+}
+.ig_img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.doce{
+    margin-right: 96px;
+}

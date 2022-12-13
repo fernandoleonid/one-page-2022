@@ -1,0 +1,138 @@
+.menu_cardapio{
+    background-color: #E5E5E5;
+    height: 250vh;
+}
+.cardapio_box{
+    display: flex;
+    gap: 222px;
+    margin-top: 111px;
+    flex-wrap: wrap;
+    place-content: center;
+}
+.titulo{
+    width: 245px;
+    height: 66px;
+    background-color: #E93636;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    font-size: 40px;
+    margin-left: 40%;
+    font-family: 'Inter';
+    font-weight: 400;
+    margin-top: 52px;
+    border-radius: 10px;
+}
+.item_cardapio_frango{
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    place-content: center;
+    place-items: center;
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    background: linear-gradient(230.64deg, rgba(112, 255, 0, 0.56) 4.08%, rgba(255, 0, 0, 0.76) 102.84%);;
+}
+.titulo_itens{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+.preco_add{
+    display: flex;
+    gap: 91px;
+    margin-top: 17px;
+}
+.preco{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ffffff30;
+    display: flex;
+    place-items: center;
+    place-content: center;
+    font-family: 'Inter';
+}
+.valor{
+    margin-left: 31px;
+    font-size: 18px;
+}
+.add{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ffffff30;
+    display: flex;
+    place-items: center;
+    place-content: center;
+    font-family: 'Inter';
+    font-size: 21px;
+}
+
+.item_cardapio_rabanada{
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    place-content: center;
+    place-items: center;
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    background: linear-gradient(230.64deg, rgba(112, 255, 0, 0.56) 4.08%, rgba(255, 0, 0, 0.76) 102.84%);;
+}
+
+.item_cardapio_pave{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    place-content: center;
+    place-items: center;
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    background: linear-gradient(230.64deg, rgba(112, 255, 0, 0.56) 4.08%, rgba(255, 0, 0, 0.76) 102.84%);;
+    
+}
+
+.item_cardapio_salpicao{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    place-content: center;
+    place-items: center;
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    background: linear-gradient(230.64deg, rgba(112, 255, 0, 0.56) 4.08%, rgba(255, 0, 0, 0.76) 102.84%);;
+}
+
+.item_cardapio_arroz{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    place-content: center;
+    place-items: center;
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    background: linear-gradient(230.64deg, rgba(112, 255, 0, 0.56) 4.08%, rgba(255, 0, 0, 0.76) 102.84%);;
+    
+}
+
+
+.item_cardapio_maionese{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    place-content: center;
+    place-items: center;
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    background: linear-gradient(230.64deg, rgba(112, 255, 0, 0.56) 4.08%, rgba(255, 0, 0, 0.76) 102.84%);;
+    
+}

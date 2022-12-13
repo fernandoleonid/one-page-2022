@@ -5,6 +5,8 @@ html{
 body{
     display: grid;
     grid-template-areas: "content";
+    position: absolute;
+    z-index: 2000;
     color: #ffffff;
 }
 header{
@@ -22,7 +24,9 @@ main{
     grid-area: content;
     display: flex;
     flex-direction: column;
+    background-image: url(../img/group.png);
 }
+
 section{
     height: 100vh;
 }
@@ -39,5 +43,9 @@ footer{
     height: 70px;
     width: 100%;
     display: grid;
-    background-color: bisque;
+    background-color: #1CD52E;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Inter';
+
 }
