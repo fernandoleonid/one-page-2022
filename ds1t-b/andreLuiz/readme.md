@@ -1,6 +1,6 @@
 # ONE PAGE APPLE
 
-![](./img/Home.PNG)
+![](./img/Home.ong)
 - [Link do site](https://luyz-dev.github.io/one-page-2022/ds1t-a/Luiz%20Gustavo/index.html)
 
 ---
@@ -23,20 +23,20 @@ O objetivo deste projeto é colocar em prática os conhecimentos adquiridos no c
 
 Nota que o lighthouse deu ao meu site. 
 
-![](./img/lighthouse.webp)
+![](./img/lighthouse.png)
 ---
 ## Protótipo do site 
 
 Antes da realização do site, fiz o protótipo no figma, tanto do desktop, quanto do mobile.
 
-- [Clique aqui para ver o figma](https://www.figma.com/file/U3lJpIFlhrdxBW64o9ec0Q/ONE-PAGE-APPLE?node-id=0%3A1&t=ffipryhIWhAzuoYM-0)
+- [Clique aqui para ver o figma](https://www.figma.com/file/2YiqCnZb1wCcKDNVoVPBSt/Samsung-One-Page?node-id=0%3A1&t=UKdNqGn6pJ6QeFCR-0)
 
 ## Autor
-- [Luiz Gustavo](https://github.com/luyz-dev)
+- [André Luiz](https://github.com/AndreLuisConstantino)
 
 ---
 ## Contatos
-- [Instagram](https://www.instagram.com/luyz.dev/)
-- [Linkedin](https://www.linkedin.com/in/luyz-dev)
+- [Instagram](https://www.instagram.com/andreluisconstanino/)
+- [Linkedin](https://www.linkedin.com/in/andré-luiz-constantino-4b779124a/)
 - WhatsApp: (11) 9-6759-3159
 
