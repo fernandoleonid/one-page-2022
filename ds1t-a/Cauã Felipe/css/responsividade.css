@@ -52,5 +52,46 @@ main{
     font-size: 0.75rem;
 }
 
+.img-episodios{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.naruto-img{
+    width: 50vw;
+}
+
+.gif{
+    width: 50vw;
+}
+
+.pai-minato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-minato{
+    font-size: 2.5rem;
+}
+
+.pai-gai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-gai{
+    font-size: 2.5rem;
+}
+
+footer{
+    width: 100%;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
 }
 
