@@ -130,7 +130,6 @@
         position: absolute;
         z-index: -100;
         opacity: 50%;
-
     }
     .nome-do-filme{
         display: none;
@@ -138,4 +137,15 @@
     .diretor{
         display: none;
     }
+
+    @media (max-width: 640px){
+        .img-pearl{
+            grid-area: pearl;
+            position: absolute;
+            overflow: hidden;
+            height: 180px;
+            width: 118px;
+        }  
+    }
+    
 }

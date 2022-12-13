@@ -22,7 +22,7 @@
     align-items: center;
     gap: 40px;
     background-color: #46090D;
-    width: 472px;
+    width: 452px;
     height: 183px;
     border-radius: 800px;
     color: #000;
@@ -79,3 +79,9 @@
         margin-top: 60px;
         }
 }
+@media (max-width: 640px){
+    .fotos-pearl{
+        gap: 25px;
+    }
+}
+
