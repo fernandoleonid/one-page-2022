@@ -1,0 +1,89 @@
+.contact{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #003580;
+    align-content: center;
+}
+
+.contact__container{
+ margin-top: 64px;
+ display: flex;
+ justify-content: space-around;   
+ align-items: center;
+ align-content: center; 
+}
+
+.company__social{
+    /* margin-left: -12%; */
+    width: 450px;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.company__title{
+    font-style: normal;
+    font-size: 5rem;
+    background-image: linear-gradient(to bottom, #2F93D0, #003580);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+.company__text span{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.company__social__icons{
+    font-size: 3rem;
+    color: white;
+}
+
+.feature{
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    color: white;
+    font-size: 1.5rem;
+    flex-direction: column; 
+    justify-content: space-between;
+    width: 170px;
+    gap: 16px;
+}
+
+.list__feature {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.navegation__bar__contacts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.faq{
+    width: 410px;
+}
+
+.faq li{
+    color: white;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.faq span{
+    color: white;
+    font-size: 1.5rem;
+}

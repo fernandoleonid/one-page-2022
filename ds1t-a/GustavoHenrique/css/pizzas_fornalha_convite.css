@@ -1,0 +1,58 @@
+.pizzas_fornalha_convite{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100%;
+    border-top: 3px solid #fff;
+
+}
+
+.pizzas_fonalha_convite_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding-top: 15px;
+
+    font-family: 'Sacramento', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 67px;
+    color: white;
+}
+
+.pizzas_fonalha_video{
+    display: flex;
+    padding-top: 20px;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+video{
+    height: 600px;
+    padding-bottom: 20px;
+}
+
+video:hover{
+    transform: scale(1.05);
+}
+
+@media(max-width:960px){
+    .pizzas_fornalha_convite{
+        height: auto;
+    }
+    video{
+        height: 300px;
+    }
+}
+
+    @media(max-width:640px){
+        .pizzas_fonalha_convite_header{
+            height: 30px;
+        }
+        video{
+            height: 160px;
+        }
+}

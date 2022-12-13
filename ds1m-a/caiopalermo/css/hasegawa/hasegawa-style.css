@@ -1,0 +1,75 @@
+.hasegawa {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 50px 0px;
+  background-color: #262626;
+}
+
+.hasegawa-no-mobile__title {
+  font-size: 3rem;
+}
+
+.hasegawa-mobile__title {
+  display: none;
+  font-size: 3rem;
+}
+
+.hasegawa-mobile__title:hover {
+  color: #fedc00;
+  transition: all 0.5s;
+  border-color: #fedc00;
+}
+
+.hasegawa-no-mobile__title:hover {
+  color: #fedc00;
+  transition: all 0.5s;
+  border-color: #fedc00;
+}
+
+.hasegawa-no-mobile__title::after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid #fedc00;
+  width: 85px;
+  margin: 10px auto 8px auto;
+}
+
+.hasegawa-mobile__title::after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid #fedc00;
+  width: 85px;
+  margin: 10px auto 8px auto;
+}
+
+.hasegawa span {
+  color: red;
+}
+
+.hasegawa__about {
+  display: grid;
+  gap: 24px;
+}
+
+.hasegawa__text {
+  max-width: 1000px;
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+.hasegawa__text:first-child::before {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #fedc00;
+  width: 35px;
+  margin: 8px auto 20px auto;
+}
+
+.hasegawa__text:first-child::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #fedc00;
+  width: 35px;
+  margin: 20px auto 8px auto;
+}

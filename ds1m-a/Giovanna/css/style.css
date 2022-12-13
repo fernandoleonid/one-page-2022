@@ -1,0 +1,35 @@
+body {
+    color: #fff;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header {
+    background-color: #000;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-container {
+    display: flex;
+    gap: 64px;
+}
+
+.navigation {
+    font-size: 2rem;
+}
+
+.banner {
+    background-image: url(../img/background-image.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Rampart One', cursive;
+    font-size: 5.375rem;
+    text-align: center;
+}
+

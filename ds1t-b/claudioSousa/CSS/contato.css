@@ -1,0 +1,77 @@
+.contato{
+    width: 100%;
+    background-image: url(../IMG/churrasco-para-churrascaria1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "title title title"
+    "contato compre links";
+    text-align: center;
+    font-family: 'Lalezar', cursive;
+    font-size: 2rem;
+}
+
+.contato h3{
+    font-size: 4rem;
+}
+
+.contato-container{
+    grid-area: contato;
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+}
+
+.contato-item{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+}
+
+.compreAqui{
+    grid-area: compre;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.link-container{
+    grid-area: links;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+@media (max-width:960px) {
+    .contato{
+        font-size: 1.25rem;
+    }
+}
+
+
+@media (max-width:640px ){
+    .contato{
+        height: 150vh;
+        max-width: 640px;
+       display: flex;
+       flex-direction: column;
+       font-size: 1rem;
+
+    }
+
+    .contato h3{
+        font-size:2rem;
+        margin-top: 30px;
+    }
+
+    .ifood-img{
+        width: 100px;
+        margin-bottom: 30px;
+    }
+}

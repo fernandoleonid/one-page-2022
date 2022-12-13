@@ -1,0 +1,59 @@
+.follow-us {
+    background-image: url(../img/just-do-it.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px -40px 40px black; 
+}
+
+.title-follow-us {
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.title-follow-us:hover {
+    text-shadow: 0 0 10px #FF0000, 0 0 10px #FF0000;
+}
+
+.icons-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 170px;
+}
+
+.icons-social .icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    font-size: 2.5rem;
+    display: flex;
+}
+
+.icons-social .icon:hover {
+    color: var(--primary-color);
+    box-shadow: inset 0px 0px 5px var(--primary-color);
+}
+
+/* MOBILE */
+@media (max-width:640px){
+    .title-follow-us{
+        font-size: 3rem;
+}
+    .icons-social {
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+    }
+}

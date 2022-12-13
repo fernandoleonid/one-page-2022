@@ -1,0 +1,16 @@
+ @media(max-width:640px) {
+     .curiosidade {
+         display: flex;
+         align-items: center;
+     }
+     .Title_curiosidade {
+         font-size: 3.5rem;
+         text-align: center;
+     }
+     .Text_curiosidades {
+         font-size: 1.5rem;
+         display: flex;
+         width: 90%;
+         padding-left: 20px;
+     }
+ }

@@ -1,0 +1,32 @@
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/blackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 40px -40px 40px #000;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.menuzinho{
+    display: none;
+}
+.title__text{
+    margin-left: 64px;
+    color: var(--pink-color);
+    font-size: 16px;
+}
+.group__name{
+    margin-left: 64px;
+    color: #fff;
+    font-size: 8rem;
+    font-style: bold;
+    font-style: italic;
+}
+.description{
+    margin-left: 64px;
+    font-size: 1.25;
+    color: #fff;
+    width: 400px;
+}

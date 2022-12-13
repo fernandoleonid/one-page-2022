@@ -1,0 +1,40 @@
+/*--------PALETA & FONTES--------*/
+:root {
+  /*-------PALETA-------*/
+  --primary-color: #101010;
+  --secundary-color: #fff;
+  --tertiary-color: #848080;
+  --background-image-color: #1e1e1e;
+  /*-------FONTE-------*/
+  --fonte-geral: 'Poppins', sans-serif;
+  --fonte-subtitulo__home: 'PT Serif', serif;
+  --fonte-titulo__trama: 'Barlow Condensed', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: var(--secundary-color);
+  font-family: var(--fonte-geral);
+  background-color: var(--primary-color);
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 999;
+  position: absolute;
+}
+
+main {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+}

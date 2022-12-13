@@ -1,0 +1,117 @@
+.planos{
+    height: 950px;
+    background-color: var(--cor-de-fundo);
+}
+.plano-titulo {
+    height: 150px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.plano-titulo>h1 {
+    font-size: 2.5rem;
+    border-bottom: 3px solid var(--cor-principal);
+}
+
+.serviço-planos {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: var(--cor-de-fundo);
+    flex-wrap: wrap;
+
+
+}
+
+.container-planos {
+    width: 400px;
+    height: 500px;
+    background-color: var(--cor-padrao);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    transition: 0.3s;
+    filter: drop-shadow(1px 1px 10px gray);
+
+}
+.container-planos:hover{
+    transform: scale(1.03);
+
+}
+
+
+.container-preço {
+   width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    background-color: var(--cor-principal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+.container-preço-modificado-cor{
+    background-color: var(--cor-detalhes);
+}
+
+.container-planos> ul>li{
+    padding: 10px;
+    list-style-image: url(../image/check.png);
+    color: var(--cor-detalhes);
+}
+
+.btn-comprar >a{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    background-color: var(--cor-principal);
+    color: var(--cor-padrao);
+}
+
+
+
+
+.container-preço>div { 
+    padding: 10px;
+    width: 200px;
+    background-color: rgba(214, 202, 202, 0.392);
+    border-radius: 5px;
+    color: var(--cor-padrao);
+}
+
+
+.container-preço>p{
+    color: var(--cor-padrao);
+}
+
+@media  screen and (max-width:1250px) {
+    .planos{
+        height: 1400px;
+    }
+}
+@media  screen and (max-width:750px) {
+    .planos{
+        height: 2300px;
+    }
+    .serviço-planos{
+       
+        padding: 20px;
+    }
+}

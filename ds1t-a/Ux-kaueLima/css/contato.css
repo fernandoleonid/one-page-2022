@@ -1,0 +1,98 @@
+.contato{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-left: 100px;
+    gap: 10%;
+
+}
+
+.icons_somosux{
+    display: flex;
+    align-items: center;
+   
+}
+.somos_ux_contato{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 4rem;
+}
+.classp{
+    display: flex;
+    padding-left: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+     
+}
+
+.title__contato{
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    gap: 10px;
+    color:#ffffff;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 4rem;
+    width: 20%;
+}
+.icon_linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+}
+.icon_linkedin:hover{
+    
+    transition: 1s;
+    color: rgb(40,103,178);
+    background-color: #ffffff;
+}
+
+.icon_instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    
+}
+.icon_instagram:hover{
+    transition: 1s;   
+    color: #ffffff;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    width: 55px;
+    height: 55px;
+    border-radius: 20px;
+    
+}
+
+.icon_youtube{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.icon_youtube:hover{
+    transition: 1s;
+    color: rgb(207, 64, 64);
+    background-color: white;
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+}
+.direitos{
+    display: flex;
+    padding-top: 12%;
+    justify-content: center;
+    align-items: flex-end;
+    color: #ffffff;
+}

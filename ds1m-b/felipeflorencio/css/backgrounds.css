@@ -1,0 +1,71 @@
+.background{
+  position: absolute;
+}
+#bghome{
+  top: 0rem;
+  right: 0rem;
+  position: absolute;
+  z-index: -1;
+}
+#bgcomposers{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+#bginstruments{
+  position: absolute;
+  z-index: -1;
+  transform: translate(0rem,-14rem);
+  width: 110%;
+    height: 125%;
+}
+
+#bgabout{
+  position: absolute;
+  z-index: -5;
+  transform: translate(-5%, 25%);
+}
+@media (max-width:960px) {
+  #bghome{
+      width: 60rem;
+      height: 65rem;
+      top: 5%;
+      right: 1%;
+  }
+  #bgcomposers{
+    width: 58rem;
+    height: 40rem;
+    top: 5rem;
+    left: -3rem;
+  }
+  #bginstruments{
+    width: 60rem;
+  }
+  #bgabout{
+    width: 115%;
+    height: 100%;
+    top: 10%;
+    left: 2%;
+  }
+}
+
+@media (max-width:640px) {
+  #bghome{
+   top: 10%;
+   left: 3%;
+   height: 80%;
+   width: 100%;
+  }
+  
+  
+  #bginstruments{
+    display: none;
+  }
+  #bgabout{
+    height: 75%;
+    top: 10%;
+    left: -7%;
+    width: 125%;
+    z-index: 1;
+  }
+}

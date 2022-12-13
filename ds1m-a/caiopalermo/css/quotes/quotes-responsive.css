@@ -1,0 +1,55 @@
+@media (max-width: 1500px) {
+  .quotes-container {
+    margin: 0px 25px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .quotes__title {
+    margin-bottom: 30px;
+  }
+
+  .quotes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .quote {
+    max-width: 400px;
+  }
+
+  .quote__text {
+    font-size: 1.75rem;
+  }
+
+  .quote__author {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .quote:nth-child(2) {
+    display: none;
+  }
+
+  .quote:nth-child(3) {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .quote__text {
+    font-size: 1.5rem;
+  }
+
+  .quote__author {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 490px) {
+  .quote__text {
+    margin: 0px 25px;
+  }
+}

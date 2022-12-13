@@ -1,0 +1,72 @@
+.home {
+    width: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/plano_de_fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px -30px 40px #000000;
+    padding: 0px;
+
+}
+.box{
+    height: 100vh;
+    width: 100px;
+    background-color: white;
+    color: white;
+}
+.container{
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    padding: 16px 64px;
+    border: #ff0000 8px solid;
+    border-radius: 16px;
+    box-shadow: inset 0 0 32px 0 #ff0000, 0 0 32px 0 ;
+    text-shadow: 0 0 8px hsl(0 0% 100% / 0.3), 0 0 32px;
+    margin-right: 550px;
+    transform: translate(-1000px, 300px);
+}
+
+
+/* Reflexo do botão */
+
+.neon::before {
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    background: #ff0000;
+    width: 100%;
+    height: 100%;
+    transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
+    filter: blur(64px);
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.neon::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 128px 32px #ff0000;
+    opacity: 0;
+    background-color: #ffffff;
+    z-index: -1;
+    transition: opacity 100ms linear;
+}
+
+.neon:hover::before,
+.neon:hover::after {
+    opacity: 1;
+}
+
+.neon:hover {
+    color: #31202b;
+}

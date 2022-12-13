@@ -1,0 +1,49 @@
+.filme{
+    grid-template-areas: 
+    "title-filme"
+    "trailer"
+    "botao-filme";
+    grid-template-columns: 1fr auto auto;
+    grid-template-rows: 135px;
+    display: grid;
+    flex-direction: column;
+    background-image: url(../img/filme.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.title-filme{
+    grid-area: title-filme;
+    font-size: 4rem;
+    padding-right: 125px;
+    padding-top: 50px;
+    text-align: end;
+}
+.filme-tablet{
+    display: none;
+}
+.trailer{
+    grid-area: trailer;
+    place-self: end;
+    margin-right: 130px;
+    margin-top: 400px;
+}
+.botao-filme{
+    grid-area: botao-filme;
+    background-color: #C90000;
+    border-radius: 35px;
+    width: 470px;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-self:  end;
+    font-size: 2.5rem;
+    margin-right: 130px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.botao-filme :hover{
+    transition: 0.5s;
+    color: black;
+}

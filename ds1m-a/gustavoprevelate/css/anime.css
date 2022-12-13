@@ -1,0 +1,198 @@
+.Anime{
+    height: 942px;
+    background-color: blue;
+    background-image: url(../img/footer.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    
+}
+.AnimeNanatsu{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    padding-top: 70px;
+    
+    justify-content: center;
+}
+.anime_titulo{
+    
+    color: var(--primary-color);
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-size: 200px;
+    
+    font-family: Deutsch Gothic;
+}
+.onde_assistir{
+    
+    background-color: #252525;
+    
+}
+.contato{
+    
+    background-color: #252525;
+    
+}
+.onde_assistir_title{
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    color: #42FF00;
+    font-size: 64px;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-family: Deutsch Gothic;
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 540px;
+}
+.Crunchyroll{
+    
+color: #FF9900;
+font-size: 64px;
+padding-left: 40px;
+padding-top: 40px;
+
+}
+.action_crunchyroll{
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+}
+.Netflix{
+color: #FF0000;
+font-size: 64px;
+padding-left: 40px;
+padding-top: 40px;
+}
+.action_netflix{
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+}
+.contato_title{
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    color: #FA00FF;
+    font-size: 64px;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-family: Deutsch Gothic;
+    padding-left: 80px;
+    padding-top: 20px;
+    width: 540px;
+}
+.numero{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.numero_escrita{
+ font-size: 24px;
+ padding-left: 10px;
+ text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.email{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.email_escrita{
+    font-size: 24px;
+    padding-left: 10px;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.endereco{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.endereco_escrita{
+    font-size: 24px;
+    padding-left: 10px;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+@media (max-width: 640px){
+    .AnimeNanatsu{
+        flex-direction: column;
+        padding-top: 300px;
+    }
+    .contato_title{
+        width: 300px;
+    }
+    .onde_assistir_title{
+        width: 300px;
+        padding-left: 0px;
+    }
+    .onde_assistir{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Crunchyroll{
+        padding-left: 0px;
+    }
+    .Netflix{
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+    .anime_titulo{
+        font-size: 7rem;
+    }
+    .numero_escrita{
+        font-size: 1rem;
+    }
+    .email_escrita{
+        font-size: 1rem;
+    }
+    .endereco_escrita{
+        font-size: 1rem;
+    }
+}

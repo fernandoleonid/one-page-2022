@@ -1,0 +1,42 @@
+@media(max-width:640px) {
+
+.frame2 {
+display: flex;
+flex-direction: column;
+height: auto;
+
+
+}
+.container {
+  justify-content: start;
+  gap: 20px;
+  padding-top: 300px;
+  
+}
+
+    .title_frame2{
+      width: 100vw;
+        font-size: 50px; 
+        padding-bottom: 40px;
+    }
+   
+       .Text_frame2{
+         width: 320px;
+        font-size: 2rem;
+        margin-left: 0vw;
+
+       }
+    .Text2_frame2 {
+display: flex;
+
+      font-size: 2rem;
+    
+      padding-left: 90px;
+
+    } 
+
+
+    
+
+    
+}

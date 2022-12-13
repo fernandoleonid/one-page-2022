@@ -1,0 +1,29 @@
+.home{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../img/avatar\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 86px;
+    box-shadow: inset 10px -100px 100px #181068;
+    
+}
+.title{
+    font-family: 'Eagle Lake', cursive;
+    font-size: 8rem;
+    background-image: linear-gradient( #1602F9 , #00C9F5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+.profile__text{
+    font-size: 3rem;
+    font-family: 'avatar';
+    font-weight: 300;
+    
+}
+.fundo{
+    margin-left: 72px;
+}

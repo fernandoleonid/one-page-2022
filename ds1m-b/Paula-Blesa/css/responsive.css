@@ -1,0 +1,155 @@
+/* TABLET */
+
+@media (max-width: 960px) {
+    header {
+        display: flex;
+    }
+    .menu {
+        display: none;
+    }
+    #icon-half-menu {
+        display: block;
+    }
+    .description-text {
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 4vw;
+    }
+    .description-title {
+        display: grid;
+        font-size: 4vw;
+    }
+    .curiosidade_text {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin-left: 30vw;
+        gap: 30px;
+        font-size: 3.5vw;
+    }
+    .cuidado_title {
+        font-size: 2.5rem;
+    }
+    .cuidados_list {
+        font-size: 4vw;
+    }
+    .porque_title {
+        font-size: 4vw;
+    }
+    .text {
+        font-size: 80%;
+    }
+    .dots-images {
+        display: none;
+    }
+    .slideshow-container {
+        display: flex;
+        margin-left: 4vw;
+    }
+    .mySlides-images img {
+        width: 90%;
+    }
+    .racas-containeer {
+        margin-top: 30vw;
+    }
+    .racas-container {
+        margin-top: 10vw;
+    }
+    .outros {
+        display: flex;
+        margin-top: 30vw;
+        font-size: 10vw;
+    }
+    footer {
+        font-size: 3vw;
+    }
+}
+
+
+/* MOBILE  */
+
+@media (max-width: 640px) {
+    .title_main {
+        font-size: 8vw;
+    }
+    .curiosidade_text {
+        font-size: 3.3vw;
+        gap: 15px;
+    }
+    .cuidados_list {
+        font-size: 1.7rem;
+    }
+    .cuidado_title {
+        font-size: 1.5rem;
+    }
+    .racas-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3vw;
+    }
+    .racas-containeer {
+        display: none;
+    }
+    .mySlides-images img {
+        width: 70%;
+    }
+    .name {
+        display: none;
+    }
+    .name_text {
+        display: none;
+    }
+    .outros {
+        display: flex;
+        margin-top: 8vw;
+    }
+    .icon>img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 380px) {
+    .description-title {
+        display: flex;
+        width: 60vw;
+        margin-left: 4vw;
+        font-size: 5vw;
+    }
+    .description-text {
+        font-size: 5vw;
+    }
+    .icon>img {
+        width: 40px;
+        height: 40px;
+    }
+    .racas-container {
+        gap: 10vw;
+    }
+    .outros {
+        display: flex;
+        margin-top: 5vw;
+        font-size: 10vw;
+    }
+    .cuidado_title {
+        font-size: 5vw;
+    }
+    .cuidados_list {
+        font-size: 5vw;
+    }
+    .curiosidade_text {
+        font-size: 4.5vw;
+        gap: 15px;
+    }
+    .mySlides-images img {
+        width: 60%;
+    }
+    .slideshow-container {
+        display: flex;
+        margin-left: 12vw;
+    }
+    .porque_title {
+        font-size: 5vw;
+    }
+}

@@ -1,0 +1,145 @@
+.promocoes{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 80vh;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+.promocoes_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 46px;
+
+    color: white;
+    font-size: 1rem;
+    border-bottom: 3px solid #fff;
+}
+
+.promocoes_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    
+}
+
+.promocoes_main_Titulo_conteudo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 23px;
+    gap: 42px;
+}
+
+.promocoes_main_imagem1{
+    height: 80%;
+    width: 80%;
+}
+
+.promocoes_main_imagem1:hover{
+    transform: scale(1.1);
+
+}
+
+.promocoes_main_Titulo_conteudo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 23px;
+    gap: 42px;
+}
+.promocoes_main_imagem2{
+    width: 80%;
+    height: 80%;
+}
+
+.promocoes_main_imagem2:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 960px){
+    .promocoes{
+        height: auto;
+    }
+
+    .promocoes_main_imagem2{
+        padding-bottom: 40px;
+        
+    }
+
+    .promocoes_main_imagem1{
+        padding-bottom: 40px;
+        
+    }
+
+}
+
+@media (max-width: 640px){
+    .promocoes{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        height: auto;
+    }
+
+    .promocoes_header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        height: 43px;
+    
+        color: white;
+        border-bottom: 3px solid #fff;
+    }
+
+    h1{
+        font-size: 1.2rem;
+    }
+
+    h2{
+        font-size: 1.1rem;
+    }
+    
+    .promocoes_main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 20px;
+        gap: 20px;
+    }
+
+    .promocoes_main_Titulo_conteudo1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-top: 0px;
+       
+    }
+
+    .promocoes_main_imagem1{
+        height: 45%;
+        width: 45%;
+    }
+
+    .promocoes_main_Titulo_conteudo2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        gap: 10px;
+    }
+
+    .promocoes_main_imagem2{
+        width: 45%;
+        height: 45%;
+    }
+}

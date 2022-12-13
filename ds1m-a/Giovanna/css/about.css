@@ -1,0 +1,58 @@
+.about{
+    background-color: #1E1E1E;
+    height: fit-content;
+    font-family: 'Kodchasan', 'Libre Franklin';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ .about__title{
+     padding-top: 40px;
+     font-size: 6rem;
+     text-align: center;
+ }
+ 
+ .about__title::after {
+     content: "";
+     display: block;
+     width: 290px;
+     border-bottom: 1px solid white;
+     margin: 0 auto;
+ }
+ 
+ .about__subtitle {
+     max-width: 1400px;
+     margin: 50px 0px;
+     font-size: 5.6rem;
+ }
+ 
+ .about__introduction {
+     margin-top: 40px;
+     max-width: 1400px;
+     font-size: 3rem;
+     
+ }
+
+ .about__evento{    
+    max-width: 1400px;
+    margin: 50px 0px;
+    text-align: right;
+    font-size: 5.6rem;
+   
+
+ }
+ 
+ .about__image-car {
+     margin-top: 100px;
+ }
+
+ .about__image-entrance{
+     margin-top: 100px;
+     filter: drop-shadow();
+     
+ }
+
+ .evento{
+     display: flex;
+ }

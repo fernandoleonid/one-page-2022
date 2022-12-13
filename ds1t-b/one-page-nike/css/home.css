@@ -1,0 +1,44 @@
+.home {
+    background-image: url(../img/nike-store.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    box-shadow: inset 0px -40px 40px black;
+}
+
+.download-button {
+    height: 28px;
+    width: 175px;
+    margin-top: 320px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.download-button:hover {
+    background-color: var(--primary-color);
+    transition: background-color .5s;
+}
+
+.download__text {
+    font-size: 1.25rem;
+    color: #000;
+    align-items: center;
+    display: flex;
+}
+
+.menu__bars {
+    display: none;
+}
+
+/* MOBILE */
+@media (max-width:640px){
+    .menu__bars {
+        display: flex;
+    }
+}
