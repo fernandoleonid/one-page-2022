@@ -19,18 +19,3 @@
     transition: 0.5s;
     color: var(--letras-color);
 }
-/*.bars.active .fa-solid fa-bars{
-    background-color: transparent;
-}
-
-.bars.active .fa-solid fa-bars::before{
-    transform: rotate(45deg);
-}
-
-.bars.active .fa-solid fa-bars::after{
-    transform: rotate(-45deg);
-}
-.bars.active ~ .menu{
-    opacity: 1;
-    transform: translateX(0%);
-}
