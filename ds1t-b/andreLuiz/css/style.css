@@ -1,3 +1,7 @@
+html, body{
+    position: relative;
+    overflow-x: hidden;
+}
 body{
     background-color: #000000;
     font-family: 'Montserrat';
@@ -65,10 +69,11 @@ footer{
 }
 
 @media (max-width: 375px){
-
+    
      header{
           height: 18vh;
      }
+
 
 }
 

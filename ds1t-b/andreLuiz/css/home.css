@@ -73,7 +73,7 @@
 
 @media  (max-width: 375px){
     .section-home{
-        height: 82vh;
+        height: 105vh;
     }
 
     .promotion-text-container span{
@@ -84,4 +84,6 @@
         width: 285.04px;
         height: auto;
     }
+
+    
 }

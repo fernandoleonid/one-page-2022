@@ -13,6 +13,7 @@
     display: flex;
     align-items: flex-start;
     padding-left: 2.25vw;
+    height: 7vh;
 }
 
 .title-tab{
@@ -26,7 +27,7 @@
 .tab-text-container{
     grid-column: 1;
     grid-row: 1;
-    max-width: 24.8vw;
+    width: 24.8vw;
     height: 52.5vh;
     display: flex;
     flex-direction: column;
@@ -54,8 +55,7 @@
     justify-content: center;
     place-self: center;
     gap: 16px;
-    width: 25.6vw;
-    height: 53vh;
+    height: 50vh;
 }
 
 .tab-promotion-container a{
@@ -81,7 +81,7 @@
 
 @media (max-width:960px){
     .section-tab{
-        height: 120vh;
+        height: 100vh;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
@@ -89,20 +89,21 @@
     .tab-text-container{
         grid-column: 1;
         grid-row: 1;
-
+        place-self: center;
+        width: 60vw;
+        height: 40vh;
     }
 
     .tab-text-container p{
         font-size: 3rem;
         width: 478px;
-        height: 492px;
         align-self: center;
-        padding-top: 10vh;
     }
 
     .tab-promotion-container{
         grid-column: 1;
         grid-row: 2;
+        place-self: center;
     }
 
     .tab-promotion-container a{
@@ -116,7 +117,7 @@
 
 @media (max-width: 640px){
     .section-tab{
-        height: 130vh;
+        height: 110vh;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 100px 1fr 3fr;
@@ -133,20 +134,19 @@
 
     .tab-promotion-container{
         grid-row: 2;
-       grid-column: 1;
-       padding-top: 10vh;
+        grid-column: 1;
+        padding-top: 0;
+        width: 80vw;
     }
 
     .tab-promotion-container a{
-        width: 300px;
-        height: 80px;
+        width: 50vw;
+        height: 8vh;
     }
-
-
+    
     .tab-text-container{
         grid-column: 1;
         grid-row: 3;
-        max-width: 0;
         height: 0;
         display: flex;
         flex-direction: column;
@@ -156,19 +156,27 @@
 
     .tab-text-container p{
         font-size: 3rem;
+        padding-top: 0;
     }
 }
 
 @media (max-width: 375px) {
     .section-tab{
-        height: 150vh;
-        width: 100%;
+        height: 120vh;
     }
-
-    .tab-promotion-container{
-        padding-top: 0;
+    .title-tab-container{
+        align-self: center;
     }
-
+    .tab-text-container{
+        width: 100vw;
+        height: 37vh;
+        text-align: center;
+    }
+    .tab-text-container p{
+        font-size: 1.9rem;
+        width: 80vw;
+        height: 40vh;
+    }
     .tab-promotion-container img{
         width: 324px;
         height: 279px;
@@ -179,7 +187,5 @@
         height: 100px;
     }
 
-    .tab-text-container p{
-        font-size: 1.5rem;
-    }
+    
 }

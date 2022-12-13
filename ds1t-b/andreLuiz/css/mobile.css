@@ -115,7 +115,7 @@
     .section-mobile{
         height: 140vh;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows:100px 1fr 1fr 1fr;
     }
 
     .section-mobile a{
@@ -123,21 +123,24 @@
         height: 76px;
     }
 
-    .promotion-container1{
+    .title-mobile-container{
         grid-column: 1;
         grid-row: 1;
-        padding-top: 10vh;
+    }
+
+    .promotion-container1{
+        grid-column: 1;
+        grid-row: 2;
+        width: 27vw;
+        place-self: center;
     }
 
     .promotion-container1 span{
         font-size: 2.5rem;
     }
-
-    
-
     .promotion-text-container-mobile{
         grid-column: 1;
-        grid-row: 2;
+        grid-row:3;
         width: 100%;
         justify-content: center;
     }
@@ -154,13 +157,13 @@
 
     .promotion-container2{
         grid-column: 1;
-        grid-row: 3;
+        grid-row: 4;
     }
 }
 
 @media (max-width:640px){
     .section-mobile{
-        height: 210vh;
+        height: 160vh;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 120px 1fr 1fr 1fr;
@@ -183,6 +186,8 @@
         grid-column: 1;
         grid-row: 2;
         gap: 56px;
+        padding-top: 0;
+        width: 50vw;
     }
 
     .promotion-container1 span{
@@ -212,11 +217,12 @@
         grid-column: 1;
         grid-row: 4;
         place-self: center;
+        height: 60vh;
     }
 
     .promotion-container2 a{
-        width: 300px;
-        height: 80px;
+        width: 50vw;
+        height: 8vh;
     }
 
     .promotion-container2 span{
@@ -226,6 +232,21 @@
 
 @media (max-width: 375px){
     .section-mobile{
-        height: 250vh;
+        height: 260vh;
+    }
+
+    .promotion-container1 a{
+        height: 11vh;
+        width: 100vw;
+    }
+
+    .promotion-container2 {
+        height: 90vh;
+        width: 100vw;   
+    }
+
+    .promotion-container2 a{
+        width: 80vw;
+        height: 11vh;
     }
 }
