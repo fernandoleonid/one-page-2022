@@ -1,5 +1,5 @@
 # nvproject
-# Head Phone Razer Purple
+# Makes
 
 ![](./img/site.PNG)
 
@@ -18,4 +18,6 @@ O objetivo desse objeto é colocar em prática os conhecimentos adquiridos no cu
 
 ---
 ## Autor
-- [Caroline Portela](https://github.com/carolineportela)
+- [Caroline Portela](https://carolineportela.github.io/nvproject/)
+- [Caroline Portela](https://www.figma.com/file/gmxFKHcXF6ZvCodpKUbPAI/MAKEUP---CK?node-id=0%3A1&t=5Wm5OFtgYImcB5AZ-0)
+- Auto avaliação 7/10,não consegui atingir minhas expectativas na responsividade.
