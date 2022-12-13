@@ -37,7 +37,7 @@ Segue o Exemplo:
 ## Relatório do LightHouse
 O LightHouse basicamente analisa todo o seu site, indicando como está determinados aspectos do mesmo. Segue o relatório:
 
-![Report](dados.png)
+![Report](dadoos.png)
 
 ---
 ## Design
@@ -65,8 +65,8 @@ O Layout deste site foi baseado no Figma. Segue o link:
 - [X] Implementou o vlibras no site?
 - [ ] Usou as TAG HTML pensando na semântica?
 - [X] Nomeou as classes utilizando algum padrão? 
-- [X]Assinalou o projeto?
-- [X]As seções criadas tem coerência com o projeto?
+- [X] Assinalou o projeto?
+- [X] As seções criadas tem coerência com o projeto?
 - [X] As seções estão organizadas seguindo algum objetivo?
 - [X] O arquivo README descreve o projeto?
 - [X] O texto do README é objetivo e sucinto?
@@ -77,4 +77,4 @@ O Layout deste site foi baseado no Figma. Segue o link:
 - [X] Fez a autoavaliação?
 
 ---
-![Sign](brasil.PNG)
+![Sign](cat.PNG)
