@@ -144,13 +144,7 @@
         display: none;
     }
     .tempo-leitura {
-        grid-area: niveis-de-torra;
-        margin-top: 900;
         display: none;
-        /* grid-area: texto;
-        font-size: 1.5rem;
-        color: white;
-        margin-top: 450px; */
     }
     .menu {
         width: 375px;

@@ -6,7 +6,7 @@
 
 
 ## Sobre
-Site utilizado como método de avaliação somativa com a temática da Starbucks .
+Site utilizado como método de Avaliação Somativa com a temática da Starbucks. Com a implementação de tecnologias como o VLibras, JavaScript, LightHouse e Responsividade para IPhone SE.
 O objetivo deste projeto é colocar em prática os conhecimentos sobe a criação de sites adquiridos no curso do [SENAI Jandira](https://jandira.sp.senai.br/).
 
 ---
