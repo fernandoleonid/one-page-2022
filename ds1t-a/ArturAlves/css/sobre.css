@@ -1,0 +1,140 @@
+.sobre{
+   height: 100vh;
+
+}
+
+.linha-sob{
+    width: 100vw;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+.linha2-sob{
+    width: 100vw;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 120px;
+}
+
+.sobre-title{
+
+    text-align: start;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Signika', sans-serif;
+    font-size: 36px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.sobre-title-image{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Signika', sans-serif;
+    font-size: 36px;
+    margin-left: 830px;
+    margin-top: 40px;
+    
+}
+
+.sobre-desc{
+    width: 700px;
+    color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.tabela{
+  position: absolute;  
+  width: 570px;
+  height: 580px;
+  left: 1140px;
+  top: 1160px;
+}
+
+.icon-info{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+/* Responsividade */
+@media (max-width:1630px){
+
+    .tabela{
+        position: absolute;
+        height: 500px;
+        width: 500px;
+        left: 1018px;
+        top: 1120px;
+    }
+}
+
+@media (max-width:1530px){
+
+    .sobre-title{
+        font-size: 26px;
+    }
+    .sobre-desc{
+        font-size: 20px;
+    }
+    .sobre-title-image{
+        margin-left: 100px;
+    }
+    .tabela{
+        position: absolute;
+        height: 450px;
+        width: 450px;
+        left: 998px;
+        top: 1100px;
+    }
+    .icon-info{
+        margin-left: 90px;
+    }
+}
+
+@media(max-width: 640px){
+    .linha-sob{
+        height: 3px;
+        background-color: #ffffff;
+        margin-top: 20px;
+    }
+    .linha2-sob{
+        height: 3px;
+        background-color: #ffffff;
+        margin-top: 330px;
+    }
+    
+    .sobre-title{
+        font-size: 16px;
+        margin-left: 30px;
+        margin-top: 40px;
+        padding: 5px;
+    }
+    .sobre-title-image{
+        display: none;
+    }
+    .sobre-desc{
+        font-size: 14px;
+        width: 300px;
+        padding: 4px;
+        margin-top: 0;
+        margin-left: 30px;
+    }
+    .tabela{
+        width: 300px;
+        height: 250px;
+        position: absolute;
+        left: 50px;
+        top: 955px;
+    }
+    .icon-info{
+        display: none;
+    }
+}
+
+
+    

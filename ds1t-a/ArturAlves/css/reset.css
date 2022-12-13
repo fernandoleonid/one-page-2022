@@ -1,0 +1,21 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, li, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+span{
+    color: #FFEC42;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
