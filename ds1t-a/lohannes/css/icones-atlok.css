@@ -120,12 +120,18 @@
 }
 
 .asami_photo{
-    height: 100%;
+    height: 70vh;
+    transform: translateX(35%);
 }
 
 .asamiIcone:focus{
     z-index: 1;
     cursor: default;
+}
+
+.asamiIcone:focus .asami_photo{
+    height: 100%;
+    transform: translateX(0);
 }
 
 .asamiIcone:focus .asami{
@@ -195,7 +201,7 @@
 
 .bolin{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     overflow: hidden;
     width: 200px;
     height: 200px;
@@ -205,8 +211,8 @@
 }
 
 .bolin_photo{
-    height: 60vh;
-    transform: translate(-2%,-13%);
+    height: 70vh;
+    transform: translate(-24%,-13%);
 }
 
 .bolinInfo{
@@ -267,13 +273,15 @@
     display: flex;
 }
 
-.zukoIcone{
+.makoIcone{
     display: flexbox;
     width: 200px;
 }
 
-.zuko{
+.mako{
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
     width: 200px;
     height: 200px;
     background-color: #B02000;
@@ -283,24 +291,24 @@
     transition-property: width, height;
 }
 
-.zukoIcone:focus{
+.makoIcone:focus{
     z-index: 1;
     cursor: default;
 }
 
-.zuko_photo{
-    height: 45vh;
-    transform: translate(-40%, -15%);
+.mako_photo{
+    height: 70vh;
+    transform: translate(-37%, -2%);
 }
 
-.zukoInfo{
+.makoInfo{
     display: none;
     align-items: center;
     flex-direction: column;
     width: 33%;
 }
 
-.zukoInfo2{
+.makoInfo2{
     display: none;
     width: 33%;
     flex-direction: column;
@@ -309,7 +317,7 @@
     gap: 2%;
 }
 
-.nomeZuko{
+.nomeMako{
     font-size: 6.25rem;
     background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 7.81%, #E6E6E6 14.06%, #C2C2C2 47.4%, #ABABAB 64.58%, #898989 78.12%, #626262 92.71%, #4E4E4E 100%);
     -webkit-background-clip: text;
@@ -321,16 +329,16 @@
     place-self: start;
 }
 
-.descZuko{
+.descMako{
     font-size: 1.25rem;
 }
 
-.zukoIcone:focus{
+.makoIcone:focus{
     z-index: 1;
     cursor: default;
 }
 
-.zukoIcone:focus .zuko{
+.makoIcone:focus .mako{
     display: flex;
     transform: translate(-89.1%, -100%);
     width: 100%;
@@ -338,16 +346,16 @@
     position: absolute;
 }
 
-.zukoIcone:focus .zukoInfo{
+.makoIcone:focus .makoInfo{
     display: flex;
 }
 
-.zukoIcone:focus .zuko_photo{
+.makoIcone:focus .mako_photo{
     height: 100%;
     transform: translate(0, 0);
 }
 
-.zukoIcone:focus .zukoInfo2{
+.makoIcone:focus .makoInfo2{
     display: flex;
 }
 
