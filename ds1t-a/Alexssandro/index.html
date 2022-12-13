@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="../Alexssandro/css/header.css">
     <link rel="stylesheet" href="../Alexssandro/css/about.css">
     <link rel="stylesheet" href="../Alexssandro/css/cafes-variados.css">
-    <script src="../Alexssandro/script/slide.js" defer></script>
+    <link rel="stylesheet" href="./css/cafes-personalizados.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <!-- <script src="../Alexssandro/script/slide.js" defer></script> -->
     <script src="https://kit.fontawesome.com/be4450fc4f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -66,7 +68,7 @@
         </section>
 
         <section class="cafes-variados">
-            <div class="titulo-cv">
+            <div class="titulo titulo-cv">
                 <img src="../Alexssandro/img/game-icons_coffee-cup.png" alt="">
                 <p>Cafés Variados</p>
             </div>
@@ -206,9 +208,90 @@
             
         </section>
 
-        <section class="cafes-personalizados"></section>
+        <section class="cafes-personalizados">
+            <div class="titulo titulo-cp">
+                <img src="../Alexssandro/img/game-icons_coffee-cup.png" alt="">
+                <p>Cafés Personalizados</p>
+            </div>
 
-        <section class="contato"></section>
+            <div class="faca-seu-pedido">
+                <p>
+                    Os nossos baristas são especialistas quando se trata de latte art, essa técnica de desenhar nos cafés. 
+                    Além de poder escolher um desenho padrão da nossa lista de desenhos, você também pode pedir um desenho especial, descrevendo-o ou talvez enviando alguma foto. 
+                    Para isto, basta entrar em contato com uma de nossas unidades!
+                </p>
+                <a href="#" class="btn cp">
+                    <p>FAÇA SEU PEDIDO</p>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="contato">
+            <div class="titulo titulo-contato">
+                <img src="../Alexssandro/img/game-icons_coffee-cup.png" alt="">
+                <p>Contato</p>
+            </div>
+
+            <div class="contato-container">
+                <div class="secao-contato">
+                    <div class="info endereco">
+                        <h3>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Endereço
+                        </h3>
+                        <p>Avenida Washington Luis, 308 - Ponte Preta - Campinas-SP</p>
+                    </div>
+                    <div class="info email">
+                        <h3>
+                            <i class="fas fa-envelope"></i>
+                            Email
+                        </h3>
+                        <p>sac@cafemania.com</p>
+                    </div>
+                    <div class="info telefone">
+                        <h3>
+                            <i class="fas fa-phone"></i>
+                            Telefone
+                        </h3>
+                        <p>(11) 1 111-1111</p>
+                    </div>
+                </div>
+
+                <div class="mensagem">
+                    <h2>ENVIE UMA MENSAGEM</h2>
+                    <form>
+
+                        <div class="caixa nome">
+                            <label>Nome</label>
+                            <input type="text" placeholder="Ex. Maria" name="nome" required>
+                        </div>
+
+                        <div class="caixa email">
+                            <label>Email</label>
+                            <input type="email" placeholder="Ex. exemplo@email.com" name="email" required>
+                        </div>
+    
+                        <div class="caixa telefone">
+                            <label>Telefone</label>
+                            <input type="tel" placeholder="Ex. (11) 1 1111-1111" name="telefone" pattern="{11}" maxlength="11" required>
+                        </div>
+    
+                        <div class="caixa mensagem">
+                            <label>Mensagem</label>
+                            <textarea name="msg" rows="15" placeholder="Envie uma mensagem" required></textarea>
+                        </div>
+    
+                    </form>
+                    
+                    <a href="#" class="btn-mensagem">
+                        <p>ENVIAR MENSAGEM</p>
+                    </a>
+
+                </div>
+            </div>
+
+        </section>
 
     </main>
     <footer>

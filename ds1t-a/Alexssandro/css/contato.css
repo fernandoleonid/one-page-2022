@@ -1,0 +1,110 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-contato {
+    background-image: url(../img/Contato-BG.png);
+}
+
+.contato-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 148px 135px;
+    gap: 30px;
+}
+
+.secao-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 950px;
+    width: 700px;
+    gap: 48px;
+    background-image: url(../img/Secao-contato-BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 70px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.info h3 {
+    color: var(--cor-marrom);
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.info p {
+    color: var(--cor-primaria);
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding-left: 30px;
+}
+
+.mensagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mensagem h2 {
+    padding-bottom: 42px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.mensagem h2, .btn-mensagem {
+    align-self: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-size: 1.5rem;
+}
+
+form input, form textarea {
+    outline: unset;
+    width: 570px;
+    padding: 16px;
+    border: 1px solid var(--cor-marrom);
+    color: var(--cor-marrom);
+    resize: none;
+    font-size: 1.25rem;
+}
+
+form input::placeholder, form textarea::placeholder {
+    color: var(--cor-marrom);
+}
+
+.btn-mensagem {
+    border: 3px solid var(--cor-marrom-escuro);
+    padding: 23px 74px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    margin-top: 21px;
+}

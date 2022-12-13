@@ -1,0 +1,28 @@
+.cafes-personalizados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-cp {
+    background-image: url(../img/CP-BG.png);
+}
+
+.faca-seu-pedido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 148px 135px;
+    gap: 48px;
+}
+
+.faca-seu-pedido p {
+    font-size: 1.5rem;
+}
+
+.cp {
+    color: #000;
+}

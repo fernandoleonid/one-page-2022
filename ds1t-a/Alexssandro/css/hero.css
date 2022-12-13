@@ -34,7 +34,7 @@
 
 .btn {
     color: var(--cor-primaria);
-    border: 1px solid var(--cor-marrom);
+    border: 3px solid var(--cor-marrom);
     border-radius: 25px;
     padding: 26px 86px;
 }
