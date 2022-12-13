@@ -69,10 +69,20 @@
 
     .sobre-nos {
         display: flex;
+        
     }
 
-
     .sub-titulo-descricao-sobre-nos {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .sub-titulo-descricao-sobre-nos h2 {
+        display: none;
+        
+    }
+
+    .sub-titulo-descricao-sobre-nos p {
         display: none;
     }
 
@@ -84,9 +94,9 @@
     .fundo-mobile {
         display: initial;
         position: absolute;
-        left: 10%;
-        top: 15%;
-        width: 90vw;
+        left: 0%;
+        top: 11%;
+        width: 100vw;
         height: 70vh;
     }
 

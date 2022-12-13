@@ -320,7 +320,7 @@
         align-items: center;
         flex-direction: column;
         gap: 42px;
-      padding-bottom: 20px;
+        padding-bottom: 20px;
     }
 
     .cards-mobile {
@@ -332,6 +332,10 @@
 
 @media (max-width: 460px) {
 
+    .container-titulo-jogos {
+        top: -22%;
+    }
+
     .cards-tablet {
         display: none;
     }
@@ -340,11 +344,39 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        gap: 20px;
+        gap: 30px;
     }
 
     .cards-mobile img {
         display: flex;
-        width: 100%;
+        width: 70vw;
     }
+
+    .card-tres {
+        padding-bottom: 30px;
+    }
+
+    .card-quatro {
+        padding-bottom: 30px;
+    }
+
+    .card-cinco {
+        padding-bottom: 30px;
+    }
+
+    .card-seis {
+        padding-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }

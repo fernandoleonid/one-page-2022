@@ -11,8 +11,19 @@ header {
     justify-content: space-around;
 }
 
-.fa-bars {
+header label {
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
     display: none;
+}
+
+#menu-bar {
+    display: none;
+}
+
+.fa-bars {
+    display: inherit;
 }
 
 .cabecalho-home-um {
@@ -116,16 +127,25 @@ header {
     display: none;
 }
 
+
+
+
 @media (max-width: 660px) {
     header {
         max-width: 660px;
         width: 100vw;
     }
 
+   
+
     .navegacao-cabecalho {
         max-width: 660px;
         width: 100vw;
        
+    }
+
+    .lista-cabecalho-home {
+        display: none;
     }
 
     .fa-bars {
@@ -141,11 +161,11 @@ header {
         justify-content: space-around;
     }
 
-    .lista-cabecalho-home {
-        display: none;
-    }
+    
 
     .logo-riot-games-header {
         width: 25vw;
     }
+
+    
 }

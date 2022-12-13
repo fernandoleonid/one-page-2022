@@ -66,8 +66,8 @@
 
 }
 
-#item-grande h3 {
-    padding-left: 20px;
+#item-grande h2 {
+    padding-left: 10px;
 }
 
 #item-grande p {
@@ -102,13 +102,14 @@
     width: 13vw;
 }
 
-#item-um-horizontal h3 {
-    padding-left: 20px;
+#item-um-horizontal h2 {
+    padding-left: 10px;
+    font-size: 1.2rem;
 }
 
 #item-um-horizontal p {
     padding-left: 10px;
-    padding-top: 24px;
+    padding-top: 10px;
 }
 
 #item-dois-horizontal img {
@@ -117,13 +118,15 @@
     width: 13vw;
 }
 
-#item-dois-horizontal h3 {
-    padding-left: 20px;
+#item-dois-horizontal h2 {
+    padding-left: 10px;
+    font-size: 1.2rem;
 }
 
 #item-dois-horizontal p {
+    font-size: 1rem;
     padding-left: 10px;
-    padding-top: 24px;
+    padding-top: 10px;
 }
 
 .cards-vertical {
@@ -152,12 +155,16 @@
 }
 
 #item-um-vertical h2 {
-    padding-top: 10px;
+    padding-top: 4px;
     width: 20vw;
     flex-wrap: wrap;
+    font-size: 1.2rem;
 }
 
 #item-um-vertical p {
+    font-size: 1rem;
+    width: 20vw;
+    flex-wrap: wrap;
     padding-top: 10px;
 }
 
@@ -173,18 +180,22 @@
 
 #item-dois-vertical img {
     position: absolute;
-    left: 76%;
-    height: 11vh;
-    width: 9vw;
+    left: 74%;
+    height: 12vh;
+    width: 11vw;
 }
 
 #item-dois-vertical h2 {
-    padding-top: 10px;
+    padding-top: 4px;
     width: 20vw;
     flex-wrap: wrap;
+    font-size: 1.2rem;
 }
 
 #item-dois-vertical p {
+    font-size: 1rem;
+    width: 20vw;
+    flex-wrap: wrap;
     padding-top: 10px;
 }
 
@@ -200,18 +211,22 @@
 
 #item-tres-vertical img {
     position: absolute;
-    left: 76%;
-    height: 11vh;
-    width: 9vw;
+    left: 74%;
+    height: 12vh;
+    width: 11vw;
 }
 
 #item-tres-vertical h2 {
-    padding-top: 10px;
+    padding-top: 4px;
     width: 20vw;
     flex-wrap: wrap;
+    font-size: 1.2rem;
 }
 
 #item-tres-vertical p {
+    font-size: 1rem;
+    width: 20vw;
+    flex-wrap: wrap;
     padding-top: 10px;
 }
 
@@ -266,6 +281,7 @@
         height: 50vh;
         font-size: 0.7rem;
         text-align: left;
+        justify-content: center;
         padding-bottom: 10px;
         position: relative;
     }
@@ -291,6 +307,7 @@
         height: 50vh;
         font-size: 0.7rem;
         text-align: left;
+        justify-content: center;
         padding-bottom: 10px;
         position: relative;
     }
@@ -316,6 +333,7 @@
         height: 50vh;
         font-size: 0.7rem;
         text-align: left;
+        justify-content: center;
         padding-bottom: 10px;
         position: relative;
     }
