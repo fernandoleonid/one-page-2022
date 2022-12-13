@@ -92,6 +92,9 @@
     place-self: start end;
     color: #86150F;
     transform: rotate(90deg);
+    margin-top: 40px;
+    padding-bottom: 90px;
+    opacity: 50%;
 }
 .diretor{
     grid-area: diretor-filme;
@@ -100,6 +103,7 @@
     place-self: end start;
     color: #86150F;
     transform: rotate(90deg);
+    opacity: 50%;
     
 }
 @media (max-width: 960px) {
