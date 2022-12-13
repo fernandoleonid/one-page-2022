@@ -1,0 +1,184 @@
+.section-smartwatch{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    max-width: 1770px;
+    height: 100vh;
+}
+
+.smartwatch-title-container{
+    grid-column: 1;
+    grid-row: 1;
+    width: 9vw;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 2.25vw;
+}
+
+.smartwatch-title{
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.smartwatch-text-container1{
+    grid-column: 1;
+    grid-row: 1;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    place-self: center;
+}
+
+.smartwatch-text{
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 3.5rem;
+    text-align: left;
+}
+
+.smartwatch-promotion-container{
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.smartwatch-promotion-container a{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18vw;
+    height: 12vh;
+    font-size: 1.5rem;
+    background: #ffff;
+    border-radius: 30px;
+    color: #000;
+}
+
+.smartwatch-promotion-container a:hover{
+        opacity: 70%;    
+        transition: .4s;
+}
+
+.smartwatch-text-container2{
+        grid-column: 3;
+        grid-row: 1;
+        width: 18vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        place-self: center;
+}
+
+@media (max-width:960px){
+    .section-smartwatch{
+        height: 140vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .section-smartwatch a{
+        width: 259px;
+        height: 76px;
+    }
+
+    .smartwatch-text-container1{
+        grid-row: 1;
+        grid-column: 1;
+        padding-top: 10vh;
+    }
+
+    .smartwatch-text-container1 p{
+        text-align: center;
+        font-size: 3.25rem;
+    }
+
+    .smartwatch-promotion-container{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .smartwatch-text-container2{
+        grid-column: 1;
+        grid-row: 3;
+        width: 403px;
+        height: 126px;
+    }
+
+    .smartwatch-text-container2 p{
+        text-align: center;
+        font-size: 3.25rem;
+    }
+}
+
+@media (max-width: 640px){
+    .section-smartwatch{
+        height: 140vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 120px 1fr 1fr 1fr;
+    }
+
+    .smartwatch-title-container{
+        grid-column: 1;
+        grid-row: 1;
+        padding-left: 0;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .smartwatch-text-container1{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .smartwatch-text-container1 p{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .smartwatch-promotion-container{
+        grid-column: 1;
+        grid-row: 3;
+        align-self: center;
+    }
+
+    .smartwatch-promotion-container a{
+        width: 300px;
+        height: 80px;
+    }
+
+    .smartwatch-text-container2{
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .smartwatch-text-container2 p {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 960px) {
+    .section-smartwatch{
+        width: 100%;
+    }
+    .smartwatch-text{
+        font-size: 2rem;
+    }
+}

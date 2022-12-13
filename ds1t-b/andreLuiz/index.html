@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site feito com a intenção de colocar em prática dos conteúdos desenvolvidos no Senai Jandira">
+    <title>One Page Samsung</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/16a1966fca.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/logo.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tab.css">
+    <link rel="stylesheet" href="./css/smartwatch.css">
+    <link rel="stylesheet" href="./css/informacoes.css">
+    <script src="./js/burguer.js" defer></script>
+</head>
+
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    <header>
+        <div class="logo">
+            <a href="#">
+                <img src="./img/logo.png" alt="Imagem de logo">
+            </a>
+        </div>
+        <nav>
+            <a href="#" class="menu-burger-container" aria-label="container do menu">
+                <i class="menu-burger"></i>
+            </a>
+            <ul class="menu">
+                <li>
+                    <a href="#home" aria-label="Sobre nós">Home</a>
+                </li>
+                <li>
+                    <a href="#mobile" aria-label="Mobile">Mobile</a>
+                </li>
+                <li>
+                    <a href="#tab" aria-label="Tab">Tab</a>
+                </li>
+                <li>
+                    <a href="#smartwatch" aria-label="Smartwatch">Smartwatch</a>
+                </li>
+                <li>
+                    <a href="#informacoes" aria-label="Informacoes">Informações</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="menubar-container" id="btn-mobile">
+            <a href="#">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <section class="section-home" id="home">
+        <div class="promotion-text-container">
+            <span>Are you ready?</span>
+            <span>For revolution?</span>
+        </div>
+        <div class="promotion-image-container">
+            <img src="./img/fold-image.png" alt="Imagem promocional">
+        </div>
+    </section>
+    <section class="section-mobile" id="mobile">
+        <div class="title-mobile-container">
+                <h1 class="title-mobile">Mobile</h1>
+        </div>
+        <div class="promotion-container1">
+            <span>Galaxy Z Flip</span>
+            <img src="./img/Zflip-image.png" alt="Imagem promocional Zflip">
+            <a href="#" class="button-promotion-comprar" aria-label="botao comprar Zflip">Comprar</a>
+        </div>
+        <div class="promotion-text-container-mobile">
+            <p class="promotion-text">Nossa linha de mobile de 
+                celulares com displays 
+                dobráveis são uma revolução</p>
+        </div>
+        <div class="promotion-container2">
+            <span>Galaxy Fold</span>
+            <img src="./img/fold-image-promotional.png" alt="Imagem promocional Galaxy Fold">
+            <a href="#" class="button-promotion-comprar" aria-label="botao comprar Fold">Comprar</a>
+        </div>
+    </section>
+    <section class="section-tab" id="tab">
+        <div class="title-tab-container">
+            <h1 class="title-tab">Tab</h1>
+        </div>
+        <div class="tab-text-container">
+            <p class="tab-text">
+                Com o Tab a sua experiência como usuário pode ser melhorada!
+                As suas áreas de trabalho nunca estiveram mais organizadas.
+
+            </p>
+            <p class="tab-text">                
+
+            </p>
+        </div>
+        <div class="tab-promotion-container">
+            <img src="./img/tab-image.png" alt="Imagem promocial tab">
+            <a href="#" class="button-promotion-comprar" aria-label="botao comprar tab">Comprar</a>
+        </div>
+    </section>
+    <section class="section-smartwatch" id="smartwatch">
+        <div class="smartwatch-title-container">
+            <h1 class="smartwatch-title">Smartwatch</h1>
+        </div>
+        <div class="smartwatch-text-container1">
+            <p class="smartwatch-text">
+                Quer levar a
+                modernidade 
+                consigo?
+            </p>
+        </div>
+        <div class="smartwatch-promotion-container">
+            <img src="./img/smartwatch-image.png" alt="Imagem promocional watch4">
+            <a href="#" class="button-promotion-comprar" aria-label="botao comprar smartwatch">Comprar</a>
+        </div>
+        <div class="smartwatch-text-container2">
+            <p class="smartwatch-text">
+                Com o watch4
+                você consegue!
+            </p>
+        </div>
+    </section>
+    <section class="section-informacoes" id="informacoes">
+        <div class="informacoes-title-container">
+            <h1 class="informacoes-title">Informações</h1>
+        </div>
+        <div class="informacoes-criador-container">
+            <p class="criador-text">Criador:</p>
+            <img src="./img/criador-image.png" alt="Imagem do criador">
+            <p class="criador-text">André Luiz</p>
+            <div class="icons-container">
+                <a href="https://www.instagram.com/andreluisconstanino/" aria-label="botao rede social instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/AndreLuisConstantino" aria-label="botao rede social github">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.facebook.com/andreluis.constanino.1/" aria-label="botao rede social facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+        <div class="informacoes-contato-container">
+            <p class="contato-text">Contato:</p>
+            <i class="fa-solid fa-phone"></i>
+            <p class="contato-text">(11) 97049-3172</p>
+            <i class="fa-solid fa-envelope"></i>
+            <p class="contato-text">andreluis081205@gmail.com</p>
+        </div>
+    </section>
+    <footer>
+        <span>Todos os direitos reservados a AndréLuiz</span>
+    </footer>
+</body>
+</html>
