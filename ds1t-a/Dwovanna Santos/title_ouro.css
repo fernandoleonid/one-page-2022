@@ -1,0 +1,27 @@
+.title_ouro{
+    grid-area: title;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FFF1BD;
+    position: absolute;
+    top: 103%;
+}
+.subouro{
+    color: aliceblue;
+    position: absolute;
+    top: 113%;
+    left: 37%;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.logouro{
+    color: #FFF1BD;
+    position: absolute;
+    top: 105%;
+    left: 07%;
+    font-size: 1.5rem;
+   
+}

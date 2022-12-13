@@ -1,0 +1,21 @@
+.menu__bars{
+    display: none;
+}
+.menu {
+    display: flex;
+    gap: 72px;
+    font-size: 1.3rem;
+    color: aliceblue;
+    position: absolute;
+    top: 05%;
+    left: 65%;
+}
+
+.menu li {
+    border-bottom: 4px solid transparent;
+    transition: border-color 1s;
+}
+
+.menu li:hover {
+    border-color: beige;
+}
