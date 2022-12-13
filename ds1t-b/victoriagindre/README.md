@@ -16,6 +16,6 @@ Site do tipo landing page para divulgar o meu site sobre o restaurante Outback. 
 - Markdown
 ---
 ## Autor
--[Victoria Gindre](https://github.com/vickr-g)
-
+-[ Git Victoria Gindre](https://github.com/vickr-g)
+-[Figma Victoria Gindre](https://www.figma.com/file/mUGUAC0320qnQBIymluC7B/Outback---super-original?node-id=0%3A1&t=Ek4xM6GTvdC8fSwA-0)
 # projeto-site-outback
