@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/324b71f187.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/quem-somos.css">
+    <link rel="stylesheet" href="./css/cardapio.css">
+    <link rel="stylesheet" href="./css/restaurantes.css">
+    <link rel="stylesheet" href="./css/contatos.css">
+    <link rel="stylesheet" href="./css/bars.css">
+    <link rel="stylesheet" href="./css/back.css">
+    <script src="./js/bars.js" defer></script>
+    <title>Outback Steakhouse</title>
+</head>
+
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <header>
+        <div class="logo">
+            <a href="https://www.outback.com.br/" target="_blank">
+                <img src="./img/logo.png" alt="logo do estabelecimento">
+            </a>
+        </div>
+        <a href="#home" class="back" title="Inicio">
+            <i class="fas fa-angle-double-up"></i>
+        </a>
+        <nav class="container-menu">
+            <a href="#" class="menu__container">
+                <i class="menu__bars"></i>
+            </a>
+            <ul class="menu">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#quem-somos">Quem Somos?</a>
+                </li>
+                <li>
+                    <a href="#cardapio">Cardápio</a>
+                </li>
+                <li>
+                    <a href="#restaurantes">Restaurantes</a>
+                </li>
+                <li>
+                    <a href="#fale-conosco">Fale Conosco</a>
+                </li>
+                <div class="bars"></div>
+                <li>
+                    <a href="https://instagram.com/outbackbrasil?igshid=YmMyMTA2M2Y=" target="_blank">
+                        <i class="fab fa-instagram"></i></a>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/outbackbrasil/?mibextid=ZbWKwL" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtube.com/@outbackbr" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/outbackbrasil" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="container-title">
+                <h1 class="home-title">#TENHAUMOMENTOOUTBACK</h1>
+            </div>
+            <div class="content">
+                <div class="slides">
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+
+                    <div class="slide s1">
+                        <a href="https://www.outback.com.br/esperadigital?utm_source=google&utm_medium=cpc&utm_campaign=sazonal&utm_term=ampfy&utm_content=google_txt_search_alwayson_delivery_br_conversao_x_keywords_internet_x_x_cpc_texto_institucional_x_x_x_site-espera-digital_ext-sitelink&gclid=CjwKCAiA7IGcBhA8EiwAFfUDsS_68m79YXFP6-IGJfkv8fU4xu4w_kNGvWmtIvRk5BzHdqn1dTxEJhoCnZIQAvD_BwE"
+                            target="_blank">
+                            <img src="./img/slide1.png" alt="primeira imagem do slider fila digital "></a>
+                    </div>
+                    <div class="slide">
+                        <img src="./img/slide2.png" alt="segunda imagem do slider desconto ">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/slide3.png" alt=" terceira imagem do slider foto de comida">
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <label class="bar" for="slide1"></label>
+                    <label class="bar" for="slide2"></label>
+                    <label class="bar" for="slide3"></label>
+                </div>
+            </div>
+            <div class="container-delivery">
+                <p class="description-delivery">O SEU</p>
+                <h1 class="title-delivery">#MomentoOutback</h1>
+                <p class="description-delivery">PODE COMEÇAR ANTES DE SAIR DE CASA</p>
+            </div>
+            <a href="https://www.outback.com.br/esperadigital?utm_source=google&utm_medium=cpc&utm_campaign=sazonal&utm_term=ampfy&utm_content=google_txt_search_alwayson_delivery_br_conversao_x_keywords_internet_x_x_cpc_texto_institucional_x_x_x_site-espera-digital_ext-sitelink&gclid=CjwKCAiA7IGcBhA8EiwAFfUDsS_68m79YXFP6-IGJfkv8fU4xu4w_kNGvWmtIvRk5BzHdqn1dTxEJhoCnZIQAvD_BwE"
+                class="button__container">
+                ENTRE NA FILA
+            </a>
+        </section>
+        <section class="quem-somos" id="quem-somos">
+            <div class="container-title-quem-somos">
+                <h1 class="quem-somos-title">QUEM SOMOS?</h1>
+                <img src="./img/header-section-quem-somos.png" alt="imagem de uma loja" class="fundo-quem-somos">
+            </div>
+            <div class="quem-tudo">
+                <p class="description-quem-somos">O Outback Steakhouse possui 139 restaurantes no Brasil e está presente em 56 cidades, 17 estados brasileiros e no Distrito Federal. Com cortes de carne especiais e aperitivos icônicos como a Bloomin’ Onion (cebola gigante dourada em formato
+                    de flor), o Outback caiu no gosto do brasileiro pela qualidade e sabor marcante da sua culinária, somados à descontração no atendimento e às instalações aconchegantes. Inspirado na Austrália, o restaurante enfatiza vários aspectos
+                    da cultura australiana, como esporte, pontos turísticos, paisagens icônicas, tradições e lazer.
+                </p>
+                <img class="foto-quem-somos" src="./img/img-section-quem-somos.png" alt="imagem de uma cebola">
+            </div>
+        </section>
+        <section class="cardapio" id="cardapio">
+            <div class="container-title-cardapio">
+                <h1 class="cardapio-title">PRATOS FAVORITOS</h1>
+                <img src="./img/header-section-.png" alt="imagem de uma porção de batata frita com cheddar" class="fundo-cardapio">
+            </div>
+            <div class="container-cardapio">
+                <div class="container-cardapio-itens">
+                    <img src="./img/comida1.png" alt="imagem do prato Junior Ribs" class="image-item">
+                    <div class="texto-comida">
+                        <h3 class="title-comidas">Junior Ribs</h3>
+                        <p class="description-car">Essa versão traz meia costela grelhada em chama aberta e temperada com blend de especiarias.</p>
+                    </div>
+                </div>
+                <div class="container-cardapio-itens">
+                    <img src="./img/comida2 1.png" alt="Imagem do prato Royal Plant Barbecue" class="image-item">
+                    <div class="texto-comida">
+                        <h3 class="title-comidas">Royal Plant Barbecue</h3>
+                        <p class="description-car">Inspirado na Ribs On The Barbie e na Royal Cheese Ribs, a Royal Plant Barbecue é nossa versão tamanho júnior feita com 150g de mix de proteínas vegetais Incrível!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-cardapio">
+                <div class="container-cardapio-itens">
+                    <img src="./img/comida3 1.png" alt="Imagem do prato Steak Au Gratin" class="image-item">
+                    <div class="texto-comida">
+                        <h3 class="title-comidas">Steak Au Gratin</h3>
+                        <p class="description-car">Fatias de filet mignon e cogumelos salteados, molho de gorgonzola, nosso Garlic Mashed Potato e mix de queijos gratinados.</p>
+                    </div>
+                </div>
+                <div class="container-cardapio-itens">
+                    <img src="./img/comida4 1.png" alt="Imagem do prato Junior Ribs For Two" class="image-item">
+                    <div class="texto-comida">
+                        <h3 class="title-comidas">Junior Ribs For Two</h3>
+                        <p class="description-car">Essas duas Junior Ribs servidas com dois acompanhamentos são perfeitas para quem está em dupla. Combine com um dos nossos molhos: Barbecue ou Billabong.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="restaurantes" id="restaurantes">
+            <div class="container-title-restaurantes">
+                <h1 class="restaurantes-title">RESTAURANTES</h1>
+                <img src="/img/header-section-onde-encontrar.png" alt="imagem de uma loja" class="fundo-restaurantes">
+            </div>
+            <div class="tudo">
+                <ul class="locais">
+                    <li class="list-item">
+                        Restaurante Outback Barueri - SP · (11) 4133-1955 Fecha às 22:00
+                    </li>
+                    <li class="list-item">
+                        Outback São Paulo - SP · (11) 3507-4598 Fecha às 22:30
+                    </li>
+                    <li class="list-item">
+                        Outback Steakhouse São Paulo - SP · (11) 4858-7541 Fecha às 23:00
+                    </li>
+                    <li class="list-item">
+                        Outback Steakhouse São Paulo - SP · (11) 3044-4640 Fecha às 23:00
+                    </li>
+                    <li class="list-item">
+                        Outback Shopping Pátio Paulista São Paulo - SP · (11) 3171-1852 Fecha às 23:00
+                    </li>
+                    <li class="list-item">
+                        Outback Steakhouse Shopping Tamboré Barueri - SP · (11) 4208-3792 ⋅ Fecha às 20:00
+                    </li>
+                    <li class="list-item">
+                        Outback Steakhouse Cotia - SP · (11) 4702-3376 Fecha às 22:30
+                    </li>
+                </ul>
+                <ul class="locaais">
+                    <li class="list-item">
+                        Restaurante Outback Barueri - SP · (11) 4133-1955 Fecha às 22:00
+                    </li>
+                    <li class="list-item">
+                        Outback São Paulo - SP · (11) 3507-4598 Fecha às 22:30
+                    </li>
+                    <li class="list-item">
+                        Outback Steakhouse São Paulo - SP · (11) 4858-7541 Fecha às 23:00
+                    </li>
+                    <li class="list-item">
+                        Outback Steakhouse São Paulo - SP · (11) 3044-4640 Fecha às 23:00
+                    </li>
+                    <li class="list-item">
+                        Outback Shopping Pátio Paulista São Paulo - SP · (11) 3171-1852 Fecha às 23:00
+                    </li>
+                    <li class="list-item">
+                        Outback Steakhouse Shopping Tamboré Barueri - SP · (11) 4208-3792 ⋅ Fecha às 20:00
+                    </li>
+                    <li class="list-item">
+                        Outback Steakhouse Cotia - SP · (11) 4702-3376 Fecha às 22:30
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="fale-conosco" id="fale-conosco">
+            <div class="container-title-contatos">
+                <h1 class="contatos-title">FALE CONOSCO</h1>
+                <img src="/img/header-section-contatos.png" alt="Imagem da logo do outback" class="fundo-contatos">
+            </div>
+            <ul class="contato-container">
+                <li class="container-item-contato">
+                    <div class="contato-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>(11) 2643 4079</span>
+                    </div>
+                </li>
+                <li class="container-item">
+                    <div class="contato-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>faleconosco@outback.com.br</span>
+                    </div>
+                </li>
+                <li class="container-item">
+                    <div class="contato-item">
+                        <i class="fab fa-google"></i>
+                        <span>www.outback.com.br</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>Todos os direitos reservados 2022 | Desenvolvido por Victoria Gindre</footer>
+</body>
+
+</html>
