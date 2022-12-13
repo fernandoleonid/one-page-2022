@@ -1,6 +1,7 @@
 :root {
     --cor-marrom: #C59D5F;
     --cor-marrom-escuro: #816334;
+    --cor-icone: #6B6464;
     --cor-cinza-escuro: #191919;
     --cor-primaria: #ffffff;
 }
@@ -34,5 +35,22 @@ footer {
     grid-area: footer;
     width: 100%;
     padding: 0px 15px;
-    background-color: lawngreen;
+    background-color: var(--cor-cinza-escuro);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 135px 135px 135px;
+}
+
+.direitos {
+    grid-area: footer;
+    place-self: end;
+    width: 100%;
+    background-color: #000;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    color: var(--cor-primaria);
+    font-size: 1rem;
+    font-weight: 300;
 }

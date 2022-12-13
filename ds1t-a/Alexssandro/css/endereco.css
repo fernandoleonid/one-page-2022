@@ -1,0 +1,18 @@
+.endereco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.endereco h3 {
+    color: var(--cor-marrom);
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.endereco p {
+    color: var(--cor-primaria);
+    font-size: 1.25rem;
+    font-weight: 300;
+}

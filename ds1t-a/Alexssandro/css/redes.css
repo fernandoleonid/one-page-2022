@@ -1,0 +1,40 @@
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.redes__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.redes__logo h3 {
+    font-size: 1.5rem;
+    color: var(--cor-primaria);
+    font-weight: 300;
+}
+
+.redes__redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.redes__media {
+    display: grid;
+    place-items: center;
+    font-size: 32px;
+    border-radius: 50px;
+    background-color: var(--cor-icone);
+    color: var(--cor-primaria);
+    height: 64px;
+    width: 64px;
+}
