@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.home{
+    background-image: url(../imgs/joshua-kantarges-N_7Kb4hpaoU-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*responsividade*/
+
+@media(max-width: 640px){
+
+    .home{
+        width: 640px;
+    }
+
+
+
+}
