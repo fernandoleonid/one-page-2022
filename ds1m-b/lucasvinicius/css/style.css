@@ -8,6 +8,9 @@ body{
     color:white;
 }
 
+.enabled {
+    display: flex;
+}
 
 header{
     grid-area: content;

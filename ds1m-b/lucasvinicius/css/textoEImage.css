@@ -27,7 +27,11 @@
     place-content: center;
 }
 
-.textQuadrado {
+.imgBo2 span:hover {
+    color: beige;
+}
+
+/* .textQuadrado {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -35,4 +39,4 @@
 
 .textQuadrado span:hover ~ .quadrado2 {
     display: flex;
-}
+} */

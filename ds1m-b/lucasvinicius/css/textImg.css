@@ -13,14 +13,15 @@
     display: flex;  
 }
 
-.imagensBo1EBo2 {
+.imagensBo1EBo3 {
     display: flex;
     flex-direction: column;
     gap: 140px;
     height: 900px;
 }
 
-
-.quadrado1 span:hover ~ .quadrado {
-    display: flex;
+.textImg span:hover {
+    color: beige;
 }
+
+
