@@ -1,18 +1,15 @@
 .title {
-     width: max-content; 
     color:black;
     text-shadow: white;
     font-size: 70px;      
-    /* position: absolute; */
     text-shadow: -3px -5px 4px #fff;
- top: 500px; 
-    left: 410px;
-     position: absolute; 
     text-transform: uppercase; 
-     /* position: fixed;  */
      z-index: 1;
-     /* height: 100vh; */
-     height: max-content;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+
      
     
 } 
@@ -23,21 +20,11 @@
 
     
 .home { 
-    /* display: flex;
-     background-image: url(../img/background.jpg); 
-     background-repeat: no-repeat;
-     background-size: cover;
-     width: 100%;
-     position: relative; */
-     /* position: relative;  */
-      /* width: 1200px;   */
-    /* margin-top: 40px */
-    /* filter: grayscale(100%); */
-    /* z-index: 0; */
   height: calc(100vh - 80px);
-  /* width: 100vw; */
-  /* background-color: #000; */
   display: flex;
+  align-items: center;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
   justify-content: center;
   
 }

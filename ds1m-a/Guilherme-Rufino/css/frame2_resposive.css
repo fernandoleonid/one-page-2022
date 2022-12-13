@@ -1,71 +1,39 @@
 @media(max-width:640px) {
 
-     .frame2_image {
-         /* width: 640px;
-        height: 100vh;
-         position: absolute;  */
-        
-       /* display: grid;
-       grid-template-areas: 
-       "title_frame2"
-       "Text_frame2"
-       "Text2_frame2"
-       "Title2"
-       ; */
-       /* grid-template-rows: 40px 40px 40px 40px ;
-       grid-template-columns: 1; */
+.frame2 {
+display: flex;
+flex-direction: column;
+height: auto;
+
+
+}
+.container {
+  justify-content: start;
+  gap: 20px;
+  padding-top: 300px;
+  
+}
+
+    .title_frame2{
+      width: 100vw;
+        font-size: 50px; 
+        padding-bottom: 40px;
+    }
+   
+       .Text_frame2{
+         width: 320px;
+        font-size: 2rem;
+        margin-left: 0vw;
+
+       }
+    .Text2_frame2 {
+display: flex;
+
+      font-size: 2rem;
+    
+      padding-left: 90px;
 
     } 
-    .title_frame2{
-        /* grid-area:title_frame2; */
-         /* position: relative;
-        background-color: aqua; */
-        height: max-content;
-        font-size: 50px; 
-       
-      left: 10px;
-      
-        
-        
-    }
-    .frame2_image {
-
-      width: 100%;
-      height: 100vh;
-   }
-       .Text_frame2{
-        /* grid-area:Text_frame2; */
-         position: relative;
-       /* left: -800px; */
-     
-        font-size: 35px;
-        left: 20px;
-       
-        top: -600px;
-        height: 300px; 
-        
-
-        
-       }
-       .Text2_frame2{
-        /* grid-area:Text2_frame2; */
-         position: relative; 
-        top: -600px;
-        /* background-color: aqua; */
-        left: 30px;
-        height: max-content;
-       }
-       .Title2{
-        /* grid-area:Title2; */
-        /* position: relative;
-        margin-top: 900px;
-        
-        background-color: crimson; */
-        top: 700px;
-        /* background-color: teal; */
-        height: max-content;
-      left: 100px;
-       }
 
 
     
