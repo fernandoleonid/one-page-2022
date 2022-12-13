@@ -27,7 +27,7 @@
 .avaliacoesl1{
     display: flex;
     flex-direction: row;
-    gap: 202px;
+    gap: 10vw;
     align-content: center;
     grid-area: l1;
 }
@@ -55,4 +55,39 @@
     -ms-transform: scale(1.05);
     transform: scale(1.05);
     transition: 1s;
+}
+@media (max-width:960px){
+    .avaliacoes{
+        grid-template-rows: 1fr 10fr;
+        height: auto;
+    }
+    .avaliacoes__title{
+        font-size: 4vw;
+        align-self: center;
+    }
+    .avaliacoes p{
+        font-size: 2.4vw;
+    }
+}
+@media (max-width: 420px) {
+    .avaliacoes{
+        display: flex;
+        flex-direction: column;
+    }
+    .avaliacoesl1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vh;
+    }
+    .av p{
+        width: auto;
+        font-size: 5vw;
+    }
+    .av{
+        width: 60vw;
+    }
+    .avaliacoes__title{
+        font-size: 6vw;
+    }
 }

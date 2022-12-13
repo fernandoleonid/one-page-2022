@@ -13,7 +13,7 @@
 }
 .social-item{
     color: var(--primary-color);
-    font-size: 3rem;
+    font-size: 2.5em;
     background-color: #D4E1D4;
     width: 80px;
     height: 80px;
@@ -26,11 +26,33 @@
     justify-content: center;
 }
 .contato-item{
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     text-align: center;
 }
 .social-item:hover{
     background-color: #1B361D;
     color: white;
     transition: 1s;
+}
+@media(max-width:960px){
+    .contato__title{
+        font-size: 4vw;
+        display: inline-block;
+    }
+    .sociais{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+    .contato-item{
+        font-size: 3vw;
+    }
+}
+@media (max-width: 420px) {
+    .contato{
+        margin-top: 50px;
+    }
+    .contato__title{
+        font-size: 6vw;
+    }
 }

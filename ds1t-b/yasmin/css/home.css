@@ -21,3 +21,8 @@
         font-size: 6vw;
     }
 }
+@media (max-width: 420px){
+    .home__title{
+        font-size: 9vw
+    }
+}

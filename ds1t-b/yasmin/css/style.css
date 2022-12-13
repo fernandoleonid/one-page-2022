@@ -45,4 +45,13 @@ footer{
         max-width: 750px;
         width: 100%;
     }
+    footer{
+        font-size: 2.4vw;
+    }
+}
+@media (max-width: 420px){
+    header{
+        max-width: 320px;
+        width: 100%;
+    }
 }

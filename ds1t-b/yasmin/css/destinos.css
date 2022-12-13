@@ -38,7 +38,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap:180px;
+    gap: 9.3vw;
 }
 .destinos__lugares div p{
     align-self: center;
@@ -51,6 +51,47 @@
     transform: scale(1.05);
     transition: 1s;
 }
+.mob{
+    display: none;
+}
 @media (max-width: 960px){
-
+    .destinos{
+        margin-bottom: 50px;
+    }
+    .destinos__description{
+        justify-content: center;
+        font-size: 2.4vw;
+    }
+    .destinos__title{
+        font-size: 4vw;
+    }
+}
+@media (max-width: 420px){  
+    .destinos__title{
+        font-size: 6vw;
+    }
+    .destinos p{
+        font-size: 4vw;
+    }
+    .destinos__lugares{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6vh;
+    }
+    .destinos__lugares div{
+        flex-direction: column;
+        justify-content: center;
+        gap: 1px;
+    }
+    .destinos__lugares div img{
+        width: 90vw;
+        justify-self: center;
+    }
+    .desk{
+        display: none;
+    }
+    .mob{
+        display:inline-block;
+    }
 }

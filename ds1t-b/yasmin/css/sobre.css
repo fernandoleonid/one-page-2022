@@ -32,19 +32,34 @@
     align-self: center;
 }
 @media (max-width: 960px){
-    .sobre{
-        
-        width: 100%;
+    .sobre{  
         width: 100%;
         height: auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
     }
     .img-turista{
         width: 35vw;
     }
     .sobre__title{
+        font-size: 4vw;
+    }
+    .sobre__description{
+        font-size: 2.4vw;
+    }
+}
+@media (max-width: 420px){
+    .sobre{
+        flex-direction: column;
+        text-align: center;
+    }
+    .sobre__title{
         font-size: 6vw;
     }
     .sobre__description{
-        font-size: 3vw;
+        font-size: 4vw;
+    }
+    .sobre img{
+        display: none;
     }
 }

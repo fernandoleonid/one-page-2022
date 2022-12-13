@@ -26,3 +26,12 @@
         font-size: 2rem;
     }
 }
+@media (max-width: 420px) {
+    .bars{
+        font-size: 1.5rem;
+    }
+    .logo{
+        width: auto;
+        height: 3vh;
+    }
+}
