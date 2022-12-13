@@ -1,0 +1,167 @@
+#especies{
+    padding: 8vh 6vw 0 6vw;
+    background-image: linear-gradient( to bottom,
+     #fff 55%, var(--color-azul) 25%);
+}
+
+.animais{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    
+}
+
+.container-titulo-diversidade{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    display: grid;
+    gap: 10px;
+}
+
+.especies>article{
+    width: 30vw;
+    font-size: 0.9rem;
+   
+}
+
+
+.imagem-especie{
+    width: 450px;
+}
+
+
+.titulo-especies>h2{
+    text-transform: uppercase;
+    width: 206px;
+    background-color: var(--color-verde);
+    font-size: 2.8rem;
+    font-family: 'Heebo', sans-serif;
+}
+
+.diversidade>h3{
+    color: var(--color-verde);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.titulo-especies>h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+        
+h4{
+    color: var(--color-verde);
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+  
+}
+
+.diversidade{
+    width: 430px;
+    margin-right: 30px;
+
+}
+
+.texto-especies{
+    color: var(--color-cinza);
+    font-size: 0.9rem;
+    max-width: 24vw;
+}
+
+@media (max-width: 940px){
+    #especies{
+        padding-bottom: 30px;
+        height: auto;
+        background-image: linear-gradient( to bottom,
+         #fff 35%, var(--color-azul) 25%);
+    }
+    .animais{
+        width: 780px;
+        flex-wrap: wrap;
+        gap: 5vh;
+        justify-content: space-evenly;
+    }
+
+    .especies>article{
+        width: 100vw;
+        font-size: 0.9rem;
+       
+    }
+
+    .diversidade{
+        width: 350px;
+        margin-right: 50px;
+    
+    }
+
+    .imagem-especie{
+        width: 350px;
+    }
+
+    .texto-especies{
+        color: var(--color-cinza);
+        font-size: 0.9rem;
+        max-width: 45vw;
+    }
+
+    .texto-especies{
+        font-size: 0.9rem;
+        max-width: 350px;
+    }
+    
+}
+
+@media (max-width: 640px){
+    #especies{
+        background-image: linear-gradient( to bottom,
+         #fff 32%, var(--color-azul) 25%);
+        max-width: 640px;
+        padding: 0px;
+        padding-bottom: 5vh;
+    }
+
+    .titulo-especies {
+        margin-top: 40px;
+    }
+    .container-titulo-diversidade{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .diversidade {
+        margin: auto;
+    }
+
+    .diversidade>.texto-especies{
+        max-width: 85vw;
+    }
+
+    .animais{
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        gap: 6vh;
+    }
+
+    .titulo-especies{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .diversidade{
+        margin-top: 8vh;
+    }
+}
