@@ -1,5 +1,5 @@
 # site-figma
-![](../img/site.PNG)
+![](./img/site.PNG)
 
 ---
 
