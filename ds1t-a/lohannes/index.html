@@ -23,6 +23,16 @@
 </head>
 
 <body>
+    <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
     <header>
         <img src="./images/nick_logo.png" alt="" class="nick_logo">
         <img src="./images/logo_avatar.png" alt="" class="avatar-logo">
@@ -82,7 +92,7 @@
                 para voltar.</p>
             <div class="icones">
                 <div class="esquerdo">
-                    <a href="#a" type="" class="aangIcone">
+                    <a href="#a" type="" class="aangIcone" title="Aang">
                         <div class="aang">
                             <img src="./images/aangAtla.png" alt="" class="aang_foto">
                             <div class="aangInfo">
@@ -110,7 +120,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="#a" type="" class="kataraSokkaIcone">
+                    <a href="#a" type="" class="kataraSokkaIcone" title="Katara e Sokka">
                         <div class="katara-sokka">
                             <img src="./images/sokkaKatara1.png" alt="" class="sokkaKatara_photo">
                             <img src="./images/sokkaKatara2.png" alt="" class="sokkaKatara_photo2">
@@ -138,7 +148,7 @@
                     </a>
                 </div>
                 <div class="direito">
-                    <a href="#a" type="" class="tophIcone">
+                    <a href="#a" type="" class="tophIcone" title="Toph">
                         <div class="toph">
                             <div class="tophInfo2">
                                 <div class="elemento">
@@ -165,7 +175,7 @@
                             <img src="./images/toph.png" alt="" class="toph_photo">
                         </div>
                     </a>
-                    <a href="#a" type="" class="zukoIcone">
+                    <a href="#a" type="" class="zukoIcone" title="Zuko">
                         <div class="zuko">
                             <div class="zukoInfo2">
                                 <div class="elemento">
@@ -206,7 +216,7 @@
                 para voltar.</p>
             <div class="icones">
                 <div class="esquerdo">
-                    <a href="#a" type="" class="korraIcone">
+                    <a href="#a" type="" class="korraIcone" title="Korra">
                         <div class="korra">
                             <img src="./images/korraAtlok.png" alt="" class="korra_photo">
                             <div class="korraInfo">
@@ -234,7 +244,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="#a" type="" class="asamiIcone">
+                    <a href="#a" type="" class="asamiIcone" title="Asami">
                         <div class="asami">
                             <img src="./images/Asami.png" alt="" class="asami_photo">
                             <div class="asamiInfo">
@@ -260,7 +270,7 @@
                     </a>
                 </div>
                 <div class="direito">
-                    <a href="#a" type="" class="bolinIcone">
+                    <a href="#a" type="" class="bolinIcone" title="Bolin">
                         <div class="bolin">
                             <div class="bolinInfo2">
                                 <div class="elemento">
@@ -285,7 +295,7 @@
                             <img src="./images/bolin.png" alt="" class="bolin_photo">
                         </div>
                     </a>
-                    <a href="#a" type="" class="makoIcone">
+                    <a href="#a" type="" class="makoIcone" title="Mako">
                         <div class="mako">
                             <div class="makoInfo2">
                                 <div class="elemento">
@@ -321,7 +331,7 @@
             </div>
             <div class="botoesEAreas">
                 <div class="botoes1">
-                    <a href="#map" type="" class="agua">
+                    <a href="#map" type="" class="agua" title="Tribos da Água">
                         <img src="./images/agua.png" alt="" class="agua_icon">
                         <div class="tribos">
                             <div class="triboNorte">
@@ -354,7 +364,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="#map" type="" class="fogo">
+                    <a href="#map" type="" class="fogo" title="Nação do Fogo">
                         <img src="./images/fogo.png" alt="" class="fogo_icon">
                         <div class="nacaoFogo">
                             <div class="palacio">
@@ -371,7 +381,7 @@
                     </a>
                 </div>
                 <div class="botoes2">
-                    <a href="#map" type="" class="terra">
+                    <a href="#map" type="" class="terra" title="Nação da Terra">
                         <img src="./images/terra.png" alt="" class="terra_icon">
                         <div class="nacaoTerra">
                             <div class="baSingSe">
@@ -388,7 +398,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="#map" type="" class="ar">
+                    <a href="#map" type="" class="ar" title="Ilhas do Ar">
                         <img src="./images/ar.png" alt="" class="ar_icon">
                         <div class="ilhaNoroeste">
                             <div class="ilhaDosMongesNO">
@@ -444,7 +454,7 @@
                   <input type="radio" name="radio-btn" id="img-1" checked="">
                   <li class="slide-container">
                   <div class="slide">
-                    <img src="./images/DobraAgua.png">
+                    <img src="./images/DobraAgua.png" alt="Dobra de Água">
                       </div>
                   <div class="nav">
                     <label for="img-2" class="next">›</label>
@@ -454,7 +464,7 @@
                   <input type="radio" name="radio-btn" id="img-2">
                   <li class="slide-container">
                       <div class="slide">
-                        <img src="./images/DobraTerra.png">
+                        <img src="./images/DobraTerra.png" alt="Dobra de Terra">
                       </div>
                   <div class="nav">
                     <label for="img-1" class="prev">‹</label>
@@ -465,7 +475,7 @@
                   <input type="radio" name="radio-btn" id="img-3">
                   <li class="slide-container">
                       <div class="slide">
-                        <img src="./images/DobraFogo.png">
+                        <img src="./images/DobraFogo.png" alt="Dobra de Fogo">
                       </div>
                   <div class="nav">
                     <label for="img-2" class="prev">‹</label>
@@ -476,7 +486,7 @@
                   <input type="radio" name="radio-btn" id="img-4">
                   <li class="slide-container">
                       <div class="slide">
-                        <img src="./images/DobraAr.png">
+                        <img src="./images/DobraAr.png" alt="Dobra de Ar">
                       </div>
                   <div class="nav">
                     <label for="img-3" class="prev">‹</label>

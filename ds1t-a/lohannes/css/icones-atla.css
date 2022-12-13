@@ -385,9 +385,11 @@
     font-weight: 400;
 }
 
-.gif{
+.gif img{
     border-width: 4px 2px 2px 4px;
     border-style: solid;
     border-color: #FFFFFF;
     border-radius: 31px;
+    height: 32.44397011739594vh;
+    width: 20.9375vw;
 }

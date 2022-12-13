@@ -11,13 +11,20 @@
     overflow: hidden;
 }
 
-.principal{
-    width: 68.5%;
+.principal img{
+    width: 68.49947916666666vw;
+    height: 99.81152614727856vh;
 }
 
 .grande_logo{
-    width: 50%;
+    width: 50vw;
+    height: 34.67235859124867vh;
     position: absolute;
     top: 60%;
     left: 27%;
+}
+
+.grande_logo img{
+    width: 50vw;
+    height: 34.67235859124867vh;
 }
