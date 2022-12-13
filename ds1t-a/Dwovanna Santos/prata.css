@@ -1,0 +1,124 @@
+.prata{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/fundo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.aneldescrip{
+    font-size: 25px;
+    margin-left: 0px;
+    width: 200px;
+    position: absolute;
+    left: 20%;
+    top: 230%;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.colardescrip{
+    font-size: 25px;
+    margin-left: 0px;
+    width: 200px;
+    position: absolute;
+    left: 20%;
+    top: 255%;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.aliancadescrip{
+    font-size: 25px;
+    margin-left: 0px;
+    width: 200px;
+    position: absolute;
+    left: 20%;
+    top: 278%;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.brincodescrip{
+    font-size: 25px;
+    margin-left: 0px;
+    width: 200px;
+    position: absolute;
+    left: 54%;
+    top: 230%;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.pulseiradescrip{
+    font-size: 25px;
+    margin-left: 0px;
+    width: 200px;
+    position: absolute;
+    left: 54%;
+    top: 253%;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.relogiodescrip{
+    font-size: 25px;
+    margin-left: 0px;
+    width: 200px;
+    position: absolute;
+    left: 54%;
+    top: 278%;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.precoap{
+    font-size: 1.5rem;
+   color: cornsilk;
+   position: absolute;
+    left: 22%;
+    top: 238%;
+}
+.precocp{
+    font-size: 1.5rem;
+   color: cornsilk;
+   position: absolute;
+    left: 22%;
+    top: 260%;
+}
+.precoalp{
+    font-size: 1.5rem;
+    color: cornsilk;
+    position: absolute;
+     left: 22%;
+     top: 286%;
+}
+.precobp{
+    font-size: 1.5rem;
+    color: cornsilk;
+    position: absolute;
+     left: 56%;
+     top: 235%;
+}
+.precopp{
+    font-size: 1.5rem;
+    color: cornsilk;
+    position: absolute;
+     left: 56%;
+     top: 260%;
+}
+.precorp{
+    font-size: 1.5rem;
+    color: cornsilk;
+    position: absolute;
+     left: 56%;
+     top: 286%; 
+}
