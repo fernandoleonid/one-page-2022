@@ -1,0 +1,57 @@
+.frases {
+    grid-template-areas: 
+    "title-fra title-fra"
+    "doutor jinbei"
+    "teach iceburg";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 155px;
+
+    display: grid;
+    text-align: center;
+}
+.title-frases{
+    grid-area: title-fra;
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 50px;
+}
+.doutor{
+    grid-area: doutor;
+    align-items: center;
+    padding: 100px;
+    gap: 60px;
+    display: flex;
+}
+.frases-icons{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.nome{
+    font-size: 2rem;
+    color: var(--letras-color);
+}
+.icon{
+    height: 220px;
+    width: 220px;
+}
+.jinbei{
+    grid-area: jinbei;
+    align-items: center;
+    padding: 100px;
+    gap: 60px;
+    display: flex;
+}
+.teach{
+    grid-area: teach;
+    align-items: center;
+    padding: 100px;
+    gap: 60px;
+    display: flex;
+}
+.iceburg{
+    grid-area: iceburg;
+    align-items: center;
+    padding: 100px;
+    gap: 60px;
+    display: flex;
+}

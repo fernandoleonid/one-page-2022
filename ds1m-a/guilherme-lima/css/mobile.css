@@ -1,0 +1,72 @@
+@media (max-width: 640px) {
+.title-header{
+    font-size: 3.5rem;
+}
+header{
+    max-width: 580px;
+    place-self: start;
+    justify-content: space-around;
+}
+.sobre{
+    height: 1070px;
+}
+.title-sobre{
+    font-size: 3.5rem
+}
+.description-sobre{
+    font-size: 1.25rem;
+}
+.protagonista{
+    height: 960px;
+}
+.title-protagonista{
+    font-size: 3.5rem;
+}
+.description-protagonista{
+    font-size: 1.25rem;
+}
+.icones{
+    width: 475px;
+}
+.frases{
+    height: 2040px;
+}
+.doutor{
+    flex-direction: column;
+}
+.jinbei{
+    flex-direction: column;
+}
+.teach{
+    flex-direction: column;
+}
+.iceburg{
+    flex-direction: column;
+}
+.title-frases{
+    font-size: 3.5rem;
+}
+.jogo{
+    height: 1890px;
+    background-image: url(../img/fundo-tablet.png);
+    background-size: 100% 50%;
+}
+.capa-jogo{
+    padding-left: 60px;
+}
+.filme{
+    height: 1100px;
+}
+.title-filme{
+    font-size: 3.5rem;
+}
+.trailer{
+    width: 325px;
+}
+.botao-filme{
+    font-size: 1.35rem;
+}
+.title-mais{
+    font-size: 3.5rem;
+}
+}

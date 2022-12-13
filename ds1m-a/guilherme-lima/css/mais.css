@@ -1,0 +1,68 @@
+.mais{
+    grid-template-areas: 
+    "title-mais title-mais title-mais"
+    "onde contato redes";
+    grid-template-columns: 625px auto auto;
+    grid-template-rows: 175px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.title-mais{
+    grid-area: title-mais;
+    font-size: 6rem;
+    margin-top: 50px;
+}
+.onde-container{
+    grid-area: onde;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.onde-title{
+    font-size: 1.5rem;
+}
+.onde-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    gap: 20px;
+}
+.contato-container{
+    grid-area: contato;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.contato-title{
+    font-size: 1.5rem;   
+}
+.contato-item{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    gap: 15px
+}
+.social-container{
+    grid-area: redes;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 2rem;
+    margin-top: 32px;
+}
+.social{
+    display: grid;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+}
+.social:hover{
+    transition: .25s;
+    background-color: rgba(151, 0, 0, 0.8);
+}
+.onde-item:hover{
+    transition: .75s;
+    color: var(--letras-color);
+}
