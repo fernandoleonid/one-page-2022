@@ -24,6 +24,7 @@ O objetivo deste projeto é colocar em prática os conhecimentos adquiridos no c
 Nota que o lighthouse deu ao meu site. 
 
 ![](./img/lighthouse.png)
+
 ---
 ## Protótipo do site 
 
