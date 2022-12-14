@@ -1,7 +1,10 @@
 .home{
+    width: 100%;
     background-image: url(../img/capa_doce.png);
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
+    display: flex;
+    
 }
 .titulo_home{
     display: flex;
@@ -12,4 +15,24 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     font-family: 'Odor Mean Chey', serif;
     width: 800px;
+}
+
+/*Mobile*/
+@media (max-width:960px) {
+    
+    
+    .titulo_home{
+        margin-left: 80px;
+        font-size: 80px;
+    }
+
+    
+    
+}
+
+/*Tablet*/
+@media (max-width:640px) {
+    
+    
+    
 }

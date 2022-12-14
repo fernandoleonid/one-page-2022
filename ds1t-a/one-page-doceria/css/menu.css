@@ -7,7 +7,17 @@
     gap: 48px;
     
 }
-
 .logo {
     margin-left: 137px;
+}
+@media (max-width:960px) {
+    .menu{
+        display: none;
+    }
+    
+}
+@media (max-width:640px) {
+    
+    
+    
 }

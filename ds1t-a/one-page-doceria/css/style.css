@@ -7,7 +7,8 @@ body{
     grid-template-areas: "content";
     position: absolute;
     z-index: 2000;
-    color: #ffffff;
+    color: #ffff;
+    text-shadow: 0.1em 0.1em 0.2em black;
 }
 header{
     place-self: start center;
@@ -25,17 +26,13 @@ main{
     display: flex;
     flex-direction: column;
     background-image: url(../img/group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 section{
     height: 100vh;
-}
-
-.about-us{
-    background-color: wheat;
-}
-.contato{
-    background-color: aquamarine;
 }
 footer{
     place-self: end center;
@@ -48,4 +45,19 @@ footer{
     font-size: 2rem;
     font-family: 'Inter';
 
+}
+
+/*Mobile*/
+@media (max-width:960px) {
+    header{
+        gap: 10px;
+    }
+    
+}
+
+/*Tablet*/
+@media (max-width:640px) {
+    
+    
+    
 }
