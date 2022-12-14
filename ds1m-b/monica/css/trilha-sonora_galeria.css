@@ -17,7 +17,15 @@
 }
 
 .musica{
-   
     padding-top: 60px;
     font-size: 2rem;
+}
+
+.musica a{
+    border-bottom: 4px solid transparent;
+    transition: border-color .5s;
+}
+
+.musica a:hover{
+    border-color: #AF5151;
 }

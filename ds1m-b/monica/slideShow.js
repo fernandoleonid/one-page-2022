@@ -1,21 +1,18 @@
 'use strict'
 
-const images = [
-    { 'id': '1', 'url':'./img/imageHome.png' },
-    { 'id' : '2', 'url':'./img/casa_assombrada.jpg' },
-//     {'id' : '4', 'url' : './trailers/image 7.png'},
-//     {'id' : '5', 'url' : './trailers/invocacao-do-mal-warrens_2-1.jpg'},
-//     {'id' : '6', 'url' : './trailers/transferir.jpeg'},
-]
+// const images = [
+//     { 'id': '1', 'url':'./img/imageHome.png' },
+//     { 'id' : '2', 'url':'./img/casa_assombrada.jpg' },
+// ]
 
 const containerItems = document.querySelector('#container-items');
 
 const loadImages = (images, container) => {
     images.forEach ( image => {
         container.innerHTML += `
-            <div class='item'>
-                <img src='${image.url}'
-            </div> 
+            // <div class='item'>
+            //     <img src='${image.url}'
+            // </div> 
         `
     })
 }

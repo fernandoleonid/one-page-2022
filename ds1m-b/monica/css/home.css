@@ -8,8 +8,35 @@
     justify-content: flex-end;
 }
 
-span{
-   color:#AF5151;
-   font-size:4rem;
-   padding-left: 60px;
+.title{
+    position: relative;
+    transform: translateY(200%);
+    font-size:4.75rem;
+    padding-left: 60px;
+    z-index: 1;
 }
+
+.title_maior{
+    position: relative;
+    transform: translateY(110%);
+    font-size:7.5rem;
+    padding-left: 60px;
+    z-index: 1;
+}
+
+.title_2{
+    color:#AF5151;
+    opacity: 40%;
+    font-size:4.75rem;
+    padding-left: 60px;
+    transform: translateY(-30%);
+ 
+ }
+
+.title_2_maior{
+    color:#AF5151;
+    opacity: 40%;
+    font-size:7.5rem;
+    padding-left: 60px;
+    transform: translateY(-30%);
+ }

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/casal-warren.css">
     <link rel="stylesheet" href="./css/slide.css">
     <link rel="stylesheet" href="./css/trilha-sonora_galeria.css">
-    <link rel="stylesheet" href="./css/trilogia_trailers.css">
+    <link rel="stylesheet" href="./css/trailers.css">
 
     <title>One Page </title>
 </head>
@@ -24,19 +24,19 @@
         <nav>
             <ul class="menu">
                 <li>
-                    <a href=""> História </a>
+                    <a href="#historia"> História </a>
                 </li>
                 <li>
-                    <a href=""> Casal Warren </a>
+                    <a href="#casal-warren"> Casal Warren </a>
                 </li>
                 <li>
-                    <a href=""> Trilogia/Trailers </a>
+                    <a href="#trailers"> Trailers </a>
                 </li>
                 <li>
-                    <a href=""> Trilha Sonora </a>
+                    <a href="#trilha-sonora"> Trilha Sonora </a>
                 </li>
                 <li>
-                    <a href=""> Galeria </a>
+                    <a href="#galeria"> Galeria </a>
                 </li>
             </ul>
         </nav>
@@ -46,12 +46,16 @@
     <main>
 
         <section class="home">
-            <span> Invocação </span>
-            <span> do Mal</span>
+            <div>
+            <h1 class="title"> Invocação </h1>
+            <h1 class="title_maior"> do Mal </h1>
+            </div>
+            <span class="title_2"> Invocação </span>
+            <span class="title_2_maior"> do Mal </span>
 
         </section>
 
-        <section class="historia">
+        <section class="historia" id="historia">
 
             <span> História </span>
 
@@ -64,9 +68,9 @@
                 E é sobre um desses casos sobrenaturais baseado em fatos, abordado no primeiro título da série.
             </p>
 
-            <img class="familia-perron" src="./img/image 2.png">
-
             <span> Familia Perron </span>
+
+            <img class="familia-perron" src="./img/image 2.png">
 
             <p> A história real do filme Invocação do Mal envolve a família Perron, formada pelo casal Roger e Carolyn e
                 suas cinco filhas.
@@ -80,7 +84,7 @@
             </p>
 
         </section>
-        <section class="casal-warren">
+        <section class="casal-warren" id="casal-warren">
 
             <span> Casal Warren </span>
 
@@ -104,54 +108,88 @@
 
         </section>
 
-        <section class="trilogia_trailers">
+        <section class="trailers" id="trailers">
 
-            <span> Trilogia - Trailers </span>
+            <span> Trailers </span>
 
             <div class="container-slide">
                 <div class="action-button" id="previous">&laquo</div>
-                <div class="container-items" id="container-items"></div>
+                <div class="container-items" id="container-items">
+                 
+                    <div class="item"> 
+                        <!-- <video class="video-trailer" src="./video/A Freira - Trailer 1 Dublado (HD).mp4"> -->
+                            
+                            <video controls="controls">
+                                <source src="./video/A Freira - Trailer 1 Dublado (HD).mp4" type="video/mp4">
+                                <object>
+                                  <embed src="A Freira - Trailer 1 Dublado (HD).mp4" type="application/x-shockwave-flash" 
+                                  allowfullscreen="false" allowscriptaccess="always">  		
+                                </object>
+                                Formato não suportado  
+                              </video>
+
+                        <!-- </video> -->
+                    </div>
+
+                </div>
                 <div class="action-button" id="next">&raquo</div>
             </div>
-
-            <script src="./slideShow.js"></script>
+            
         </section>
 
         <section class="trilha-sonora_galeria">
 
-            <div class="trilha-sonora">
+            <div class="trilha-sonora" id="trilha-sonora">
                 <span> Trilha Sonora </span>
 
                 <ul class="musica">
-                    <li>1. Don’t Give Up On Us Baby – David Soul</li>
-                    <li>2. Bored Teenagers – The Adverts</li>
-                    <li>3. Bus Stop – The Hollies</li>
-                    <li>4. Don’t Worry Tracy – Christopher Blue</li>
-                    <li>5. The First Noel – Slovak State Philharmonic Orchestra</li>
-                    <li>6. Can’t Help Falling In Love – Elvis Presley</li>
-                    <li>7. I Started A Joke – Bee Gees</li>
-                    <li>8. Photograph – Mark Isham</li>
-                    <li>9. Happy Family – Mark Isham</li>
-                    <li>10. Jolly Christmas Medley – Robert J. Walsh</li>
-                    <li>11. This Old Man – Ben Parry</li>
+                    <li>
+                        <a href="https://youtu.be/RmwvRC4KApM"> 1. Don’t Give Up On Us Baby – David Soul </a>
+                    </li>
+                    <li>
+                        <a href="https://youtu.be/dWApeBRj1Zw"> 2. Bored Teenagers – The Adverts </a>
+                    </li>
+                    <li>
+                        <a href="https://youtu.be/It75wQ0JypA"> 3. Bus Stop – The Hollies </a>
+                    </li>
+                    <li>
+                        <a href="https://youtu.be/yBwKaaxEV-U"> 4. Don’t Worry Tracy – Christopher Blue </a>
+                    </li>
+                    <li>
+                        <a href="https://youtu.be/Y4iXatDeY7A"> 5. The First Noel – Slovak State Philharmonic Orchestra </a>
+                    </li>
+                    <li>
+                        <a href="https://youtu.be/vGJTaP6anOU"> 6. Can’t Help Falling In Love – Elvis Presley </a>
+                    </li>
+                    <li>
+                        <a href="https://youtu.be/4ZWKR2zJESk"> 7. I Started A Joke – Bee Gees </a>
+                    </li>
+                    <li>
+                        <a href="https://youtu.be/a55v8APY1Lg"> 8. Photograph – Mark Isham </a>
+                    </li>
+                    <li>
+                        <a href="https://youtu.be/9h6LqCU-mX4"> 9. Family Theme – Mark Isham </a>
+                    </li>
+                    <li>
+                        <a href="https://youtu.be/y3G96NG8yLQ"> 10. This Old Man – Ben Parry </a>
+                    </li>
                 </ul>
             </div>
 
-            <div class="galeria">
+            <div class="galeria" id="galeria">
                 <span> Galeria </span>
-                <img class="foto-filme" src="img/image 14.png">
+                <!-- <img class="foto-filme" src="img/image 14.png">
                 <img class="foto-filme" src="img/image 16.png">
                 <img class="foto-filme" src="img/image 18.png">
                 <img class="foto-filme" src="img/image 13.png">
-                <img class="foto-filme" src="img/image 12.png">
+                <img class="foto-filme" src="img/image 12.png"> -->
             </div>
         </section>
-        <section class="galeria"> Galeria </section>
 
     </main>
 
-    <footer> footer </footer>
-
+    <footer> Copyright 2022 | Developed by Mônica </footer>
+    <script src="./slideShow.js"></script>
 </body>
 
 </html>

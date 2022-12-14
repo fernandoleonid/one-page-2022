@@ -16,6 +16,8 @@
     height: 70vh;
     border-radius: 10px;
     overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 .item{
@@ -26,10 +28,10 @@
 }
 
 .item:first-child{
-    margin-left: -100%;
+    /* margin-left: -100%; */
 }
 
-.item img {
+.item video {
     width: 50vw;
     height: 70vh;
     border-radius: 10px;
@@ -53,3 +55,4 @@
     cursor: pointer;
     transition: all 1s;
 }
+

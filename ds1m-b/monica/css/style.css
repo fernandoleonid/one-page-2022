@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     display: grid;
     grid-template-areas: "content" ;
@@ -19,11 +23,22 @@ main{
     grid-area: content;
     display: flex;
     flex-direction: column;
-    background-color: brown;
 }
 
 footer{
-    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    background-color: rgb(25, 25, 20);
 }
+
+span{
+    color:#AF5151;
+    font-size:4rem;
+}
+        
+    
+
 
 
