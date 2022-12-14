@@ -53,7 +53,7 @@
 
     .imagensBo1EBo2 {
         display: flex;
-        width: 92vw;
+        width: 100vw;
     }
 
     .img_bo1 {
@@ -69,10 +69,15 @@
         justify-items: flex-start;
     }
 
-    .quadrado {
+    #quadrado {
         display: flex;
-        align-self: center;
-        text-align: center;
+        margin-left: 62px;
+        margin-top: 50px;
+    }
+
+    #quadrado:hover {
+        color: white;
+        background-color: black;
     }
 
     .textImg span {
@@ -82,12 +87,12 @@
     .textoEImage {
         display: flex;
         flex-direction: column;
+        gap: 50px;
     }
 
     .imagensBo2 {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         width: 100vw;
     }
 
@@ -100,24 +105,25 @@
         width: 180px;
         display: flex;
         padding-right: 30px;
+        margin-top: 20px;
     }
 
     .imgebo2 {
         width: 250px;
-        height: 300px;
+        height: 250px;
         display: flex;
-        align-self: center;
+        margin-right: 55px;
     }
 
     #quadrado2 {
         display: flex;
-        justify-content: center;
-        padding-bottom: 100px;
+        margin-left: 120px;
     }
 
-
-
-
+    #quadrado2:hover {
+        color: white;
+        background-color: black;
+    }
 
     .logo_bo3 {
         width: 180px;
