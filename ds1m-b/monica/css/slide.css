@@ -27,9 +27,9 @@
     
 }
 
-.item:first-child{
-    /* margin-left: -100%; */
-}
+/* .item:first-child{
+    /margin-left: -100%; 
+ }*/
 
 .item video {
     width: 50vw;
