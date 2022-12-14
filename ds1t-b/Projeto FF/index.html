@@ -25,12 +25,12 @@
     <link rel="stylesheet" href="criadores.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="README.md">
-    <link rel="stylesheet" href="slide.js">
+    <script src="script.js" defer></script>
     <title>Final Fantasy VII</title>
 </head>
 
 <body>
-    <!-- <div vw class="enabled">
+    <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
           <div class="vw-plugin-top-wrapper"></div>
@@ -39,7 +39,7 @@
       <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
       <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
-      </script> -->
+      </script>
     <main>
         <a href="#home" class="back">
             <i class="fas fa-angle-double-up"></i>
@@ -102,56 +102,18 @@
             <div class="titulo-personagens">
                 <p class="titulo">Personagens</p>
             </div>
-            <a class="botao-esquerdo" href="#contatos">
-                <img src="./img/Seta-esquerda.png" alt="">
-            </a>
                 <div class="blocos-personagens">
-                   <div class="icones-personagens" id="icones">
-                       <div class="icone">
-                           <div class="texto-personagem">
-                               <p>Aerith Gainsborought</p>
-                           </div>
-                           <div class="imagem-personagem">
-                            <img src="./img/Aerith.png" alt="" url="Aerith">
-                           </div>
-                       </div>
-                       <div class="icone">
-                        <div class="texto-personagem-dois">
-                            <p>Tifa Lockhart</p>
+                   <div class="action-button" id="previous">&laquo</div>
+                        <div class="icones-personagens" id="icones">
+                           <img class="imagem-personagem" src="./img/Aerith (1).png" alt="">
+                           <img class="imagem-personagem" src="./img/Tifa.png" alt="">
+                           <img class="imagem-personagem" src="./img/Cloud (2).png" alt="">
+                           <img class="imagem-personagem" src="./img/Barret (2).png" alt="">
+                           <img class="imagem-personagem" src="./img/Sephiroth (1).png" alt="">
                         </div>
-                        <div class="imagem-personagem">
-                         <img src="./img/Tifa.png" alt="">
-                        </div>
-                    </div>
-                    <div class="icone">
-                        <div class="texto-personagem-tres">
-                            <p>Cloud Strife</p>
-                        </div>
-                        <div class="imagem-personagem">
-                         <img src="./img/Cloud.png" alt="">
-                        </div>
-                    </div>
-                    <div class="icone">
-                        <div class="texto-personagem-quatro">
-                            <p>Barret Wallace</p>
-                        </div>
-                        <div class="imagem-personagem">
-                         <img src="./img/Barret.png" alt="">
-                        </div>
-                    </div>
-                    <div class="icone">
-                        <div class="texto-personagem-cinco">
-                            <p>Sephiroth</p>
-                        </div>
-                        <div class="imagem-personagem">
-                         <img src="./img/Sephiroth.png" alt="">
-                        </div>
-                    </div>
-                   </div>
-            </div>
-            <a class="botao-direito" href="#Aerith">
-                <img src="./img/Seta-direita.png" alt="">
-            </a>
+                    <div class="action-button" id="next">&raquo</div>
+                </div>
+                <script src="./script.js"></script>
         </section>
         <section class="producao" id="producao">
             <div class="titulo-producao">

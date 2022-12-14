@@ -35,7 +35,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    gap: 150px;
+    gap: 100px;
 }
 
 .icone {
@@ -116,11 +116,8 @@
     transform: rotate(-90deg);
 }
 
-.botao-esquerdo {
-    display: none;
-}
 
-.botao-direito {
+.imagem-slide {
     display: none;
 }
 
@@ -132,66 +129,62 @@
     }
 
     .blocos-personagens{
-        height: 600px;
-    }
-
-    .icone{
-        padding-top: 50px;
         display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
+        height: 700px;
+        width: 100%;
+        justify-content: space-between;
     }
 
     .icones-personagens{
-        align-items: center;
-        align-self: center;
-    }
-
-    .texto-personagem{
-        padding: 0px;
-        transform: none;
-    }
-
-    .texto-personagem-dois{
-        padding: 0px;
-        transform: none;
-    }
-
-    .texto-personagem-tres{
-        padding: 0px;
-        transform: none;
-    }
-
-    .texto-personagem-quatro{
-        padding: 0px;
-        transform: none;
-    }
-    .texto-personagem-cinco{
-        padding: 0px;
-        transform: none;
-    }
-
-    .botao-esquerdo{
         display: flex;
-        flex-direction: column;
-        width: 25px;
-        height: 85px;
-        padding-top: 250px;
-        padding-left: 30px;
+        height: 100%;
+        width: 100%;
         align-items: center;
-        align-self:auto;
-        grid-area: person;
-    }
-
-    .botao-direito {
-        display: flex;
-        flex-direction: column;
         position: absolute;
-        right: 1.56%;
-        padding-top: 353px;
-        padding-right: 10px;
     }
 
+    .imagem-slide{
+        padding-top: 50px;
+        height: 100%;
+    }
+
+    .imagem-personagem{
+        display: none;
+    }
+
+    .action-button{
+        font: bold 30px sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        color: #00000000;
+        user-select: none;
+        z-index: 1;
+    }
+    .action-button:hover{
+        color: white;
+        background-color: #00000055;
+        border-radius: 10px;
+        height: 500px;
+        cursor: pointer;
+        transition: all 1s;
+    }
+
+    .item {
+        width: 600px;
+        height: 600px;
+        transition: all 1s;
+    }
+    .item:first-child{
+        margin-left: -100%;
+    }
     
+    .item img {
+        width: 270px;
+        height: 600px;
+        border-radius: 10px;
+    }
+
 }
 

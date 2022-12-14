@@ -95,13 +95,9 @@ footer{
         height: 70px;
         font-size: 10px;   
     }
-
-    .back{
+    
+    .back {
         display: none;
-    }
-
-    .enabled {
-       
     }
    
 }
