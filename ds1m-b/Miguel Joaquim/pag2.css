@@ -12,12 +12,18 @@
     justify-content: center;
     align-items: center;
     height: 30%;
+    font-family: 'Julee', cursive;
 }
 
 .texto-da-historia {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    text-indent: 20px;
+    letter-spacing: 1vh;
+    text-align: center;
+    font-size: 1.50vh;
+    height: 70vh;
+    font-family: 'Julee', cursive;
 }
