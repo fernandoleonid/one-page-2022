@@ -36,7 +36,7 @@
     display: flex;
     width: 600%;
     height: 848px;
-    transition: transform 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
     transform: translateX(0);
 }
 

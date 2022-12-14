@@ -39,6 +39,11 @@
     padding: 26px 86px;
 }
 
+.btn:hover {
+    background-color: var(--cor-marrom);
+    transition: ease-in-out 0.25s;
+}
+
 .btn p {
     font-size: 1.5rem;
 }

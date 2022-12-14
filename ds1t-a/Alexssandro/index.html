@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="./css/redes.css">
     <link rel="stylesheet" href="./css/endereco.css">
     <link rel="stylesheet" href="./css/atendimento.css">
-    <script src="../Alexssandro/script/slide.js" defer></script>
+    <link rel="stylesheet" href="./css/dropdown.css">
+    <!-- <script src="../Alexssandro/script/slide.js" defer></script> -->
     <script src="https://kit.fontawesome.com/be4450fc4f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -22,7 +23,7 @@
 </head>
 <body>
     <header>
-        <div class="header">
+        <div class="header" id="home">
             <div class="logo">
                 <p>CAFÉMANIA</p>
                 <img src="../Alexssandro/img/game-icons_coffee-cup.png" alt="">
@@ -30,13 +31,22 @@
             <nav class="menu">
                 <ul>
                     <li>
-                        <a href="#">HOME</a>
+                        <a href="#home">HOME</a>
                     </li>
                     <li>
-                        <a href="#">CAFÉS</a>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">CAFÉS</button>
+                            <div class="dropdown-content">
+                                <div class="linha"></div>
+                                <a href="#cafes-variados">CAFÉS VARIADOS</a>
+                                <a href="#cafes-personalizados">CAFÉS PERSONALIZADOS</a>
+                            </div>
+                        </div>
+                        
                     </li>
                     <li>
-                        <a href="#">CONTATO</a>
+                        <a href="#contato">CONTATO</a>
                     </li>
                 </ul>
             </nav>
@@ -46,7 +56,7 @@
             <div class="conteudo">
                 <p>Delivery de cafés por toda São Paulo!</p>
                 <img src="../Alexssandro/img/game-icons_coffee-cup.png" alt="">
-                <a href="#" class="btn">
+                <a href="#contato" class="btn">
                     <p>FAÇA SEU PEDIDO</p>
                 </a>
             </div>
@@ -70,7 +80,7 @@
             <img src="../Alexssandro/img/imagem2.png" alt="" class="imagem2">
         </section>
 
-        <section class="cafes-variados">
+        <section class="cafes-variados" id="cafes-variados">
             <div class="titulo titulo-cv">
                 <img src="../Alexssandro/img/game-icons_coffee-cup.png" alt="">
                 <p>Cafés Variados</p>
@@ -211,7 +221,7 @@
             
         </section>
 
-        <section class="cafes-personalizados">
+        <section class="cafes-personalizados" id="cafes-personalizados">
             <div class="titulo titulo-cp">
                 <img src="../Alexssandro/img/game-icons_coffee-cup.png" alt="">
                 <p>Cafés Personalizados</p>
@@ -223,14 +233,14 @@
                     Além de poder escolher um desenho padrão da nossa lista de desenhos, você também pode pedir um desenho especial, descrevendo-o ou talvez enviando alguma foto. 
                     Para isto, basta entrar em contato com uma de nossas unidades!
                 </p>
-                <a href="#" class="btn cp">
+                <a href="#contato" class="btn cp">
                     <p>FAÇA SEU PEDIDO</p>
                 </a>
             </div>
 
         </section>
 
-        <section class="contato">
+        <section class="contato" id="contato">
             <div class="titulo titulo-contato">
                 <img src="../Alexssandro/img/game-icons_coffee-cup.png" alt="">
                 <p>Contato</p>
@@ -341,5 +351,16 @@
         <p class="dereitos-reservados">2022 TODOS OS DIREITOS RESERVADOS | DESENVOLVIDO POR ALEXSSANDRO SILVA</p>
     </div>
     
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
 </body>
 </html>

@@ -3,7 +3,12 @@
     --cor-marrom-escuro: #816334;
     --cor-icone: #6B6464;
     --cor-cinza-escuro: #191919;
+    --cor-cinza-mais-escuro: #222222; 
     --cor-primaria: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -37,7 +42,7 @@ footer {
     padding: 0px 15px;
     background-color: var(--cor-cinza-escuro);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 48px 135px 135px 135px;
 }

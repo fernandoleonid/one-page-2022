@@ -3,7 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 48px;
+    gap: 36px;
+    place-self: start;
+    padding-right: 244px;
 }
 
 .redes__logo {
@@ -11,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 36px;
 }
 
 .redes__logo h3 {
@@ -26,6 +28,11 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
+}
+
+.redes__redes a:hover {
+    transition: 0.25s ease-in-out;
+    background-color: var(--cor-marrom);
 }
 
 .redes__media {

@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    place-self: start;
+    padding-right: 30px;
 }
 
 .endereco h3 {
