@@ -1,6 +1,6 @@
 # ONE PAGE SAMSUNG
 
-![](./img/Home.ong)
+![](./img/Home.png)
 - [Link do site](https://fernandoleonid.github.io/one-page-2022/ds1t-b/andreLuiz)
 
 ---
