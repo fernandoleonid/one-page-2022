@@ -1,0 +1,86 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 100vh;
+    background-image: url(./img/avatar-a-lenda-de-aang-2-temp-plano-critico.jpg);
+    background-repeat: no-repeat;
+    background-attachment: center;
+    background-size: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* grid-row: auto; */
+    /* margin-left: 30%;     */
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding-bottom: 50px;
+    font-family: 'Julee', cursive;
+    font-size: 25px;
+}
+
+main {
+    height: 600vh;
+    background-color: crimson;
+}
+
+footer {
+    background-color: cornflowerblue;
+    height: 20vh;
+}
+
+.sokka {
+    transition: all .5s;
+    /* filter: grayscale(100%); */
+}
+
+.sokka:hover {
+    /* filter: grayscale(0%); */
+    filter: opacity(60%);
+}
+
+.voltar {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    display: grid;
+    place-content: center;
+    font-size: 2.5rem;
+    transition: all .5s;
+}
+
+.voltar:hover {
+    color: aqua;
+}
+
+.personagem-menu {
+    border-bottom: 5px solid transparent;
+    transition: all .1s;
+}
+
+.personagem-menu:hover {
+    border-color: black;
+}
