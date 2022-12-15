@@ -1,0 +1,119 @@
+.personagens {
+    padding-bottom: 50px;
+    background-image: url(../img/back_personagens.png);
+    height: auto;
+    flex-direction: column;
+}
+
+.personagens H1 {
+    color: #ffffff;
+    font-size: 6rem;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.personagens img {
+    height: 300px;
+    width: 250px;
+}
+
+.personagens_card,
+.personagens_card_principal {
+    background-color: #252525;
+    height: 380px;
+    width: 280px;
+    padding-top: 20px;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 2.5rem;
+    border: 7px solid #252525;
+}
+
+.personagens_card_principal {
+    width: 310px;
+}
+
+.personagens_lista_secundarios,
+.personagens_lista_principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.personagens_lista {
+    justify-content: center;
+}
+
+.personagens_lista_principal {
+    justify-content: space-evenly;
+    padding-bottom: 150px;
+}
+
+.personagens_card_principal:hover,
+.personagens_card:hover {
+    border-color: var(--primary-color);
+    transition: 1s;
+    color: var(--second-color);
+}
+
+.personagens_lista_secundarios {
+    padding-left: 20vw;
+    gap: 150px;
+    width: 95%;
+}
+
+#kratos,
+#atreus,
+#thor,
+#freya,
+#angrboda,
+#tyr,
+#brok-e-sindri,
+#mimir {
+    display: none;
+    font-size: 2rem;
+    gap: 100px;
+}
+
+#kratos img,
+#atreus img,
+#thor img,
+#freya img,
+#angrboda img,
+#tyr img,
+#mimir img {
+    height: 700px;
+    width: 530px;
+}
+
+#brok-e-sindri img {
+    height: 600px;
+    width: 454px;
+}
+
+#kratos li,
+#atreus li {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    gap: 200px;
+    margin-left: 300px;
+}
+
+#thor li,
+#freya li,
+#angrboda li,
+#tyr li,
+#brok-e-sindri li,
+#mimir li {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    gap: 200px;
+}
+
+#brok-e-sindri li {
+    width: 90%;
+}

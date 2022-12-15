@@ -1,0 +1,123 @@
+:root{
+    --primary-color:#F43F06;
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+body{
+    color: #fff;
+    display: grid;
+    grid-template-areas: "content";
+    
+}
+
+
+
+header{
+    background-color: var(--primary-color);
+    height: 90px;
+    display: grid;
+    grid-area: content;
+    place-self: start center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+main{
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    height: 100vh;
+}
+
+footer{
+    height: 50px;
+    background-color: #0006;
+    grid-area: content;
+    display: grid;
+    place-self: end start;
+    width: 100%;
+    place-content: center;
+    border-top: 2px solid #fff;
+    font-size: 1rem;
+}
+
+
+@media (max-width: 960px) {
+
+    .header-list {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #000;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 65px;
+            font-size: 2.5rem;
+            opacity: 0;
+            transform: translateX(100%);
+            transition: all 1s;
+            height: 100vh;
+    
+        }
+    
+        .container-burguer.active ~ .header-list {
+            opacity: 1;
+            transform: translateX(0%);
+    
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+
+        section .reservasELocalizacao{
+            height: 160vh;
+        }
+    
+}
+
+ @media (max-width: 640px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        max-width: 640px;
+       
+    }
+
+    section .reservasELocalizacao{
+        height: 160vh;
+    }
+
+    footer{
+        max-width: 640px;
+        font-size: 0.7rem;
+    }
+    
+    
+ }

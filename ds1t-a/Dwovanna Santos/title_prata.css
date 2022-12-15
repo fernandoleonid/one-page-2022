@@ -1,0 +1,27 @@
+.title_prata{
+    grid-area: title;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    color: aliceblue;
+    position: absolute;
+    top: 203%;
+}
+.subprata{
+    color: aliceblue;
+    position: absolute;
+    top: 213%;
+    left: 30%;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.logoprata{
+    color: cornsilk;
+    position: absolute;
+    top: 205%;
+    left: 07%;
+    font-size: 1.5rem;
+   
+}

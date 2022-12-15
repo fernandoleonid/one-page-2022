@@ -1,0 +1,62 @@
+#icon-half-menu {
+  font-size: 30px;
+  color: #fff;
+}
+
+#icon-half-menu:hover {
+  cursor: pointer;
+}
+
+.sidenav {
+  height: 50%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+
+}
+
+#mySidenav li a {
+  font-family: 'Heebo', sans-serif !important;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  font-size: 1.5rem;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  color: #fff;
+
+}
+
+.sidenav a:hover {
+  color: var(--color-verde);
+  transition: all 0.25s;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  font-size: 30px;
+  color: #fff;
+}
+
+@media (max-width: 940px) {
+  #icon-half-menu {
+    padding-left: 400px;
+  }
+}
+
+@media (max-width: 640px) {
+  #icon-half-menu {
+    padding-left: 0px;
+  }
+}

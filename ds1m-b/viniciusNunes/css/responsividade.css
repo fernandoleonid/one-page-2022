@@ -1,0 +1,106 @@
+@media (max-width: 960px) {
+  body {
+    overflow-x: hidden;
+  }
+  .menu {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 32px;
+  }
+
+  .menu-mobile img {
+    height: 32px;
+  }
+  .logo-mobile {
+    height: 64px;
+  }
+
+  .icon-nav {
+    font-size: 2rem;
+  }
+  /* HOME */
+  .home {
+    width: 100vw;
+  }
+
+  .home__logo img {
+    max-width: 560px;
+    width: 100%;
+  }
+  .home__texto {
+    justify-content: center;
+  }
+  /* PERSONAGENS */
+
+  .personagens {
+    height: 2200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 700px;
+  }
+  .cards {
+    flex-direction: column;
+  }
+
+  .citacao {
+    text-align: center;
+  }
+
+  .personagens-layout {
+    height: 1300px;
+  }
+
+  .container-layout {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .trama {
+    height: 70vh;
+  }
+
+  .trama-number {
+    font-size: 15rem;
+  }
+
+  .trama-tittle {
+    font-size: 5rem;
+  }
+
+  .trama-texts {
+    height: 100px;
+  }
+
+  .trama__description {
+    font-size: 0.9rem;
+    letter-spacing: 0;
+    font-weight: 400;
+    width: 450px;
+  }
+
+  .trama__image-container {
+    transform: translateX(-50%);
+  }
+
+  .creditos {
+    height: 1200px;
+  }
+
+  .container-logo img {
+    width: 70vw;
+  }
+
+  .creditos-logos {
+    flex-direction: column;
+    gap: 64px;
+  }
+}

@@ -1,0 +1,38 @@
+header ul{
+    height: 5%;
+    width: 90%;
+    display: flex;
+    gap: 52px;
+    margin-left: 50px;
+    margin-bottom: 1rem;
+}
+
+header h2 {
+    width: 100%;
+    color: var(--clear-font-color);
+    font-family: 'Sunflower';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 104.69%;
+    letter-spacing: 0.11em;
+}
+
+header h2:hover{
+    transition: color .8s;
+    color: #FAA04B;
+}
+#HOME{
+    color: #FAA04B;
+}
+@media (max-width:960px) {
+    header{
+        margin-bottom: 1.5rem;
+    }    
+}
+@media (max-width: 640px) {
+    header{
+        margin-left: 0;
+    }
+
+}

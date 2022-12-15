@@ -1,0 +1,62 @@
+:root{
+    --primary-color:#ffff;
+    --secundary-color:#00C9F5;
+
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    display: grid;
+    grid-template-areas: "content";
+    background-color: #02013D;
+    color: var(--primary-color);
+    font-family: 'ABeeZee', sans-serif;
+}
+@font-face{
+    font-family: 'avatar';
+    src: url(../papyrus/Parchment\ MF.ttf);
+}
+
+header{
+    grid-area: content;
+    place-self: start ;
+    z-index: 999;
+    max-width: 1500px;
+    width: 100vw;
+    margin-top: 70px;
+    display: flex;
+    margin-left: 72px;
+    justify-content: space-between;
+}
+
+main{
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    height: 100vh;
+}
+.voltar{
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    display: grid;
+    place-content: center;
+    font-size: 2.5rem;
+    transition: all .5s;
+}
+.voltar:hover{
+    color: var(--secundary-color);
+}
+footer{
+    height: 5vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "avatar";
+    font-size: 2rem;
+}

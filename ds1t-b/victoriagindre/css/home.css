@@ -1,0 +1,150 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.container-title {
+    color: #EF5322;
+    font-size: 3.5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.home-title {
+    background: -webkit-linear-gradient(left, #EF5322 0%, #ff9900 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content {
+    height: 680px;
+    width: 1900px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -195vh;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    padding-top: -30vw;
+}
+
+.bar {
+    width: 120px;
+    height: 20px;
+    border: 6px solid #EF5322;
+    margin: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.bar:hover {
+    background-color: #EF5322;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 20%;
+    transition: .8s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked~.s1 {
+    margin: 0;
+}
+
+#slide2:checked~.s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked~.s1 {
+    margin-left: -40%;
+}
+
+.container-delivery {
+    display: none;
+}
+
+.button__container {
+    display: none;
+}
+
+
+/* MOBILE */
+
+@media (max-width:640px) {
+    .home {
+        height: 590px;
+    }
+    header {
+        height: 95px;
+    }
+    .content {
+        display: none;
+    }
+    .home-title {
+        padding-top: 10px;
+        font-size: 2rem;
+    }
+    .container-delivery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .description-delivery {
+        color: #D85B00;
+        width: 240px;
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        gap: 10px;
+        font-size: 2.5rem;
+        padding-top: 10vw;
+    }
+    .title-delivery {
+        color: #5A3C0E;
+        font-family: 'Dancing Script', cursive;
+        gap: 10px;
+        font-size: 3rem;
+    }
+    .button__container {
+        margin-top: 10px;
+        font-size: 2rem;
+        width: 300px;
+        height: 72px;
+        border-radius: 10px;
+        background-color: #EF5322;
+        color: #FFFFFF;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        place-self: center;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .logo {
+        padding-top: 3vh;
+    }
+}

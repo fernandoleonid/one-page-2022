@@ -1,0 +1,148 @@
+@media (max-width:640px) {
+    #menu {
+        display: none;
+    }
+    .bars {
+        display: block;
+        font-size: 2.5rem;
+    }
+    .suspenso1,
+    .suspenso2,
+    .suspenso3 {
+        display: none;
+    }
+    .home {
+        background-position: center;
+        background-size: 210% 100%;
+    }
+    .info {
+        height: auto;
+        background-position: -140vw;
+        background-size: 1000px 1600px;
+    }
+    .fundo {
+        padding-top: 50px;
+        gap: 100px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        background-color: #0003;
+    }
+    .info-titulo {
+        display: none;
+    }
+    .info1,
+    .info2 {
+        width: 250px;
+        place-items: center;
+    }
+    .info img {
+        height: 180px;
+        width: 320px;
+    }
+    .personagens H1 {
+        font-size: 3rem;
+    }
+    .personagens_card img {
+        height: 300px;
+        width: 200px;
+    }
+    .personagens_card_principal {
+        width: 280px;
+    }
+    .personagens_card_principal:hover,
+    .personagens_card:hover {
+        border-color: #252525;
+        transition: 0s;
+        color: #ffffff;
+    }
+    .personagens_lista_principal {
+        gap: 50px;
+        padding-bottom: 50px;
+    }
+    .personagens_lista_secundarios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+        width: 100%;
+        gap: 50px;
+    }
+    #kratos li,
+    #atreus li,
+    #thor li,
+    #freya li,
+    #angrboda li,
+    #tyr li,
+    #brok-e-sindri li,
+    #mimir li {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        width: 100%;
+        gap: 50px;
+        padding-bottom: 50px;
+    }
+    #atreus li,
+    #freya li,
+    #tyr li,
+    #mimir li {
+        flex-direction: column-reverse;
+    }
+    #kratos img,
+    #atreus img,
+    #thor img,
+    #freya img,
+    #angrboda img,
+    #tyr img,
+    #mimir img {
+        height: 420px;
+        width: 320px;
+    }
+    #brok-e-sindri img {
+        height: 450px;
+        width: 340px;
+    }
+    #kratos span,
+    #atreus span,
+    #thor span,
+    #freya span,
+    #angrboda span,
+    #tyr span,
+    #brok-e-sindri span,
+    #mimir span {
+        width: 80%;
+    }
+    .compre {
+        display: flex;
+        justify-content: center;
+        padding-top: 0px;
+        height: auto;
+    }
+    .machado {
+        display: none;
+    }
+    .container__compra {
+        display: flex;
+        flex-direction: column;
+    }
+    .container__compra div {
+        height: 400px;
+        width: 300px;
+        font-size: 2rem;
+    }
+    .container__compra img {
+        height: 140.5px;
+        width: 250px;
+    }
+    .compre span {
+        text-align: center;
+        width: 100%;
+        height: 53px;
+        background-color: #1B91EB;
+    }
+    footer {
+        padding-top: 7px;
+        font-size: 0.7rem;
+    }
+}

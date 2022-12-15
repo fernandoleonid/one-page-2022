@@ -1,0 +1,33 @@
+.protagonista{
+    grid-template-areas: 
+    "title-pro title-pro"
+    "description-protagonista luffy"
+    "icones icones";
+    display: grid;
+    grid-template-columns: 1000px auto;
+    grid-template-rows: 160px;
+}
+.title-protagonista{
+    grid-area: title-pro;
+    margin-top: 50px;
+    font-size: 6rem;
+    text-align: center;
+}
+.luffy{
+    grid-area: luffy;
+    place-self: center;
+}
+.description-protagonista{
+    grid-area: description-protagonista;
+    display: flex;
+    text-align: center;
+    place-self: center;
+    padding-left: 270px;
+    font-size: 2rem;
+}
+.icones{
+    grid-area: icones;
+    justify-content: center;
+    padding-left: 270px;
+
+}

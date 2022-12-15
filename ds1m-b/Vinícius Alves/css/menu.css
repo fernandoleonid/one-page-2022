@@ -1,0 +1,20 @@
+.menu {
+    display: flex;
+    gap: 72px;
+    font-size: 2rem;
+    color: #ffffff;
+    font-family:'Comic Book Commando Bold', sans-serif;;
+}
+
+.menu li {
+    border-bottom: 4px solid transparent;
+    transition: border-color .5s;
+}
+
+.menu li:hover {
+    border-color: #ffffff;
+}
+
+.box {
+    display: none;
+}

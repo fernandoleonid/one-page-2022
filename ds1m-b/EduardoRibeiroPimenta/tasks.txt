@@ -1,0 +1,11 @@
+-Header
+-background
+-home
+-sobre
+-novidades/social
+-slider em js
+-download
+-colocar os amongus
+-responsividade tablet
+-responsividade celular
+-read me

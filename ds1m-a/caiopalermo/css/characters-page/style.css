@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nesans", Courier, monospace;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+#return-index {
+  font-size: 3rem;
+}
+
+#return-index:hover {
+  color: #fedc00;
+  transition: all 0.5s;
+}
+
+main {
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  margin-top: 30px;
+}

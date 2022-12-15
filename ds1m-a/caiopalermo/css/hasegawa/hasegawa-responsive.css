@@ -1,0 +1,87 @@
+@media (max-width: 1130px) {
+  header {
+    padding-left: 24px;
+    padding-right: 24px;
+    justify-content: center;
+  }
+
+  #header__logo {
+    display: none;
+  }
+
+  .navigation-container {
+    gap: 32px;
+  }
+
+  .hasegawa {
+    display: grid;
+    grid-template-areas:
+      "title"
+      "about"
+      "images";
+    justify-items: center;
+    align-items: center;
+  }
+
+  .hasegawa-no-mobile__title {
+    grid-area: title;
+    font-size: 2.75rem;
+  }
+
+  .hasegawa__about {
+    grid-area: about;
+  }
+}
+
+@media (max-width: 1110px) {
+  .hasegawa-no-mobile__title {
+    font-size: 2.25rem;
+  }
+
+  .hasegawa__text {
+    font-size: 1.5rem;
+    margin: 0px 25px;
+  }
+}
+
+@media (max-width: 850px) {
+  .hasegawa-no-mobile__title {
+    display: none;
+  }
+
+  .hasegawa-mobile__title {
+    display: block;
+  }
+
+  .hasegawa img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 490px) {
+  .hasegawa img {
+    width: 250px;
+  }
+
+  .hasegawa-mobile__title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .hasegawa-mobile__title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .hasegawa-mobile__title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .hasegawa-no-mobile__title {
+    font-size: 1.75rem;
+  }
+}

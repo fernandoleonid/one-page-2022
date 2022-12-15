@@ -1,0 +1,68 @@
+.container-slide{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.container-items{
+    display: flex;
+    width: 99%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.item{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.item:first-child{
+    margin-left: -100%;
+}
+.action-button{
+    font: bold 30px  sans-serif;
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #f9f9fc05;
+    
+    user-select: none;
+    z-index: 1;
+}
+.action-button:hover{
+    color: #fff;
+    background-color:#eeefef13;
+    opacity: 0.20;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+/*  Não sei como fazer a img do carussel ficar pequena/*/
+@media (max-width:640px){
+    .container-slide{
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        height: 20%;
+        background-color: black;
+    }
+    
+    .container-items{
+        display: flex;
+        width: 20%;
+        height: 30%;
+        overflow: hidden;
+    }
+    
+    .item{
+        width: 20%;
+        height: 30%;
+        transition: all 1s;
+    }
+    
+}

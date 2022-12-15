@@ -1,0 +1,230 @@
+#informacoes {
+    height: 100vh;
+    color: #fff;
+
+}
+
+.container-imagem-frase {
+    background-image: url(../img/imagem-footer.png);
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2.5em;
+
+}
+
+.informacoes-contato {
+    height: 45vh;
+    background-color: #000;
+    display: grid;
+    grid-column: 1fr 1fr 1fr;
+    grid-row: 50px 1fr;
+    grid-template-areas: "title title title"
+        "social contato contribuir";
+    place-items: center;
+}
+
+.titulo-informacoes {
+    grid-area: title;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-informacoes>h3 {
+    color: var(--color-cinza);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.social-container {
+    grid-area: social;
+}
+
+.contato-container {
+    grid-area: contato;
+}
+
+.como-contribuir {
+    grid-area: contribuir;
+}
+
+h6 {
+    color: var(--color-verde);
+    text-transform: uppercase;
+}
+
+.contato-titulo {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+.social-container {
+    display: grid;
+    grid-template-areas: "title title"
+        "coluna-icones1 coluna-icones2";
+    grid-column: 1fr 1fr;
+    grid-row: 20px 1fr;
+    place-self: start center;
+}
+
+.contato-titulo-li {
+    grid-area: title;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato-container {
+    display: grid;
+    gap: 15px;
+    place-self: start center;
+}
+
+.social {
+    margin: 10px;
+    padding: 15px;
+    background-color: var(--color-cinza);
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social>a>i {
+    color: #000;
+    font-size: 1.9rem;
+}
+
+.contato-item>i, span {
+    color: var(--color-cinza);
+}
+
+.contato-item>span {
+    padding-left: 15px;
+}
+
+.como-contribuir {
+    display: grid;
+    gap: 15px;
+    place-self: start center;
+    max-width: 250px;
+}
+
+.como-contribuir>span {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--color-verde);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.como-contribuir>span::after {
+    content: "?";
+}
+
+.como-contribuir>a {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid var(--color-cinza);
+    padding: 3px 6px 3px 6px;
+    width: 100px;
+}
+
+.como-contribuir__button {
+    color: var(--color-cinza);
+    text-transform: uppercase;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+}
+
+.como-contribuir__button:hover {
+    border-color: var(--color-verde);
+    color: var(--color-verde);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.social:hover {
+    background-color: var(--color-verde);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.contato-item:hover>i {
+    color: var(--color-verde);
+}
+
+.container-image-frase:hover {
+    text-shadow: 1px 1px 8px #fff;
+
+}
+
+@media (max-width: 640px) {
+    #informacoes {
+        height: fit-content;
+    }
+
+    .titulo-informacoes>h3 {
+        padding-top: 60px;
+    }
+
+    .container-imagem-frase {
+        height: 40vh;
+        align-items: center;
+    }
+
+    .container-imagem-frase>p {
+        width: 60vw;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .informacoes-contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        gap: 5vh;
+    }
+
+    .social-container {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .contato-container {
+        align-self: center;
+        justify-items: center;
+    }
+
+    .social {
+        display: grid;
+        align-self: center;
+        width: 65px;
+        height: 65px;
+    }
+
+    .como-contribuir {
+        height: auto;
+        margin-bottom: 15vh;
+        align-self: center;
+    }
+
+
+}

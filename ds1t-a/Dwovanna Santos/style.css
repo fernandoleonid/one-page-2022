@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:20px  150px;
+    height: 30px;
+    background-color: #ffff;  
+}
+.logo{
+    color: rgb(226, 161, 77);
+}
+header > ul{
+    display: flex;
+    gap: 30px;
+
+}
+
+header > ul > li{
+    list-style-type: none;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/joalheriaa.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: antiquewhite;
+    font-size: 25px;
+    margin-bottom: 08%;
+}
+section{
+    height: 100vh;
+}
+.subtitulo{
+    font-size: 100%;
+    color: aliceblue;
+    font-weight: 100;
+}
+  footer {
+      place-self: end center;
+      grid-area: content;
+      height: 50px;
+      width: 100%;
+      display: grid;
+      place-content: center;
+      font-size: .75rem;
+      border-top: 2px solid #ffff;
+      background-color: black;
+      color: white;
+  }
+  

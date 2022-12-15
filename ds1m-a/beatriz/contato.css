@@ -1,0 +1,135 @@
+.contato{
+
+    align-items: center
+    grid-area: content;
+    width: 100%;
+    height: 100vh;
+    
+
+}
+.contato::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 105%;
+    background-image: url(imagens/theWall\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -5;
+    background-color: var(--claro);
+    opacity: 0.9;
+}
+
+.disk{
+    position: relative;
+    z-index: -4;
+    left: 20%;
+    bottom: 20%;
+    animation: spin 6s infinite linear;
+    z-index: -4;
+
+
+}
+
+.endScrean{
+    
+    position: absolute;
+    width: 100%;
+    height: 19%;
+    z-index: -3;
+
+
+}
+
+.rasgo{
+    margin-top: 9%;
+    position: absolute;
+    width: 100%;
+    z-index: -3;
+
+}
+
+.CodigoBaras{
+
+position: absolute;
+right: 8vw;
+
+}
+
+
+@keyframes spin {
+
+
+    from{
+        transform: rotate(0deg);
+
+    }
+    to {transform: rotate(360deg);
+    
+    }
+}
+
+.Icones{
+
+    
+    position: absolute;
+    
+    left: 2vw;
+ 
+
+}
+
+.logoInsta{
+    margin-top: 18vw;
+   transform: rotate(13deg);
+   width: 30%;
+   height: 30%;
+  
+
+}
+.twitter{
+
+    
+}
+.youtube{
+    
+    margin-left: 3vw;
+    transform: rotate(1deg);
+    width: 50%;
+    height: 50%;
+
+}
+.spotfy{
+
+    transform: rotate(-22deg);
+    width: 40%;
+    height: 40%;
+
+
+}
+
+.menuFinal{
+
+
+    position: absolute;
+    color: var(--preto);
+    font-size: 1.3rem;
+    
+    right: 2vw;
+    margin-top: 40vw;
+}
+@media (max-width:768px) {
+ 
+
+    .disk{
+        position: relative;
+        z-index: -4;
+        left: 20%;
+        bottom: 20%;
+        animation: spin 6s infinite linear;
+        z-index: -4;
+        width: 90vw;
+    
+    }
+
+}

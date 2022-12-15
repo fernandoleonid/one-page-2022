@@ -1,0 +1,62 @@
+.comics {
+    max-width: 1200px;
+    width: 100%;
+    gap: 64px;
+    display: grid;
+    grid-template-areas: "title title" "description skills";
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section__title {
+    grid-area: title;
+    font-size: 220px;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+    background: linear-gradient(#eead2d, rgb(0, 0, 0));
+    background-clip: text;
+    font-family: 'Trade Winds', cursive;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.description {
+    grid-area: description;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.description__title {
+    font-size: 3rem;
+    color: var(--primary-color);
+    font-family: 'Trade Winds', cursive;
+}
+
+.description__text {
+    font-size: 1.2rem;
+    width: 85%;
+    line-height: 150%;
+    color: #999;
+}
+
+.description__title2 {
+    font-size: 3rem;
+    color: var(--primary-color);
+    align-items: center;
+    transform: translate(0px, 210px);
+    font-family: 'Trade Winds', cursive;
+    height: 70px;
+}
+
+.description__text2 {
+    font-size: 1.2rem;
+    width: 500px;
+    line-height: 150%;
+    top: 30%;
+    transform: translate(625px, -75px);
+    color: #999;
+    gap: 30px;
+    padding: 10px;
+}

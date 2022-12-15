@@ -1,0 +1,57 @@
+.mySlides-images {
+  display: none;
+  margin: 20px 0px;
+}
+
+.mySlides-images img {
+    vertical-align: middle;
+    width: 700px;
+    max-height: 600px;
+  }
+
+.slideshow {
+  max-width: 1000px;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  width: 100%;
+}
+
+.dots-images {
+    margin: 10px 0px;
+    user-select: none;
+}
+
+.dot-images {
+  height: 15px;
+  width: 15px;
+  margin: 0 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}

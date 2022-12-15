@@ -1,0 +1,93 @@
+.comics {
+    max-width: 1200px;
+    width: 100%;
+    gap: 64px;
+    display: grid;
+    grid-template-areas: "title title" "description skills";
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -20px;
+
+}
+
+.section__title {
+    grid-area: title;
+    font-size: 220px;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+    font-family: 'PT Sans Caption';
+    
+
+}
+.section-title {
+    grid-area: title;
+    font-size: 220px;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+    font-family: 'PT Sans Caption';
+
+}
+
+
+
+
+
+.description {
+    margin-bottom: 20px;
+    width: 900px;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 200px;
+    font-family: 'Comic Book Commando Bold', sans-serif;
+   
+}
+
+.description__title {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-top: 50px;
+}
+
+.description__text {
+    font-size: 1.2rem;
+    width: 85%;
+    line-height: 150%;
+    color: #999;
+}
+
+.icone2 {
+    width: 350px;
+    height: 250px;
+    margin-right: 1000px;
+    position: absolute;
+    margin-top: 90px;
+ 
+}
+
+
+
+
+.description__title2 {
+    font-size: 3rem;
+    color: var(--primary-color);
+    padding: 150px;
+    gap: 30px;
+    align-items: center;
+    transform: translate(-110px, 200px);
+    margin-top: -150px;
+}
+
+.description__text2 {
+    font-size: 1.2rem;
+    width: 500px;
+    line-height: 150%;
+    height: 3000px;
+    top: 30%;
+    transform: translate(595px, 15px);
+    color: #999;
+    gap: 140px;
+    margin-top: -70px;
+    padding: 10px;
+}

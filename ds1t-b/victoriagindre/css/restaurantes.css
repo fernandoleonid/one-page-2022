@@ -1,0 +1,64 @@
+.restaurantes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.container-title-restaurantes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #FFFFFF;
+}
+
+.restaurantes-title {
+    position: absolute;
+}
+
+.fundo-restaurantes {
+    width: 100%;
+    height: 165px;
+}
+
+.tudo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.locais,
+.locaais {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    width: 320px;
+    gap: 16px;
+}
+
+.locaais {
+    text-align: right;
+}
+
+
+/* MOBILE */
+
+@media (max-width:640px) {
+    .container-title-restaurantes {
+        font-size: 2.5rem;
+    }
+    .tudo {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    .locais,
+    .locaais {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .restaurantes-title {
+        font-size: 2.5rem;
+    }
+}

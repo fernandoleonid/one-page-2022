@@ -1,0 +1,111 @@
+.soccer {
+    background-image: url(../img/soccer/nike-soccer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px -40px 40px black;
+}
+
+.title-soccer {
+    margin-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10vh;
+    font-size: 7rem;
+}
+
+.soccer-t {
+    color: #14FF00;
+}
+
+.soccer-t2 {
+    align-items: center;
+    font-size: 2rem;
+}
+
+.title-soccer:hover {
+    text-shadow: 0 0 5px #14FF00, 0 0 6px #14FF00;
+}
+
+.img-container-soccer {
+    height: 100%;
+    width: 55%;
+    display: flex;
+}
+
+.images-soccer {
+    border: 0.2px solid #0C9900;
+}
+
+.description-soccer {
+    width: 150px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.description-soccer-price {
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #14FF00;
+}
+
+.soccer .img::before {
+    content: "Clique aqui para abrir o produto";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0009;
+    display: grid;
+    place-content: center;
+    font-weight: 700;
+    transform: translateX(100%);
+    transition: transform .7s;
+}
+
+.img:hover::before {
+    transform: translateX(0%);
+}
+
+/* MOBILE */
+@media (max-width:640px){
+    .soccer{
+        align-items: center;
+    }
+
+    .soccer .img-container-soccer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 250px;
+        gap: 15px;
+    }
+
+    .title-soccer {
+        font-size: 3rem;
+    }
+
+    .soccer-t2 {
+        font-size: 1rem;
+    }
+
+    .soccer .images-soccer {
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+    }
+
+    .description-soccer {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 200px;
+        column-gap: 20px;
+        font-size: 0.75rem;
+    }
+}
