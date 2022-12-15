@@ -1,0 +1,114 @@
+.jordan {
+    background-image: url(../img/jordan/jordan23.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px -40px 40px black; 
+}
+
+.title-jordan {
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10vh;
+    font-size: 7rem;
+    color: #FF0000;
+}
+
+.jordan-t {
+    color: #FFF;
+}
+
+.jordan-t2 {
+    align-items: center;
+    font-size: 2rem;
+    color: #FFF;
+}
+
+.title-jordan:hover {
+    text-shadow: 0 0 5px #FF0000, 0 0 6px #FF0000;
+}
+
+.img-container-jordan {
+    height: 100%;
+    width: 55%;
+    display: flex;
+}
+
+.images-jordan {
+    border: 0.2px solid #FF0000;
+}
+
+.description-jordan {
+    width: 150px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.description-jordan-price {
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #FF0000;
+}
+
+.img::before {
+    content: "Clique aqui para abrir o produto";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0009;
+    display: grid;
+    place-content: center;
+    font-weight: 700;
+    transform: translateX(100%);
+    transition: transform .7s;
+}
+
+.img:hover::before {
+    transform: translateX(0%);
+}
+
+/* MOBILE */
+@media (max-width:640px){
+    .jordan{
+        align-items: center;
+    }
+
+    .jordan .img-container-jordan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 250px;
+        gap: 15px;
+    }
+
+    .title-jordan {
+        font-size: 2rem;
+    }
+
+    .jordan-t2 {
+        font-size: 0.70rem;
+    }
+
+    .jordan .images-jordan {
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+    }
+
+    .description-jordan {
+        display: flex;
+        flex-direction: row;
+        max-width: 200px;
+        column-gap: 20px;
+        font-size: 0.75rem;
+    }
+    
+}

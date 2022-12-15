@@ -1,0 +1,190 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/phil-desforges-ow1mML1sOi0-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    background-position: center;
+    display: flex;
+    padding-top: 20px;
+    gap: 12%;
+    width: 100%;
+    box-shadow: inset 0px -40px 40px #212121;
+}
+.section-title{
+    display: flex;
+    justify-content: center;
+    grid-area: title;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 700;
+    gap: 15px;
+    text-align: center;
+    color: #ffffff;
+    background-clip: text;
+    -webkit-background-clip:text ;
+    color:transparent;
+    animation-duration: 1s;
+}
+.logo3anos{
+    
+    animation-duration: 1.3s;
+}
+
+
+@keyframes animar{
+    from{
+        
+        transform:translateX(-100%)
+
+    }
+    to{
+        
+        transform:translateX(1%);
+    }
+}
+
+.linha{
+    margin-top: 25px;
+    grid-area: title;
+    width: 40%;
+    height: 5px;
+    background-color: #ffffff;
+}
+.images{
+    display: flex;
+    align-items: center;
+    font-size: 4rem;  
+    
+    justify-content: space-around;
+   
+    
+}
+.somos_ux{
+    
+    animation-duration: 1s;
+    display: flex;
+    font-weight: 700;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+.ux-azul{
+    
+    font-weight: 700;
+    background:linear-gradient( #ffffff,var(--secundary-color));
+    background-clip: text;
+    -webkit-background-clip:text ;
+    color:transparent;
+}
+.ux-amarelo{
+    font-weight: 700;
+    background:linear-gradient( #ffffff,var(--third-color));
+    background-clip: text;
+    -webkit-background-clip:text ;
+    color:transparent;
+}
+.ux-vermelho{
+    font-weight: 700;
+    background:linear-gradient( #ffffff,var(--primary-color));
+    background-clip: text;
+    -webkit-background-clip:text ;
+    color:transparent;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.5rem;
+    width: 50%;
+    font-weight: 400;
+    padding-left: 120px;
+    padding-bottom: 100px;
+    animation-name: animar;
+    animation-duration: 3.1s;
+}
+
+.text_home{
+    display: flex;
+    font-size: 1.5rem;
+}
+.logo-final{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+    position: fixed;
+    grid-area: content;
+    z-index: 1;
+    right: 16px;
+    bottom: 16px;
+    top: 300px;
+    
+    
+    
+}
+
+.in{
+    width: 100%;
+    height: 100%;
+    
+}
+.link-back{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.logo-amarelo{
+    display: flex;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    background-color: #eab828;
+}
+.logo-cinza{
+    display: flex;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(107, 107, 107);
+}
+.logo-cinza:hover{
+    border: solid #000000 1px;
+    transition: 1s;
+    background-color: #ffffff;
+}
+.logo-amarelo:hover{
+    border: solid #000000 1px;
+    transition: 1s;
+    background-color: #ffffff;
+}
+.logo-azul{
+    display: flex;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    background-color:#407bff;
+}
+.logo-azul:hover{
+    border: solid #000000 1px;
+    transition: 1s;
+    background-color: #ffffff;
+}
+.logo-vermelho{
+    display: flex;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    background-color: #c43e3e;
+}
+.logo-vermelho:hover{
+    border: solid #000000 1px;
+    transition: 0.9s;
+    background-color: #ffffff;
+}
+.titulo{
+    color: white;
+}

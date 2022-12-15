@@ -1,0 +1,267 @@
+.home{
+    width: 100%;
+    height: 100vh;
+
+}
+.home::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(imagens/homePink\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+/*import jquery from "https://cdn.skypack.dev/jquery@~3.5.1";
+function updateCurvedText($curvedText, radius) {
+  $curvedText.css("min-width", "initial");
+  $curvedText.css("min-height", "initial");
+  var w = $curvedText.width(),
+    h = $curvedText.height();
+  $curvedText.css("min-width", w + "px");
+  $curvedText.css("min-height", h + "px");
+  var text = $curvedText.text();
+  var html = "";
+Array.from(text).forEach(function (letter) {
+    html += `<span>${letter}</span>`;
+  });
+  $curvedText.html(html);
+var $letters = $curvedText.find("span");
+  $letters.css({
+    position: "absolute",
+    height:`${radius}px`,
+    // backgroundColor:"orange",
+    transformOrigin:"bottom center"
+  });
+  
+  var circleLength = 2 * Math.PI * radius;
+  var angleRad = w/(2*radius);
+  var angle = 2 * angleRad * 180/Math.PI/text.length;
+  
+  $letters.each(function(idx,el){
+    $(el).css({
+        transform:`translate(${w/2}px,0px) rotate(${idx * angle - text.length*angle/2}deg)`
+    })
+  });
+}
+var $curvedText = $(".curved-text");
+updateCurvedText($curvedText,500);
+function settingsChanged(){
+  $curvedText.text($(".text").val());
+  updateCurvedText($curvedText,$(".radius").val());
+}
+$(".radius").on("input change",settingsChanged);
+$(".text").on("input change",settingsChanged);*/
+
+    
+      
+.sign {
+    position: relative;
+    padding-top: 1vw;
+    writing-mode: vertical-rl;
+  
+    left: 17vw;
+    letter-spacing: 2;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    transform: rotate(180deg);
+    font-size: 6.9rem;
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem var(--medio),
+      -0.2rem 0.1rem 1rem var(--medio), 0.2rem 0.1rem 1rem var(--medio),
+      0 -0.5rem 2rem var(--medio), 0 0.5rem 3rem var(--escuroLuz);
+    animation: shine 2s forwards, flicker 3s infinite;
+
+    border-right: thick solid antiquewhite; 
+    border-left: thick solid antiquewhite; 
+    
+  }
+  
+  @keyframes blink {
+    0%,
+    22%,
+    36%,
+    75% {
+      color: #ffe6ff;
+      text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem var(--medio),
+        -0.2rem 0.1rem 1rem var(--medio), 0.2rem 0.1rem 1rem var(--medio),
+        0 -0.5rem 2rem var(--escuroLuz), 0 0.5rem 3rem var(--escuroLuz);
+    }
+    28%,
+    33% {
+      color: var(--medio);
+      text-shadow: none;
+    }
+    82%,
+    97% {
+      color: var(--escuroLuz);
+      text-shadow: none;
+    }
+  }
+  
+  .flicker {
+    animation: shine 2s forwards, blink 3s 2s infinite;
+  }
+  
+  .fast-flicker {
+    animation: shine 2s forwards, blink 10s 1s infinite;
+  }
+  
+  @keyframes shine {
+    0% {
+      color: #ffffec;
+      text-shadow: none;
+    }
+    100% {
+      color: #ffe6ff;
+      text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem var(--medio),
+        -0.2rem 0.1rem 1rem var(--medio), 0.2rem 0.1rem 1rem var(--medio),
+        0 -0.5rem 2rem var(--escuroLuz), 0 0.5rem 3rem var(--escuroLuz);
+    }
+  }
+  
+  @keyframes flicker {
+    from {
+      opacity: 1;
+    }
+  
+    4% {
+      opacity: 0.9;
+    }
+  
+    6% {
+      opacity: 0.85;
+    }
+  
+    8% {
+      opacity: 0.95;
+    }
+  
+    10% {
+      opacity: 0.9;
+    }
+  
+    11% {
+      opacity: 0.922;
+    }
+  
+    12% {
+      opacity: 0.9;
+    }
+  
+    14% {
+      opacity: 0.95;
+    }
+  
+    16% {
+      opacity: 0.98;
+    }
+  
+    17% {
+      opacity: 0.9;
+    }
+  
+    19% {
+      opacity: 0.93;
+    }
+  
+    20% {
+      opacity: 0.99;
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    26% {
+      opacity: 0.94;
+    }
+  
+    28% {
+      opacity: 0.98;
+    }
+  
+    37% {
+      opacity: 0.93;
+    }
+  
+    38% {
+      opacity: 0.5;
+    }
+  
+    39% {
+      opacity: 0.96;
+    }
+  
+    42% {
+      opacity: 1;
+    }
+  
+    44% {
+      opacity: 0.97;
+    }
+  
+    46% {
+      opacity: 0.94;
+    }
+  
+    56% {
+      opacity: 0.9;
+    }
+  
+    58% {
+      opacity: 0.9;
+    }
+  
+    60% {
+      opacity: 0.99;
+    }
+  
+    68% {
+      opacity: 1;
+    }
+  
+    70% {
+      opacity: 0.9;
+    }
+  
+    72% {
+      opacity: 0.95;
+    }
+  
+    93% {
+      opacity: 0.93;
+    }
+  
+    95% {
+      opacity: 0.95;
+    }
+  
+    97% {
+      opacity: 0.93;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+
+
+
+.sublogo{
+  
+    left: 16vw;
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    color: antiquewhite;
+    font-weight: 900;
+    
+}
+
+
+

@@ -1,0 +1,98 @@
+.section-mac {
+    background-color: black;
+}
+
+.main-mac {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 75vh;
+}
+
+.main-right-mac {
+    grid-column: 2;
+    display: grid;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 50px;
+}
+
+.main-left-mac {
+    grid-column: 1;
+    display: grid;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    gap: 20px;
+}
+
+.mac-pro {
+    width: 35vw;
+    height: 41vh;
+}
+
+.macs {
+    width: 31vw;
+    height: 40vh;
+}
+
+@media (max-width: 960px) {
+    .section-mac {
+        height: 130vh;
+    }
+    .section-mac h1 {
+        height: 17vh;
+    }
+    .main-mac {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .main-right-mac {
+        gap: 20px;
+        grid-area: right;
+    }
+    .main-left-mac {
+        grid-area: left;
+    }
+    .macs {
+        width: 580px;
+        height: auto;
+    }
+    .mac-pro {
+        width: 650px;
+        height: auto;
+    }
+}
+
+@media (max-width: 640px) {
+    .section-mac {
+        height: 100vh;
+    }
+    .section-mac h1 {
+        height: 6vh;
+    }
+    .main-right-mac {
+        height: 60vh;
+    }
+    .main-left-mac {
+        height: 60vh;
+    }
+    .macs {
+        width: 80vw;
+        height: auto;
+    }
+    .mac-pro {
+        width: 80vw;
+        height: auto;
+    }
+}
+
+@media (max-width: 375px) {
+    .section-mac {
+        height: 130vh;
+    }
+}

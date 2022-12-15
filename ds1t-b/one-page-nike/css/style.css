@@ -1,0 +1,85 @@
+:root {
+    --primary-color: #FF0000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {  
+    display: grid;
+    grid-template-areas: "content";
+    font-family: 'Aldrich';
+    color: #ffffff;
+    background-color: #000000;
+}
+
+header {
+    place-self: start center;
+    grid-area: content;
+    max-width: 930px;
+    width: 100%;
+    margin-top: 48px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+}
+
+.basketball {
+    height: 100vh;
+}
+
+.follow-us {
+    height: 40vh;
+}
+
+footer{
+    place-self: end start;
+    grid-area: content;
+    height: 100px;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    font-size: .85rem;
+    border-top: 2px solid #fff;
+}
+
+/* MOBILE */
+@media (max-width:640px){
+    .black-friday {
+        height: 350vh;
+    }
+
+    .soccer {
+        height: 300vh;
+    }
+
+    .basketball {
+        height: 350vh;
+    }
+    
+    .jordan {
+        height: 300vh;
+    }
+
+    .follow-us {
+        height: 100vh;
+    }
+    footer {
+        height: 8vh;
+        font-size: 0.65rem;
+    }
+}

@@ -1,0 +1,121 @@
+#contato {
+    height: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.complemento2 {
+    padding-top: 22vh;
+    font-size: 4.5rem;
+    font-weight: 400;
+
+}
+
+#subscription-form {
+    padding: 2em;
+}
+
+#subscription-form p {
+    font-size: 2rem;
+    max-width: 832px;
+    margin-top: 5vh;
+    padding-bottom: 10vh;
+    color: #1C2236;
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8em;
+
+
+}
+
+
+
+.form-group input,
+.form-group select {
+    padding: 6px 18px;
+    background-color: #D9D9D980;
+    font-size: 1.3rem;
+    
+}
+
+
+
+.btn {
+    height: 50px;
+    border-radius: 20px;
+    width: 35%;
+    background-color: #3C3741;
+    color: var(--prime-color);
+    font-size: 1.5rem;
+    border: 2px solid transparent;
+    margin-top: 7%;
+    cursor: pointer;
+    transition: boxshadow 1.2s ease-in-out;
+
+
+}
+
+.btn:hover {
+    box-shadow: 10px 10px #D9D9D980;
+    font-weight: bold;
+}
+label,
+textarea {
+    font-size: 1.3rem;
+    padding: 6px 18px;
+    
+}
+textarea {
+    height: 24vh;
+    width: 100%;
+    background-color: #D9D9D980;
+    resize: none;
+    color: #1C2236;
+    max-width: 100%;
+    font-weight: 400;
+    border: 1px solid black
+}
+
+
+@media (max-width: 1200px) {
+    .btn:hover {
+        display: none;
+    }
+
+}
+
+
+
+@media (max-width: 485px) {
+
+    .complemento2 {
+        font-size: 3.4rem;
+
+    }
+    #subscription-form p {
+        font-size: 1.5rem;
+ 
+    
+    }
+}
+
+@media (max-width: 375px) {
+    .complemento2 {
+        font-size: 2.4rem;
+    }
+    .form-group input,
+.form-group select {
+
+    font-size: 1.2rem;
+    
+}
+textarea {
+    font-size: 1.2rem;
+   
+    
+}
+}

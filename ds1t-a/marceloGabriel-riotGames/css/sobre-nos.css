@@ -1,0 +1,107 @@
+.sobre-nos {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.container-titulo-sobre-nos {
+    display: grid;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #231E1E;
+    padding: 10px;
+}
+
+.titulo-sobre-nos {
+    width: 100%;
+    font-size: 4.25rem;
+    color: var(--primary-color);
+}
+
+.fundo-sobre-nos {
+    position: absolute;
+    left: 43%;
+    top: 11%;
+    height: 75vh;
+    width: 56vw;
+    z-index: -1;
+}
+
+.sub-titulo-descricao-sobre-nos {
+    position: relative;
+    width: 50vw;
+    left: -20%;
+}
+
+.sub-titulo-descricao-sobre-nos h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.sub-titulo-descricao-sobre-nos p {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.botao-trabalhe-conosco-sobre-nos {
+    display: grid;
+    background-color: #992222;
+    height: 9vh;
+    width: 15vw;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.fundo-mobile {
+    display: none;
+}
+
+@media (max-width: 660px) {
+
+    .sobre-nos {
+        display: flex;
+        
+    }
+
+    .sub-titulo-descricao-sobre-nos {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .sub-titulo-descricao-sobre-nos h2 {
+        display: none;
+        
+    }
+
+    .sub-titulo-descricao-sobre-nos p {
+        display: none;
+    }
+
+    .fundo-sobre-nos {
+        display: none;
+        
+    }
+
+    .fundo-mobile {
+        display: initial;
+        position: absolute;
+        left: 0%;
+        top: 11%;
+        width: 100vw;
+        height: 70vh;
+    }
+
+    .botao-trabalhe-conosco-sobre-nos {
+        width: 50vw;
+    }
+
+}

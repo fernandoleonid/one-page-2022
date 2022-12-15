@@ -1,0 +1,23 @@
+.home{
+    width: 100%;
+    background-image: url(../IMG/linguica.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-logo{
+    border-radius: 86px;
+}
+
+
+@media (max-width: 640px ){
+    
+
+    .img-logo{
+        width: 300px;
+    }
+    
+}

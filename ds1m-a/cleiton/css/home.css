@@ -1,0 +1,70 @@
+.home {
+    width: 100%;
+    display: flex;
+    background-image: url(../img/back.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px -30px 40px #000000;
+    filter: grayscale(10%);
+    overflow: hidden;
+}
+
+.suspenso1,
+.suspenso2,
+.suspenso3 {
+    position: absolute;
+    height: 180px;
+    width: 360px;
+    color: #ffffff;
+    font-family: 'Berserk';
+    font-size: 32px;
+}
+
+.suspenso1 {
+    top: 20%;
+    left: 15%;
+    animation-duration: 3s;
+    animation-name: animacao1;
+}
+
+.suspenso2 {
+    top: 55%;
+    left: 5%;
+    height: 150px;
+    animation-duration: 4s;
+    animation-name: animacao2;
+}
+
+.suspenso3 {
+    top: 60%;
+    right: 8%;
+    animation-duration: 6s;
+    animation-name: animacao3;
+}
+
+@keyframes animacao1 {
+    from {
+        transform: translatey(-200%)
+    }
+    to {
+        transform: translatey(0%);
+    }
+}
+
+@keyframes animacao2 {
+    from {
+        transform: translateX(-150%)
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes animacao3 {
+    from {
+        transform: translateX(150%)
+    }
+    to {
+        transform: translateX(0%);
+    }
+}

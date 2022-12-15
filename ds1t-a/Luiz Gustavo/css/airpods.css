@@ -1,0 +1,122 @@
+.section-airpods-watch {
+    background: linear-gradient(90deg, #1B1048 0%, #560762 100%);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20vh 85vh;
+}
+
+.div-title {
+    height: 25vh;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 4rem;
+    grid-column: 1;
+}
+
+.airpods {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1;
+    gap: 40px;
+}
+
+.text-button-airpods {
+    color: white;
+    width: 320px;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.text-airpods {
+    color: white;
+    width: 700px;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.airpods-pro {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.img-airpods-pro {
+    width: 19vw;
+    height: 29vh;
+}
+
+@media (max-width: 960px) {
+    .section-airpods-watch {
+        display: flex;
+        flex-direction: column;
+        height: 160vh;
+    }
+    .div-title {
+        height: 15vh;
+    }
+    .text-button-airpods {
+        font-size: 1.5rem;
+    }
+    .text-airpods {
+        font-size: 1.5rem;
+    }
+    .airpods {
+        height: 60vh;
+        gap: 70px;
+    }
+    .img-airpods-pro {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 640px) {
+    .section-airpods-watch {
+        height: 125vh;
+    }
+    .div-title {
+        font-size: 2.5rem;
+        height: auto;
+    }
+    .airpods {
+        height: 55vh;
+        gap: 20px;
+    }
+    .text-airpods {
+        font-size: 0.875rem;
+        width: 80vw;
+    }
+    .airpods-pro {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+    }
+    .text-button-airpods {
+        font-size: 1rem;
+        width: 80vw;
+    }
+    .img-airpods-pro {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 375px) {
+    .section-airpods-watch {
+        height: 160vh;
+    }
+    .airpods {
+        height: 75vh;
+    }
+    .img-airpods-pro {
+        width: 80vw;
+        height: auto;
+    }
+}

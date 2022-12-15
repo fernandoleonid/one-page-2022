@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Site criado para divulgar a nova série da Netflix Sandman"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/personagens.css" />
+    <link rel="stylesheet" href="./css/personagens-layout1.css" />
+    <link rel="stylesheet" href="./css/trama.css" />
+    <link rel="stylesheet" href="./css/creditos.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/responsividade.css" />
+    <link rel="stylesheet" href="./css/responsividade-mobile.css" />
+    <link rel="stylesheet" href="./css/mobile-nav.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/0efc108669.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&family=PT+Serif&family=Poppins:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sandman</title>
+  </head>
+  <body>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app')
+    </script>
+    <main>
+      <header>
+        <nav class="nav">
+          <a class="logo"
+            ><img
+              class="logo-img"
+              src="./img/container-logo_netflix.webp"
+              alt=""
+          /></a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-list__animation">HOME</a></li>
+            <li>
+              <a href="#personagens" class="nav-list__animation">PERSONAGENS</a>
+            </li>
+            <li><a href="#trama" class="nav-list__animation">TRAMA</a></li>
+            <li>
+              <a href="#creditos" class="nav-list__animation">CRÉDITOS</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="home" id="home">
+        <div class="home__logo">
+          <img src="./img/tittle__sandman.webp" alt="Logo Sandman" />
+        </div>
+        <div class="home__texto"><p>Rei do mundo dos sonhos</p></div>
+      </div>
+      <div class="personagens" id="personagens">
+        <div class="personagens__titulo"><p>Quem está assistindo?</p></div>
+        <div class="cards">
+          <div class="card-container">
+            <a
+              href="#personagem-morpheu"
+              aria-label="link para a página do personagem Dream/Morpheu"
+            >
+              <img
+                class="card_image"
+                src="./img/card__image-dream.webp"
+                alt="Imagem do personagem Dream"
+              />
+            </a>
+            <span>Dream</span>
+          </div>
+          <div class="card-container">
+            <a
+              href="#personagem-despair"
+              aria-label="link para a página Despair"
+            >
+              <img
+                class="card_image"
+                src="./img/card__image-despair.webp"
+                alt="Imagem da personagem Despair"
+              />
+            </a>
+            <span>Despair</span>
+          </div>
+          <div class="card-container">
+            <a
+              href="#personagem-desire"
+              aria-label="link para a página do personagem Desire"
+            >
+              <img
+                class="card_image"
+                src="./img/card__image-desire.webp"
+                alt="Imagem do personagem Desire"
+              />
+            </a>
+            <span>Desire</span>
+          </div>
+          <div class="card-container">
+            <a
+              href="#personagem-death"
+              aria-label="link para a página da personagem Death"
+            >
+              <img
+                class="card_image"
+                src="./img/card__image-death.webp"
+                alt="Imagem da personagem Death"
+              />
+            </a>
+            <span>Death</span>
+          </div>
+        </div>
+        <a href="#personagens" aria-label="link para a página personagens"
+          ><span class="button">Gerenciar Perfis</span></a
+        >
+        <!-- teste -->
+      </div>
+      <div class="personagens-layout" id="personagem-morpheu">
+        <div class="layout-header__image">
+          <img src="./img/elmo-morpheu.webp" alt="elmo morpheu" />
+        </div>
+        <div class="container-layout">
+          <div class="layout__image">
+            <img
+              src="./img/container__image-morpheu.webp"
+              alt="Card do personagem Morpheu"
+            />
+            <div class="background__image"></div>
+          </div>
+          <div class="layout-1__description">
+            <div class="layout__tittles">
+              <h2 class="layout-1__tittle">DREAM</h2>
+              <div class="layout__container-subtittle">
+                <h3 class="layout__subtittle">REINO SONHAR</h3>
+                <div class="layout-1__subtittle-traco"></div>
+              </div>
+            </div>
+            <div class="layout__description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply
+              random text. It has roots in a piece of classical Latin literature
+              from 45 BC.
+            </div>
+          </div>
+        </div>
+        <div class="citacao">
+          Então, lutando para continuar dormindo, desejando que o sonho durasse
+          para sempre, certo de que uma vez que acabasse, jamais voltaria...
+          você desperta.
+        </div>
+      </div>
+      <div class="personagens-layout" id="personagem-despair">
+        <div class="layout-header__image">
+          <img
+            src="./img/icon-despair.webp"
+            alt="ícone da personagem despero"
+          />
+        </div>
+        <div class="container-layout">
+          <div class="layout-1__description">
+            <div class="layout__tittles">
+              <h2 class="layout-2__tittle">DESPAIR</h2>
+              <div class="layout__container-subtittle">
+                <div class="layout-2__subtittle-traco"></div>
+
+                <h3 class="layout__subtittle">REINO CINZA</h3>
+              </div>
+            </div>
+            <div class="layout2__description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply
+              random text. It has roots in a piece of classical Latin literature
+              from 45 BC.
+            </div>
+          </div>
+          <div class="layout__image">
+            <img
+              src="./img/container__image-despair.webp"
+              alt="Card da personagem Despair"
+            />
+            <div class="background__image"></div>
+          </div>
+        </div>
+        <div class="citacao">
+          Então, lutando para continuar dormindo, desejando que o sonho durasse
+          para sempre, certo de que uma vez que acabasse, jamais voltaria...
+          você desperta.
+        </div>
+      </div>
+      <div class="personagens-layout" id="personagem-desire">
+        <div class="layout-header__image">
+          <img src="./img/icon-desire.webp" alt="elmo morpheu" />
+        </div>
+        <div class="container-layout">
+          <div class="layout__image">
+            <img
+              src="./img/container__image-desire.webp"
+              alt="Card do personagem Desire"
+            />
+            <div class="background__image"></div>
+          </div>
+          <div class="layout-1__description">
+            <div class="layout__tittles">
+              <h2 class="layout-3__tittle">DESIRE</h2>
+              <div class="layout__container-subtittle">
+                <h3 class="layout__subtittle">REINO LIMIAR</h3>
+                <div class="layout-1__subtittle-traco"></div>
+              </div>
+            </div>
+            <div class="layout__description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply
+              random text. It has roots in a piece of classical Latin literature
+              from 45 BC.
+            </div>
+          </div>
+        </div>
+        <div class="citacao">
+          Então, lutando para continuar dormindo, desejando que o sonho durasse
+          para sempre, certo de que uma vez que acabasse, jamais voltaria...
+          você desperta.
+        </div>
+      </div>
+      <div class="personagens-layout" id="personagem-death">
+        <div class="layout-header__image">
+          <img src="./img/icon-death.webp" alt="ícone da personagem despero" />
+        </div>
+        <div class="container-layout">
+          <div class="layout-1__description">
+            <div class="layout__tittles">
+              <h2 class="layout-4__tittle">DEATH</h2>
+              <div class="layout__container-subtittle">
+                <div class="layout-3__subtittle-traco"></div>
+
+                <h3 class="layout__subtittle">REINO DESCONHECIDO</h3>
+              </div>
+            </div>
+            <div class="layout2__description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply
+              random text. It has roots in a piece of classical Latin literature
+              from 45 BC.
+            </div>
+          </div>
+          <div class="layout__image">
+            <img
+              src="./img/container__image-death.webp"
+              alt="Card da personagem Death"
+            />
+            <div class="background__image"></div>
+          </div>
+        </div>
+        <div class="citacao">
+          Então, lutando para continuar dormindo, desejando que o sonho durasse
+          para sempre, certo de que uma vez que acabasse, jamais voltaria...
+          você desperta.
+        </div>
+      </div>
+      <div class="trama" id="trama">
+        <div class="trama-textos">
+          <div class="trama-description">
+            <div class="trama-description__container">
+              <div class="trama-number">1</div>
+              <div class="trama-texts">
+                <div class="trama-tittle">ENREDO</div>
+                <div class="trama__description">
+                  Em Sandman, um mago acaba capturando o Rei dos Sonhos durante
+                  um ritual de magia das trevas e o mantém preso por décadas.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="trama-line"></div>
+          <div class="trama-description">
+            <div class="trama-description__container">
+              <div class="trama-number">2</div>
+              <div class="trama-texts">
+                <div class="trama-tittle">PRELUDIO</div>
+                <div class="trama__description">
+                  Em Sandman, um mago acaba capturando o Rei dos Sonhos durante
+                  um ritual de magia das trevas e o mantém preso por décadas.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="trama__image-container">
+          <img
+            class="trama__image"
+            src="./img/trama_background-image.webp"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="creditos" id="creditos">
+        <div class="container-logo">
+          <img src="./img/tittle__sandman.webp" alt="Logo Sandman" />
+        </div>
+        <div class="credito-tittle">CRÉDITOS</div>
+        <div class="creditos-logos">
+          <div class="container-netflix">
+            <a
+              href="https://www.netflix.com/br/title/81150303"
+              target="_blank"
+              aria-label="link para a página da Netflix"
+              ><img
+                class="container-netflix"
+                src="./img/container-logo_netflix.webp"
+                alt="logo da netflix"
+            /></a>
+          </div>
+          <div class="container-warner">
+            <a
+              href="https://www.warnerbros.com/tv"
+              target="_blank"
+              aria-label="link para a página da warnerbros"
+            >
+              <img
+                class="logo-warner"
+                src="./img/container-warner.webp"
+                alt="logo da WarnerBros"
+            /></a>
+          </div>
+          <div class="logo-dc">
+            <a
+              href="https://www.dc.com/"
+              target="_blank"
+              aria-label="link para a página da DC Comics"
+              ><img
+                class="container-dc"
+                src="./img/container-logo_dc.webp"
+                alt="logo da WarnerBros"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <span>
+        Copyright © 2022 | Elaborado e desenvolvido por
+        <a
+          href="https://github.com/VINICIUSNUNES137"
+          target="_blank"
+          aria-label="link para a minha página do GITHUB"
+        >
+          Vinicius Nunes</a
+        ></span
+      >
+    </footer>
+    <script src="./mobile-navbar.js"></script>
+  </body>
+</html>

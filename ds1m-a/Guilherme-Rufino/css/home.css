@@ -1,0 +1,37 @@
+.title {
+    color:black;
+    text-shadow: white;
+    font-size: 70px;      
+    text-shadow: -3px -5px 4px #fff;
+    text-transform: uppercase; 
+     z-index: 1;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+
+     
+    
+} 
+  /* .image_home_responsivel {
+    display: none;
+}   */
+
+
+    
+.home { 
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  justify-content: center;
+  
+}
+.image_home {
+    filter: grayscale(100%);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+

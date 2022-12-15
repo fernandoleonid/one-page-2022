@@ -1,0 +1,145 @@
+.TheSevenDeadly{
+    width: 100%;
+}
+.TheSevenDeadlySins{
+    height: 150px;
+    background-color: #E20000;
+    color: var(--primary-color);
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-size: 80px;
+    padding-top: 30px;
+}
+.blocos{
+    background-color: #252525;
+    display: grid;
+    grid-template-columns: 480px 480px 480px 480px;
+    grid-template-rows: 392px 392px 392px 392px;
+}
+
+.title_blocos{
+    font-size: 64px;
+    padding-left: 120px;
+    padding-top: 30px;
+    color: #FFC700;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-family: Deutsch Gothic;
+}
+.title_blocos p{
+    font-size: 2rem;
+}
+
+.meliodas_title{
+    color: #FFC700;
+    font-family: Deutsch Gothic;
+}
+.ira{
+    color: #ffffff;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.King_title{
+    color: #24FF00;
+    font-family: Deutsch Gothic;
+}
+.preguica{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Ban_title{
+    color: #FF0F00;
+    font-family: Deutsch Gothic;
+}
+.ganancia{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Gowther_title{
+    color: #FF00B8;
+    font-family: Deutsch Gothic;
+}
+.luxuria{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Elizabeth_title{
+    color: #FFFFFF;
+    font-family: Deutsch Gothic;
+}
+.divina{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Diane_title{
+    color: var(--primary-color);
+    font-family: Deutsch Gothic;
+}
+.inveja{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Escanor_title{
+    color: #DBFF00;
+    font-family: Deutsch Gothic;
+}
+.orgulho{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Merlim_title{
+    color: #DB00FF;
+    font-family: Deutsch Gothic;
+}
+.gula{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+.TheSevenDeadly_nanatsu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E20000;
+    height: 123px;
+}
+
+
+/* CELULAR*/
+@media (max-width: 640px){
+    .TheSevenDeadlySins{
+        padding-left: 0px;
+        padding-top: 0px;
+        font-size: 4rem;
+    }
+    .TheSevenDeadly{
+        width: 100%;
+        height: 2500px;
+    }
+    .title_blocos{
+        padding-left: 20px;
+    }
+
+    .title_blocos p{
+        font-size: 1.5rem;
+    }
+
+    .blocos{
+        background-color: #252525;
+        display: grid;
+        grid-template-columns: 100% ;
+        grid-template-rows: 300px;
+    }
+}

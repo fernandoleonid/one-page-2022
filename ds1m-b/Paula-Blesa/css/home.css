@@ -1,0 +1,19 @@
+.home {
+    display: grid;
+    background-image: url(../img/gatosqnsom.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: grid;
+    font-family: 'Updock', cursive;
+    font-weight: 400;
+    font-size: 23vw;
+    color: white;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+}

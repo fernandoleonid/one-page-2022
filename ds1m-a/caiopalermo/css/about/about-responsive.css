@@ -1,0 +1,54 @@
+@media (max-width: 1380px) {
+  .about__content {
+    padding: 0px 30px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .about {
+    grid-template-areas:
+      "title"
+      "content";
+    grid-template-rows: auto 1fr;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about__title {
+    grid-area: title;
+  }
+
+  .about__content {
+    grid-area: content;
+    display: grid;
+    grid-template-areas:
+      "history-and-opinion"
+      "categories";
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 850px) {
+  .categories {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .history-and-opinion__text {
+    margin: 0px 25px;
+  }
+}
+
+@media (max-width: 370px) {
+  .history-and-opinion__title {
+    font-size: 1.5rem;
+  }
+
+  .hasegawa-mobile__title {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,64 @@
+section{
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+body{
+    display: grid;
+    grid-template-areas: "content";
+    background: linear-gradient(90deg, #001131 29.69%, #002A7A 100%);
+}
+
+header{
+    grid-area: content;
+    height: 100px;
+    background-color: #003f8783;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding-left: 26px;
+    padding-right: 26px;
+    color: white;
+}
+
+.avatar-logo{
+    width: 9%;
+    max-width: 9%;
+    min-width: 150px;
+}
+
+main{
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer{
+    height: 50px;
+    background-color: black;
+    border-top: 2px solid #fff;
+    font-family: 'Sarala', sans-serif;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: 0.75rem;
+}
+
+@media (max-width:640px){
+    
+    .nick_logo{
+        display: none;
+    }
+
+}

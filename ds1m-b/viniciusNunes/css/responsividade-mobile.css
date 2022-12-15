@@ -1,0 +1,198 @@
+@media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .home__logo img {
+    width: 260px;
+  }
+
+  .citacao {
+    align-items: flex-end;
+    height: 100px;
+  }
+
+  .container-layout {
+    gap: 150px;
+  }
+  .personagens-layout {
+    justify-content: space-around;
+  }
+
+  .credito-tittle {
+    font-size: 1.5rem;
+  }
+
+  .trama-description__container {
+    height: 300px;
+    display: flex;
+  }
+
+  .trama-line {
+    width: 50px;
+  }
+
+  .trama-number {
+    display: none;
+  }
+  .personagens__titulo {
+    text-align: center;
+  }
+
+  .layout__description {
+    width: 280px;
+    text-align: justify;
+  }
+
+  .layout2__description {
+    width: 280px;
+    text-align: justify;
+  }
+
+  .layout-2__subtittle-traco {
+    width: 170px;
+  }
+
+  .layout__image img {
+    width: 200px;
+  }
+
+  .background__image {
+    width: 200px;
+    height: 200px;
+    transform: translate(40px, -170px);
+  }
+
+  .layout-1__description {
+    text-align: justify;
+    row-gap: 32px;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+
+  .layout__subtittle {
+    font-size: 1rem;
+    letter-spacing: 0.75rem;
+    text-align: center;
+  }
+  .layout-2__tittle {
+    font-size: 2rem;
+    letter-spacing: 0.75rem;
+    text-align: center;
+  }
+
+  .trama-tittle {
+    letter-spacing: 0;
+  }
+  .layout-1__tittle {
+    font-size: 2rem;
+    letter-spacing: 0;
+  }
+
+  .layout__tittles h2 {
+    letter-spacing: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+  .layout-1__subtittle-traco {
+    display: none;
+    width: 0;
+  }
+
+  .layout-2__subtittle-traco {
+    display: none;
+  }
+
+  .layout-3__subtittle-traco {
+    display: none;
+  }
+
+  .layout-3__tittle {
+    font-size: 2rem;
+    letter-spacing: 0;
+  }
+
+  .layout-4__tittle {
+    font-size: 2rem;
+    letter-spacing: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .home__logo img {
+    width: 360px;
+  }
+  .home__texto {
+    letter-spacing: 0.25rem;
+    font-size: 1rem;
+  }
+
+  .personagens__titulo {
+    font-size: 2rem;
+  }
+
+  .container-logo img {
+    width: 320px;
+  }
+
+  .layout-1__tittle {
+    letter-spacing: 2.4rem;
+  }
+  .layout-1__subtittle-traco {
+    width: 210px;
+  }
+
+  .layout-1__description {
+    align-items: center;
+  }
+
+  .layout-2__tittle {
+    letter-spacing: 1.4rem;
+    text-align: right;
+  }
+
+  .layout-3__tittle {
+    letter-spacing: 2rem;
+  }
+
+  .layout-4__tittle {
+    align-items: center;
+    margin-left: 48px;
+  }
+
+  .layout-3__subtittle-traco {
+    margin-left: 48px;
+  }
+
+  .trama {
+    height: 100vh;
+    padding-left: 10%;
+  }
+
+  .trama-tittle {
+    font-size: 4rem;
+    letter-spacing: 0.25rem;
+  }
+
+  .trama__description {
+    font-size: 1rem;
+    width: 300px;
+  }
+
+  .trama-texts {
+    height: 150px;
+  }
+
+  .trama__image-container {
+    transform: translateX(-80%);
+  }
+
+  .trama-line {
+    width: 320px;
+  }
+
+  .citacao {
+    font-size: 0.8rem;
+    width: 90vw;
+  }
+}

@@ -1,0 +1,55 @@
+    .pag1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+        background-image: url(./img/avatar-novofilme-mestredoar-lendades.jpg);
+        background-repeat: no-repeat;
+        background-attachment: center;
+        background-size: 100%;
+        /* transform: translateX(-8%); */
+    }
+    
+    .voltar {
+        color: yellow;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .personagens-align {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    .titulo-personagens {
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        text-align: center;
+        background: linear-gradient(#fff, #0001);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-family: 'Julee', cursive;
+    }
+    
+    .personagens_principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .sokka,
+    .aang,
+    .katara,
+    .toph,
+    .zuko {
+        height: 200px;
+    }

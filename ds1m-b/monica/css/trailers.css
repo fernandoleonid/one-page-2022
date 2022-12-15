@@ -1,0 +1,9 @@
+.trailers{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/image\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    align-items: center;
+}

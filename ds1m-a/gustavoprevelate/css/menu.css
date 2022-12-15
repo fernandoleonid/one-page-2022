@@ -1,0 +1,16 @@
+.menu{
+    display: flex;
+    gap: 64px;
+    font-size: 2rem;
+    color: var(--primary-color);
+    padding-right: 200px;
+}
+
+.menu li{
+    border-bottom: 4px solid transparent;
+    transition: border-color .3s;
+}
+
+.menu li:hover{
+    border-bottom: 4px solid var(--secundary-color);
+}

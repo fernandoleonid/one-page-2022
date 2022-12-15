@@ -1,0 +1,83 @@
+.instruments{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.instruments__info{
+    align-self: flex-end;
+    width: 50%;
+    text-align: start;
+    font-family: 'Sunflower';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color:#D2D1E8;
+    z-index: 2;
+
+}
+.instruments__info p{
+    text-align: start;
+    align-items: flex-end;
+}
+.instruments ul li{
+    text-align: center;
+}
+.instruments li img{
+    height: auto;
+}
+#bginstruments{
+    top: 20%;
+}
+#bginstruments-tablet{
+    display: none;
+}
+#piano{
+    margin-top: 8%;
+}
+#violino{
+    margin-top: 16%;
+    margin-right: 5%;
+}
+@media (max-width:960px) {
+    #piano, #violino, #cravo{
+        margin: 0;
+    }
+    
+    #bginstruments{
+        display: none;
+    }
+    #bginstruments-tablet{
+        display: inline;
+        position: absolute;
+        top: -15rem;
+        left: -4rem;
+        z-index: -1;
+    }
+    .instruments__info{
+        display: none;
+    }
+    .instruments li img{
+        width: 25rem;
+        height: 30rem;
+    }
+    .instruments nav{
+        justify-content: space-between;
+    }
+    button{
+        background-color: #D2D1E8;
+    }
+}
+@media (max-width:640px) {
+    .instruments ul{
+        margin-left: 1%;
+        margin-right: 50%;
+    }
+    #bginstruments-tablet{
+        display: inline;
+        position: absolute;
+        z-index: -1;
+        transform: translate(6%, 13%);
+        height: 110%;
+        width: 110%;
+    }
+}

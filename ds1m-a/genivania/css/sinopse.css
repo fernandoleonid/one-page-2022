@@ -1,0 +1,45 @@
+.sinopse{
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "title title"
+    "avatar description";
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    background-image: url(../img/azul.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 10px -100px 100px #181068;
+   
+    
+}
+.card_container{
+    display: flex;
+    flex-direction:initial;
+    margin-left: 10rem;
+    width: 1300px;
+    gap: 20px;
+    
+}
+
+.section-title{
+    grid-area: title;
+    font-family: 'Eagle Lake', cursive;
+    font-size: 8rem;
+    background-image: linear-gradient( #1602F9 , #00C9F5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;  
+    display: flex; 
+}
+.avatar{
+    grid-area: avatar;
+    display: flex;  
+}
+.description_sinopse{
+    grid-area: description;
+    font-size: 4rem;
+    font-family: 'avatar';
+    font-weight: 400; 
+}

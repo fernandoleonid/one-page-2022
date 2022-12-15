@@ -1,0 +1,100 @@
+#poluicao {
+    display: grid;
+    grid-template-areas: "poluicao animais";
+    grid-template-columns: 40vw 1fr;
+    background-color: #D9D9D9;
+
+}
+
+.container-imagem-poluicao {
+    height: auto;
+    grid-area: poluicao;
+    background-image: url(../img/mar-poluicao.png);
+    width: 40vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+
+}
+
+.container-imagem-poluicao>h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+    font-size: 2.5rem;
+}
+
+
+.animais-afetados {
+    height: auto;
+    grid-area: animais;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 60px;
+    max-height: auto;
+}
+
+.imagem-mar-poluido {
+    grid-area: poluicao;
+    width: 40vw;
+    height: 100vh;
+}
+
+
+
+.animais-afetados>img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.4);
+    transition: .2s;
+}
+
+.container-imagem-poluicao:hover {
+    text-shadow: 1px 1px 8px #fff;
+}
+
+@media (max-width: 940px) {
+
+    #poluicao {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .container-imagem-poluicao {
+        height: 600px;
+        width: 100%;
+    }
+
+    .animais-afetados {
+        padding: 20px 0 20px 0;
+        height: 900px;
+    }
+
+}
+
+@media (max-width: 640px) {
+
+    .animais-afetados>img {
+        width: 60vw;
+    }
+
+    .container-imagem-poluicao {
+        height: 80vw;
+    }
+
+    .animais-afetados {
+        padding: 20px 0 20px 0;
+        height: auto;
+        margin-top: 2vh;
+        gap: 3vh;
+    }
+
+}

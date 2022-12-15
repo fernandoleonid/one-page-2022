@@ -1,0 +1,87 @@
+.Tv_Series {
+    max-width: 1200px;
+    width: 100%;
+    gap: 64px;
+    display: grid;
+    grid-template-areas: "title title" "description skills";
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -20px;
+}
+.section___title{
+
+    grid-area: title;
+    font-size: 220px;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+    font-family: 'PT Sans Caption';
+}
+
+.list{
+    margin-bottom: 20px;
+    width: 900px;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 200px;
+    font-family:'Comic Book Commando Bold', sans-serif;;
+}
+.list_1{
+
+    margin-bottom: 20px;
+    width: 900px;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Comic Book Commando Bold', sans-serif;;
+
+}
+
+.list_2{
+
+    margin-bottom: 20px;
+    width: 900px;
+    align-items: center;
+    font-size: 30px;
+    font-family:'Comic Book Commando Bold', sans-serif;;
+
+
+}
+.list_3{
+
+    margin-bottom: 20px;
+    width: 900px;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Comic Book Commando Bold', sans-serif;;
+
+
+}
+.list_4{
+
+    margin-bottom: 20px;
+    width: 900px;
+    align-items: center;
+    font-size: 30px;
+    font-family:'Comic Book Commando Bold', sans-serif;;
+
+
+}
+
+.list_5{
+    margin-bottom: 20px;
+    width: 900px;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Comic Book Commando Bold', sans-serif;;
+
+}
+.list_6{
+
+    margin-bottom: 20px;
+    width: 900px;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Comic Book Commando Bold', sans-serif;;
+
+
+}

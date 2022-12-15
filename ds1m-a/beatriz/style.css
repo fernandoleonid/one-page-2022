@@ -1,0 +1,90 @@
+:root{
+
+    font-size: 15px;
+   --claro: rgb(255, 251, 247);
+   --medio:rgb(243, 198, 157);
+    --escuro:rgb(19, 18, 18);
+    --preto: rgb (37, 37, 37);
+    --escuroLuz:rgb(71, 62, 30);
+
+
+   
+  
+    
+   
+    
+
+}
+
+html{
+
+    scroll-behavior: smooth;
+    
+    }
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+ol, ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    display: grid;
+    grid-template-areas: "conteudo1";                    
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden; 
+    
+}
+
+header{
+
+    
+    grid-area: conteudo1;
+    height: 40px;
+    width: 100%;
+
+}
+
+
+main{
+    
+    grid-area: conteudo1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+footer{
+    
+ 
+    opacity: 0.9;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--pret);
+    
+    place-self: end center;
+    grid-area: conteudo1;
+    height: 10px;
+    width: 100%;
+    
+}
+
+

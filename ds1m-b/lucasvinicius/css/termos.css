@@ -1,0 +1,53 @@
+.termos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    height: 100px;
+}
+
+
+.linha {
+    width: 100vw;
+    border: 2px solid gray;
+}
+
+.linha:hover{
+    color: white;
+}
+
+.imagensFooter {
+   display: flex;
+   flex-direction: column;
+   height: 150px;
+   width: 85%;
+   margin-top: 50px;
+}
+
+.imagensCima {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.imagensDeBaixo {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.imagensFooter h1 {
+    text-align: right;
+    font-size: 2.5rem;
+}
+
+.meuNome {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.meuNome:hover {
+    color: gray;
+}

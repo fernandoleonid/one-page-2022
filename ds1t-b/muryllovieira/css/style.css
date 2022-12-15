@@ -1,0 +1,42 @@
+:root {
+
+}
+.pai_sections{
+    background-image: url(../img/backgroundSecundario.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home1{
+    height: 100vh;
+}
+.novos-personagens{
+    height: 100vh;
+}
+.novos-inimigos{
+    height: 160vh;
+}
+.informacoes-versao{
+    height: 170vh;
+}
+.caracteristicas{
+    height: 120vh;
+} 
+@media (max-width:640px) {
+    .home1{
+        height: 130vh;
+    }
+    .novos-personagens{
+        height: 120vh;
+    }
+    .novos-inimigos{
+        height: 100vh;
+    }
+    .informacoes-versao{
+        height: 260vh;
+    }
+    .caracteristicas{
+        height: 90vh;
+    } 
+}
+

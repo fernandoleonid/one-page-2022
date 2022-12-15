@@ -1,0 +1,14 @@
+.historia{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/casa_assombrada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    gap: 64px;
+    padding: 80px;
+}
+p{ 
+    width: 80%;
+    font-size: 2rem;
+}

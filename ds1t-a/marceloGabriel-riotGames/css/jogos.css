@@ -1,0 +1,382 @@
+.jogos {
+    height: 110vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo-jogos {
+    position: absolute;
+    width: 60vw;
+    height: 120vh;
+    left: 37%;
+    top: -5%;
+    z-index: -1;
+}
+
+.container-titulo-jogos {
+    display: grid;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: -5%;
+    background-color: #231E1E;
+    padding: 10px;
+}
+
+.titulo-jogos {
+    width: 100%;
+    font-size: 4.25rem;
+    color: var(--primary-color);
+}
+
+.paralelograma {
+    width: 150px;
+    height: 70px;
+    
+}
+
+.slider {
+    margin: 0 auto;
+    width: 60vw;
+    height: 100vh;
+    overflow: hidden;
+    padding-top: 10vh;
+}
+
+.slides {
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    gap: 10%;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 100%;
+    position: relative;
+    
+}
+
+.slide-first {
+    padding-right: 10vw;
+}
+
+.slide-three {
+    padding-right: 13vw;
+}
+
+.slide-four {
+    padding-right: 13vw;
+}
+
+.slide img {
+    height: 100%;
+}
+
+.borda-um {
+    position: absolute;
+    height: 59vh;
+    width: 15vw;
+    top: 26px;
+    left: 23px;
+   
+    background: #c1c1c100;
+    border: 3px solid var(--primary-color);
+    z-index: 3;
+    transition: 1s;
+}
+
+.borda {
+    -webkit-transform: skew(7deg);
+    -moz-transform: skew(7deg);
+    -o-transform: skew(20deg);
+}
+
+.borda-um:hover {
+    border: 3px solid #fff;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.borda-dois {
+    position: absolute;
+    height: 59vh;
+    width: 15vw;
+    top: 26px;
+    left: 15px;
+   
+    background: #c1c1c100;
+    border: 3px solid var(--primary-color);
+    z-index: 3;
+    transition: 1s;
+}
+
+.borda-dois:hover {
+    border: 3px solid #fff;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.borda-tres {
+    position: absolute;
+    height: 59vh;
+    width: 14vw;
+    top: 26px;
+    left: 15px;
+    
+    background: #c1c1c100;
+    border: 3px solid var(--primary-color);
+    z-index: 3;
+    transition: 1s;
+}
+
+.borda-tres:hover {
+    border: 3px solid #fff;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.borda-quatro {
+    position: absolute;
+    height: 59vh;
+    width: 14vw;
+    top: 26px;
+    left: 12px;
+  
+    background: #c1c1c100;
+    border: 3px solid var(--primary-color);
+    z-index: 3;
+    transition: 1s;
+}
+
+.borda-quatro:hover {
+    border: 3px solid #fff;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.borda-cinco {
+    position: absolute;
+    height: 59vh;
+    width: 14vw;
+    top: 26px;
+    left: 10px;
+    
+    background: #c1c1c100;
+    border: 3px solid var(--primary-color);
+    z-index: 3;
+    transition: 1s;
+}
+
+.borda-cinco:hover {
+    border: 3px solid #fff;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.borda-seis {
+    position: absolute;
+    height: 59vh;
+    width: 14vw;
+    top: 26px;
+    left: 8px;
+  
+    background: #c1c1c100;
+    border: 3px solid var(--primary-color);
+    z-index: 3;
+    transition: 1s;
+}
+
+.borda-seis:hover {
+    border: 3px solid #fff;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: 5vh;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: #fff;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -90%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -190%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -300%;
+}
+
+#radio5:checked ~ .first {
+    margin-left: -400%;
+}
+
+.navigation-auto div {
+    border: 2px solid #202020;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 65vh;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #fff;
+
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #fff;
+
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #fff;
+
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #fff;
+
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: #fff;
+
+}
+
+.cards-mobile {
+    display: none;
+}
+
+.cards-tablet {
+    display: none;
+}
+
+@media (max-width: 660px) {
+
+    .jogos {
+        width: 100vw;
+        height: 130vh;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .fundo-jogos {
+        display: none;
+    }
+
+    .container-titulo-jogos {
+        top: -10%;
+    }
+
+    .cards-tablet {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 42px;
+        padding-bottom: 20px;
+    }
+
+    .cards-mobile {
+        display: none;
+    }
+
+    
+}
+
+@media (max-width: 460px) {
+
+    .container-titulo-jogos {
+        top: -10%;
+    }
+
+    .cards-tablet {
+        display: none;
+    }
+
+    .cards-mobile {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .cards-mobile img {
+        display: flex;
+        width: 70vw;
+    }
+
+    .card-tres {
+        padding-bottom: 30px;
+    }
+
+    .card-quatro {
+        padding-bottom: 30px;
+    }
+
+    .card-cinco {
+        padding-bottom: 30px;
+    }
+
+    .card-seis {
+        padding-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}

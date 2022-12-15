@@ -1,0 +1,139 @@
+/*TABLET */
+@media (max-width: 960px) {
+.menu{
+     display: none;
+}
+.bars{
+    display: grid;
+    font-size: 2.3rem;
+}
+.bars :hover{
+    transition: .5s;
+    color: var(--letras-color);
+}
+header{
+    max-width: 700px;
+    justify-content: space-between;
+    justify-self: center;
+}
+.sobre{
+    display: flex;
+    flex-direction: column;
+    height: 980px;
+}
+.title-sobre{
+    font-size: 4.5rem;
+}
+.description-sobre{
+    font-size: 1.5rem;
+    gap: 50px;
+    padding: 50px;
+}
+.capa-manga{
+    height: 400px;
+    width: 240px;
+}
+.protagonista{
+    display: flex;
+    flex-direction: column;
+    height: 915px;
+}
+.title-protagonista{
+    font-size: 4.5rem;
+}
+.description-protagonista{
+    font-size: 1.5rem;
+    padding-left: 0%;
+    padding: 50px;
+}
+.luffy{
+    height: 325px;
+}
+.icones{
+    padding-left: 0%;
+    width: 625px;
+    padding: 47px;
+    place-self: center;
+}
+.frases{
+    display: flex;
+    flex-direction: column;
+    height: 1520px;
+    justify-items: center;
+}
+.title-frases{
+    font-size: 4.5rem;
+}
+.doutor{
+    padding: 60px;
+}
+.jinbei{
+    padding: 60px;
+}
+.teach{
+    padding: 60px;
+}
+.iceburg{
+    padding: 60px;
+}
+.frases-icons{
+    font-size: 1rem;
+}
+.jogo{
+    gap: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 1890px;
+    background-image: url(../img/fundo-tablet.png);
+    background-size: 75% 50%;
+    background-color: #141313;
+    background-position: top;
+}
+.capa-jogo{
+    place-self: start;
+    padding-left: 150px;
+}
+.informacoes{
+    margin-bottom: 60px;
+    background-color: black;
+}
+.filme{
+    display: flex;
+    flex-direction: column;
+    background-image: url(none);
+    height: 1140px;
+    align-items: center;
+    gap: 50px;
+}
+.title-filme{
+    font-size: 4.5rem;
+    text-align: center;
+    padding-right: 0%;
+    padding-top: 0%;
+}
+.filme-tablet{
+    display: grid;
+}
+.trailer{
+    place-self: center;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+.botao-filme{
+    place-self: center;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    width: 280px;
+    height: 90px;
+    font-size: 1.75rem;
+}
+.mais{
+    display: flex;
+    flex-direction: column;
+    height: 830px;
+    gap: 50px;
+}
+.title-mais{
+    font-size: 4.5rem;
+}
+}

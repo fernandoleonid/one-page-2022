@@ -1,0 +1,61 @@
+.quem-somos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.container-title-quem-somos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #FFFFFF;
+}
+
+.quem-somos-title {
+    position: absolute;
+}
+
+.fundo-quem-somos {
+    width: 100%;
+    height: 165px;
+}
+
+.quem-tudo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description-quem-somos {
+    width: 800px;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+
+/* MOBILE */
+
+@media (max-width:640px) {
+    .quem-tudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    .container-title-quem-somos {
+        font-size: 2.5rem;
+    }
+    .description-quem-somos {
+        width: 340px;
+        font-size: 1.5rem;
+    }
+    .foto-quem-somos {
+        width: 360px;
+    }
+    .quem-somos-title {
+        font-size: 2.5rem;
+    }
+}

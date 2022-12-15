@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site sobre oceano." />
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+    <link rel="shortcut icon" type="imagem/x-icon" href="img/logo.png" />
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="./style/sidenav.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/especies.css">
+    <link rel="stylesheet" href="style/fenomenos.css">
+    <link rel="stylesheet" href="style/poluicao.css">
+    <link rel="stylesheet" href="style/informacoes.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+Oriya:wght@400;500;600;700&family=Roboto:wght@100;300;400;700;900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/56adc94ecd.js" crossorigin="anonymous"></script>
+    <script src="./js/side-nav.js"></script>
+    <script src="./js/sign-language.js"></script>
+
+    <title>Ocean</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo" src="img/logo.png" alt="Logo do site">
+        </div>
+        <nav>
+            <i onclick="openNavHalf()" id="icon-half-menu" class="fas fa-bars"></i>
+            <ul class="menu">
+                <li>
+                    <a href="#casa">Início</a>
+                </li>
+                <li>
+                    <a href="#especies">Espécies</a>
+
+                </li>
+                <li>
+                    <a href="#fenomenos">Fenômenos</a>
+
+                </li>
+                <li>
+                    <a href="#poluicao">Poluição</a>
+
+                </li>
+                <li>
+                    <a href="#informacoes">Informações</a>
+
+                </li>
+            </ul>
+            <ul id="mySidenav" class="sidenav">
+                <li>
+                    <a href="#" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+                </li>
+                <li>
+                    <a href="#casa">Início</a>
+                </li>
+                <li>
+                    <a href="#especies">Espécies</a>
+
+                </li>
+                <li>
+                    <a href="#fenomenos">Fenômenos</a>
+
+                </li>
+                <li>
+                    <a href="#poluicao">Poluição</a>
+
+                </li>
+                <li>
+                    <a href="#informacoes">Informações</a>
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="casa" id="casa">
+            <div class="titulo">
+                <h2>Ocean</h2>
+                <h1>At the bottom of the sea</h1>
+            </div>
+
+            <div class="container-citacao">
+                <p class="citacao">Quão inapropriado chamar terra a este planeta</p>
+                <p class="citacao2">Quando é evidente que deveria chamar-se oceano</p>
+                <span class="ponto">.</span>
+                <p class="autor">Julio Verne</p>
+            </div>
+
+        </section>
+
+        <section class="especies" id="especies">
+            <div class="container-titulo-diversidade">
+                <div class="titulo-especies">
+                    <h2>Espécies</h2>
+                    <h3>Fascinantes</h3>
+                </div>
+
+
+                <article class="diversidade">
+                    <h3>Diversidade</h3>
+                    <p class="texto-especies">Calcula-se que cerca de 10 milhões de espécies vivam nos oceanos, entre as
+                        quais algas,
+                        bactérias,
+                        peixes, corais e mamíferos. Nem todas já foram descobertas, de modo que esse número é a
+                        apenas uma
+                        estimativa dos cientistas. Na minha opinião, as seguintes são fascinantes:</p>
+                </article>
+            </div>
+            <div class="animais">
+                <article class="foca">
+                    <img class="imagem-especie" src="img/imagem-foca.png" alt="Foca">
+                    <h4>Foca</h4>
+                    <p class="texto-especies">Focas são mamíferos marinhos que fazem parte da família Phocidae. Essa
+                        família
+                        está incluída
+                        na subordem Pinnipedia, que inclui animais adaptados à vida terrestre e aquática, tais como
+                        leões-marinhos, morsas e elefantes-marinhos. As focas possuem nadadeira em forma de remo e
+                        corpo hidrodinâmico, características essenciais para a natação.
+                    </p>
+                </article>
+
+                <article class="baleia">
+                    <img class="imagem-especie" src="img/imagem-baleia.png" alt="Baleia">
+                    <h4>Baleia</h4>
+                    <p class="texto-especies">As baleias são mamíferos marinhos que pertencem à ordem dos cetáceos e
+                        estão divididas em duas subordens, sendo que as Myscticeti possuem barbatanas e as Odontoceti
+                        possuem dentes.
+                    </p>
+                </article>
+
+                <article class="agua-viva">
+                    <img class="imagem-especie" src="img/imagem-agua-viva.png" alt="Água-viva">
+                    <h4>Agua-viva</h4>
+                    <p class="texto-especies">A água-viva é um animal marinho, invertebrado pertencente ao filo dos
+                        cnidários. O corpo de
+                        uma água-viva adulta é composto de uma substância gelatinosa em forma de sino que envolve
+                        sua estrutura interna, da qual os saem vários tentáculos.
+                    </p>
+                </article>
+            </div>
+
+        </section>
+        <section class="fenomenos" id="fenomenos">
+            <div class="titulo-fenomenos">
+                <h2>Fenômenos Naturais</h2>
+                <h3>Que ocorrem no meio do oceano</h3>
+            </div>
+
+            <ul class="lista-fenomenos">
+                <li class="fenomeno-da-lista">
+                    <article class="brilho-verde">
+                        <h4 class="nome-fenomeno">Brilho verde do sol</h4>
+                        <div class="descricao-fenomeno">
+                            <img class="imagem-fenomeno" src="img/imagem-fenomeno1.jpg" alt="Brilho verde do sol">
+
+                            <p>O Sol emite raios de várias cores, a percepção do tom que temos
+                                aqui da Terra
+                                depende de sua distorção na atmosfera.
+                            </p>
+                            <p>Em situações específicas de refração da luz solar na nossa
+                                atmosfera, somadas à angulação de visão e condições climáticas limpas, as pessoas podem
+                                enxergar um brilho verde no nascer ou pôr do sol.
+                            </p>
+                            <p> Trata-se de um efeito ótico facilmente capturado por câmeras
+                                fotográficas e mais observado
+                                em horizontes desobstruídos e sem poluição, como o horizonte marítimo.
+                            </p>
+                        </div>
+                    </article>
+                </li>
+                <div class="barra"></div>
+
+                <li class="fenomeno-da-lista">
+                    <article class="ondas-oceanicas">
+                        <h4 class="nome-fenomeno">Ondas oceânicas extremas</h4>
+                        <div class="descricao-fenomeno">
+                            <img class="imagem-fenomeno" src="img/imagem-fenomeno2.jpg" alt="Ondas oceânicas">
+                            <p>Também chamadas de "ondas verticais", dependem de uma série de
+                                fatores para ocorrer. </p>
+                            <p>De acordo com o departamento norte-americano de oceano, ventos
+                                muito fortes e fora das
+                                condições normais, causados por tufões ou ciclones, por exemplo, elevam a superfície
+                                marinha
+                                a um cenário extremo em que as ondas firmam uma posição quase vertical.
+                            </p>
+                        </div>
+                    </article>
+                </li>
+                <div class="barra"></div>
+
+                <li class="fenomeno-da-lista">
+                    <article class="nevoa-mar">
+                        <h4 class="nome-fenomeno">Névoa do mar</h4>
+                        <div class="descricao-fenomeno">
+                            <img class="imagem-fenomeno" src="img/imagem-fenomeno3.jpg" alt="Névoa do mar">
+                            <p>Este fenômeno, que põe em perigo a navegação, ocorre quando ventos
+                                muito quentes tocam a superfície do mar.
+                            </p>
+                            <p>Em consequência, o vapor de água que esses ventos transportam em
+                                suspensão é condensado em
+                                contato com água fria e vira essa fumacinha.
+                            </p>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+
+        <section class="poluicao" id="poluicao">
+            <div class="container-imagem-poluicao">
+                <h2>Poluição</h2>
+            </div>
+
+            <div class="animais-afetados">
+                <img src="img/imagem-poluicao1.png" alt="Foca">
+                <img src="img/imagem-poluicao2.png" alt="Peixe">
+                <img src="img/imagem-poluicao3.png" alt="Carangueijo">
+
+
+                <img src="img/imagem-poluicao4.png" alt="Tartaruga">
+                <img src="img/imagem-poluicao5.png" alt="Carangueijo">
+                <img src="img/imagem-poluicao6.png" alt="Raia">
+            </div>
+        </section>
+
+        <section class="informacoes" id="informacoes">
+
+            <div class="container-imagem-frase">
+                <p>O mar é tudo.</p>
+                <p>Ele cobre sete décimos do globo terrestre.</p>
+            </div>
+
+            <div class="informacoes-contato">
+                <div class="titulo-informacoes">
+                    <h3 class="titulo-informacoes">Informações</h5>
+                </div>
+
+                <ul class="social-container">
+                    <li class="contato-titulo-li">
+                        <h4 class="contato-titulo">Redes Sociais</h6>
+                    </li>
+                    <li class="social">
+                        <a href="https://www.instagram.com/camilapinh3iro/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="social">
+                        <a href="https://github.com/camilapinh3iro" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="social">
+                        <a href="https://twitter.com/camilapinh3iro" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social">
+                        <a href="#" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="contato-container">
+                    <li class="contato-titulo-li2">
+                        <h4 class="contato-titulo">Contato</h4>
+                    </li>
+                    <li>
+                        <div class="contato-item">
+                            <i class="fa-solid fa-phone contato-item__icon"></i>
+                            <span class="contato-item__text">(11) 4774-4700</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contato-item">
+                            <i class="fa-solid fa-envelope" contato-item__icon></i>
+                            <span class="contato-item__text">pinheirocamila49800@gmail.com</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contato-item">
+                            <i class="fa-solid fa-location-dot" contato-item__icon></i>
+                            <span class="contato-item__text">Itapevi - SP</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="como-contribuir">
+                    <span>Como contribuir com meio ambiente</span>
+
+                    <a href="https://www.mbigucci.com.br/blog/dez-dicas-para-contribuir-com-o-meio-ambiente/"
+                        target="_blank">
+                        <button class="como-contribuir__button">Saber mais
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Todos os Direitos Reservados 2022 | Desenvolvido por Camila Pinheiro
+        </p>
+    </footer>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+</body>
+
+
+</html>

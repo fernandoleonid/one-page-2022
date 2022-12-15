@@ -1,0 +1,172 @@
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/fundo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.title_contatos{
+    grid-area: title;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FFF1BD;
+    position: absolute;
+    top: 303%;
+}
+.logocont{
+    color: #FFF1BD;
+    position: absolute;
+    top: 305%;
+    left: 07%;
+    font-size: 1.5rem;
+}
+.subcont{
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 320%;
+    font-size: 2rem;
+}
+.insta{
+    position: absolute;
+    top: 340%;
+    left: 03%;
+    color: aliceblue;
+    font-size: 2rem;
+}
+.twi{
+    position: absolute;
+    top: 350%;
+    left: 03%;
+    color: aliceblue;
+    font-size: 2rem;
+}
+.git{
+    position: absolute;
+    top: 360%;
+    left: 03%;
+    color: aliceblue;
+    font-size: 2rem;
+}
+.caminhao{
+    position: absolute;
+    left: 25%;
+    top: 340%;
+}
+.medalha{
+    position: absolute;
+    left: 50%;
+    top: 340%;
+}
+.seta{
+    position: absolute;
+    left: 75%;
+    top: 340%;
+}
+.ctitu{
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    left: 22%;
+    top: 348%;
+}
+.mtitu{
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    left: 47%;
+    top: 348%;
+}
+.stitu{
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    left: 73%;
+    top: 348%;
+}
+.descric{
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 353%;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.descrim{
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    left: 45.5%;
+    top: 353%;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.descris{
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    left: 71%;
+    top: 353%;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.cont{
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    left: 12%;
+    top: 393%;
+}
+.localizacao{
+    position: absolute;
+    left: 30%;
+    top: 393%;
+}
+.email{
+    position: absolute;
+    left: 50%;
+    top: 393%;
+}
+.telefone{
+    position: absolute;
+    left: 70%;
+    top: 393%;
+}
+.endereco{
+    font-size: 1.3rem;
+    color: white;
+    position: absolute;
+    left: 32%;
+    top: 393%;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.emaild{
+    font-size: 1.3rem;
+    color: white;
+    position: absolute;
+    left: 52%;
+    top: 393%;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.numero{
+    font-size: 1.3rem;
+    color: white;
+    position: absolute;
+    left: 72%;
+    top: 393%;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}

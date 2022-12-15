@@ -1,0 +1,31 @@
+.atendimento {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.desc__atendimento {
+    gap: 48px;
+}
+
+.desc h3 {
+    color: var(--cor-marrom);
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.desc p {
+    color: var(--cor-primaria);
+    font-size: 1.25rem;
+    font-weight: 300;
+}

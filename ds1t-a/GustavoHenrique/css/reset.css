@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;/* o preencimento e a borda são incluido na largura e no preencimento*/
+}
+
+/*Formata link*/
+/*Todas as fontes herdam do pai a cor: inherit*/
+a{
+    text-decoration: none;/*Qualquer decoração do texto é removida.*/
+    color: inherit;/*Herda a cor do seu pai*/
+}
+
+ul, ol, li{
+    list-style-type: none;/* Retira os caracteres de html*/
+}

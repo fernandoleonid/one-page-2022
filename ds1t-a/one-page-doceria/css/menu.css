@@ -1,0 +1,23 @@
+.menu{
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+    font-weight: 700;
+    font-family: 'Inter';
+    gap: 48px;
+    
+}
+.logo {
+    margin-left: 137px;
+}
+@media (max-width:960px) {
+    .menu{
+        display: none;
+    }
+    
+}
+@media (max-width:640px) {
+    
+    
+    
+}

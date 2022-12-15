@@ -1,0 +1,36 @@
+.BigPizzas-imagens{
+    height: 90%;
+    width: 100%;
+    padding-bottom: 20px;
+    
+}
+
+.big_pizza_imagem{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 960px){
+    
+   .BigPizzas-imagens{
+    padding-bottom: 20px;
+    
+   }
+
+   .big_pizza_imagem{
+    display: flex;
+    justify-content: center;
+}
+
+   .BigPizzas-imagens{
+    width: 80%;
+   }
+}
+
+@media (max-width: 640px){
+    .big_pizza_imagem{
+        display: flex;
+        justify-content: center;
+    }
+    
+}

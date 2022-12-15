@@ -1,0 +1,26 @@
+@media (max-width: 1300px) {
+  .movies-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .movie__image {
+    width: 500px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 570px) {
+  .movie__image {
+    width: 350px;
+    height: 230px;
+  }
+}
+
+@media (max-width: 400px) {
+  .movie__image {
+    width: 250px;
+    height: 130px;
+  }
+}

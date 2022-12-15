@@ -1,0 +1,45 @@
+.pag3 {
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient( to top, black, rgb(255, 94, 0));
+}
+
+.imagens {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.zukoFogo {
+    height: 90%;
+}
+
+.letras {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Julee', cursive;
+    gap: 50px;
+}
+
+:root {
+    --gradient: linear-gradient( 45deg, rgb(235, 127, 39), rgb(255, 94, 0), rgb(209, 98, 7), rgb(187, 63, 2));
+}
+
+.ZukoLetras {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.HistoriaDoZuko {
+    text-align: center;
+    font-size: 5vh;
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+}

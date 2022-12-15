@@ -1,0 +1,125 @@
+.ouro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/fundo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.aneldescri{
+    font-size: 25px;
+    margin-left: 0px;
+    width: 200px;
+    position: absolute;
+    left: 20%;
+    top: 130%;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+
+}
+.colardescri{
+    font-size: 25px;
+    margin-left: 0px;
+    width: 200px;
+    position: absolute;
+    left: 20%;
+    top: 154%;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.aliancadescri{
+    font-size: 25px;
+    margin-left: 0px;
+    width: 200px;
+    position: absolute;
+    left: 20%;
+    top: 183%;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.brincodescri{
+    font-size: 25px;
+    margin-left: 0px;
+    width: 200px;
+    position: absolute;
+    left: 53%;
+    top: 130%;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.pulseiradescri{
+    font-size: 25px;
+    margin-left: 0px;
+    width: 200px;
+    position: absolute;
+    left: 53%;
+    top: 155%;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.relogiodescri{
+    font-size: 25px;
+    margin-left: 0px;
+    width: 200px;
+    position: absolute;
+    left: 53%;
+    top: 183%;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.precoa{
+    font-size: 1.5rem;
+   color: cornsilk;
+   position: absolute;
+    left: 22%;
+    top: 138%;
+}
+.precoc{
+    font-size: 1.5rem;
+   color: cornsilk;
+   position: absolute;
+    left: 22%;
+    top: 165%;
+}
+.precoal{
+    font-size: 1.5rem;
+   color: cornsilk;
+   position: absolute;
+    left: 22%;
+    top: 187%;
+}
+.precob{
+    font-size: 1.5rem;
+   color: cornsilk;
+   position: absolute;
+    left: 55%;
+    top: 138%;
+}
+.precop{
+    font-size: 1.5rem;
+   color: cornsilk;
+   position: absolute;
+    left: 55%;
+    top: 160%;
+}
+.precor{
+    font-size: 1.5rem;
+   color: cornsilk;
+   position: absolute;
+    left: 55%;
+    top: 188%;
+}

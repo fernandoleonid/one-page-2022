@@ -1,0 +1,29 @@
+.pag2 {
+    height: 100vh;
+    background-image: url(img/thumbbig-499597.webp);
+    background-repeat: no-repeat;
+    background-attachment: center;
+    background-size: 100%;
+}
+
+.historia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    font-family: 'Julee', cursive;
+}
+
+.texto-da-historia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-indent: 20px;
+    letter-spacing: 1vh;
+    text-align: center;
+    font-size: 1.50vh;
+    height: 70vh;
+    font-family: 'Julee', cursive;
+}

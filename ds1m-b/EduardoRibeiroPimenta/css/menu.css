@@ -1,0 +1,18 @@
+.menu{
+    display: flex;
+    gap: 100px;
+}
+.menu span:hover{
+    color: var(--select-color);
+}
+@media(max-width:1200px){
+    .menu{
+        gap: 20px;
+        align-items: center;
+    }
+}
+@media(max-width:770px){
+    .menu{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,14 @@
+.menu{
+    display: flex;
+    gap: 48px;
+    font-size: 1.75rem;
+}
+
+.menu li {
+    border-bottom: 4px solid transparent;
+    transition: border-color .5s;
+}
+
+.menu li:hover{
+    border-color: #AF5151;
+}

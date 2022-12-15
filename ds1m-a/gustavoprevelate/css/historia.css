@@ -1,0 +1,105 @@
+.História{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/historia.jpg);
+    font-family: Deutsch Gothic;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.HistoriaNanatsu{
+    width: 1280px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    padding-top: 100px;
+}
+.texto_historia{
+    background-color: #252525c0;
+    display: flex;
+    flex-direction: column;
+}
+.historia_titulo{
+    
+    color: var(--primary-color);
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-size: 240px;
+    
+}
+div.quem-sao{
+    background-color: #252525c0;
+}
+.o_que_aconteceu{
+    
+
+    
+    color: #42FF00;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    font-size: 4rem;
+    font-family: Deutsch Gothic;
+     
+    
+}
+.description__text2{
+    
+    color: #ffffff;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;   
+}
+.quem_sao{
+    
+    
+    
+    color: #7000FF;
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+     3px -3px 2px #000000,    
+     4px 0px 2px #000000;
+    font-size: 4rem;
+    font-family: Deutsch Gothic;
+      
+}
+
+/* CELULAR*/
+@media (max-width: 640px){
+    div.HistoriaNanatsu{
+        flex-direction: column;
+        width: 100vw;
+        padding-top: 20px;
+    }
+    .historia_titulo{
+        align-items: center;
+        font-size: 7rem;
+        text-align: center;
+        
+    }
+    .História{
+        height: 1400px;
+    }
+    .o_que_aconteceu{
+        text-align: center;
+        
+    }
+    .quem_sao{
+        text-align: center;
+    }
+    .description__text2{
+    font-size: 1.5rem;  
+    margin: 30px;
+    }
+}

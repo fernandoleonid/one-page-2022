@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm&family=Oxanium:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Oxanium:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Oxanium:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&family=Oxanium:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Artifika&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4f821b9693.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/quem-somos.css">
+    <link rel="stylesheet" href="./css/cardapio.css">
+    <link rel="stylesheet" href="./css/unidades.css">
+    <link rel="stylesheet" href="./css/section-title.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/bars.css">
+    <link rel="stylesheet" href="./css/back.css">
+    <link rel="stylesheet" href="./css/vlibras.css">
+    <script src="./js/bars.js" defer></script>
+    <title>Le Pinguê</title>
+</head>
+
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    <header>
+        <div class="logo">
+            <a href="https://www.lepingue.com.br/" target="_blank">
+                <img src="./img/logo.png" alt="logo da hamburgueria">
+            </a>
+        </div>
+        <nav>
+            <a href="#" class="menu__container">
+                <i class="menu__bars"></i>
+            </a>
+            <ul class="menu">
+                <li>
+                    <a href="#home">Início</a>
+                </li>
+                <li>
+                    <a href="#quem-somos">Quem Somos</a>
+                </li>
+                <li>
+                    <a href="#cardapio">Cardápio</a>
+                </li>
+                <li>
+                    <a href="#unidades">Unidades</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+
+                    <div class="slide first">
+                        <img src="./img/foto.png" alt="Imagem 1">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/foto2.png" alt="Imagem 2">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/foto3.png" alt="Imagem 3">
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                </div>
+
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
+
+            <script src="./js/slider.js"></script>
+
+            <div class="container__text">
+                <p class="home__text1">A CASA DO HAMBURGUER</p>
+                <div class="home__line"></div>
+                <span class="home__text2">QUAL O SEU GOSTO?</span>
+                <span class="home__text__service">service - delivery - express</span>
+            </div>
+            <a href="#cardapio" class="button__container">
+                BATEU A FOME?
+            </a>
+        </section>
+        <section class="quem-somos" id="quem-somos">
+            <div class="container__title">
+                <img src="./img/hamburguers.png" alt="imagem de vários hamburguers" class="quem-somos__photo">
+                <h1 class="quem-somos__title">HAMBURGUERIA LE PINGUÊ</h1>
+            </div>
+            <div class="description">
+                <img src="./img/hamburguer.png" alt="imagem de um hamburguer" class="description__image">
+                <div class="description-container">
+                    <p class="description__title">HAMBURGUERIA LE PINGUÊ</p>
+                    <h1 class="description__title2">CONHEÇA NOSSA HISTÓRIA</h1>
+                    <p class="description__text">Tudo começou com o idealizador Lucas Peres que entre suas viagens e
+                        experiências gastronômicas reunia os amigos Maurílio, Rafael e Thiago para as hamburgadas aos
+                        finais de semana. Coincidência ou não, Lucas era o “Pinguim” para os amigos.
+                        Entre encontros e outras hamburgadas, o sonho de empreender começou a tomar forma e finalmente
+                        em 2015 os amigos resolveram investir na primeira unidade localizada em São José do Rio
+                        Preto/SP, surgindo assim a Hamburgueria Le Pinguê.
+                        Acreditando na continuidade do sucesso da marca, a segunda loja é inaugurada ainda no primeiro
+                        semestre de 2015 e, em seguida se espalhou por todo estado de São Paulo.
+                        Devido ao projeto de expansão executado em todo território nacional, a Hamburgueria Le Pinguê
+                        possui atualmente 17 unidades em seis estados brasileiros com uma marca consolidada devido a
+                        excelência e a qualidade dos produtos e serviços.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="cardapio" id="cardapio">
+            <ul class="container-buttons">
+                <li>
+                    <a href="#" class="button">
+                        <img src="./img/button-hamburguer.png" alt="imagem de um hamburguer">
+                        <p class="button__text">BURGUERS</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="button">
+                        <img src="./img/button-bebidas.png" alt="imagem de um copo">
+                        <p class="button__text">BEBIDAS</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="button">
+                        <img src="./img/button-sobremesas.png" alt="imagem de um cupcake">
+                        <p class="button__text">SOBREMESAS</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="button">
+                        <img src="./img/button-porcoes.png" alt="imagem de uma porção de batata frita">
+                        <p class="button__text">PORÇÕES</p>
+                    </a>
+                </li>
+            </ul>
+            <div class="container-hamburguer">
+                <div class="container__img">
+                    <img src="./img/hamburguer1.png" alt="imagem de um hamburguer" class="card">
+                    <span class="container__img__text">BRIE BURGUER</span>
+                </div>
+                <div class="container__img">
+                    <img src="./img/hamburguer2.png" alt="imagem de um hamburguer" class="card">
+                    <span class="container__img__text">COSTELA</span>
+                </div>
+                <div class="container__img">
+                    <img src="./img/hamburguer3.png" alt="imagem de um hamburguer" class="card">
+                    <span class="container__img__text">LE PINGUÊ</span>
+                </div>
+                <div class="container__img">
+                    <img src="./img/hamburguer4.png" alt="imagem de um hamburguer" class="card">
+                    <span class="container__img__text">DUPLO BACON</span>
+                </div>
+                <div class="container__img">
+                    <img src="./img/hamburguer5.png" alt="imagem de um hamburguer" class="card">
+                    <span class="container__img__text">TUBA</span>
+                </div>
+                <div class="container__img">
+                    <img src="./img/hamburguer6.png" alt="imagem de um hamburguer" class="card">
+                    <span class="container__img__text">CHEDDAR</span>
+                </div>
+            </div>
+        </section>
+        <section class="unidades" id="unidades">
+            <span class="section-title">UNIDADES</span>
+            <div class="unidades__container">
+                <div class="card-container">
+                    <span class="unidades__title">MORUMBI EXPRESS</span>
+                    <div class="unidades__line"></div>
+                    <p class="unidades__endereco">Rua Joerg Bruder, 81</p>
+                    <div class="unidades__line2"></div>
+                    <ul class="unidades__list">
+                        <li># Autoatendimento</li>
+                        <li># Serviço rápido</li>
+                        <li># Valores especiais!</li>
+                        <li># Delivery</li>
+                    </ul>
+                    <a href="https://www.ifood.com.br/inicio" target="_blank" class="button__container2">
+                        Veja Mais
+                    </a>
+                    <img src="./img/ifood.png" alt="imagem da logo do ifood">
+                </div>
+                <div class="card-container">
+                    <span class="unidades__title">ITAIM EXPRESS</span>
+                    <div class="unidades__line"></div>
+                    <p class="unidades__endereco">Rua Edson de Castro Pinto, 33</p>
+                    <div class="unidades__line2"></div>
+                    <ul class="unidades__list">
+                        <li># Autoatendimento</li>
+                        <li># Serviço rápido</li>
+                        <li># Valores especiais!</li>
+                        <li># Delivery</li>
+                    </ul>
+                    <a href="https://www.ifood.com.br/inicio" target="_blank" class="button__container2">
+                        Veja Mais
+                    </a>
+                    <img src="./img/ifood.png" alt="imagem da logo do ifood">
+                </div>
+                <div class="card-container">
+                    <span class="unidades__title">PAULISTA EXPRESS</span>
+                    <div class="unidades__line"></div>
+                    <p class="unidades__endereco">Avenida Paulista, 1159 - loja 15</p>
+                    <div class="unidades__line2"></div>
+                    <ul class="unidades__list">
+                        <li># Autoatendimento</li>
+                        <li># Serviço rápido</li>
+                        <li># Valores especiais!</li>
+                        <li># Delivery</li>
+                    </ul>
+                    <a href="https://www.ifood.com.br/inicio" target="_blank" class="button__container2">
+                        Veja Mais
+                    </a>
+                    <img src="./img/ifood.png" alt="imagem da logo do ifood">
+                </div>
+            </div>
+        </section>
+        <section class="contato" id="contato">
+            <span class="section-title">CONTATO</span>
+            <div class="container-contato">
+                <div class="email-container">
+                    <div class="title-container">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span class="email-title">E-mail</span>
+                    </div>
+                    <span class="email-description">Tem alguma dúvida?</span>
+                    <span class="email-email">lepingue@gmail.com</span>
+                </div>
+            <div class="telefone-container">
+                <div class="title-container">
+                    <i class="fa-solid fa-phone"></i>
+                    <span class="email-title">Telefone</span>
+                </div>
+                <span class="telefone-description">Você pode ligar a qualquer hora</span>
+                <div class="telefone-residencial">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="numero-telefone">(11) 4745-4372</span>
+                </div>
+                <div class="telefone-pessoal">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span class="numero-telefone-pessoal">(11) 98647-6393</span>
+                </div>
+            </div>
+            <div class="social-container">
+                <div class="title-container">
+                    <i class="fa-solid fa-share"></i>
+                    <span class="email-title">Social</span>
+                </div>
+                <span class="social-description">Veja nossas redes sociais</span>
+                <ul class="social-list">
+                    <li>
+                        <a href="https://www.instagram.com/lepinguesaopaulo/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/HamburgueriaLePingue" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/search?q=lepingue&src=recent_search_click" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>Todos os direitos reservados 2022 | Desenvolvido por Thiago Freitas</footer>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+#home{
+    width: 100%;
+    background-image: url("../images/bg_intro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.principal img{
+    width: 68.49947916666666vw;
+    height: 99.81152614727856vh;
+}
+
+.grande_logo{
+    width: 50vw;
+    height: 34.67235859124867vh;
+    position: absolute;
+    top: 60%;
+    left: 27%;
+}
+
+.grande_logo img{
+    width: 50vw;
+    height: 34.67235859124867vh;
+}

@@ -1,0 +1,39 @@
+#atlok_Personagens{
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 110px;
+    display: grid;
+    grid-template-areas: 
+    "intro"
+    "instrucao"
+    "icones";
+    grid-template-rows: 150px 50px 1fr;
+    grid-template-columns: 100%;
+    color: white;
+    overflow: hidden;
+}
+
+.introducao{
+    grid-area: intro;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Sarala', sans-serif;
+    gap: 5%;
+}
+
+.atlok_logo{
+    height: 80%;
+}
+
+.descricao_Atlok{
+    font-size: 1.5rem;
+    width: 53%;
+}
+
+.instrucao{
+    grid-area: instrucao;
+    font-family: 'Marcellus SC', serif;
+    font-size: 1.5rem;
+}

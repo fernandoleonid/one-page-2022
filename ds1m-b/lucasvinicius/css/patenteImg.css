@@ -1,0 +1,12 @@
+.patente {
+    display: flex;
+    font-size: 18rem;
+    transform: rotate(90deg);
+}
+
+.patente:hover{
+    color:gray;
+}
+
+
+
