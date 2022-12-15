@@ -1,11 +1,11 @@
 'use strict'
 
 const images = [
-    { 'id': '1', 'url': './img/mago.png'},
-    { 'id': '2', 'url': './img/clashRei.png'},
-    { 'id': '3', 'url': './img/pesonagem Boom.png'},
-    { 'id': '4', 'url': './img/pesronagem Hay.png'},
-    { 'id': '5', 'url': './img/Leon.png'},
+    { 'id': '1', 'url': './img/mago.png', 'name':'Mago de gelo'},
+    { 'id': '2', 'url': './img/clashRei.png', 'name':'Mago de gelo'},
+    { 'id': '3', 'url': './img/pesonagem Boom.png', 'name':'Mago de gelo'},
+    { 'id': '4', 'url': './img/pesronagem Hay.png', 'name':'Mago de gelo'},
+    { 'id': '5', 'url': './img/Leon.png', 'name':'Mago de gelo'},
 ]
 
 const containerItems = document.querySelector('#container-items');
@@ -15,7 +15,7 @@ const loadImages = (images, container ) => {
     images.forEach ( Image =>{
         container.innerHTML += `
             <div class='item'>
-                <img src='${Image.url}'
+                <img src='${Image.url}' alt='${Image.name}' >
             </div>
         `
     })

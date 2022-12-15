@@ -79,6 +79,11 @@ Acaba aqui primeira parte das imgs
     font-size: 4vh;
 }
 @media (max-width:640px){
+  .img1{
+    width: 2%;
+    height: 2%;
+   }
+
   .img_jogos{
     display: flex;
     flex-direction: column;
