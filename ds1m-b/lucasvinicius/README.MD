@@ -1,4 +1,4 @@
-# **ONE PAGE - SANDMAN**
+# **ONE PAGE - CALL OF DUTY**
 
 <img src="./img/Capturar.png"/>
 
@@ -32,4 +32,4 @@
 
 ## **AUTOR**
 
- <a href="https://github.com/lucasvinip"><img src="https://img.shields.io/badge/DESENVOLVEDOR-lUCASVINCIUS-informational?style=for-the-badge&logo=appveyor"></a>
+ <a href="https://github.com/lucasvinip"><img src="https://img.shields.io/badge/DESENVOLVEDOR-lUCASVINICIUS-informational?style=for-the-badge&logo=appveyor"></a>
