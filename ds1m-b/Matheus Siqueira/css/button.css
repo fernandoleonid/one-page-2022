@@ -1,0 +1,44 @@
+
+.button{
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    background-color: #2F93D0;
+    border-radius: 10px;
+    border: transparent;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    text-shadow: none;
+    transition: transform 200ms ease-in-out;
+}   
+
+.button:hover{
+        background-color: transparent;
+        transform: scale(1.10);
+        text-decoration: transparent;
+        outline: none;
+}
+
+.button__learn{
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    background-color: #2F93D0;
+    border-radius: 10px;
+    border: transparent;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    text-shadow: none;
+    transition: transform 200ms ease-in-out;
+}   
+
+.button__learn:hover{
+        background-color: #2F93D0;
+        transform: scale(1.10);
+        text-decoration: transparent;
+        outline: none;
+}

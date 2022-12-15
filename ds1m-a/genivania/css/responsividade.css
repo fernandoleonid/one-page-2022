@@ -1,0 +1,181 @@
+/* MOBALE */
+@media screen and (max-width:640px){
+
+    body{
+        width: 100%;
+    }
+    @font-face{
+        font-family: 'avatar';
+        src: url(../papyrus/Parchment\ MF.ttf);
+    }
+    
+    header{
+        width: 100vw;
+        height: 50px;
+        align-items: flex-end;
+        margin-left: -3px;
+    }
+    main{
+        
+        width: 100vw;
+    }
+   
+    .home{
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        box-shadow: none;
+        background-image: url(../img/avatar-mobale.png);
+        background-repeat: no-repeat;
+        padding-left: 20px; 
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+    .fundo{
+        margin-left: 0px;
+    }
+    .title{
+        font-size: 3rem;
+        margin-left: 10px;
+    }
+    .profile__text{
+        font-size: 2rem;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .menu{
+        display: none;
+    }
+    .menu1{
+        display: flex;
+      
+    }
+    .sinopse{
+        height: 1100px;
+        width: 100vw;
+        align-items: center;
+    }
+    .card_container{
+        height: 800px;
+        width: 490px;
+        flex-direction: column;
+        margin-left: 0px;
+        gap: 0px;
+        justify-content: center;
+        
+    }
+    .section-title{
+        width: 250px;
+        font-size: 3rem;
+        margin-left: 10px;
+        display: flex;
+        place-self: center;
+        margin-left: -100px;
+    }
+    .avatar{
+        display: flex;
+        justify-content: center;
+        width: 500px;
+    }
+    .avatar_foto{
+        width: 50%;
+    }
+    .description_sinopse{
+        width: 450px;
+        height: 400px;
+        font-size: 2.5rem;
+        margin-left: 60px;
+    }
+    .trailer{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 800px;
+    }
+    .trailer_title{
+        font-size: 3.5rem;
+    }
+    .img_trailer{
+        width: 500px;
+    }
+    .trailer_avatar{
+        display: flex;
+        width: 500px;
+        align-items: center;
+    }
+    .img_trailer::before{
+        width: 500px;
+    }
+    .card{
+        width: 500px;
+    }
+ 
+    .personagem{
+        display: flex;
+        /* width: 100vw;
+        grid-template-areas:
+        "title title  "
+        "neytiri neytiri"
+        "jake  jake";
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 1fr 1fr;
+        flex-direction: column; */
+    }
+     .title_personagem{
+        width: 500px;
+        font-size: 3.5rem;
+    }
+    
+    .card_personagem{
+        width: 100%;
+    }
+    .neytiri{
+        width: 500px;
+ 
+    }
+    .description_neytiri{
+        display: none;
+    }
+    .description_jake{
+        display: none;
+    }
+
+    .curiosidade{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 1500px;
+        align-items: center;
+    }
+   
+    .title_curiosidades{
+        font-size: 3rem;
+    }
+    .description_curiosidade{
+        width: 400px;
+        height: 700px;
+        font-size: 3rem;
+        margin-left: -10px;  
+    }
+   .menu2{
+        width: 200px;
+        height: 400px;
+        justify-content: flex-end;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 80px;
+        place-items: center;
+   }
+    footer{
+       width: 450px;
+       height: 150px;
+       align-items: center;
+       justify-content: center;
+       margin-left: 30px;
+    }
+   
+
+
+    
+}

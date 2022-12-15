@@ -1,0 +1,158 @@
+.curiosities {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-areas: "title title title" "contatos social links";
+    grid-template-rows: auto 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section__title3 {
+    grid-area: title;
+    font-size: 220px;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+    background: linear-gradient(#eead2d, rgb(0, 0, 0));
+    background-clip: text;
+    font-family: 'Trade Winds', cursive;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.description__title3 {
+    color: aquamarine;
+    background-color: aqua;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.card-container2 {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    perspective: 900px;
+    transform: translate(70px, 0px);
+}
+
+.card2 {
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+    transition: all 0.6s ease;
+}
+
+.front,
+.back {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+    color: #252525;
+    border-radius: 1rem;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eead2d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 7px;
+}
+
+.card-container2:hover .card2 {
+    transform: rotateY(180deg);
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.card-container3 {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    perspective: 900px;
+    transform: translate(90px, 0px);
+}
+
+.card3 {
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+    transition: all 0.6s ease;
+}
+
+.front1,
+.back1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+    color: #252525;
+    border-radius: 1rem;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eead2d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 7px;
+}
+
+.card-container3:hover .card3 {
+    transform: rotateY(180deg);
+}
+
+.back1 {
+    transform: rotateY(180deg);
+}
+
+.card-container4 {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    perspective: 900px;
+    transform: translate(110px, 0px);
+}
+
+.card4 {
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+    transition: all 0.6s ease;
+}
+
+.front2,
+.back2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+    color: #252525;
+    border-radius: 1rem;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eead2d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 7px;
+}
+
+.card-container4:hover .card4 {
+    transform: rotateY(180deg);
+}
+
+.back2 {
+    transform: rotateY(180deg);
+}

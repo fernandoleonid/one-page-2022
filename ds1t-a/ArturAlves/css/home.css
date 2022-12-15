@@ -1,0 +1,74 @@
+.home{
+    height:100vh ;
+    width: 100vw;
+    background-image: url(../img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    animation-duration: 2s;
+
+}
+
+.img_fireworks{
+    width: 250px;
+    height: 250px;
+    margin-right: 1000px;
+    margin-top: 550px;
+    transform: rotate(-7deg);
+    animation: grow 6s ease infinite;
+}
+
+
+.img_fireworks2{
+    width: 250px;
+    height: 250px;
+    margin-top: 600px;
+    transform: rotate(7deg);
+    animation: grow 6s ease infinite;
+}
+    
+@keyframes grow {
+    from { transform: scale(0); }
+    to { transform: scale(1.5); }
+  }
+  
+
+  /* Responsividade */
+  @media(max-width: 690px){
+      .home{
+          
+          width: 100vw;
+          background-size: cover;
+          background-position: center;
+          
+      }
+
+      .img_fireworks{
+        width: 150px;
+        height: 150px;
+        margin-left: 0px;
+        padding: 10px;
+        margin-right: 20px;
+        margin-top: 10px;
+        transform: rotate(-7deg);
+        animation: grow 6s ease infinite;
+      }
+      .img_fireworks2{
+        width: 150px;
+        height: 150px;
+        margin-left: 0px;
+        padding: 10px;
+        margin-left: 60px;
+        margin-top: 10px;
+        transform: rotate(-7deg);
+        animation: grow 6s ease infinite;
+      }
+      @keyframes grow {
+        from { transform: scale(0); }
+        to { transform: scale(1); }
+      }
+  }

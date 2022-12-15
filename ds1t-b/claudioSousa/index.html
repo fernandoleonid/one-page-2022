@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site da melhor churrascaria da zona oeste">
+    <title>Churrascaria Sousa</title>
+
+    <link rel="stylesheet" href="CSS/title.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/cardapio.css">
+    <link rel="stylesheet" href="CSS/reservasELocalizacao.css">
+    <link rel="stylesheet" href="CSS/contato.css">
+    <link rel="stylesheet" href="CSS/bars.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/5ed2d43b7d.js" crossorigin="anonymous"></script>
+    <script src="./js/bars.js" defer></script>
+
+</head>
+
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <header>
+        <nav>
+            <a href="#" class="container-burguer">
+                <i class="menu-burguer"></i>
+            </a>
+
+            <ol class="header-list">
+
+                <li><a href="#home">Início</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#contato">Contato</a></li>
+
+            </ol>
+
+        </nav>
+    </header>
+    <main>
+
+        <section class="home" id="home">
+
+            <img src="IMG/logoChurrascaria.PNG" alt="Logo da churrascaria Sousa" class="img-logo">
+
+        </section>
+
+        <section class="cardapio" id="cardapio">
+
+            <h2 class="title ml">Cardápio</h2>
+
+            <div class="card-text">
+                <h3 class="title-2">Porções:</h3>
+                <div class="porcoes">
+                    <img src="./IMG/fotoCarne.png" alt="Carne me uma tábua" class="fotoDaCarne">
+                    <div class="porcoes-opcoes">
+                        <p>Picanha 300g ........................  R$ 45,00</p>
+                        <p>Contra file 300g ..................... R$ 20,00</p>
+                        <p>Linguiça toscana 300g  ........... R$ 10,00</p>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="card-text2">
+                <h3 class="title-2"> Bebidas:</h3>
+
+                <div class="bebidas">
+                    <div class="bebidas-opcoes">
+                        <p>Coca-cola 2L  ........................ R$ 12,00</p>
+                        <p>Água 500ml ............................ R$3,50</p>
+                        <p>Heineken 600ml ................... R$ 12,00</p>
+                        <p>Suco natural 500ml ................ R$ 8,00</p>
+
+                    </div>
+
+                    <img src="./IMG/fotoBebida.png" alt="Fotos de drinks" class="fotoDaCarne">
+
+                </div>
+               
+                    
+                
+            </div>
+
+            <div class="card-foto"></div>
+
+        </section>
+        <section class="reservasELocalizacao" >
+
+            <div class="reservas" id="reservas">
+                <h2 class="title">Reservas</h2>
+                <div class="reservas-bg">
+                    <p>Realize sua reserva conosco,</p>
+                    <p>e venha aproveitar esse ambiente incrível</p>
+                    <p>junto com sua familia e amigos!!!</p>
+
+                    <a href="#" class="bt-reservas"> Reservar</a>
+                    
+                    
+                </div>
+
+
+            </div>
+
+            <div class="localizacao" id="localizacao">
+                <h2 class="title">Localização</h2>
+                <div class="localizacao-bg">
+                    <div class="localizacao-esc">
+                        <p>Calçada Flôr de Lótus, 78 - Alphaville Comercial</p>
+                        <p>Barueri - SP</p>
+                        <p>06453-016</p>
+
+                    </div>
+                    <img src="./IMG/gps.png" alt="Foto do google maps" class="maps">
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+        <section class="contato" id="contato">
+            <h2 class="title">Contato</h2>
+            <ul class="contato-container">
+                <li>
+                    <h3 class="contato-title">Contato</h3>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>(11) 4002-8922</span>
+            
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>contato@sousachu.com</span>
+            
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>(11) 95774-7070</span>
+            
+                    </div>
+                </li>
+            
+            </ul>
+
+            <ul class="compreAqui">
+                <li>
+                    <h3 class="compreAqui-title">Compre Aqui</h3>
+                </li>
+                <li>
+                   <a href=""><img  class="ifood-img" src="./IMG/ifood.png" alt="Foto do Ifood"></a> 
+                </li>
+            </ul>
+            <ul class="link-container">
+                <li>
+                    <h3 class="link-title">Links</h3>
+            
+                </li>
+                <li>
+                    <a href="#home">Inicio</a>
+                </li>
+                <li>
+                    <a href="#cardapio">Cardápio</a>
+                </li>
+                <li>
+                    <a href="#reservas">Reservas</a>
+                </li>
+                <li>
+                    <a href="#localizacao">Localização</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            
+            
+            </ul>
+
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        Todos os direitos reservados 2022 | Desenvolvido por Claudio Sousa
+    </footer>
+
+</body>
+
+</html>

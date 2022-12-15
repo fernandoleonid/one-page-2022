@@ -1,0 +1,94 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    display: grid;
+    grid-template-areas: "content";
+    height: 100vh;
+    background-color: #4E001C;
+    background: linear-gradient(#4E001C, #75062f);
+    overflow-x: hidden;
+}
+
+header{
+    place-self: start center;
+    grid-area: content;
+    font-family: 'Kanit', sans-serif;
+    color: #ffffff;
+    
+    z-index: 1;
+}
+
+.header-text{
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    border-bottom: 4px solid transparent;
+    transition:border-color 1s;
+}
+
+.header-text:hover,.header-text:focus{
+    color:#bf3956;
+    border-bottom: 3px solid;
+    transform: scale(1.1);
+    transition: .7s;
+}
+
+.img-header{
+    margin-top: 15px;
+    width: 74px;
+    height: 74px;
+   
+}
+.estadios{
+    height: 100vh;
+}
+    
+
+.header-square{
+    height: 100px;
+    width: 100vw;
+    background-color: #8d0034;
+    background: linear-gradient(#8d0034, #4E001C);
+}
+
+main{
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section{
+    height: 100vw;
+}
+
+@media(max-width: 640px){
+    .header-square{
+        width: 100vw;
+        height: 80px;
+       
+    }
+    .header-text{
+        display: grid;
+        justify-content: center;
+        margin-top: 30px;
+        font-family: 'Kanit', sans-serif;
+        font-weight: bold;
+        margin-left: 0;
+        font-size: 12px;
+        border-bottom: 4px solid transparent;
+        transition: border-color 1s;
+    }
+    .img-header{
+        display: none;
+    }
+    .copa{
+        display: none;
+    }
+  
+}

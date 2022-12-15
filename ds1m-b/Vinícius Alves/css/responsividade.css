@@ -1,0 +1,138 @@
+@media (max-width: 960px) {
+    body {
+        /* overflow-x: hidden; */
+    }
+    .container {
+        transform: translate(-220px, 220px);
+        /* width: 100px; */
+        /* height: 20px; */
+        font-size: 20px;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo {}
+    .nav-logo {
+        display: block;
+        font: 3rem;
+        color: wheat;
+    }
+    .menu {
+        display: none;
+        width: 420px;
+    }
+    .navs {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bars {
+        visibility: visible;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+        transform: translate(-450px, 0px);
+    }
+    .section__title {
+        font-size: 50px;
+        left: 100px;
+        transform: translate(-350px, 200px);
+        margin-left: 500px;
+        font-family: 'PT Sans Caption';
+        margin-left: 20px;
+    }
+    header {
+        position: relative;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        transform: translate(-140px, 0px);
+    }
+    .description {
+        font-size: 1rem;
+        margin: 25px;
+        width: 348px;
+        transform: translate(0px, -50px);
+        margin-top: 150px;
+    }
+    .section___title {
+        font-size: 50px;
+        left: 100px;
+        transform: translate(-350px, -195px);
+        margin-left: 20px;
+        font-family: 'PT Sans Caption';
+    }
+    .icone2 {
+        transform: translate(100px, -80px);
+    }
+    .list_1 {
+        font-size: 1rem;
+        margin: 25px;
+        width: 348px;
+        transform: translate(-35px, -300px);
+    }
+    .list_2 {
+        font-size: 1rem;
+        margin: 25px;
+        width: 348px;
+        transform: translate(-35px, -300px);
+    }
+    .list_3 {
+        font-size: 1rem;
+        margin: 25px;
+        width: 348px;
+        transform: translate(-35px, -300px);
+    }
+    .list_4 {
+        font-size: 1rem;
+        margin: 25px;
+        width: 348px;
+        transform: translate(-35px, -300px);
+    }
+    .list_5 {
+        font-size: 1rem;
+        margin: 25px;
+        width: 348px;
+        transform: translate(-35px, -300px);
+    }
+    .list_6 {
+        font-size: 1rem;
+        margin: 25px;
+        width: 348px;
+        transform: translate(-35px, -300px);
+    }
+    .list {
+        margin-top: 80px;
+        margin: 30px;
+    }
+    .section-title {
+        font-size: 50px;
+        left: 100px;
+        transform: translate(-353px, 160px);
+        margin-left: 20px;
+        font-family: 'PT Sans Caption';
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        transform: translate(10px, 150px);
+    }
+    .card::before {
+        content: "Click aqui para ver o projeto";
+        background-color: #0009;
+        width: 33%;
+        height: 100%;
+        display: grid;
+        place-content: center;
+        font-weight: 700;
+        transform: translateY(100%);
+        transition: transform 0.5s;
+    }
+    footer {
+        transform: translate(-320px, 700px);
+    }
+}

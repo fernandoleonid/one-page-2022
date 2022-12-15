@@ -1,0 +1,51 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to top , #3678B4 15px, #000000);
+    color: #ffff;
+}
+
+.social-container{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 160%;
+    justify-content: space-between;
+}
+
+.social-container{
+    
+}
+
+.social-icon{
+    font-size: 1.5rem;
+    background-color: #005693;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon:hover{
+    color: #000000;
+    box-shadow: inset 0px 0px 5px;
+    transform: scale(115%);
+}

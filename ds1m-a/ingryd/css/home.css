@@ -1,0 +1,73 @@
+.home {
+    display: grid;
+    width: 100%;
+    max-width: 1800px;
+    height: 100vh;
+    grid-template-areas: "img texto";
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.foto-circulo {
+    width: 550px;
+}
+
+.foto-gato-circulo {
+    width: 700px;
+    height: 750px;
+    display: grid;
+    grid-area: img;
+    padding-left: 80px;
+    margin-left: 50px;
+    transform: translateY(-2%);
+}
+
+span.titulo-guia-de-raças {
+    font-size: 5rem;
+    font-family: 'Fredoka One', cursive;
+    color: var(--primary-color);
+}
+
+.titulo-guia-de-raças::after {
+    content: " Siamês";
+    color: black;
+    font-size: 5rem;
+}
+
+.texts {
+    display: grid;
+    width: 700px;
+    height: auto;
+    transform: translate(118%, -150%);
+}
+
+.text {
+    font-size: 1.5rem;
+    padding: 30px;
+    transform: translateX(-4%);
+}
+
+.comece-aqui {
+    background-color: #8ed3fb;
+    background-image: -webkit-linear-gradient(45deg, #3CAEEE 0%, #3AA9E9 12%, #3ba4e0 20%, #247FBC 28%, #15619C 35%, #06447D 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 300%;
+    -webkit-transition: 500ms ease-in-out;
+    transition: 500ms ease-in-out;
+    width: 300px;
+    height: 50px;
+    font-size: 1rem;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+    grid-area: textos;
+    transform: translate(320%, -300%);
+    box-shadow: 5px 7px 15px 2px rgba(0, 0, 0, 0.3)
+}
+
+.comece-aqui:hover {
+    color: #fff;
+    background-position: 0;
+    cursor: pointer;
+}

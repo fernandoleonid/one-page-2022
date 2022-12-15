@@ -1,0 +1,43 @@
+.video_imagem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+video{
+    height: 600px ;
+}
+
+.imagem-delivery{
+    height: 50%;
+}
+
+@media (max-width: 960px){
+    .conteudo-contato-video-imagem{
+        display: flex;
+        align-items: center;
+    }
+    .imagem-delivery{
+        height: 190px;
+    
+    }
+
+    video{
+        height: 300px;
+    }
+
+@media (max-width: 640px){
+    .conteudo-contati-video-imagem{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    video{
+        height: 300px ;
+    }
+    .imagem-delivery{
+        display: none;
+    
+    }
+}
+}

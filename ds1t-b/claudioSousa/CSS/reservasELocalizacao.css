@@ -1,0 +1,188 @@
+.reservasELocalizacao{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "reservas"
+    "localizacao";
+    
+}
+
+.reservas{
+    grid-area: reservas;
+    text-align: center;
+    background-image: url(../IMG/fundoReservas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Lalezar', cursive;
+    font-size: 2rem;
+    
+}
+
+.reservas-bg{
+    background-color: #0006;
+    border-radius: 54px;
+    width: 621px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+
+.bt-reservas{
+    background-color: var(--primary-color) ;
+    padding: 5px;
+    width: 243px;
+    height: 43px;
+    border-radius: 20px;
+    font-family: 'Lalezar', cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt-reservas:hover{
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+
+
+.localizacao{
+    grid-area: localizacao;
+    background-image: url(../IMG/fundoLocalizacao.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.localizacao-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0006;
+    font-family: 'Lalezar', cursive;
+    font-size: 2rem;
+    gap: 10px;
+    text-align: center;
+    width: 1138px;
+    height: 275px;
+   
+
+    
+}
+
+.maps{
+    width: 400px;
+}
+
+@media (max-width:960px){
+    .reservasELocalizacao{
+        
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+                "reservas"
+                "localizacao";
+        max-width: 960px;
+        display: flex;
+        flex-direction: column;
+    }
+    .reservas{
+        font-size: 1.5rem;
+       
+    }
+    .localizacao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .localizacao-bg{
+       
+        font-size: 1.5rem;
+    }
+    
+    .maps{
+        width: 170px;
+        
+    
+        
+    }
+
+}
+
+
+@media (max-width: 640px) {
+
+    .reservasELocalizacao{
+        height: 160vh;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+                "reservas"
+                "localizacao";
+        max-width: 640px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reservas{
+        font-size: 1rem;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reservas-bg{
+        width: 220px;
+        height: 305px;
+        gap: 10px;
+    }
+    
+    .bt-reservas{
+            width: 180px;
+            height: 43px;
+            font-size: 1rem;
+    }
+
+    .localizacao{
+        height: 80vh;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .localizacao-bg{
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        width: 273px;
+        height: 420px;
+    }
+
+    .maps{
+        width: 225px;
+        
+    }
+}

@@ -1,0 +1,360 @@
+.e-sports {
+    height: 110vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+    padding-bottom: 5vh;
+}
+
+
+.fundo-e-sports {
+    position: absolute;
+    width: 62vw;
+    height: 100vh;
+    left: 14%;
+    top: 10%;
+    z-index: -1;
+}
+
+.container-titulo-e-sports {
+    display: grid;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #231E1E;
+    padding: 10px;
+}
+
+.titulo-e-sports {
+    width: 100%;
+    font-size: 4.25rem;
+    color: var(--primary-color);
+}
+
+.container-conteudo-e-sports {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    background: rgba(69, 17, 9, 0.44);
+    border-radius: 20px;
+    width: 80vw;
+    height: 91vh;
+    padding-top: 2.5vh;
+    padding-bottom: 2vh;
+}
+
+.card-principal-e-sports {
+    display: flex;
+
+}
+
+#item-grande {
+    background: rgba(14, 29, 40, 0.86);
+    border-radius: 20px;
+    width: 35vw;
+    height: 80vh;
+    
+}
+
+#item-grande img {
+    height: 55vh;
+    width: 35vw;
+
+}
+
+#item-grande h2 {
+    padding-left: 10px;
+}
+
+#item-grande p {
+    padding-top: 24px;
+    padding-left: 10px;
+}
+
+.lista-de-cards-e-sports {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+}
+
+.cards-horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#item-um-horizontal, #item-dois-horizontal {
+    background: rgba(14, 29, 40, 0.86);
+    border-radius: 20px;
+    width: 16vw;
+    height: 30vh;
+    position: relative;
+}
+
+#item-um-horizontal img {
+    position: relative;
+    left: 5.7vh;
+    width: 13vw;
+}
+
+#item-um-horizontal h2 {
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+
+#item-um-horizontal p {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#item-dois-horizontal img {
+    position: relative;
+    left: 5.7vh;
+    width: 13vw;
+}
+
+#item-dois-horizontal h2 {
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+
+#item-dois-horizontal p {
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.cards-vertical {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    gap: 20px;
+    
+}
+
+#item-um-vertical {
+    display: flex;
+    flex-direction: column;
+    background: rgba(14, 29, 40, 0.86);
+    border-radius: 20px;
+    height: 12vh;
+    width: 33vw;
+    padding-left: 10px;
+}
+
+#item-um-vertical img {
+    position: absolute;
+    left: 74%;
+    height: 12vh;
+    width: 11vw;
+}
+
+#item-um-vertical h2 {
+    padding-top: 4px;
+    width: 20vw;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+}
+
+#item-um-vertical p {
+    font-size: 1rem;
+    width: 20vw;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+#item-dois-vertical {
+    display: flex;
+    flex-direction: column;
+    background: rgba(14, 29, 40, 0.86);
+    border-radius: 20px;
+    width: 33vw;
+    height: 12vh;
+    padding-left: 10px;
+}
+
+#item-dois-vertical img {
+    position: absolute;
+    left: 74%;
+    height: 12vh;
+    width: 11vw;
+}
+
+#item-dois-vertical h2 {
+    padding-top: 4px;
+    width: 20vw;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+}
+
+#item-dois-vertical p {
+    font-size: 1rem;
+    width: 20vw;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+#item-tres-vertical {
+    display: flex;
+    flex-direction: column;
+    background: rgba(14, 29, 40, 0.86);
+    border-radius: 20px;
+    width: 33vw;
+    height: 12vh;
+    padding-left: 10px;
+}
+
+#item-tres-vertical img {
+    position: absolute;
+    left: 74%;
+    height: 12vh;
+    width: 11vw;
+}
+
+#item-tres-vertical h2 {
+    padding-top: 4px;
+    width: 20vw;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+}
+
+#item-tres-vertical p {
+    font-size: 1rem;
+    width: 20vw;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+#item-tres-botao-ver-mais {
+    background-color: #992222;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 1rem;
+    width: 5vw;
+    text-align: center;
+}
+
+.noticia-mobile {
+    display: none;
+}
+
+@media (max-width:660px ) {
+
+    .container-conteudo-e-sports {
+        width: 90vw;
+    }
+
+    .card-principal-e-sports {
+        display: none;
+    }
+
+    .cards-horizontal {
+        display: none;
+    }
+
+    .cards-vertical {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 70vh;
+        width: 100%;
+    }
+
+    .noticia-mobile {
+        display: initial;
+    }
+
+    
+    .noticia-desktop {
+        display: none;
+    }
+
+    #item-um-vertical {
+        width: 80vw;
+        height: 50vh;
+        font-size: 0.7rem;
+        text-align: left;
+        justify-content: center;
+        padding-bottom: 10px;
+        position: relative;
+    }
+
+    #item-um-vertical h2 {
+        width: 30vw;
+    }
+
+    #item-um-vertical p {
+      display: none;
+    }
+
+    #item-um-vertical img {
+        position: absolute;
+        left: 45%;
+        top: 15%;
+        height: 15vh;
+        width: 40vw;
+    }
+
+    #item-dois-vertical {
+        width: 80vw;
+        height: 50vh;
+        font-size: 0.7rem;
+        text-align: left;
+        justify-content: center;
+        padding-bottom: 10px;
+        position: relative;
+    }
+
+    #item-dois-vertical h2 {
+        width: 30vw;
+    }
+
+    #item-dois-vertical p {
+        display: none;
+      }
+
+    #item-dois-vertical img {
+        position: absolute;
+        left: 45%;
+        top: 15%;
+        height: 15vh;
+        width: 40vw;
+    }
+
+    #item-tres-vertical {
+        width: 80vw;
+        height: 50vh;
+        font-size: 0.7rem;
+        text-align: left;
+        justify-content: center;
+        padding-bottom: 10px;
+        position: relative;
+    }
+
+    #item-tres-vertical h2 {
+        width: 30vw;
+    }
+
+    #item-tres-vertical p {
+        display: none;
+      }
+
+    #item-tres-vertical img {
+        position: absolute;
+        left: 45%;
+        top: 15%;
+        height: 15vh;
+        width: 40vw;
+    }
+    #item-tres-botao-ver-mais {
+        width: 50vw;
+    }
+
+}

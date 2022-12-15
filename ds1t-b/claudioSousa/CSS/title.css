@@ -1,0 +1,16 @@
+.title{
+    grid-area: title;
+    font-size: 7.5rem;
+    font-family: 'Lalezar', cursive;
+    background: linear-gradient(#fff, #F43F06);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    .title{
+        font-size: 4rem;
+    }
+}

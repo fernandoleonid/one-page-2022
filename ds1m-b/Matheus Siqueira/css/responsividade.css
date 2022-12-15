@@ -1,0 +1,303 @@
+@media (max-width: 376px){
+    .featured__products{
+        height: 150vh;
+    }
+    .offers{
+        height: 150vh;
+    }
+
+    .about__us{
+        height: 150vh;
+    }
+
+    .contact{
+        height: 100vh;
+    }
+
+    .contact__container{
+        height: 300vh;
+    }
+}
+
+@media (max-width: 390px) {
+    .logo{
+        margin-left: 30px;
+    }
+
+    .featured__products{
+        width: 100vw;
+    }
+
+    .slide-container{
+        width: 300px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .card-content h2{
+        font-size: 15px;
+    }
+
+    .update{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .update__text span{
+        font-size: 32px;
+        display: flex;
+        text-align: center;
+    }
+
+    .company__social{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .company__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 10px;
+        width: 300px;
+    }
+
+    .contact{
+        height: 120vh;
+    }
+    
+}
+
+@media (max-width: 414px){
+    .update{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .update__text span{
+        font-size: 32px;
+        display: flex;
+        text-align: center;
+    }
+
+    .featured__products{
+        height: 100vh;
+    }
+
+    .offers{
+        height: 100vh;
+    }
+
+}
+
+@media (max-width: 450px){    
+    .navegation__bar,
+    .client{
+        display: none;
+    }
+
+    header{
+        display: none;
+    }
+
+    .home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .home__title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 3.5rem;
+    }
+
+    .home__description span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 24px;
+        margin: 12px 0px 0px 12px;
+    }
+
+    .featured__products{
+        height: 80vh;
+        width: 100vw;
+    }
+
+    .slide-container{
+        width: 300px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .offers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .image__company{
+        display: none;
+    }
+
+    .offers__interactions{
+        width: 100vw;
+        padding-right: 50px;
+        padding-left: 50px;    
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .offers__title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        font-size: 32px;
+    }
+
+    .image-offers-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        visibility: visible;
+        width: 300px;
+    }
+
+    .offers__text{
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    .personalized__button__learn{
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        margin: 10px 50px;
+    }
+
+    .about__us{
+        display: grid;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .about__us__cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        gap: 32px;
+    }
+    .about__us__icons span{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 80px;
+        font-size: 16px;
+    }
+
+    .financial__services,
+    .great__quality,
+    .costumer__services{
+        width: 100vw;
+    }
+
+    .uptade{
+        height: 90vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .uptade__text{
+        font-size: 20px;
+    }
+
+    .contact{
+        width: 100vw;
+        height: 110vh;
+    }
+
+    .contact__container{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .company__social{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .company__text{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 12px;
+    }
+
+    .feature{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .list__feature{
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        gap: 10px;
+    }
+
+    .faq{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .faq__faq, 
+    .help{
+        display: flex;  
+        justify-content: center;
+    }
+}
+

@@ -1,0 +1,9 @@
+.conteudo-titulo{
+    font-size: 1.3rem;
+}
+
+@media (max-width: 640px){
+    .conteudo-titulo{
+        font-size: 1rem;
+    }
+}

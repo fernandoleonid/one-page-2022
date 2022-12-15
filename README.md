@@ -12,6 +12,7 @@ Lembre-se que sempre primeiro devemos planejar nossas ações e depois executar,
 - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
 - [Durante o desenvolvimento](#durante-o-desenvolvimento)
 - [Entrega do projeto](#entrega-do-projeto)
+- [Critérios de Avaliação](#critérios-de-avaliação)
 - [Projeto dos alunos](#projeto-dos-alunos)
 - [Autor](#autor)
 
@@ -47,6 +48,35 @@ Para entregar o seu projeto você deverá criar um Pull Request deste repositór
 - O link do github pages deve seguir o exemplo abaixo:
 
 `https://fernandoleonid.github.io/one-page-2022/turma/nome-do-aluno`
+
+# Critérios de Avaliação
+- [ ] `Prototipou o site utilizando o Figma?`
+- [ ] Criou um cover, do figma, para divulgar o projeto?
+- [ ] A navegabilidade é intuitiva?
+- [ ] As cores, imagens, botões, links e outros elementos tem designer padronizado? (Identidade visual)
+- [ ] `Codificou o site conforme planejado(protótipo)?`
+- [ ] `[O site está responsivo?]`
+- [ ] `Usou unidades de medida relativas, ou seja, criou um site flexivel?`
+- [ ] `Utilizou media queries para a responsividade?`
+- [ ] Utilizou a ferramenta lighthouse para verificar o desempenho, acessibilidade, boas praticas e SEO?
+- [ ] `Otimizou as imagens para melhorar o desempenho?`
+- [ ] O site foi codificado pensando na acessibilidade? 
+- [ ] `Implementou o vlibras no site?`
+- [ ] `Usou as TAG HTML pensando na semântica?`
+- [ ] Nomeou as classes utilizando algum padrão?
+- [ ] `Assinalou o projeto?`
+- [ ] `As seções criadas tem coerência com o projeto?`
+- [ ] `As seções estão organizadas seguindo algum objetivo?`
+- [ ] `O arquivo README descreve o projeto?`
+- [ ] O texto do README é objetivo e sucinto?
+- [ ] `O screenshot mostra um pouco do projeto?`
+- [ ] `Existe um link para o figma no README?`
+- [ ] `Existe um link para o github page no README?`
+- [ ] `Existe um link do autor do projeto no README?`
+- [ ] Fez a autoavaliação?
+  
+> *Os textos em destaque são critérios críticos, ou seja, precisam ser atingidos.* <br>
+> *Os demais, são critérios desejáveis, não necessários para aprovação, mas importantes para se destacar entre os demais desenvolvedores.*
 
 # Projeto dos alunos
 * [DS1M-A](./ds1m-a/)

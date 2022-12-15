@@ -1,0 +1,9 @@
+.pizzas_tradicionais_imagens{
+    height: 100%;
+    
+}
+
+.pizzas_tradicionais_imagens:hover{
+    transform: scale(1.3);
+
+}

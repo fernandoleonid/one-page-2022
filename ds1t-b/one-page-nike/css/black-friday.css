@@ -1,0 +1,150 @@
+.black-friday {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.container-effect {
+    width: 100%;
+    height: 5px;
+    animation: changeBackgroundColor 4s infinite;
+}
+
+@keyframes changeBackgroundColor {
+    0% {
+        background-color: #0009;
+      }
+      50% {
+        background-color: #FF0000;
+      }
+      100% {
+        background-color: #0009;
+      }
+}
+
+.faixa {
+    height: 10vh;
+    width: 60%;
+    font-size: 4rem;
+    align-items: center;
+}
+
+.black-friday .logo {
+    align-items: center;
+}
+
+.black-friday .logo:hover {
+    text-shadow: 0 0 5px #FF0000, 0 0 6px #FF0000;
+}
+
+.title {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #FF0000;
+    font-size: 1em; color: #000000;
+    align-items: center;
+}
+
+.title {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #FF0000;
+    font-weight:bolder;
+    text-decoration:none !important
+}
+
+.title:hover {
+    text-shadow: 0 0 5px #FF0000, 0 0 6px #FF0000;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.img {
+    position: relative;
+    overflow: hidden;
+}
+
+.black-friday .images {
+    border: 2px solid #FF0000;
+}
+
+.description {
+    width: 150px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.description-old-price {
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #ffffff;
+    color: #000;
+    text-decoration: line-through;
+}
+
+.description-discount {
+    color: #14FF00;
+}
+
+.black-friday .img::before {
+    content: "Clique aqui para abrir o produto";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0009;
+    display: grid;
+    place-content: center;
+    font-weight: 700;
+    transform: translateY(100%);
+    transition: transform .7s;
+}
+
+.black-friday .img:hover::before {
+    transform: translateY(0%);
+}
+
+/* MOBILE */
+@media (max-width:640px){
+    .black-friday{
+        align-items: center;
+    }
+
+    .black-friday .faixa {
+        width: 375px;
+    }
+
+    .title {
+        font-size: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .black-friday .img-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 200px;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .black-friday .img-container{
+        width: 540px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }  
+}

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "VCR_OSD_MONO" ;
+    src: url(../fonts/VCR_OSD_MONO_1.001.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Impostograph" ;
+    src: url(../fonts/Impostograph-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}

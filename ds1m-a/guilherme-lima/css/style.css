@@ -1,0 +1,68 @@
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --desktop-color: rgba(0, 0, 0, 0.92);
+    --letras-color: rgba(255, 0, 0, 1);
+    --botao-color: rgba(0, 26, 255, 0.84);
+}
+body{
+    display: grid;
+    grid-template-areas: 
+         "content";
+    background-color: var(--desktop-color);
+    color: white;   
+    /*font-family: ;*/
+}
+header{
+    grid-area: content;
+    place-self: start center;
+    z-index: 1;
+    width: 100%;
+    max-width: 1700px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    grid-area: content;
+}
+.title-header, .title-sobre, .title-protagonista, .title-filme, .title-mais, .title-frases {
+    background-image: linear-gradient(rgba(20, 3, 3, 0.116), rgb(255, 1, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    /*font-family: ;
+    font-weight: ;*/
+}
+section{
+    height: 100vh;
+}
+footer{
+    grid-area: content;
+    display: grid;
+    place-self: end center;
+    height: 50px;
+    width: 100%;
+    font-size: .9rem;
+    text-align: center;
+    align-items: center;
+    color: var(--letras-color);
+    border-top: 5px solid #C90000;
+}
+.voltar{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: grid;
+    font-size: 2.5rem;
+    transition: all .5s;
+}
+.voltar :hover{
+    color: var(--letras-color);
+}
+.access-button{
+    border-radius: 50px;
+    border: 8px;
+}

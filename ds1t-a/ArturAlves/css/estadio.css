@@ -1,0 +1,163 @@
+.estadios{
+    height: 100vh;
+}
+.estadio-title{
+    text-align: start;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Signika', sans-serif;
+    font-size: 42px;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+
+.linha-est{
+    width: 100vw;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+.linha2-est{
+    width: 100vw;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+.estadio-desc{
+    width: 700px;
+    color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+    font-size: 32px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.list-text{
+    width: 700px;
+    color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.list-icon{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.estadio1{
+    position: absolute;
+    top: 2050px;
+    left: 1150px;
+}
+.estadio2{
+    position: absolute;
+    top: 2400px;
+    left: 850px;
+}
+.estadio3{
+    position: absolute;
+    top: 2400px;
+    left: 1450px;
+}
+
+/* Responsividade */
+@media (max-width:1630px){
+    .estadio1{
+        position: absolute;
+        top: 2100px;
+        left: 950px;
+    }
+    .estadio2{
+        position: absolute;
+        top: 2400px;
+        left: 650px;
+    }
+    .estadio3{
+        position: absolute;
+        top: 2400px;
+        left: 1250px;
+    }
+}
+@media (max-width:1530px){
+    .estadio1{
+        position: absolute;
+        top: 2100px;
+        left: 850px;
+    }
+    .estadio2{
+        position: absolute;
+        top: 2400px;
+        left: 550px;
+    }
+    .estadio3{
+        position: absolute;
+        top: 2400px;
+        left: 1150px;
+    }
+}
+@media(max-width:640px){
+    
+    .estadios{
+        width: 100vw;
+    }
+    .linha-est{
+        width: 400px;
+        height: 3px;
+        background-color: #ffffff;
+        margin-top: 10px;
+    }
+    .linha2-est{
+        width: 400px;
+        height: 3px;
+        background-color: #ffffff;
+        margin-top: 130px;
+
+    }.estadio-title{
+        font-size: 18px;
+        padding: 2px;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .estadio-desc{
+        font-size: 12px;
+        width: 240px;
+        padding: 2px;
+        margin-left: 30px;
+    }
+    .list-text{
+        font-size: 12px;
+        width: 300px;
+        padding: 2px;
+        margin-left: 30px;
+    }
+    .list-icon{
+        display: none;
+    }
+    
+    
+    .estadio1{
+       position: absolute;
+       width: 100px;
+       height: 70px;
+       top: 1450px;
+       left: 250px;
+    }
+    .estadio2{
+       position: absolute;
+       width: 100px;
+       height: 70px;
+       top: 1550px;
+       left: 200px;
+    }
+    .estadio3{
+        position: absolute;
+        width: 100px;
+        height: 70px;
+        top: 1650px;
+        left: 250px;
+    }
+}

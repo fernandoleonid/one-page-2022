@@ -1,0 +1,46 @@
+.jogo{
+    background-color: tomato;
+    grid-template-areas: 
+    "informacoes botao-jogo capa-jo";
+    display: grid;
+    grid-template-columns: 800px 1fr 1fr;
+    background-image: url(../img/fundo-jogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.informacoes{
+    grid-area: informacoes;
+    background-color: var(--desktop-color);
+    height: 841px;
+    width: 467px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    place-self: center;
+    text-align: center;
+}
+.title-jogo{
+    margin-top: 20px;
+    font-size: 2.4rem;
+}
+.description-jogo{
+    margin-top: 25px;
+    font-size: 1.3rem;
+}
+.botao-jogo{
+    grid-area: botao-jogo;
+    background-color: var(--botao-color);
+    border-radius: 100px;
+    width: 270px;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-self: center end;
+    font-size: 1.8rem;
+}
+.capa-jogo{
+    grid-area: capa-jo;
+    place-self: center;  
+}

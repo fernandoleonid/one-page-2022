@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/info.css">
+    <link rel="stylesheet" href="./css/personagens.css">
+    <link rel="stylesheet" href="./css/compra.css">
+    <link rel="stylesheet" href="./font/berserker-regular-font/Berserker-Regular.ttf">
+    <link rel="stylesheet" href="./css/responsividade.css">
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/78c0e1b8e9.js" crossorigin="anonymous"></script>
+    <title>God of War</title>
+</head>
+
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app')
+    </script>
+    <header>
+        <img src="./img/logo-removebg-preview.png" alt="" class="logo">
+        <nav>
+            <ul class="menu" id="menu">
+                <li class="menu__home">
+                    <a href="#home">Ω"Home</a>
+
+                </li>
+                <li>
+                    <a href="#info">ΩInfo</a>
+
+                </li>
+                <li>
+                    <a href="#personagens">ΩPersonagens</a>
+
+                </li>
+                <li>
+                    <a href="#compre">ΩCompre</a>
+
+                </li>
+
+            </ul>
+            <div class="bars"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="suspenso1">Kratos e Atreus estão de volta em uma épica aventura até o fim de tudo que conhecemos!
+            </div>
+            <div class="suspenso2">Enfrente Deuses, monstros e mortais aterrorizantes!</div>
+            <div class="suspenso3">O Ragnarök está aqui, escolha entre sua segurança e a dos 9 reinos!</div>
+        </section>
+        <section class="info" id="info">
+            <h1 class="fundo">
+                <div class="info-titulo">Tudo se une para forjar um épico de ação monumental que adiciona mais um marco impressionante ao cenário dos videogames.</div>
+                <div class="info1"><img src="./img/info1.png" alt=""> A escrita, as performances e a música são excepcionais, dando vida a esta tapeçaria nórdica expansiva - mas mesmo que segure seu coração em uma mão com sua história contada com elegância, está triturando
+                    ossos na outra com um combate fantasticamente feroz.
+                </div>
+                <div class="info2"><img src="./img/info2.png" alt="">Atreus busca o conhecimento para entender a profecia de "Loki" e definir o papel dele no Ragnarök. Kratos deve se desacorrentar do medo de repetir erros do passado para ser o pai que Atreus precisa.</div>
+            </h1>
+        </section>
+        <section class="personagens" id="personagens">
+            <H1>Personagens</H1>
+            <div class="container">
+                <ul class="personagens_lista">
+                    <div class="personagens_lista_principal">
+                        <li class="personagens_card_principal">
+                            <img src="./img/kratos.png" alt="Kratos" href="#kratos" target="blanck">
+                            <a onclick="mudarEstado('kratos')" href="#kratos">Kratos</a>
+                        </li>
+                        <li class="personagens_card_principal">
+                            <img src="./img/atreus.png" alt="Atreus">
+                            <a onclick="mudarEstado('atreus')" href="#atreus">Atreus</a>
+                        </li>
+                    </div>
+                    <ul id="kratos">
+                        <li>
+                            <img src="./img/kratos.png" alt="Kratos">
+                            <span> O deus da guerra espartano construiu uma nova vida em Midgard. 
+                                A paternidade deu a Kratos um novo propósito. Com o Ragnarök se aproximando, os riscos nunca foram tão altos. Kratos deve se decidir entre proteger
+                                o filho e a vida que construíram juntos ou defender os Nove Reinos da guerra catastrófica.
+                                </span>
+                        </li>
+                    </ul>
+                    <ul id="atreus">
+                        <li>
+                            <span> Atreus é um semideus adolescente, filho de Kratos e da Giganta Laufey. 
+                                Os Gigantes e os Aesir o conhecem como "Loki". 
+                                Com a iminência do Ragnarök, Atreus quer a todo custo explorar e compreender melhor a própria identidade para encontrar seu lugar no mundo. 
+                                Ele treinou muito com o pai e, embora o relacionamento entre os dois permaneça firme, Atreus anseia por começar a seguir o seu próprio caminho.
+                                </span>
+                            <img src="./img/atreus.png" alt="Atreus">
+                        </li>
+                    </ul>
+                    <div class="personagens_lista_secundarios">
+                        <li class="personagens_card">
+                            <img src="./img/thor.png" alt="Thor">
+                            <a onclick="mudarEstado('thor')" href="#thor">Thor</a>
+                        </li>
+                        <li class="personagens_card">
+                            <img src="./img/freya.png" alt="Freya">
+                            <a onclick="mudarEstado('freya')" href="#freya">Freya</a>
+                        </li>
+                        <li class="personagens_card">
+                            <img src="./img/angrboda.png" alt="Angrboda">
+                            <a onclick="mudarEstado('angrboda')" href="#angrboda">Angrboda</a>
+                        </li>
+                        <ul id="thor">
+                            <li>
+                                <img src="./img/thor.png" alt="Thor">
+                                <span> Thor, o lendário deus do trovão, é filho de Odin e campeão dos Aesir.
+                                     Magni e Modi, seus filhos, eram aliados de Baldur e foram mortos por Kratos e Atreus.
+                                    </span>
+                            </li>
+                        </ul>
+                        <ul id="freya">
+                            <li>
+                                <span> Freya é uma deusa Vanir, já foi líder das Valquírias, ex-mulher de Odin e antiga rainha dos Aesir. 
+                                    Após a morte do seu amado filho Baldur, que estava afastado dela, Freya jurou uma vingança violenta contra Kratos e Atreus.
+                                </span>
+                                <img src="./img/freya.png" alt="Freya">
+                            </li>
+                        </ul>
+                        <ul id="angrboda">
+                            <li>
+                                <img src="./img/angrboda.png" alt="Angrboda">
+                                <span> Angrboda faz parte dos últimos Gigantes que restaram. 
+                                    Após a queda de Jötunheim, ela se escondeu por muitos anos à espera do momento para concretizar as profecias dos Jötnar.
+                                </span>
+                            </li>
+                        </ul>
+                        <li class="personagens_card">
+                            <img src="./img/tyr.png" class="tyr" alt="Tyr">
+                            <a onclick="mudarEstado('tyr')" href="#tyr">Tyr</a>
+                        </li>
+                        <li class="personagens_card">
+                            <img src="./img/brok-e-sindri.png" alt="Brok e Sindri">
+                            <a onclick="mudarEstado('brok-e-sindri')" href="#brok-e-sindri">Brok e Sindri</a>
+                        </li>
+                        <li class="personagens_card">
+                            <img src="./img/mimir.png" class="personagem_mimir" alt="Mimir">
+                            <a onclick="mudarEstado('mimir')" href="#mimir">Mimir</a>
+                        </li>
+                        <ul id="tyr">
+                            <li>
+                                <span>  Týr é o deus da guerra Aesir que desapareceu há muito tempo. 
+                                    Ele viajou pelo mundo e se tornou um grande aliado dos Gigantes, buscando a paz entre os Aesir e os Jötnar. 
+                                    Quando Odin violou a paz e declarou guerra a Jötunheim, Týr foi aprisionado.
+                                </span>
+                                <img src="./img/tyr.png" alt="">
+                            </li>
+                        </ul>
+                        <ul id="brok-e-sindri">
+                            <li>
+                                <img src="./img/brok-e-sindri.png" alt="">
+                                <span> Brok e Sindri, os Irmãos Huldra, são ferreiros Anões lendários. 
+                                    Eles são conhecidos ao redor dos Nove Reinos pela impressionante capacidade que têm de forjar armamentos lendários para os deuses. 
+                                    Após reatarem a relação há não muito tempo, os irmãos se uniram para apoiar Kratos e Atreus. 
+                                    O Ragnarök vai pôr à prova a força da união entre esses dois.
+                                </span>
+                            </li>
+                        </ul>
+                        <ul id="mimir">
+                            <li>
+                                <span>  Ele pode até ser uma cabeça decepada que depois foi ressuscitada, mas o Mimir continua com o título de homem mais inteligente vivo. 
+                                    Quando Kratos e Atreus o libertaram da árvore em que Odin o mantinha aprisionado, 
+                                    Mimir se juntou à aventura deles e se tornou um amigo de confiança e conselheiro tanto para o pai quanto para o filho. 
+                                    Com os Nove Reinos afundando no caos, agora eles precisarão da sabedoria do Mimir mais do que nunca.
+                                </span>
+                                <img src="./img/mimir.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+
+
+        </section>
+        <section class="compre" id="compre">
+            <img class="machado" src="./img/machado.png" alt="">
+            <div class="container__compra">
+                <div>
+                    <img src="./img/compra (2).png" alt=""> Ps4 Version
+                    <a href="https://www.amazon.com.br/God-War-Ragnar%C3%B6k-Standard-PlayStation/dp/B0BH58QPYN" target="blank">Compre Aqui</a>
+                </div>
+                <div>
+                    <img src="./img/compra (2).png" alt=""> Ps5 Version
+                    <a href="https://www.amazon.com.br/God-War-Ragnar%C3%B6k-Lan%C3%A7amento-PlayStation/dp/B0B64SBV14" target="blank">Compre Aqui</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>Desenvolvido por Cleiton Cruz | Todos os direitos reservados </footer>
+</body>
+
+</html>

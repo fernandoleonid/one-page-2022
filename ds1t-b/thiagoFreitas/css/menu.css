@@ -1,0 +1,40 @@
+.menu{
+    display: flex;
+    color: #fff;
+    gap: 72px;
+    font-size: 2rem;
+    font-family: 'Charm', cursive;
+}
+.menu li:hover{
+    color: #ffc765;
+    background: url(../img/ondas.png) repeat-x center bottom;
+}
+/* MOBILE */
+@media (max-width:640px){
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        font-size: 4rem;
+        background-color: #000;
+        opacity: 0;
+        z-index: 1;
+        transition: all 1s;
+        transform: translateX(100%);        
+    }
+    .menu__container.active ~ .menu{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}

@@ -1,0 +1,232 @@
+header {
+    z-index: 3;
+}
+
+.navegacao-cabecalho {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.cabecalho-home-um {
+    background: rgba(0, 0, 0, 0.44);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.lista-cabecalho-home {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.item-nav-header {
+    font-weight: 700;
+    font-family: 'Ubuntu';
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
+    
+}
+
+
+.item-nav-header::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    width: 0;
+    bottom: -5px;
+    background: #B12727;
+    height: 11px;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+.item-nav-header:hover::after,
+.item-nav-header:focus::after,
+.item-nav-header:active::after {
+    left: 0;
+    right: auto;
+    width: 100%;
+}
+
+#fundo-item-um, #fundo-item-dois {
+    position: fixed;
+    z-index: -1;
+    transform: translateY(10px);
+    transform: translateX(10px);
+}
+
+#fundo-item-tres {
+    position: fixed;
+    z-index: -1;
+    transform: translateY(8px);
+    transform: translateX(20px);
+}
+
+#fundo-item-quatro {
+    position: fixed;
+    z-index: -1;
+    transform: translateY(10px);
+    transform: translateX(20px);
+}
+
+#fundo-item-cinco {
+    position: fixed;
+    z-index: -1;
+    transform: translateY(10px);
+    transform: translateX(20px);
+}
+
+#item-um, #item-dois {
+    height: 35px;
+    width: 80px;   
+}
+
+#item-tres, #item-quatro {
+    height: 35px;
+    width: 100px;
+}
+
+#item-cinco {
+    height: 35px;
+    width: 100px;
+}
+
+.nav {
+    height: 80px;
+    width: 100%;
+    z-index: 1000;
+    display: none;
+}
+
+.nav ul {
+    float: right;
+    margin-right: 20px;
+    
+}
+
+.nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+   
+}
+
+.nav ul li a {
+    color: #fff;
+    font-size: 1rem;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+   
+}
+
+.nav ul li a.active, a:hover{
+    background: #2c0503;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    z-index: 1000;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+@media (max-width: 660px) {
+    header {
+        max-width: 660px;
+        width: 100vw;
+    }
+
+   
+
+    .navegacao-cabecalho {
+        max-width: 660px;
+        width: 100vw;
+       
+    }
+
+    .lista-cabecalho-home {
+        display: none;
+    }
+
+    .cabecalho-home-um {
+        max-width: 660px;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    
+
+    .logo-riot-games-header {
+        width: 25vw;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    .nav {
+        display: initial;
+    }
+
+    .nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background:#B12727;
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+
+    }
+
+    .nav ul li a {
+        font-size: 1rem;
+    }
+
+    .nav a.active, a:hover {
+        background: none;
+        color: #2c0503;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+}

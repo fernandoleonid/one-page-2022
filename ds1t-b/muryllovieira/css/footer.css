@@ -1,0 +1,23 @@
+.social-container {
+    grid-area: social;
+    display: flex;
+    gap: 152px;
+    font-size: 3.5rem;
+    justify-content: center;
+}
+
+.social-item {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background-color: #AE53CE;
+    display: grid;
+    place-content: center;
+}
+@media (max-width:640px){
+    .social-container{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+}

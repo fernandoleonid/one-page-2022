@@ -1,0 +1,344 @@
+.historia{
+
+    width: 100%;
+    height: 100vh;
+   
+  
+   
+
+}
+
+.historia::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(imagens/theWall\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+  
+}
+
+.linha{
+    border-left: 3px  solid rgb(0, 0, 0);
+    height: 100%;
+    margin: 0 auto;
+    z-index: -5;
+    position: absolute;
+    left: 1vw;
+     
+}
+
+.linha2{
+    border-left: 3px  solid rgb(0, 0, 0);
+    height: 100%;
+    margin: 0 auto;
+    z-index: -5;
+    position: absolute;
+    left: 25vw;
+   
+}
+.linha3{
+    border-left: 3px  solid rgb(0, 0, 0);
+    height: 100%;
+    margin: 0 auto;
+    z-index: -5;
+    position: absolute;
+    right: 48vw;
+    
+}
+.linha4{
+    border-left: 3px  solid rgb(0, 0, 0);
+    height: 100%;
+    margin: 0 auto;
+    z-index: -5;
+    position: absolute;
+    right: 1vw;
+}
+
+.marcaPagina{
+    color: black;
+    font-family: 'Inter Tight', sans-serif;
+    position: relative;
+    z-index: 666;
+    position: absolute;
+    font-size: 4rem;
+    right: 1vw;
+}
+
+
+.T1{
+
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+ 
+}
+
+.T2{
+
+    display: grid;
+    grid-template-areas: "EscritosHistoria signature";
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+ 
+}
+
+.EscritosHistoria{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    grid-area:EscritosHistoria ;
+}
+.signature{
+
+    
+    grid-area:signature ;
+
+}
+
+.LogoHistoria{
+ 
+     order: 2;
+    margin-left: 10%;
+    right: 5vw;
+    height: 12vw;
+    width: 38vw;
+    transform: rotate(-5deg);
+
+}
+
+.Integrantes{
+    order: 1;
+    height: 23vw;
+    width: 45vw;
+  
+
+}
+
+.Texto1{
+
+    font-size: 1.4rem;
+    right: 5.9vw;
+    width: 37vw;
+    margin-top: -10%;
+    margin-left:55vw;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+.Texto2{
+    grid-area:Texto2 ;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    width: 21vw;
+    font-family: 'Inter', sans-serif;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+
+
+.ImagemHistoria2{
+    margin-top: 2vw;
+    height: 7vw;
+    width: 15vw;
+
+}
+
+.Texto3{
+    margin-left: 1vw;
+    margin-top: 4vw;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 0, 0); 
+
+}
+
+
+.pretoTexto{
+    margin-left: 1vw;
+    margin-top: 2vw;
+    width: 22.5vw;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.TheShowMustGoOn{
+
+   
+    height: 16vw;
+    width: 26vw;
+   filter: grayscale(100%);
+
+
+}
+
+.theShowParagrafo{
+    margin-top: 2%;
+    font-size: 1.2rem;
+    margin-left: 18vw;
+    font-family: 'Inter', sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+.theShowParagrafoData{
+
+    font-size: 1.3rem;
+    margin-left: 18vw;
+    font-family: 'Inter', sans-serif;
+    color: rgb(0,0, 0);
+
+}
+
+@media (max-width:1700px) {
+
+    Texto3{
+        margin-left: 1vw;
+        margin-top: 4vw;
+        order: 1;
+        position: absolute;
+        margin-top: -100%;
+        left: 2vw;
+        
+    }
+}
+
+
+@media (max-width:768px) {
+
+
+    .historia{
+        width: 100%;
+        height: 200vh;
+       
+    
+    }
+
+    .historia::before{
+        height: 200%;
+     
+    }
+    .linha{
+        height: 200%;
+        border-left: 1px  solid rgb(0, 0, 0);
+    }
+    
+    .linha2{
+        height: 200%;
+        border-left: 1px  solid rgb(0, 0, 0);
+    }
+    .linha3{
+        height: 200%;
+        border-left: 1px  solid rgb(0, 0, 0);
+    }
+    .linha4{
+
+        height: 200%;
+        border-left: 1px  solid rgb(0, 0, 0);
+    }
+    .marcaPagina{
+      
+        font-size: 3rem;
+    }
+    .LogoHistoria{
+        margin-left: -45%;
+       height: 20vw;
+       width: 65vw
+   
+   }
+   
+    .Integrantes{
+       margin-top: 15%;
+        height: 46vw;
+        width: 90vw;
+    }
+
+    .Texto1{
+
+        font-size: 1.4rem;
+        right: 5.9vw;
+        width: 45vw;
+        margin-top: 3%;
+        margin-left:50vw;
+        font-family: 'Inter', sans-serif;
+    
+    
+    }
+    .Texto2{
+        
+        order: ;
+        width: 44vw;
+        font-family: 'Inter', sans-serif;
+        margin-top: 2vw;
+        margin-left: 1vw;
+       
+    
+    }
+
+    
+    .Texto3{
+        margin-left: 1vw;
+        margin-top: 4vw;
+        order: 1;
+        position: absolute;
+        margin-top: -100%;
+        left: 2vw;
+        
+    }
+    .ImagemHistoria2{
+        margin-top: 2vw;
+        height: 25vw;
+        width: 43vw;
+       
+    }
+    .pretoTexto{
+    
+        position: absolute;
+        right: 1vw;
+        height: 25vw;
+        width: 43vw;
+    }
+    .EscritosHistoria{
+        display: unset;
+        width: 45vw;
+      
+    }
+    
+    .TheShowMustGoOn{
+        height: 40vw;
+        width: 50vw;
+       filter: grayscale(100%);
+       margin-left: -50vw;
+       margin-top: 2%;
+    
+    }
+
+
+    .theShowParagrafo{
+        margin-top: 2%;
+        font-size: 1rem;
+        margin-left: -45vw;
+        font-family: 'Inter', sans-serif;
+        color: rgb(0, 0, 0);
+    
+    }
+    
+    .theShowParagrafoData{
+        margin-left: -40vw;
+        font-size: 1rem;
+        
+        font-family: 'Inter', sans-serif;
+        color: rgb(0,0, 0);
+    
+    }
+}

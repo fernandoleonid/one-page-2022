@@ -1,0 +1,43 @@
+.suporte{
+    background-image: url(../img/support.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.suport-titulo{
+    display: flex;
+    padding-top: 5%;
+    padding-left: 10%;
+    font-size: 4rem;
+    color: #fff;
+}
+.sub-suporte{
+    display: flex;
+    padding-top: 15%;
+    padding-left: 40%;
+    font-size: 2rem;
+    color: #fff;
+}
+.lista-sup{
+    display: flex;
+    padding-top: 21%;
+    padding-left: 21%;
+    color: #fff;
+    font-size: 2rem;
+    gap: 5%;
+}
+@media (max-width:640px){
+   .suport-titulo{
+       font-size: 3rem;
+   }
+   .sub-suporte{
+       font-size: 2rem;
+       padding-left: 23%;
+   }
+   .lista-sup{
+       font-size: 1rem;
+       padding-left: 10%;
+   }
+
+}
+

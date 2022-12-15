@@ -1,4 +1,8 @@
-@media (max-width: 380px) {
+@media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .home__logo img {
     width: 260px;
   }
@@ -36,7 +40,7 @@
   }
 
   .layout__description {
-    width: 320px;
+    width: 280px;
     text-align: justify;
   }
 
@@ -128,7 +132,7 @@
   }
 
   .container-logo img {
-    width: 340px;
+    width: 320px;
   }
 
   .layout-1__tittle {
@@ -160,6 +164,11 @@
     margin-left: 48px;
   }
 
+  .trama {
+    height: 100vh;
+    padding-left: 10%;
+  }
+
   .trama-tittle {
     font-size: 4rem;
     letter-spacing: 0.25rem;
@@ -175,7 +184,7 @@
   }
 
   .trama__image-container {
-    transform: translateX(-400px);
+    transform: translateX(-80%);
   }
 
   .trama-line {

@@ -18,7 +18,7 @@
   .menu-mobile img {
     height: 32px;
   }
-  .logo-mobile{
+  .logo-mobile {
     height: 64px;
   }
 
@@ -27,7 +27,6 @@
   }
   /* HOME */
   .home {
-    /* overflow: hidden; */
     width: 100vw;
   }
 
@@ -65,6 +64,10 @@
     gap: 100px;
   }
 
+  .trama {
+    height: 70vh;
+  }
+
   .trama-number {
     font-size: 15rem;
   }
@@ -85,7 +88,7 @@
   }
 
   .trama__image-container {
-    transform: translateX(-200px);
+    transform: translateX(-50%);
   }
 
   .creditos {
@@ -93,7 +96,7 @@
   }
 
   .container-logo img {
-    width: 600px;
+    width: 70vw;
   }
 
   .creditos-logos {

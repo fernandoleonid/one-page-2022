@@ -1,0 +1,31 @@
+@media(max-width:640px) {
+    .menu {
+        font-size: 13px;
+        gap: 30px;
+        background-size: auto;
+        background-position: center;
+
+        
+    }
+    .header {   
+        width: 100vw;
+    }
+    .logo {
+        font-size: 13px;
+
+        
+    }
+
+    .title {
+        display: flex;
+        font-size: 30px;
+     
+    
+      
+
+      
+    }
+
+    
+
+}

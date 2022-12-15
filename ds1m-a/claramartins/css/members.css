@@ -1,0 +1,72 @@
+.members_title{
+    color: #fff;
+    margin-top: 34px;
+    font-size: 2rem;
+}
+.description_jisoo{
+    background-image: url(../img/jisoo_member1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.description_jennie{
+    background-image: url(../img/jennie_member1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.description_rose{
+    background-image: url(../img/rose_member1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.description_lisa{
+    background-image: url(../img/lisa_member1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.description__title{
+    font-size: 64px;
+    font-weight: 600;
+    color: var(--lilac-color);
+    display: flex;
+    align-self: center;
+    padding-left: 64px;
+    padding-top: 64px;
+}
+.description_jisoo:hover{
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/jisoo_member_auto.jpg);
+    
+}
+.description_jennie:hover{
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/jennie_member_auto.jpg);
+}
+.description_rose:hover{
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/rose_member_auto.jpg);
+}
+.description_lisa:hover{
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/lisa_member_auto.jpg);
+}
+.description__text{
+    font-size: 1.5rem;
+    padding-left: 120px;
+    display: none;
+    flex-direction: column;
+    width: 550px;
+    flex-direction: column;
+    color: #fff;
+}

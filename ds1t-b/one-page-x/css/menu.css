@@ -1,0 +1,28 @@
+.menu{
+    display: flex;
+    gap: 30px;
+    font-size: 1rem;
+    color: #fff;
+}
+.menu li{
+    transition: color 0.5s;
+}
+.menu li:hover{
+    color: #330606;;
+}
+.menu-responsivo{
+    display: none;
+}
+
+@media (max-width: 960px){
+    .menu{
+        display: none;
+    }
+    .menu-responsivo{
+        
+        display: flex;
+        font-size: 1.5rem;
+        text-align: right;
+        color: #fff;
+    }
+}

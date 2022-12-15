@@ -1,0 +1,48 @@
+.compre {
+    padding-top: 50px;
+    background-image: url(../img/back_personagens.png);
+    background-repeat: repeat;
+    display: grid;
+    grid-template-areas: 'machado compre';
+}
+
+.machado {
+    grid-area: machado;
+}
+
+.container__compra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-area: compre;
+    gap: 50px;
+}
+
+.container__compra div {
+    background-image: url(../img/background_compra_div.jpg);
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    gap: 50px;
+    color: #000000;
+    font-size: 3rem;
+    justify-content: start;
+    height: 450px;
+    width: 350px;
+    align-items: center;
+}
+
+.container__compra img {
+    height: 168.5px;
+    width: 300px;
+}
+
+.compre a {
+    height: 53px;
+    background-color: #1B91EB;
+}
+
+.compre a:hover {
+    color: #922929;
+    transition: 1s;
+}

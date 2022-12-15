@@ -1,0 +1,78 @@
+.curiosidade{
+    width: 100%;
+    display: grid;
+    flex-direction: column;
+    background-image: url(../img/azul.gif);
+    box-shadow: inset 10px -100px 100px #181068;
+    background-size: cover;
+    grid-template-areas: 
+    "title title"
+    "curiosidades menus";
+    grid-template-rows: auto 1fr;
+}
+.title_curiosidades{
+    grid-area: title;
+    font-family: 'Eagle Lake', cursive;
+    font-size: 8rem;
+    background-image: linear-gradient( #1602F9 , #00C9F5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;  
+    display: flex; 
+    justify-content: center;
+}
+.description_curiosidade{
+    grid-area: curiosidades;
+    width: 800px;
+    height: 600px;
+    font-size: 3.5rem;
+    font-family: 'avatar';
+    font-weight: 300;
+    margin-left: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.menu3{
+    grid-area: menus;
+    width: 200px;
+    height: 450px;
+    font-size: 3.5rem;
+    font-family: 'avatar';
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: flex-end;
+    margin-top: 80px;
+    place-items: center;
+   
+}
+.ticket{
+    background-color: #11366d;
+    display: flex;
+    width: 180px;
+    height:80px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

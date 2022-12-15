@@ -1,0 +1,14 @@
+.fim{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: center;
+    font-size: 1rem;
+    color: #fff;
+    border-top: 2px solid #fff;
+}
+@media (max-width:640px){
+    .fim{
+        padding-top: 13%;
+    }
+}

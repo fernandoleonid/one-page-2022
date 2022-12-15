@@ -1,0 +1,75 @@
+.historia {
+    display: grid;
+    grid-template-areas: "imagem texto";
+    grid-template-columns: 1fr 1fr;
+    background-color: #f8f3e7;
+    height: auto;
+}
+
+.store-starbucks {
+    grid-area: imagem;
+    height: 700px;
+    align-self: center;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.historia__title {
+    grid-area: texto;
+    font-size: 1.5rem;
+    font-family: 'archivo', sans-serif;
+    margin-top: 150px;
+    margin-left: 300px;
+    color: #006241;
+}
+
+.historia__subtitle {
+    grid-area: texto;
+    font-size: 3rem;
+    color: #1a3f35;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.historia__text {
+    grid-area: texto;
+    font-size: 2rem;
+    color: #1E3932;
+    width: 800px;
+    margin-left: 50px;
+    margin-top: 300px;
+}
+
+.button-historia {
+    grid-area: texto;
+    height: 80px;
+    width: 300px;
+    background-color: #006241;
+    color: white;
+    border-radius: 90px;
+    padding-left: 60px;
+    padding-top: 20px;
+    font-size: 2rem;
+    margin-top: 550px;
+    margin-left: 250px;
+}
+
+.button_text {
+    grid-area: texto;
+    align-self: center;
+}
+
+.livro-img {
+    grid-area: texto;
+    height: 40px;
+    margin-top: 650px;
+    margin-left: 300px;
+}
+
+.texto-leitura {
+    grid-area: texto;
+    font-size: 1.5rem;
+    margin-top: 660px;
+    margin-left: 350px;
+}

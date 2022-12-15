@@ -1,0 +1,90 @@
+.skills {
+    grid-area: skills;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__title {
+    font-size: 32px;
+    color: #D2D1E8;
+}
+
+.skills h3{
+   color: #FFFFFF80;
+   font-size: 2.5rem;
+   margin-right: 8%;
+   margin-bottom: 4%;
+
+}
+.skills__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5.5rem;
+
+}
+
+.skills__icon {
+    width: 8rem;
+    height: 8rem;
+    background-color: #947252;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.skills__icon i {
+    color: #D2D1E8;
+    font-family: "Font Awesome 5 Brands";
+    font-size: 2.5rem;
+}
+
+.skills__icon span {
+    color: #D2D1E8;
+    font-family: "Sunflower";
+    font-weight: 700;
+}
+@media (max-width: 960px) {
+    .skills{
+        grid-area: skills;
+        align-items: start;
+     }
+     .skills h3{
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+     }
+     .skills__container{
+        position: absolute;
+        grid-area: skills;
+        gap: 4rem;
+        bottom: 2%;
+        left: 18%;
+     }
+    
+}
+@media (max-width:640px) {
+    .skills{
+        align-items: center;
+        height: 55vw;
+    }
+    .skills h3{
+        position: initial;
+        font-size: 1.5rem;
+        margin-bottom: 5%;
+    }
+    .skills__container{
+        position: initial;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .skills__icon{
+        width: 6rem;
+        height: 6rem;
+    }
+    
+}

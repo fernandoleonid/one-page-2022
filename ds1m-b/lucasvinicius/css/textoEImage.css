@@ -1,0 +1,41 @@
+.textoEImage {
+    display: flex;
+    justify-content: flex-end;
+    width: 92vw;
+}
+
+.imagensBo2 {
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+    align-items: flex-end;
+}
+
+.imgBo2 {
+    display: flex;
+    width: 85vw;
+    justify-content: space-between;
+}
+
+.imgBo2 span {
+    width: 700px;
+    height: 350px;
+    font-size: 1.5rem;
+    display: flex;  
+    flex-direction: column;
+    place-content: center;
+}
+
+.imgBo2 span:hover {
+    color: beige;
+}
+
+/* .textQuadrado {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.textQuadrado span:hover ~ .quadrado2 {
+    display: flex;
+} */

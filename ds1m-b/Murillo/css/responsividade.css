@@ -1,0 +1,117 @@
+    @media (max-width: 960px) {
+        body {
+            /* overflow-x: hidden; */
+        }
+        header {
+            position: relative;
+            width: 70%;
+            display: flex;
+            align-items: center;
+            transform: translate(-398px, 0px);
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        footer {
+            transform: translate(-250px, 800px);
+        }
+        .box {
+            width: 300px;
+            height: 23px;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+        .nav-logo {
+            display: block;
+            font: 3rem;
+            color: wheat;
+        }
+        .menu {
+            display: none;
+            width: 420px;
+        }
+        .neon {
+            /* transform: translate(-420px, 0px); */
+            font-weight: 0px;
+            font-size: small;
+            align-items: center;
+        }
+        .bars {
+            visibility: visible;
+        }
+        .home {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 750px;
+            height: 600px;
+            transform: translate(-280px, -10px);
+            /* position: absolute; */
+            position: inherit;
+        }
+        .section__title {
+            font-size: 4rem;
+            left: 100px;
+            align-items: flex-start;
+            transform: translate(75px, 30px);
+            width: 230px;
+        }
+        .description__title {
+            font-size: 2rem;
+            margin: 25px;
+            transform: translate(0px, -50px);
+            width: 200px;
+        }
+        .description__text {
+            font-size: 1rem;
+            margin: 25px;
+            width: 348px;
+            transform: translate(0px, -100px);
+        }
+        .description__title2 {
+            font-size: 2rem;
+            transform: translate(-460px, 230px);
+            width: 220px;
+        }
+        .description__text2 {
+            font-size: 1rem;
+            transform: translate(18px, -130px);
+            width: 300px;
+        }
+        .section__title2 {
+            font-size: 4rem;
+            transform: translate(-270px, 95px);
+        }
+        .card {
+            width: 850px;
+            height: 180px;
+            transform: translate(15px, 20px);
+            position: relative;
+            display: list-item;
+        }
+        .section__title3 {
+            font-size: 4rem;
+            transform: translate(-260px, 80px);
+        }
+        .section__title4 {
+            font-size: 4rem;
+            transform: translate(-260px, 470px);
+        }
+        .card-container3 {
+            transform: translate(-210px, 320px);
+        }
+        .container111 {
+            transform: translate(17px, 450px);
+            display: block;
+        }
+        .card-container4 {
+            transform: translate(-510px, 630px);
+        }
+        .card2 {
+            transform: translate(21px, 10px);
+        }
+    }

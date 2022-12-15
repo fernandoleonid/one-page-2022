@@ -1,0 +1,66 @@
+:root {
+    --primari-color: #f8e795;
+    --cinze-color: #e7e7e7;
+    --amareloEsc-color: #d2ac47;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    grid-template-areas: "content";
+    background-color: #e7e7e7;
+    place-content: center;
+}
+
+header {
+    grid-area: content;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8e795;
+    font-family: "Updock", cursive;
+}
+
+#icon-half-menu {
+    display: none;
+}
+
+main {
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    height: 100vh;
+}
+
+footer {
+    place-self: end center;
+    height: 10vh;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    border-top: 2px solid #000;
+    background-color: #f8e795;
+    font-family: "Patrick Hand", cursive;
+    font-size: 2rem;
+}
+
+.voltar {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    display: grid;
+    place-content: center;
+    font-size: 7rem;
+    transition: all 0.5s;
+    color: black;
+}
+
+.voltar:hover {
+    color: #d2ac47;
+}

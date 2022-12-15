@@ -1,0 +1,35 @@
+.fundadores{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center; 
+    gap: 50px;
+}
+
+.nome-fundadores{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 960px) {
+    .fundadores {
+        height: fit-content; 
+        /* height: 150vh;  */
+    }
+    .nome-fundadores{
+        display: flex;
+        font-size: 1.30rem;
+        flex-direction: column; 
+    }
+    .section-title{
+        font-size: 125px;
+    }
+    .fundador{
+        gap: 30px;
+    }
+}

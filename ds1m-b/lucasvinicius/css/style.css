@@ -1,0 +1,53 @@
+body{
+    height: auto;
+    display: grid;
+    grid-template-areas:
+        "content"
+        "footer";
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+
+.enabled {
+    display: flex;
+}
+
+header{
+    grid-area: content;
+    height: 10vh;
+    z-index: 2;
+    display: flex;
+    margin-top: 4rem;
+    place-content: center;
+    justify-content: space-around;
+}
+
+
+main{
+    grid-area: content;
+}
+
+.voltar{
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    display: grid;
+    place-content: center;
+    font-size: 2.5rem;
+    transition: all .5s;
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+footer{
+    grid-area: footer;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+}

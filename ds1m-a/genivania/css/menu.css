@@ -1,0 +1,19 @@
+.menu{
+    display: flex;
+    gap: 90px;
+    font-size: 6rem;
+    font-family: 'avatar';
+    font-weight: 400;
+    color: var(--primary-color);
+}
+.menu li{
+    border-bottom: 3px solid transparent;
+    transition: border-color .5s;
+    justify-content: space-between;
+}
+.menu li:hover{
+    border-bottom: 3px solid var(--secundary-color);
+}
+.menu1{
+    display: none;
+}

@@ -3,6 +3,8 @@ footer {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid var(--secundary-color);
+  border-top: 0;
 }
 
 footer span {

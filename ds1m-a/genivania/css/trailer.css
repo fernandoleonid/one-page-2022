@@ -1,0 +1,46 @@
+.trailer{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    background-image: url(../img/azul.gif);
+    box-shadow: inset 10px -100px 100px #181068;
+    background-size: cover;
+    
+}
+.trailer_title{
+    font-family: 'Eagle Lake', cursive;
+    font-size: 8rem;
+    background-image: linear-gradient( #1602F9 , #00C9F5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+.img_trailer{
+    width: 800px;
+    display: grid;
+     
+}
+
+.img_trailer::before{
+    content: "Click aqui para ver o Trailer";
+    background-color: #0005;
+    transform: translateY(0%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    place-content: center ;
+    font-weight: 700; 
+    position: absolute;
+    width: 800px;
+    height: 50px;
+    z-index: -1;
+    transition: transform 5s;
+}
+
+.img_trailer:hover::before{
+    transform: translateY(0%);
+    z-index: 1;
+}

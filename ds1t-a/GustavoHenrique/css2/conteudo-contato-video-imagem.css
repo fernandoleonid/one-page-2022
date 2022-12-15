@@ -1,0 +1,42 @@
+.conteudo-contato-video-imagem{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contato-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 32px;
+    gap: 32px;
+}
+
+.contato-item{
+    display: flex;
+    gap: 32px;
+}
+
+.contato-item:hover{
+    
+    border: 2px solid var(--primary-line-color);
+    
+}
+
+@media  (max-width: 960px){
+    .conteudo-contato-video-imagem{
+        display: flex;
+        
+        height: auto;
+    }
+   
+}
+
+@media  (max-width: 640px){
+    .conteudo-contato-video-imagem{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+   
+}
