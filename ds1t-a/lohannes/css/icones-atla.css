@@ -1,0 +1,395 @@
+.icones{
+    grid-area: icones;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.esquerdo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aangIcone{
+    display: flexbox;
+    width: 200px;
+}
+
+.aang{
+    z-index: 0;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    background-color: #E97018;
+    box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.64), 0px 0px 3px 5px rgba(0, 0, 0, 0.64), 0px 0px 3px 5px rgba(0, 0, 0, 0.64);
+    transition: .5s;
+}
+
+.aangIcone:focus{
+    cursor: default;
+    z-index: 1;
+}
+
+.aangIcone:focus .aang{
+    display: flex;
+    gap: 10%;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.aangInfo{
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+}
+
+.aang_foto{
+    width: 100%;
+}
+
+.aangInfo2{
+    opacity: 0;
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.nomeAang{
+    font-size: 6.25rem;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 7.81%, #E6E6E6 14.06%, #C2C2C2 47.4%, #ABABAB 64.58%, #898989 78.12%, #626262 92.71%, #4E4E4E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+    color: #000;
+    -webkit-text-stroke-width: .01px;
+    -webkit-text-stroke-color: #000;
+    place-self: start;
+}
+
+.descAang{
+    font-size: 1.25rem;
+}
+
+.aangIcone:focus .aangInfo{
+    opacity: 1;
+}
+
+.aangIcone:focus .aangInfo2{
+    opacity: 1;
+}
+
+.aangIcone:focus .aang_foto{
+    width: 13%;
+}
+
+#title{
+    font-family: 'Permanent Marker', cursive;
+}
+
+#desc{
+    font-family: 'Sarala', sans-serif;
+}
+
+.kataraSokkaIcone{
+    display: flexbox;
+    width: 200px;
+}
+
+.katara-sokka{
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    background-color: #004698;
+    box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.64), 0px 0px 3px 5px rgba(0, 0, 0, 0.64), 0px 0px 3px 5px rgba(0, 0, 0, 0.64);
+    transition: transform 1s, width .5s, height .5s;
+    transition-delay: .1s;
+    transition-property: width, height;
+}
+
+.sokkaKatara_photo2{
+    display: none;
+    height: 100%;
+}
+
+.kataraSokkaIcone:focus{
+    z-index: 1;
+    cursor: default;
+}
+
+.kataraSokkaIcone:focus .katara-sokka{
+    display: flex;
+    transform: translateY(-100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.irmaosInfo{
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    gap: 20%;
+}
+
+.irmaos_foto{
+    width: 100%;
+}
+
+.irmaosInfo2{
+    opacity: 0;
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.nomeIrmaos{
+    font-size: 4.5rem;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 7.81%, #E6E6E6 14.06%, #C2C2C2 47.4%, #ABABAB 64.58%, #898989 78.12%, #626262 92.71%, #4E4E4E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+    color: #000;
+    -webkit-text-stroke-width: .01px;
+    -webkit-text-stroke-color: #000;
+    place-self: start;
+}
+
+.descIrmaos{
+    font-size: 1.25rem;
+}
+
+.kataraSokkaIcone:focus .irmaosInfo{
+    opacity: 1;
+}
+
+.kataraSokkaIcone:focus .irmaosInfo2{
+    opacity: 1;
+}
+
+.kataraSokkaIcone:focus .sokkaKatara_photo{
+    display: none;
+}
+
+.kataraSokkaIcone:focus .sokkaKatara_photo2{
+    display: block;
+}
+
+.direito{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.tophIcone{
+    display: flexbox;
+    width: 200px;
+}
+
+.toph{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    background-color: #1C8A00;
+    box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.64), 0px 0px 3px 5px rgba(0, 0, 0, 0.64), 0px 0px 3px 5px rgba(0, 0, 0, 0.64);
+    transition: .5s;
+}
+
+.toph_photo{
+    height: 22vw;
+}
+
+.tophInfo{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+}
+
+.tophInfo2{
+    display: none;
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.nomeToph{
+    font-size: 6.25rem;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 7.81%, #E6E6E6 14.06%, #C2C2C2 47.4%, #ABABAB 64.58%, #898989 78.12%, #626262 92.71%, #4E4E4E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+    color: #000;
+    -webkit-text-stroke-width: .01px;
+    -webkit-text-stroke-color: #000;
+    place-self: start;
+}
+
+.descToph{
+    font-size: 1.25rem;
+}
+
+.tophIcone:focus{
+    z-index: 1;
+    cursor: default;
+}
+
+.tophIcone:focus .toph{
+    display: flex;
+    transform: translateX(-89.1%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.tophIcone:focus .toph_photo{
+    height: 100%;
+}
+
+.tophIcone:focus .tophInfo{
+    display: flex;
+}
+
+.tophIcone:focus .tophInfo2{
+    display: flex;
+}
+
+.zukoIcone{
+    display: flexbox;
+    width: 200px;
+}
+
+.zuko{
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    background-color: #B02000;
+    box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.64), 0px 0px 3px 5px rgba(0, 0, 0, 0.64), 0px 0px 3px 5px rgba(0, 0, 0, 0.64);
+    transition: transform 1s, width .5s, height .5s;
+    transition-delay: .01s;
+    transition-property: width, height;
+}
+
+.zukoIcone:focus{
+    z-index: 1;
+    cursor: default;
+}
+
+.zuko_photo{
+    height: 45vh;
+    transform: translate(-40%, -15%);
+}
+
+.zukoInfo{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+}
+
+.zukoInfo2{
+    display: none;
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.nomeZuko{
+    font-size: 6.25rem;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 7.81%, #E6E6E6 14.06%, #C2C2C2 47.4%, #ABABAB 64.58%, #898989 78.12%, #626262 92.71%, #4E4E4E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+    color: #000;
+    -webkit-text-stroke-width: .01px;
+    -webkit-text-stroke-color: #000;
+    place-self: start;
+}
+
+.descZuko{
+    font-size: 1.25rem;
+}
+
+.zukoIcone:focus{
+    z-index: 1;
+    cursor: default;
+}
+
+.zukoIcone:focus .zuko{
+    display: flex;
+    transform: translate(-89.1%, -100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.zukoIcone:focus .zukoInfo{
+    display: flex;
+}
+
+.zukoIcone:focus .zuko_photo{
+    height: 100%;
+    transform: translate(0, 0);
+}
+
+.zukoIcone:focus .zukoInfo2{
+    display: flex;
+}
+
+.elemento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatarElemento{
+    width: 144px;
+    height: 141.76px;
+    background: #B5B5B5;
+    border-width: 4px 2px 2px 4px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 27px;
+    display: grid;
+    place-items: center;
+}
+
+.elementoNome{
+    font-size: 1.875rem;
+    font-family: 'Marcellus SC', serif;
+    font-weight: 400;
+}
+
+.gif img{
+    border-width: 4px 2px 2px 4px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 31px;
+    height: 32.44397011739594vh;
+    width: 20.9375vw;
+}
