@@ -1,0 +1,112 @@
+section{
+    height: 100vh;
+    border-top: 5px solid #023158;
+}
+
+main{
+    grid-area: content;
+    align-items: center;
+    justify-content: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.titulo{
+    width: 350px;
+    height: 93px;
+    top: 14px;
+    font-family: 'Varta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 28.65%, rgba(0, 0, 0, 0.8) 77.6%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+footer{
+    height: 70px;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    background: #000000;
+    font-size: .74rem;
+    border-top: 3px solid #fff;
+    font-family: 'Ubuntu';
+    font-style: normal; font-weight: 400; font-size: 30px; color: #FFFFFF;
+}
+
+/* MOBILE */
+@media(max-width:640px){
+
+    .home{
+        width: 100%;
+        height: 667px;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03)), rgba(12, 20, 27, 0.87);
+        background-size: cover;
+        margin-right: 0px;
+    }
+
+    .historia{
+        width: 100%;
+        height: 1305px ;
+        grid-template-rows: 100px 1170px;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03)), rgba(12, 20, 27, 0.87);
+        background-size: cover;
+    }
+    
+    .personagens{
+        width: 100%;
+        height: 800px;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03)), rgba(12, 20, 27, 0.87);
+        background-size: cover;
+    }
+
+    .producao{
+        width: 100%;
+        height: 1700px ;
+        grid-template-rows: 50px 650px 500px 500px;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03)), rgba(12, 20, 27, 0.87);
+        background-size: cover;
+    }
+
+    .criadores{
+        width: 100%;
+        height: 2150px ;
+        grid-template-rows: 50px auto;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03)), rgba(12, 20, 27, 0.87);
+        background-size: cover;
+    }
+
+    .contatos{
+        width: 100%;
+        height: 600px;
+        grid-template-rows: 125px auto;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03)), rgba(12, 20, 27, 0.87);
+        background-size: cover;
+    }
+
+    footer {
+        height: 70px;
+        font-size: 10px;   
+    }
+    
+    .back {
+        display: none;
+    }
+
+    .enabled{
+        display: grid;
+        grid-area: home;
+        position: fixed;
+        left: 330px;
+
+    }
+   
+}

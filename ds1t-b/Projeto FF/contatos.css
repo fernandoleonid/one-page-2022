@@ -1,0 +1,125 @@
+.contatos {
+    display: grid;
+    grid-template-areas:
+        'titulo'
+        'info';
+        grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-area: content;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/Background_contato.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titulo-contatos {
+    width: 100%;
+    height: 180px;
+    left: 504px;
+    font-family: 'Varta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 186px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 23.44%, rgba(0, 0, 0, 0.8) 77.6%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    grid-area: titulo;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 115px;
+    width: 100%;
+    height:100%;
+    justify-content: center;
+    grid-area: info;
+    padding-bottom: 130px;
+}
+
+.texto-informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 41px;
+    width: 563px;
+    height: 400px;
+}
+
+.info-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+    width: 563px;
+    height: 67px;
+}
+
+.imagem-vetor{
+    width: 70px;
+    height: 70px;
+}
+
+.texto-vetor{
+    width: 251px;
+    height: 41px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+/* MOBILE */
+@media(max-width:640px) {
+
+    .titulo-contatos {
+        font-family: 'Varta';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 93px;
+        display: flex;
+        align-items: center;
+    }
+
+    .imagem-informacoes {
+        display: none;
+    }
+
+    .div-informacoes {
+        width: 100%;
+    }
+
+    .informacoes {
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texto-informacoes {
+        width: 95%;
+    }
+
+    .info-item {
+        padding-left: 110px ;
+        gap: 10px;
+    }
+
+   .texto-vetor {
+        font-weight: 400;
+        font-size: 20px;
+   }
+}

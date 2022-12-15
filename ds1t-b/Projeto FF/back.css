@@ -1,0 +1,18 @@
+.back{
+    display: grid;
+    position: fixed;
+    height: 87px;
+    width: 88px;
+    right: 42px;
+    top: 38px;
+    bottom: 24px;
+    background-image: url(./img/Back.png);
+    place-content: center;
+    opacity: .3;
+    transition: opacity .5s;
+    z-index: 667;
+}
+
+.back:hover{
+    opacity: 1;
+}

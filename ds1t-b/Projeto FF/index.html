@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varta:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="historia.css">
+    <link rel="stylesheet" href="back.css">
+    <link rel="stylesheet" href="personagens.css">
+    <link rel="stylesheet" href="producao.css">
+    <link rel="stylesheet" href="criadores.css">
+    <link rel="stylesheet" href="contatos.css">
+    <link rel="stylesheet" href="criadores.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="README.md">
+    <script src="script.js" defer></script>
+    <title>Final Fantasy VII</title>
+</head>
+
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    <main>
+        <a href="#home" class="back">
+            <i class="fas fa-angle-double-up"></i>
+        </a>
+        <section class="home" id="home">
+            <div class="menu">
+                <img class="logo" src="./img/Logo.png" alt="logo">
+                <div class="botoes">
+                    <li>
+                        <a class="botao" href="#historia">
+                            <p class="texto-botao">História</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="botao" href="#personagens">
+                            <p class="texto-botao">Personagens</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="botao" href="#producao">
+                            <p class="texto-botao">Produção</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="botao" href="#criadores">
+                            <p class="texto-botao">Criadores</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="botao" href="#contatos">
+                            <p class="texto-botao">Contatos</p>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </section>
+        <section class="historia" id="historia">
+            <div class="container-titulo">
+                <p class="titulo">História</p>
+            </div>
+            <container class="texto-historia">
+                <div class="introducao">
+                    <p class="texto"> Final Fantasy VII conta a história de Cloud Strife, um mercenário iniciante em
+                        Midgard, a maior cidade do mundo, que se une a um grupo ecoterrorista conhecido como Avalanche,
+                        que luta contra a SEC (Shinra Electrical Power Company), por utilizar o “sangue” do planeta,
+                        conhecido como mako, para produzir uma quantidade inimaginável de energia, armas e produtos
+                        químicos .</p>
+                    <img class="imagem-introducao" src="./img/Imagem_introducao.png" alt="imagem-introducao">
+                </div>
+                <div class="conclusao">
+                    <img class="imagem-conclusao" src="./img/Imagem_conclusao.png" alt="imagem-conclusao">
+                    <p class="texto"> O que poucos sabem é que Cloud é na verdade um Ex-Soldier, a tropa que reune os
+                        soldados mais poderosos da Shinra, que após ter sua cidade natal destruida e sua familia
+                        assassinada pelo seu antigo ídolo e parceiro Sephiroth, o desmemoriado soldier tem como objetivo
+                        se vingar da empresa que destruiu sua vida e descobrir o que levou Sephiroth a insanidade.</p>
+                </div>
+            </container>
+        </section>
+        <section class="personagens" id="personagens">
+            <div class="titulo-personagens">
+                <p class="titulo">Personagens</p>
+            </div>
+                <div class="blocos-personagens">
+                        <div class="icones-personagens" id="icones">
+                           <img class="imagem-personagem" src="./img/Aerith.png" alt="">
+                           <img class="imagem-personagem" src="./img/Tifa.png" alt="">
+                           <img class="imagem-personagem" src="./img/Cloud.png" alt="">
+                           <img class="imagem-personagem" src="./img/Barret.png" alt="">
+                           <img class="imagem-personagem" src="./img/Sephiroth.png" alt="">
+                        </div>
+                </div>
+                <div class="container-slide">
+                    <div class="action-button" id="previous">&laquo</div>
+                    <div class="container-items" id="container-items"></div>
+                    <div class="action-button" id="next">&raquo</div>
+                </div>
+                <script class="javascript" src="./script.js"></script>
+        </section>
+        <section class="producao" id="producao">
+            <div class="titulo-producao">
+                <p class="titulo">Produção</p>
+            </div>
+            <div class="intro">
+                <div class="bloco-intro">
+                    <img class="imagem-producao" src="./img/Introducao-producao (1).png" alt="">
+                    <p class="texto-producao">     Final Fantasy VII foi lançado em 1997, para o Playstation 1 e PC. Foi produzido pela empresa japonesa SquareSoft, hoje chamada de SquareEnix, e foi planejado para ser lançado no SuperNintendo, mas como a equipe queria usar a nova tecnologia 3D, optaram pelo PS, principalmente pelo CD-Rom.</p>
+                </div>
+            </div>
+            <div class="desen">
+                <div class="bloco-desen">
+                    <p class="texto-producao">    O desenvolvimento em si começou em 1994, tendo uma equipe de mais de 120 artistas e programadores divididos em duas equipes (Japão e Estados Unidos), e tendo um orçamento de 45 milhões de dolares, um dos mais caros da história até então.</p>
+                    <img class="imagem-producao" src="./img/Desenvolvimento_producao.png" alt="">
+                </div>
+            </div>
+            <div class="conclu">
+                <div class="bloco-conclu">
+                    <img class="imagem-producao" src="./img/Conclusao-producao (1).png" alt="">
+                    <p class="texto-producao">    Uma enorme campanha de divulgação foi feita, e Final Fantasy VII se tornou um sucesso de público e de crítica, tendo ganhado os prêmios de jogo do ano, melhor RPG do ano e melhor jogo do Playstation, além de ter vendido mais de 1 milhão de cópias só em 1997.</p>
+                </div>
+            </div>
+        </section>
+        <section class="criadores" id="criadores">
+            <div class="titulo-criadores">
+                <p class="titulo">Criadores</p>
+            </div>
+            <div class="container-criadores">
+                <div class="quadrado-criadores">
+                    <div class="primeira-div">
+                        <div class="criador">
+                            <img class="imagem-criador" src="./img/Imagem-Yoshinori.png" alt="yoshinori">
+                            <p class="nome-criador">Yoshinori Kitase</p>
+                            <p class="nome-criador">(Diretor)</p>
+                        </div>
+                        <div class="criador">
+                            <img class="imagem-criador" src="./img/Imagem-Hironobu.png" alt="hironobu">
+                            <p class="nome-criador">Hironobu Sakaguchi</p>
+                            <p class="nome-criador">(Criador e Designer)</p>
+                        </div>
+                        <div class="criador">
+                            <img class="imagem-criador" src="./img/Imagem-Tetsuya.png" alt="tetsuya">
+                            <p class="nome-criador">Tetsuya Nomura</p>
+                            <p class="nome-criador">(Artista)</p>
+                        </div>
+                    </div>
+                    <div class="segunda-div">
+                        <div class="criador">
+                            <img class="imagem-criador" src="./img/Imagem-Kazushige.png" alt="kazushige">
+                            <p class="nome-criador">Kazushige Nojima</p>
+                            <p class="nome-criador">(Roteirista)</p>
+                        </div>
+                        <div class="criador">
+                            <img class="imagem-criador" src="./img/Imagem-Nobuo.png" alt="nobuo">
+                            <p class="nome-criador">Nobuo Uematsu</p>
+                            <p class="nome-criador">(Compositor)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contatos" id="contatos">
+            <p class="titulo-contatos">Contatos</p>
+            <div class="informacoes">
+                <div class="texto-informacoes">
+                    <li class="info-item">
+                        <img class="imagem-vetor" src="./img/Vetor-email.png" alt="email">
+                        <span class="texto-vetor">mateusalves5942@gmail.com</span>
+                    </li>
+                    </li>
+                    <li class="info-item">
+                            <img class="imagem-vetor" src="./img/Vetor-insta.png" alt="email">
+                            <span class="texto-vetor">mateus_alves595</span>
+                    </li>
+                    <li class="info-item">
+                            <img class="imagem-vetor" src="./img/Vetor-git.png" alt="email">
+                            <span class="texto-vetor">MateusAlves595</span>
+                    </li>
+                    <li class="info-item">
+                            <img class="imagem-vetor" src="./img/Vetor-whatsapp.png" alt="email">
+                            <span class="texto-vetor">(11) 95987-5844</span>
+                    </li>
+                   
+                </div>
+                <img class="imagem-informacoes" src="./img/Imagem ff 1.png" alt="imagem-contato">
+            </div>
+        </section>
+    </main>
+    <footer>Todos os direitos reservados 2022 | Desenvolvido por Mateus Alves</footer>
+</body>
+
+</html>

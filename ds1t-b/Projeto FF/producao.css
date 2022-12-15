@@ -1,0 +1,191 @@
+.producao {
+    display: grid;
+    grid-template-areas: 'titulo titulo' 'intro intro' 'desen desen' 'conclu conclu';
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
+    background-image: url(./img/Background_producao.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: content;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-producao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 98px;
+    padding-top: 50px;
+    grid-area: titulo;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-area: intro;
+    height: 100%;
+    width: 100%;
+}
+
+.bloco-intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 1800px;
+    gap: 80px;
+}
+
+.bloco-desen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 1800px;
+    gap: 80px;
+}
+
+.bloco-conclu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 1800px;
+    gap: 80px;
+}
+
+.texto-producao {
+    font-family: 'Yaldevi Colombo Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    width: 902px;
+    height: 250px;
+}
+
+.desen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-area: desen;
+    height: 100%;
+    width: 100%;
+}
+
+.conclu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-area: conclu;
+    height: 100%;
+    width: 100%;
+}
+
+.imagem-producao {
+    height: 100%;
+}
+
+/* MOBILE */
+@media(max-width:640px) {
+
+    .titulo-producao{
+        padding-top: 40px;
+    }
+
+    .texto-producao{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding-left: 15px;
+        width: 100%;
+        height: 370px;
+        font-family: 'Yaldevi Colombo Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .imagem-producao{
+        box-sizing: border-box;
+        width: 100%;
+        height: 200px;
+    }
+
+    .intro{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        width: 95%;
+        height: 559px;
+        align-items: center;
+        padding-left: 15px;
+        padding-top: 19px;
+    }
+
+    .conclu{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        width: 95%;
+        height: 559px;
+        align-items: center;
+        padding-left: 15px;
+    }
+
+    .desen{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        width: 95%;
+        height: 559px;
+        align-items: center;
+        padding-left: 15px;
+    }
+    
+    .bloco-intro{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 700px;
+        align-items: center;
+        
+        gap: 20px;
+    }
+
+    .bloco-desen{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 700px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .bloco-conclu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 700px;
+        align-items: center;
+        gap: 20px;
+    }
+}
