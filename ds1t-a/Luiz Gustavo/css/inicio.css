@@ -1,0 +1,109 @@
+.section-inicio {
+    height: 87vh;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "main-inicio" "footer-inicio";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-logo-footer {
+    width: 5vw;
+    height: 11vh;
+}
+
+.main-home {
+    font-family: 'Poppins';
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    align-items: center;
+    grid-area: main-inicio;
+}
+
+.home-text {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title-apple {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.text-apple {
+    font-size: 1.5rem;
+    text-align: justify;
+    font-weight: 600;
+}
+
+.img-produtos {
+    width: 42vw;
+    height: 53vh;
+}
+
+.logo-footer {
+    height: 10vh;
+    display: flex;
+    background-color: #222020;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-start;
+    grid-area: footer-inicio;
+}
+
+@media (max-width: 960px) {
+    .section-inicio {
+        height: 95vh;
+    }
+    .main-home {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+    .home-text {
+        width: 65vw;
+    }
+    .img-produtos {
+        width: 65vw;
+        height: 76vh;
+    }
+    .img-logo-footer {
+        width: 70px;
+        height: auto;
+    }
+    .logo-footer {
+        height: auto;
+    }
+    .text-logo-footer {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .section-inicio {
+        height: 50vh;
+    }
+    .title-apple {
+        font-size: 2rem;
+    }
+    .text-apple {
+        font-size: 0.875rem;
+    }
+    .main-home {
+        height: 45vh;
+    }
+    .logo-footer {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .section-inicio {
+        height: 75vh;
+    }
+}
