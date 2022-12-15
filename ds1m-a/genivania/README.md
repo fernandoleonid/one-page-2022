@@ -5,7 +5,7 @@
 ---
 
 ## MOBILE
-
+![](./img/mobile_responsivo.png)
 ---
 ## Sobre
 Site do tipo landing page.

@@ -21,7 +21,7 @@
     display: flex; 
     justify-content: center;
 }
-.description{
+.description_curiosidade{
     grid-area: curiosidades;
     width: 800px;
     height: 600px;
@@ -33,7 +33,7 @@
     flex-direction: column;
     justify-content: flex-end;
 }
-.menu2{
+.menu3{
     grid-area: menus;
     width: 200px;
     height: 450px;
@@ -53,8 +53,6 @@
     width: 180px;
     height:80px;
     justify-content: center;
-    
-    
 }
 
 

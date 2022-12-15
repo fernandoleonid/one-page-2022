@@ -37,7 +37,7 @@
     grid-area: avatar;
     display: flex;  
 }
-.description{
+.description_sinopse{
     grid-area: description;
     font-size: 4rem;
     font-family: 'avatar';
