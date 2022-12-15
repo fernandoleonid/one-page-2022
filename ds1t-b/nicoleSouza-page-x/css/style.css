@@ -49,3 +49,15 @@ footer{
         gap: 54px;
     }
 }
+@media (max-width: 640px){
+    header{
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    header i{
+        margin-right: 80px;
+    }
+}
