@@ -1,0 +1,78 @@
+.Minato{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/Minato.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.title-minato{
+    width: 100%;
+    color: #F1E51D;
+    font-weight: 400;
+    font-size: 8rem;
+    text-shadow: 
+               -2px -2px 1px #000, 
+               -2px 2px 1px #000,                    
+                2px -2px 1px #000,                  
+                2px 1px 1px #000;
+    
+}
+
+
+.naruto-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+.pai-minato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 100px;
+    
+}
+.filho{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 25px;
+
+}
+.sobre_pers-minato{
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 
+               -2px -2px 1px #000, 
+               -2px 2px 1px #000,                    
+                2px -2px 1px #000,                  
+                2px 1px 1px #000;
+}
+
+.img-episodios{
+    display: flex;
+    flex-direction: row;
+    gap: 95px;
+}
+
+.gif{
+    width: 227px;
+}
+
+.text-epi{
+    color: #ffff;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    gap: 225px;
+    text-shadow: 
+               -1px -1px 0px #000, 
+               -1px 1px 0px #000,                    
+                1px -1px 0px #000,                  
+                1px 0px 0px #000;
+}

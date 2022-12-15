@@ -1,0 +1,24 @@
+.back{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 24px;
+    bottom: 24px;
+    background-color: #EF5322;
+    display: grid;
+    place-content: center;
+    color: #000;
+    border-radius: 50%;
+    z-index: 666;
+    opacity: .2;
+    transition: opacity .5s;
+}
+.back:hover{
+    opacity: 1;
+}
+/* MOBILE */
+@media (max-width:640px){
+    .back{
+        display: none;
+    }
+}

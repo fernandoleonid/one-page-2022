@@ -1,0 +1,64 @@
+html,
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: grid;
+    background-color: #FFF9E3;
+}
+
+header {
+    background-color: #EF5322;
+    height: 114px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    height: 100vh;
+}
+
+footer {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    display: grid;
+    place-self: end start;
+    place-content: center;
+    font-size: .80rem;
+    background-color: #FFF9E3;
+    border-top: 2px solid #EF5322;
+}
+
+
+/* MOBILE */
+
+@media (max-width:640px) {
+    .home {
+        height: 400px;
+    }
+    .quem-somos {
+        height: 1300px;
+    }
+    .cardapio {
+        height: 1600px;
+    }
+    .restaurantes {
+        height: 1000px;
+    }
+    .fale-conosco {
+        height: 5px;
+    }
+}

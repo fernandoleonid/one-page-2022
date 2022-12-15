@@ -1,0 +1,170 @@
+.discografia{
+
+    width: 100%;
+    height: 100vh;
+   
+    
+}
+
+.discografia::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 119%;
+    background-image: url(imagens/MacBook\ Pro\ 14_\ -\ 1\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+}
+  /* */
+.discografiaLogo{
+    position: absolute;
+    border-right: thick solid var(--claro);   
+    left: 2vw;
+    top: 5%;
+    color: var(--claro);
+  font-family: 'Abril Fatface', cursive;
+  position: relative;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  font-size: 500%;
+}
+
+.selo{
+   opacity: 0.8;
+   position: absolute;
+   right: 10vw;
+   width: 4.7vw;
+   filter: grayscale(30%);
+    
+
+
+}
+
+.tituloDiscografia{
+
+    color: var(--claro);
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    
+
+
+}
+
+.marcaPaginaDiscpgrafia{
+
+    margin-top: 5%;
+    color:var(--claro);
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 3.9rem;
+    position: relative;
+    bottom: 8%;
+    left: 93%;
+}
+
+
+
+.imagensDiscografia{
+
+    
+}
+
+.DiscografiaPoster{
+
+
+    margin-top: 6%;
+    display: grid;
+    grid-template-areas:
+                 "a b c"
+                 "d f g "
+                 "h i j";
+     grid-template-rows: 10vw 10vw 10vw;
+     grid-template-columns: 9vw 9vw 9vw;
+      gap: 55px;
+
+     margin-left: 20vw;
+  
+}
+
+.posterEscrituras{
+
+    
+    color: var(--claro);
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.the-wall{
+
+    position: relative;
+    right: 10vw;
+}
+
+.Escrituras{
+    margin-top: 7%;
+    right: 28%;
+    display: grid;
+    grid-template-areas:
+                 "a"
+                 "b"
+                 "c";
+
+     grid-template-rows: 195px;
+     grid-template-columns: 170px;
+      gap: 100px;
+    position: absolute;
+}
+
+.giraGira{
+
+   left: 90vw;
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    margin-top: 30%;
+    animation: spin 7s infinite linear;
+}
+
+.giraGira1{
+
+    left: 9vw;
+     position: absolute;
+     width: 9vw;
+     height: 9vw;
+    opacity: 0.9;
+     animation: spin 6.9s infinite linear;
+ }
+
+ .LogoPoster{
+
+    display: flex;
+
+ }
+
+ @media (max-width:768px) {
+    .discografiaLogo{
+       margin-top: 5%;
+      font-size: 400%;
+    }
+    .Escrituras{
+       display: none;
+    }
+
+    .DiscografiaPoster{
+
+
+         grid-template-rows: 23vw 23vw 23vw;
+         grid-template-columns: 17vw 17vw 17vw;
+          gap: 55px;
+    
+         margin-left: 9vw;
+      
+    }
+    
+ }
+
+
+
+

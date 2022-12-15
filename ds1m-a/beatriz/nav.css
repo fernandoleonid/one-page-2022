@@ -1,0 +1,33 @@
+.menu{
+    color: var(--claro);
+    margin-top: 1%;
+    right: 0.5vw;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    gap: 72px;
+    font-size: 1.20rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 2.5vw;
+    animation: txtBUG  4s infinite alternate;
+
+
+}
+
+
+
+hr.linha {
+    border: 1px solid red;
+  }
+
+@keyframes txtMovimento  {
+
+
+    0% {
+        transform: translateX(1000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+
+}

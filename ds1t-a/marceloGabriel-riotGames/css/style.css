@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #ee5840;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: grid;
+    grid-template-areas: "content";
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    background: linear-gradient(90deg, #541F1F 0%, #1A1717 43.23%, #0E0C0C 100%);
+}
+
