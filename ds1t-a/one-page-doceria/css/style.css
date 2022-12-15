@@ -1,0 +1,63 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: grid;
+    grid-template-areas: "content";
+    position: absolute;
+    z-index: 2000;
+    color: #ffff;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+header{
+    place-self: start center;
+    grid-area: content;
+    background-color: #1CD52E;
+    height: 106px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 700px;
+}
+main{
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+section{
+    height: 100vh;
+}
+footer{
+    place-self: end center;
+    grid-area: content;
+    height: 70px;
+    width: 100%;
+    display: grid;
+    background-color: #1CD52E;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Inter';
+
+}
+
+/*Mobile*/
+@media (max-width:960px) {
+    header{
+        gap: 10px;
+    }
+    
+}
+
+/*Tablet*/
+@media (max-width:640px) {
+    
+    
+    
+}
