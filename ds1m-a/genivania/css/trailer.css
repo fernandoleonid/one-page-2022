@@ -1,5 +1,6 @@
 .trailer{
     width: 100%;
+    height: 900px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -22,18 +23,19 @@
     display: grid;
      
 }
+
 .img_trailer::before{
     content: "Click aqui para ver o Trailer";
     background-color: #0005;
     transform: translateY(0%);
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     place-content: center ;
     font-weight: 700; 
     position: absolute;
     width: 800px;
-    height: 450px;
+    height: 50px;
     z-index: -1;
     transition: transform 5s;
 }
