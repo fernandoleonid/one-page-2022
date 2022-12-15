@@ -1,0 +1,173 @@
+<!-- @media(max-width: 640px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .logoPrimeira {
+        width: 200px;
+    }
+    
+    home {
+        width: 100vw;
+        height: 110vh;
+        display: flex;
+        text-align: center;
+    }
+
+    .patente {
+        font-size: 12rem;
+        display: flex;
+        margin-left: 40px;
+    }
+
+    #linha-horizontal{
+        width: 200px;
+    }
+
+    .textHome {
+        font-size: .7rem;
+        width: 350px;
+        text-align: center;
+        bottom: 28%;
+    }
+
+    .textImg {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .imagensBo1EBo2 {
+        display: flex;
+        width: 100vw;
+    }
+
+    .img_bo1 {
+        width: 250px;
+        height: 250px;
+        display: flex;
+        align-self: center;
+    }
+
+    .logo_bo1 {
+        width: 180px;
+        display: flex;
+        justify-items: flex-start;
+    }
+
+    #quadrado {
+        display: flex;
+        margin-left: 62px;
+        margin-top: 50px;
+    }
+
+    #quadrado:hover {
+        color: white;
+        background-color: black;
+    }
+
+    .textImg span {
+        display: none;
+    }
+
+    .textoEImage {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .imagensBo2 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+
+    .imgBo2 span {
+        display: none;
+    }
+
+    .logo_bo2 {
+        width: 180px;
+        display: flex;
+        padding-right: 30px;
+        margin-top: 20px;
+    }
+
+    .imgebo2 {
+        width: 250px;
+        height: 250px;
+        display: flex;
+        margin-right: 55px;
+    }
+
+    #quadrado2 {
+        display: flex;
+        margin-left: 120px;
+    }
+
+    #quadrado2:hover {
+        color: white;
+        background-color: black;
+    }
+
+    .logo_bo3 {
+        width: 180px;
+        display: flex;
+        justify-items: flex-start;
+    }
+
+    .img_bo3 {
+        width: 250px;
+        height: 250px;
+        display: flex;
+        align-self: center;
+    }
+
+    #linha-horizontal2{
+        display: none;
+    }
+    #linha-horizontal22 {
+        display: none;
+    }
+    #linha-horizontal222 {
+        display: none;
+    }
+    .voltar {
+        display: none;
+    }
+
+    footer {
+        height: 2vh;
+    }
+
+    .termos {
+        display: none;
+    }
+    
+    .linha {
+        border: 1px solid gray;
+    }
+
+    .imagensFooter {
+        display: none;
+     }
+     
+     .meuNome {
+        font-size: .5rem;
+    }
+}

@@ -1,0 +1,19 @@
+#bo3{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+#bo3::before {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url(../img/servlet\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(80%);
+    z-index: -1;
+    box-shadow: inset 100px -150px 100px #000;
+}
