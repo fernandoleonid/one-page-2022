@@ -1,6 +1,6 @@
 # **ONE PAGE - SANDMAN**
 
-<img src="./img/Img.png"/>
+<img src="./img/Capturar.png"/>
 
 ## [Clique aqui](https://lucasvinip.github.io/one-page-2022/ds1m-b/lucasvinicius//) para acessar o site
 
