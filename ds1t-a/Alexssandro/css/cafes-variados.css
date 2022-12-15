@@ -1,0 +1,79 @@
+.cafes-variados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    background-image: url(../img/CV-BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 528px;
+    width: 100%;
+}
+
+.titulo p {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--cor-primaria);
+}
+
+.slider-cv {
+    margin: 0 auto;
+    width: 1440px;
+    height: 848px;
+    overflow: hidden;
+}
+
+.slides-cv {
+    display: flex;
+    width: 600%;
+    height: 848px;
+    transition: 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    height: 552px;
+    gap: 30px;
+    margin: 148px 120px;
+}
+
+.descricao-cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    width: 570px;
+}
+
+.texto-cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    height: 491px;
+    text-align: justify;
+}
+
+.texto-cv h1{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.texto-cv p{
+    font-size: 1.5rem;
+}
