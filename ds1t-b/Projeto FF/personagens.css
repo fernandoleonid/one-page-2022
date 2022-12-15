@@ -24,7 +24,7 @@
     grid-area: person;
     display: flex;
     flex-direction: row;
-    height: 725px;
+    height: 100%;
     align-items: center;
     justify-content: center;
 }
@@ -117,7 +117,11 @@
 }
 
 
-.imagem-slide {
+.container-slide {
+    display: none;
+}
+
+.javascript{
     display: none;
 }
 
@@ -129,23 +133,24 @@
     }
 
     .blocos-personagens{
-        display: flex;
-        height: 700px;
-        width: 100%;
-        justify-content: space-between;
+        display: none;
     }
 
-    .icones-personagens{
+    .container-slide {
         display: flex;
-        height: 100%;
+        justify-content: space-between;
         width: 100%;
+        height: 700px;
+        
+    }
+
+    .container-items{
         align-items: center;
         position: absolute;
-    }
-
-    .imagem-slide{
-        padding-top: 50px;
+        display: flex;
         height: 100%;
+        width: 100%;
+        overflow: hidden;
     }
 
     .imagem-personagem{
@@ -166,7 +171,7 @@
         color: white;
         background-color: #00000055;
         border-radius: 10px;
-        height: 500px;
+        height: 650px;
         cursor: pointer;
         transition: all 1s;
     }
@@ -177,13 +182,12 @@
         transition: all 1s;
     }
     .item:first-child{
-        margin-left: -100%;
+        margin-left: -65%;
     }
     
     .item img {
         width: 270px;
         height: 600px;
-        border-radius: 10px;
     }
 
 }

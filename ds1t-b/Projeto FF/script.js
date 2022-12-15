@@ -1,15 +1,14 @@
-
 'use strict';
 
 const images = [
-    { 'id': '1', 'url':'./img/Cloud-slide.png' },
-    { 'id': '2', 'url':'./img/Barret-slide.png' },
-    { 'id': '3', 'url':'./img/Sephiroth-slide.png' },
-    { 'id': '4', 'url':'./img/Aerith-slide.png' },
-    { 'id': '5', 'url':'./img/Tifa-slide.png' },
+    { 'id': '1', 'url':'./img/Cloud.png' },
+    { 'id': '2', 'url':'./img/Barret.png' },
+    { 'id': '3', 'url':'./img/Sephiroth.png' },
+    { 'id': '4', 'url':'./img/Aerith.png' },
+    { 'id': '5', 'url':'./img/Tifa.png' },
 ]
 
-const containerItems = document.querySelector('#icones');
+const containerItems = document.querySelector('#container-items');
 
 const loadImages = ( images, container ) => {
     images.forEach ( image => {
