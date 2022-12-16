@@ -1,0 +1,55 @@
+.home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/imagem-fundo-castelo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px -40px 40px #9ec3da;
+}
+
+.title-home {
+    display: grid;
+    color: var(--color-text);
+    font-family: "Zuume", sans-serif;
+    transform: translate(-336px, 30px);
+}
+
+.description__title-home {
+    font-size: 8.5rem;
+}
+
+.description__subtitle-home {
+    font-size: 5.75rem;
+}
+
+@media (max-width: 640px) {
+    .home {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-position: -310px;
+        background-size: cover;
+        max-width: 640px;
+        height: 76vh;
+    }
+    .title-home {
+        display: grid;
+        color: var(--color-text);
+        font-family: "Zuume", sans-serif;
+        transform: translate(-63px, -45px);
+    }
+    .description__title-home {
+        display: flex;
+        flex-direction: column;
+        font-size: 3.5rem;
+        align-items: center;
+    }
+    .description__subtitle-home {
+        display: flex;
+        flex-direction: column;
+        font-size: 2.1rem;
+        align-items: center;
+    }
+}
