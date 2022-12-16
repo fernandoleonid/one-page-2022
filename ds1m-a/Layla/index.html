@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/personagens.css" />
+    <link rel="stylesheet" href="./css/parque.css" />
+    <link rel="stylesheet" href="./css/classicos.css" />
+    <link rel="stylesheet" href="./css/filmes.css" />
+    <link rel="stylesheet" href="./css/contatos.css" />
+
+    <link rel="shortcut icon" href="./ico/logo-disney-com-orelha-PhotoRoom.png-PhotoRoom.ico" type="image/x-icon">
+
+    <title>Disney</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul class="menu-esquerda">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#personagens">Personagens</a>
+                </li>
+
+                <li>
+                    <a href="#parque">Parque</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <nav>
+            <div class="div-logo-disney">
+                <img class="logo-disney" src="./img/logo-disney.png" alt="Logo da Disney" />
+            </div>
+        </nav>
+
+        <nav class="menu">
+            <ul class="menu-direita">
+                <li>
+                    <a href="#classicos">Clássicos</a>
+                </li>
+
+                <li>
+                    <a href="#filmes">Filmes</a>
+                </li>
+
+                <li>
+                    <a href="#contatos">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav>
+            <a href="#" class="icon-menu-container">
+                <img class="icon-menu" src="./img/bars-menu.png" alt="">
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="title-home">
+                <h1 class="description__title-home">Bem-vindo ao</h1>
+
+                <h2 class="description__subtitle-home">mundo da Disney</h2>
+            </div>
+        </section>
+
+        <section class="personagens" id="personagens">
+            <div class="title-personagens">
+                <span class="description__title-personagens">Personagens</span>
+            </div>
+
+            <div class="container-slide">
+                <div class="action-button" id="previous">&laquo</div>
+                <div class="container-items" id="container-items"></div>
+                <div class="action-button" id="next">&raquo</div>
+            </div>
+            <script src="./slideShow.js"></script>
+
+            <div class="div-geometrico-personagens">
+                <img class="geometrico-personagens" src="./img/geometrico-azul.png" alt="forma geométrica azul" />
+            </div>
+        </section>
+
+        <section class="parque" id="parque">
+            <div class="title-parque">
+                <h1 class="description__title-parque">
+                    Disneyland & Walt Disney Studio
+                </h1>
+            </div>
+
+            <div class="images-parque">
+                <div class="image-parque-1">
+                    <a href="https://disney.com.br/disneyplusnews">
+                        <img title="Clique aqui para ver mais notícias" class="image-parque-1" src="./img/imagem-parque-1.png" alt="Imagem dos parques da Disney" />
+                    </a>
+                    <p class="texts-parque">50 anos de parque</p>
+                </div>
+
+                <div class="image-parque-2">
+                    <a href="https://disney.com.br/disneyplusnews">
+                        <img title="Clique aqui para ver mais notícias" class="image-parque-2" src="./img/imagem-parque-2.png" alt="Imagem dos parques da Disney" />
+                    </a>
+                    <p class="texts-parque-2">Novas medidas estão sendo introduzidas na França</p>
+                </div>
+
+                <div class="image-parque-3">
+                    <a href="https://disney.com.br/disneyplusnews">
+                        <img title="Clique aqui para ver mais notícias" class="image-parque-3" src="./img/imagem-parque-3.png" alt="Imagem dos parques da Disney" />
+                    </a>
+                    <p class="texts-parque">Disneyland Paris</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="classicos" id="classicos">
+            <div class="title-classicos">
+                <h2 class="description__title-classicos">Clássicos</h2>
+                <span class="description__subtitle-classicos">As histórias favoritas de todos</span>
+            </div>
+
+            <div class="container-slide-classicos">
+                <div class="action-button-classicos" id="previous-classicos">&laquo</div>
+                <div class="container-items-classicos" id="container-items-classicos"></div>
+                <div class="action-button-classicos" id="next-classicos">&raquo</div>
+            </div>
+            <script src="./slideShowClassicos.js"></script>
+
+            <div class="div-geometrico-classicos">
+                <img class="geometrico-classicos" src="./img/geometrico-azul.png" alt="Forma geométrica azul">
+            </div>
+        </section>
+
+        <section class="filmes" id="filmes">
+            <div class="title-filmes">
+                <h2 class="description__title-filmes">Filmes na plataforma digital</h2>
+                <span class="description__subtitle-filmes">Recomendamos em lojas digitais</span>
+            </div>
+
+            <div class="images-filmes">
+                <img src="./img/Desencantada-capa.png" alt="Capa do filme Desencantada">
+
+                <img src="./img/wakanda-capa.png" alt="Capa do filme Wakanda">
+
+                <img src="./img/encanto-capa.png" alt="Capa do filme Encanto">
+
+                <img src="./img/capa-guerra-infinita.png" alt="Capa do filme Guerra Infinita">
+
+                <img src="./img/capa-cruella.png" alt="Capa do filme Cruella">
+
+                <img src="./img/capa-eternos.png" alt="Capa do filme Eternos">
+            </div>
+
+        </section>
+
+        <section class="contatos" id="contatos">
+            <ul class="social-container">
+                <li class="social">
+                    <a href="https://m.facebook.com/Disney/">
+                        <img src="./img/facebook.png" alt="Icone do facebook">
+                    </a>
+
+                </li>
+
+                <li class="social">
+                    <a href="https://www.instagram.com/disney/">
+                        <img src="./img/instagram.png" alt="Icone do instagram">
+                    </a>
+                </li>
+
+                <li class="social">
+                    <a href="https://t.me/s/disneyplusbr">
+                        <img src="./img/telegram.png" alt="Icone do telegram">
+                    </a>
+                </li>
+
+                <li class="social">
+                    <a href="https://twitter.com/disney?lang=pt">
+                        <img src="./img/twitter.png" alt="Icone do twitter">
+                    </a>
+                </li>
+
+                <li class="social">
+                    <a href="https://m.youtube.com/channel/UCunkR_ekffRWZppVa1E6tIA">
+                        <img src="./img/youtube.png" alt="Icone do Youtube">
+                    </a>
+                </li>
+            </ul>
+
+            <div class="image-olaf">
+                <img src="./img/olaf-contatos.png" alt="Imagem do9 personagens Olaf">
+            </div>
+        </section>
+
+    </main>
+
+
+     <a title="Voltar ao topo" id="link-topo" href="#">&#9651</a>
+
+
+    <footer>Todos os direitos reservados 2022 | Desenvolvido por Layla Giovanna</footer>
+</body>
+
+</html>

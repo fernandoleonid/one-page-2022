@@ -1,0 +1,149 @@
+.parque {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    padding-top: var(--padding-default);
+    box-shadow: inset 0px -40px 40px #9ec3da;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 3 1fr;
+    background-image: url(../img/fundo-section-parque.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* .description__title-parque{
+    color: var(--second-color);
+    font-size: 3.75rem;
+} */
+
+.description__title-parque {
+    display: flex;
+    justify-content: center;
+    color: var(--second-color);
+    font-size: 3.75rem;
+    height: 50px;
+}
+
+.images-parque {
+    gap: var(--padding-default);
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    grid-row: 2/2;
+    justify-content: center;
+}
+
+.image-parque-1 {
+    grid-column: 1/3;
+}
+
+.image-parque-1:hover {
+    width: 280px;
+    height: 409;
+    transition: 2s ease;
+    overflow: hidden;
+}
+
+.image-parque-2 {
+    grid-column: 2/3;
+}
+
+.image-parque-2:hover {
+    width: 280px;
+    height: 409;
+    transition: 2s ease;
+    overflow: hidden;
+}
+
+.image-parque-3 {
+    grid-column: 3/3;
+}
+
+.image-parque-3:hover {
+    width: 280px;
+    height: 409;
+    transition: 2s ease;
+    overflow: hidden;
+}
+
+.texts-parque {
+    color: var(--color-text);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-top: var(--padding-default);
+    font-size: 1.5rem;
+}
+
+.texts-parque:hover {
+    font-size: 1.8rem;
+}
+
+.texts-parque-2 {
+    color: var(--color-text);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-top: var(--padding-default);
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    max-width: 262px;
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    .parque {
+        width: 100%;
+        display: grid;
+        height: 298vh;
+        justify-content: center;
+        grid-template-rows: repeat(10, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        background-image: url(../img/fundo-section-parque.png);
+        background-repeat: repeat-y;
+    }
+    .title-parque {
+        display: flex;
+        flex-wrap: wrap;
+        width: 380px;
+        /* transform: translateX(400px) */
+        ;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 90px;
+    }
+    .description__title-parque {
+        display: grid;
+        color: var(--second-color);
+        font-size: 2.2rem;
+        align-items: center;
+        grid-row: 1/12;
+        grid-column: 3;
+    }
+    .images-parque {
+        gap: var(--padding-default);
+        display: grid;
+        align-items: center;
+        gap: 8rem;
+    }
+    .image-parque-1 {
+        display: grid;
+        grid-row: 1/3;
+        place-items: center;
+    }
+    .image-parque-2 {
+        display: grid;
+        grid-row: 3/4;
+        grid-column: 1/3;
+        place-items: center;
+    }
+    .image-parque-3 {
+        display: grid;
+        grid-row: 4/5;
+        grid-column: 1/3;
+        place-items: center;
+    }
+}

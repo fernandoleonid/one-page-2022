@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Zuume';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../font/Zuume\ ExtraBold.ttf);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

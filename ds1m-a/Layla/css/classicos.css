@@ -1,0 +1,212 @@
+.classicos {
+    width: 100%;
+    display: grid;
+    box-shadow: inset 0px -40px 40px #9ec3da;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.title-classicos {
+    display: grid;
+    height: 120px;
+    justify-content: center;
+    padding-top: var(--padding-default);
+    font-family: "Times New Roman", sans-serif;
+    grid-row: 1/3;
+    grid-column: 2/12;
+}
+
+.description__title-classicos {
+    color: var(--primary-color);
+    font-size: 5.75rem;
+}
+
+.description__subtitle-classicos {
+    color: black;
+    font-size: 1.3rem;
+    align-items: center;
+    display: flex;
+    place-self: center;
+}
+
+.container-slide-classicos {
+    display: flex;
+    justify-content: center;
+    width: 52.5vw;
+    height: 56.5vh;
+    margin: 20vh auto;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px #9ec3da;
+    border: 6px solid var(--primary-color);
+    transform: translate(70px, 39px);
+    justify-content: space-between;
+    grid-column: 1/12;
+    grid-row: 2/3;
+}
+
+.container-items-classicos {
+    position: absolute;
+    display: flex;
+    width: 51.9vw;
+    height: 55.2vh;
+    overflow: hidden;
+    border-radius: 24px;
+}
+
+.item-classicos {
+    width: 52.5vw;
+    height: 40vh;
+    transition: all 1s;
+}
+
+.item-classicos :first-child {
+    margin-left: -100%;
+}
+
+.item-classicos img {
+    width: 52.5vw;
+    height: 56.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-button-classicos {
+    font: bold 40px sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    color: #9ec3da;
+    user-select: none;
+    z-index: 1;
+    height: 55.9vh;
+}
+
+#previous-classicos {
+    border-radius: 20px 0 0 20px;
+}
+
+#next-classicos {
+    border-radius: 0 20px 20px 0;
+    transform: translateX(3px);
+}
+
+.action-button-classicos:hover {
+    color: var(--second-color);
+    background-color: var(--primary-color);
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.div-geometrico-classicos {
+    height: 96px;
+    transform: translateY(629px);
+    z-index: 1;
+    position: absolute;
+}
+
+.geometrico-classicos {
+    width: 600px;
+}
+
+@media (max-width: 640px) {
+    .classicos {
+        display: grid;
+        height: 120vh;
+        box-shadow: inset 0px -40px 40px #9ec3da;
+        grid-template-rows: repeat(5 1fr) ;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .title-classicos {
+        display: grid;
+        height: 80px;
+        justify-content: center;
+        grid-row: 1/3;
+        grid-column: 1/13;
+    }
+
+    .description__title-classicos {
+        color: var(--primary-color);
+        font-size: 3.95rem;
+    }
+
+    .description__subtitle-classicos {
+        font-size: 1rem;
+    }
+
+    .container-slide-classicos {
+        display: grid;
+        justify-content: center;
+        width: 76.5vw;
+        height: 46.9vh;
+        margin-top: 20vh;
+        border-radius: 30px;
+        justify-content: space-between;
+        grid-row: 1/2;
+        grid-column: 1/2;
+        z-index: 1;
+
+    }
+
+    .container-items-classicos {
+        display: flex;
+        width: 73.3vw;
+        height: 55vh;
+        overflow: hidden;
+        border-radius: 24px;
+    }
+
+    .item-classicos {
+        width: 90.5vw;
+        height: 85.2vh;
+        transition: all 1s;
+    }
+
+    .item-classicos :first-child {
+        margin-right: -99%;
+    }
+
+    .item-classicos img {
+        width: 73.5vw;
+        height: 45.1vh;
+        display: grid;
+        justify-content: center;
+        border-radius: 24px 24px 24px 24px;
+        align-items: center;
+    }
+
+    .action-button-classicos {
+        font: bold 40px sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 45.9vh;
+    }
+
+    #previous-classicos {
+        border-radius: 20px 0 0 20px;
+        /* transform: translateX(-61px); */
+    }
+
+    #next-classicos {
+        border-radius: 0 20px 20px 0;
+        grid-row: 1/2;
+        grid-column: 12/12;
+        /* transform: translate(179px, -309px); */
+    }
+
+    .div-geometrico-classicos {
+        height: 66px;
+        display: grid;
+        grid-row: -1;
+        grid-column: 1/2;
+        z-index: 1;
+    }
+
+    .geometrico-classicos {
+        width: 300px;
+        transform: translateY(12px);
+    }
+}

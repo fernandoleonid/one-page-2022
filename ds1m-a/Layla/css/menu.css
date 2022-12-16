@@ -1,0 +1,67 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  align-items: center;
+}
+.menu-esquerda {
+  display: flex;
+  gap: 70px;
+  color: var(--second-color);
+  align-items: center;
+  justify-content: end;
+  height: 70px;
+}
+.menu-direita {
+  display: flex;
+  gap: 70px;
+  color: var(--second-color);
+  align-items: center;
+  justify-content: end;
+  height: 70px;
+}
+
+.div-logo-disney {
+  width: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-menu {
+  display: none;
+}
+
+.menu li:hover {
+  color: var(--color-text);
+  background-color: var(--second-color);
+  border-radius: 14px;
+  height: 40px;
+  display: grid;
+  align-items: center;
+  transition: all .8s ease;
+}
+
+
+
+
+@media (max-width: 640px) {
+  .menu {
+    display: none;
+  }
+  .div-logo-disney {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo-disney{
+    width: 130px;
+  }
+  .icon-menu {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+  
+}
