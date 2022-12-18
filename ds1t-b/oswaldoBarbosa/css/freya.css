@@ -1,0 +1,88 @@
+.freya {
+    background-image: url(../img/background-omega.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "title freya"
+        "informacao freya"
+        "imagem freya";
+}
+
+.freya__personagem {
+    height: 950px;
+    margin-top: 15px;
+    grid-area: freya;
+}
+
+.title__freya {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 200px;
+    color: var(--primary-color);
+    font-size: 3.5rem;
+    font-weight: 550;
+    grid-area: title;
+}
+
+.informacao__freya {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 100;
+    width: 800px;
+    grid-area: informacao;
+}
+
+.imagem__freya {
+    margin-left: 18rem;
+}
+
+@media(max-width: 700px) {
+    .freya {
+        width: 100%;
+        height: 150vh;
+        background-position: center;
+        background-size: cover;
+        background-size: 100vw;
+        background-size: 100vh;
+        background-color: #000;
+        grid-template-areas:
+            "title"
+            "freya"
+            "informacao";
+    }
+
+    .title__freya {
+        display: flex;
+        align-items: flex-start;
+        font-size: 10vw;
+        margin-top: 50px;
+        margin-left: 50px;
+        grid-area: title;
+    }
+
+    .freya__personagem {
+        height: 70vh;
+        margin-left: 20vw;
+        grid-area: freya;
+    }
+
+    .informacao__freya {
+        display: flex;
+        align-items: flex-start;
+        margin-left: 5vw;
+        font-size: 1.1rem;
+        width: 90vw;
+        grid-area: informacao;
+    }
+
+    .imagem__freya {
+        display: none;
+    }
+}

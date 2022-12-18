@@ -1,0 +1,10 @@
+.button{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    font-size: 38px;
+    color: var(--primary-color);
+    grid-area: seta;
+}

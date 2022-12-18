@@ -1,0 +1,40 @@
+
+.home{
+    background-image: url(../img/background-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "logo seta";
+}
+
+.god__of__war{   
+    margin-top: 60px;
+    margin-left: 110px;
+    grid-area: logo;
+}
+
+@media(max-width: 640px){
+    .home{
+        background-size: 100vw;
+        background-size: 100vh;
+        background-color: #000000;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-areas: 
+        "imagem button";
+    }
+
+    .god__of__war{
+        height: 10vw;
+        margin-left: 8vw;
+        margin-top: 8vw;
+        grid-area: imagem;
+    }
+
+
+}
