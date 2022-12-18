@@ -1,0 +1,65 @@
+.menu{
+    width: 1903px;
+    display: flex;
+    gap: 50px;
+    
+}
+.bars{
+    display: none;
+}
+.logo{
+    margin-left: 50px;
+    display: flex;
+    justify-content: start;
+    margin-top: 5px;
+}
+.lis{
+    display: flex;
+    margin-left: 400px;
+    gap: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+    
+    
+}
+.lis li{
+    border-bottom: 4px solid transparent;
+    transition: .5s;
+    
+}
+.menu li:hover{
+    transition: 500ms linear;
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+@media(max-width:640px){
+    .menu{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+    .lis{
+        display: none;
+    }
+    .bars{
+        display: flex;
+        font-size: 30px;
+        margin-top: 5vw;
+        margin-left: -2vw;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: start;
+        margin-left: 5vw;   
+    }
+    
+}
+
+
+    
+
+    
