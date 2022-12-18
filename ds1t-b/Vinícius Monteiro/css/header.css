@@ -1,0 +1,39 @@
+.first-header{
+    background-color: rgb(37, 36, 36);
+    height: 3.5vh;
+    width: 1903px;
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+}
+
+.ea-sports {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    
+}
+.question{
+    margin-top: 5px;
+}
+.user{
+    margin-top: 5px;
+}
+.content logo{
+    transition: gold .5s;
+}
+@media(max-width:640px){
+    .first-header{
+        width: 100%;
+        gap: 20px;
+        background-position: center;
+        background-size: cover;
+    }
+    .ea-sports{
+        height: 20px;
+    }
+}
+
+
+
