@@ -1,0 +1,90 @@
+.atreus {
+    background-image: url(../img/background-omega.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "title atreus"
+        "informacao atreus"
+        "imagem atreus";
+}
+
+.atreus__personagem {
+    height: 1000px;
+    margin-top: 40px;
+    grid-area: atreus;
+}
+
+.title__atreus {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 200px;
+    font-size: 3.5rem;
+    font-weight: 550;
+    color: var(--primary-color);
+    font-family: 'Inter', sans-serif;
+    grid-area: title;
+}
+
+.informacao__atreus {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    font-size: 2rem;
+    font-weight: 100;
+    width: 800px;
+    color: var(--primary-color);
+    font-family: 'Inter', sans-serif;
+}
+
+.imagem__atreus {
+    margin-left: 17rem;
+    grid-area: imagem;
+}
+
+@media(max-width: 640px) {
+    .atreus {
+        width: 100%;
+        height: 150vh;
+        background-position: center;
+        background-size: cover;
+        background-size: 100vw;
+        background-size: 100vh;
+        background-color: #000;
+        grid-template-areas:
+            "title"
+            "atreus"
+            "informacao";
+    }
+
+    .title__atreus {
+        display: flex;
+        align-items: flex-start;
+        font-size: 10vw;
+        margin-top: 50px;
+        margin-left: 50px;
+        grid-area: title;
+    }
+
+    .atreus__personagem {
+        height: 75vh;
+        margin-left: 1vw;
+        grid-area: atreus;
+    }
+
+    .informacao__atreus {
+        display: flex;
+        align-items: flex-start;
+        margin-left: 5vw;
+        font-size: 1.1rem;
+        width: 95vw;
+        grid-area: informacao;
+    }
+
+    .imagem__atreus {
+        display: none;
+    }
+}

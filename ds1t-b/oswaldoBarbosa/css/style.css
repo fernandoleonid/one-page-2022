@@ -1,0 +1,26 @@
+:root{
+    --primary-color: #fff;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    background-color: #000;
+    color: var(--primary-color);
+    font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 640px){
+    footer{
+        display: flex;
+        font-size: .7rem;
+        font-family: 'Inter', sans-serif;
+        width: 100vw;
+    }
+}
