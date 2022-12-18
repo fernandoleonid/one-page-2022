@@ -1,0 +1,65 @@
+.sobre{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: center;
+    align-content: center;
+    gap: 10vw;
+}
+.sobre p{
+    font-weight: 300;
+    color: black;
+}
+.sobre__info{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 5vh;
+    flex-direction: column;
+    max-width: 850px;
+    width: 100%;
+    
+}
+.sobre__title{
+    font-size: 3.5vw;
+}
+.sobre__description{
+    font-size: 1.8vw;
+}
+.img-turista{
+    width: 25vw;
+    height: auto;
+    align-self: center;
+}
+@media (max-width: 960px){
+    .sobre{  
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .img-turista{
+        width: 35vw;
+    }
+    .sobre__title{
+        font-size: 4vw;
+    }
+    .sobre__description{
+        font-size: 2.4vw;
+    }
+}
+@media (max-width: 420px){
+    .sobre{
+        flex-direction: column;
+        text-align: center;
+    }
+    .sobre__title{
+        font-size: 6vw;
+    }
+    .sobre__description{
+        font-size: 4vw;
+    }
+    .sobre img{
+        display: none;
+    }
+}

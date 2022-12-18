@@ -1,0 +1,28 @@
+.home{
+    background-image: url(../img/background.png);
+    background-color: #87E2B6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.home__title{    
+    max-width: 900px;
+    width: 100%;
+    font-size: 3.5vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 960px){
+    .home__title{
+        font-size: 6vw;
+    }
+}
+@media (max-width: 420px){
+    .home__title{
+        font-size: 9vw
+    }
+}

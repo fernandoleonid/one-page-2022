@@ -1,0 +1,37 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    font-weight: 400;
+    gap: 50px;
+}
+.menu li{
+    border-bottom: 4px solid transparent;
+    transition: border-color .5s;
+}
+.menu li:hover{
+    border-color: var(--primary-color);
+}
+.bars{
+    display: none;
+}
+@media (max-width: 960px) {
+    .menu{
+        display: none;
+    }
+    .bars{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 2rem;
+    }
+}
+@media (max-width: 420px) {
+    .bars{
+        font-size: 1.5rem;
+    }
+    .logo{
+        width: auto;
+        height: 3vh;
+    }
+}

@@ -1,0 +1,57 @@
+:root{
+    --primary-color: #1B361D;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Red Rose', cursive;
+    color: var(--primary-color);
+    display: grid;
+    grid-template-areas: "content";
+}
+header{
+    grid-area: content;
+    z-index: 1;  
+    max-width: 1200px;
+    width: 100%;
+    height: 30px;
+    place-self: start center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+main{
+    grid-area: content;
+}
+section{
+    height: 100vh;
+}
+footer{
+    display: flex;
+    grid-area: content;
+    place-self: end start;
+    background-color: #749C8D;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:960px) {
+    header{
+        max-width: 750px;
+        width: 100%;
+    }
+    footer{
+        font-size: 2.4vw;
+    }
+}
+@media (max-width: 420px){
+    header{
+        max-width: 320px;
+        width: 100%;
+    }
+}

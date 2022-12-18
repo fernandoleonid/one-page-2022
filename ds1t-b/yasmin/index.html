@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5c84213cbd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/sobre.css">
+    <link rel="stylesheet" href="./css/destinos.css">
+    <link rel="stylesheet" href="./css/avaliacoes.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/back.css">
+    <title>TRVLS</title>
+    <link rel="icon" href="./img/mundo.png">
+</head>
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+      <a href="#home" class="back" title="Voltar">
+        <i class="fas fa-angle-double-up"></i>
+    </a>
+    <header>
+        <img src="./img/logotrvls.png" alt="TRVLS" class="logo">
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="#home">Início</a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="#destinos">Destinos</a>
+                </li>
+                <li>
+                    <a href="#avaliacoes">Avaliações</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+            <div class="bars">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <main>   
+        <section class="home" id="home">
+            <h3 class="home__title">Há novos horizontes a sua espera, vá explorar.</h3>
+        </section>
+        <section class="sobre" id="sobre">
+            <img class="img-turista" src="./img/turista.png" alt="Turista">
+            <div class="sobre__info">
+                <h3 class="sobre__title">As aventuras falam por nós!</h3>
+                <p class="sobre__description">
+                    Só com a TRVLS você vive momentos únicos de maneira diferenciada!  Nosso maior objetivo é te proporcionar experiências inesquecíveis.                
+                </p>
+                <p class="sobre__description">
+                    Somos mestres em trazer novas aventuras para grandes exploradores como você!
+                </p>
+            </div>
+        </section>
+        <section class="destinos" id="destinos">
+            <div class="destinos__text">
+                <h3 class="destinos__title">Encontre destinos populares!</h3>
+                <p class="destinos__description">Os melhores destinos e com os melhores preços, você só encontra na TRVLS.</p> 
+            </div>
+            <div class="destinos__lugares">
+                <div class="arraial">
+                    <img src="./img/arraial.png" alt="Arraial do cabo">
+                    <p>Arraial do Cabo, RJ</p>
+                </div>
+                <div class="lencois">
+                    <p class="desk">Lençóis Maranhenses, MA</p>
+                    <img src="./img/lencois.png" alt="Lençóis Maranhenses">   
+                    <p class="mob">Lençóis Maranhenses, MA</p>               
+                </div>
+                <div class="cataratas">
+                    <img src="./img/cataratas.png" alt="Cataratas do Iguaçu">
+                    <p>Cataratas do Iguaçu, PR</p>
+                </div>
+            </div>
+        </section>
+        <section class="avaliacoes" id="avaliacoes">
+            <h3 class="avaliacoes__title">Sua satisfação é a nossa!</h3>
+            <div class="avaliacoes__divs">
+                <div class="avaliacoesl1">
+                    <div class="av">
+                        <p class="avaliacao">“Destinos maravilhosos e pessoas também! Todos os guias super educados que me proporcionaram a melhor experiência que eu poderia ter! Com certeza farei mais viagens com a TRVLS!”</p>
+                        <p class="autor">Paulo, 2022</p>
+                    </div>
+                    <div class="av">
+                        <p class="avaliacao">“A viagem mais incrível da minha vida! Eu e minha família amamos o lugar, a alimentação e não tivemos nenhuma complicação, todos super atenciosos e preocupados com a satisfação do cliente!”</p>
+                        <p class="autor">Michael, 2022</p>
+                    </div>        
+            </div>
+            <div class="avaliacoesl2">
+                <div class="av">
+                    <p class="avaliacao">“Amei a experiência! Tive a oportunidade de passar minhas férias no Rio com minha família e a TRVLS superou as nossas expectativas! Todos os passeios foram repletos de memórias incríveis!”</p>
+                    <p class="autor">Luciana, 2022</p>
+                </div>
+            </div> 
+        </section>
+    <section class="contato" id="contato">
+        <h3 class="contato__title">Fale conosco</h3>
+        <ul class="sociais">
+            <li class="social-item">
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>             
+            </li>
+            <li class="social-item">
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>             
+            </li>
+            <li class="social-item">
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>             
+            </li>
+            <li class="social-item">
+                <a href="#">
+                    <i class="fab fa-whatsapp"></i>
+                </a>             
+            </li>
+        </ul>
+        <ul class="contatos">
+            <li class="contato-item">(11) 94830-3519</li>
+            <li class="contato-item">contact@trvls.com</li>
+            <li class="contato-item">(11) 4001-9300</li>
+        </ul>
+    </section>
+    </main>
+    <footer>
+        <p> Yasmin Gonçalves @2022 | Todos os direitos reservados </p>
+    </footer>
+</body>
+</html>
